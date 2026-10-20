@@ -1,0 +1,10 @@
+# Official manuals are copyrighted: keep them local, never commit them.
+sources/*
+!sources/README.md
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.env

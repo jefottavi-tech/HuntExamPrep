@@ -1,0 +1,20 @@
+{
+  "_comment": "One entry per scope. pages are 1-indexed and inclusive, counted in the PDF file (not the printed page numbers). Fill in the chapters after downloading each manual into sources/.",
+  "federal": {
+    "file": "sources/cfsc_fr.pdf",
+    "lang": "fr",
+    "chapters": [
+      {"id": "ch01", "title": "TODO: chapter 1 title", "pages": [1, 10]}
+    ]
+  },
+  "hunter-common": {
+    "file": "sources/icaf_fr.pdf",
+    "lang": "fr",
+    "chapters": []
+  },
+  "QC": {
+    "file": "sources/icaf_fr.pdf",
+    "lang": "fr",
+    "chapters": []
+  }
+}
