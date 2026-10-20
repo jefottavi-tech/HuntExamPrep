@@ -1,0 +1,225 @@
+import 'dart:async';
+
+import 'package:flutter/material.dart';
+
+import '../app/app_scope.dart';
+import '../quiz/quiz_session.dart';
+import 'result_screen.dart';
+
+class QuizScreen extends StatefulWidget {
+  const QuizScreen({super.key, required this.session});
+
+  final QuizSession session;
+
+  @override
+  State<QuizScreen> createState() => _QuizScreenState();
+}
+
+class _QuizScreenState extends State<QuizScreen> {
+  QuizSession get s => widget.session;
+  bool get isExam => s.mode == QuizMode.exam;
+
+  Timer? _timer;
+  late Duration _left = Duration(minutes: s.exam.minutes);
+
+  @override
+  void initState() {
+    super.initState();
+    if (isExam) {
+      _timer = Timer.periodic(const Duration(seconds: 1), (_) {
+        setState(() => _left -= const Duration(seconds: 1));
+        if (_left <= Duration.zero) _finish(timeUp: true);
+      });
+    }
+  }
+
+  @override
+  void dispose() {
+    _timer?.cancel();
+    super.dispose();
+  }
+
+  Future<void> _choose(int choice) async {
+    final app = AppScope.of(context);
+    if (!isExam && s.currentAnswered) return;
+    final correct = s.answer(choice);
+    setState(() {});
+    // Exam answers can still change, so they are recorded at the end.
+    if (!isExam) await app.progress.record(s.question, correct);
+  }
+
+  Future<void> _next() async {
+    if (s.isLast) return _finish();
+    setState(s.next);
+  }
+
+  Future<void> _finish({bool timeUp = false}) async {
+    _timer?.cancel();
+    final app = AppScope.of(context);
+    final navigator = Navigator.of(context);
+    if (isExam) {
+      for (var i = 0; i < s.questions.length; i++) {
+        final a = s.answerAt(i);
+        if (a != null) await app.progress.record(s.questions[i], a == s.questions[i].answerIndex);
+      }
+    }
+    await app.ads.showInterstitial();
+    if (!mounted) return;
+    navigator.pushReplacement(MaterialPageRoute(builder: (_) => ResultScreen(session: s, timeUp: timeUp)));
+  }
+
+  Future<bool> _confirmQuit() async {
+    final app = AppScope.of(context);
+    return await showDialog<bool>(
+          context: context,
+          builder: (ctx) => AlertDialog(
+            title: Text(app.t('quitTitle')),
+            content: Text(app.t('quitBody')),
+            actions: [
+              TextButton(onPressed: () => Navigator.pop(ctx, false), child: Text(app.t('cancel'))),
+              FilledButton(onPressed: () => Navigator.pop(ctx, true), child: Text(app.t('quit'))),
+            ],
+          ),
+        ) ??
+        false;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final app = AppScope.of(context);
+    final theme = Theme.of(context);
+    final q = s.question;
+    final text = q.text(app.lang);
+    final chosen = s.answerAt(s.current);
+    final showFeedback = !isExam && chosen != null;
+
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (didPop, _) async {
+        if (didPop) return;
+        final navigator = Navigator.of(context);
+        if (await _confirmQuit()) navigator.pop();
+      },
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text('${app.t('question')} ${s.current + 1}/${s.questions.length}'),
+          actions: [
+            if (isExam)
+              Padding(
+                padding: const EdgeInsets.only(right: 16),
+                child: Center(
+                  child: Text(
+                    '${_left.inMinutes}:${(_left.inSeconds % 60).toString().padLeft(2, '0')}',
+                    style: theme.textTheme.titleMedium?.copyWith(fontFeatures: const [FontFeature.tabularFigures()]),
+                  ),
+                ),
+              ),
+          ],
+          bottom: PreferredSize(
+            preferredSize: const Size.fromHeight(4),
+            child: LinearProgressIndicator(value: (s.current + 1) / s.questions.length),
+          ),
+        ),
+        body: SafeArea(
+          child: ListView(
+            padding: const EdgeInsets.all(16),
+            children: [
+              Text(text.q, style: theme.textTheme.titleLarge),
+              const SizedBox(height: 20),
+              for (var i = 0; i < text.choices.length; i++)
+                _ChoiceTile(
+                  key: Key('choice-$i'),
+                  letter: 'ABCD'[i],
+                  label: text.choices[i],
+                  state: switch ((showFeedback, isExam)) {
+                    (true, _) when i == q.answerIndex => _ChoiceState.correct,
+                    (true, _) when i == chosen => _ChoiceState.wrong,
+                    (false, true) when i == chosen => _ChoiceState.selected,
+                    _ => _ChoiceState.idle,
+                  },
+                  onTap: () => _choose(i),
+                ),
+              if (showFeedback) ...[
+                const SizedBox(height: 8),
+                Card(
+                  key: const Key('feedback'),
+                  child: Padding(
+                    padding: const EdgeInsets.all(16),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          app.t(chosen == q.answerIndex ? 'correct' : 'wrong'),
+                          style: theme.textTheme.titleMedium?.copyWith(
+                            color: chosen == q.answerIndex ? Colors.green.shade700 : theme.colorScheme.error,
+                          ),
+                        ),
+                        const SizedBox(height: 6),
+                        Text(text.explanation),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            ],
+          ),
+        ),
+        bottomNavigationBar: SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: FilledButton(
+              key: const Key('next'),
+              onPressed: chosen == null ? null : _next,
+              child: Text(app.t(s.isLast ? 'finish' : 'next')),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+enum _ChoiceState { idle, selected, correct, wrong }
+
+class _ChoiceTile extends StatelessWidget {
+  const _ChoiceTile({super.key, required this.letter, required this.label, required this.state, required this.onTap});
+
+  final String letter;
+  final String label;
+  final _ChoiceState state;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    final (border, fill, icon) = switch (state) {
+      _ChoiceState.idle => (scheme.outlineVariant, null, null),
+      _ChoiceState.selected => (scheme.primary, scheme.primaryContainer, null),
+      _ChoiceState.correct => (Colors.green.shade600, Colors.green.withValues(alpha: 0.12), Icons.check_circle),
+      _ChoiceState.wrong => (scheme.error, scheme.error.withValues(alpha: 0.12), Icons.cancel),
+    };
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 10),
+      child: Material(
+        color: fill ?? Colors.transparent,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(12),
+          side: BorderSide(color: border, width: state == _ChoiceState.idle ? 1 : 2),
+        ),
+        child: InkWell(
+          borderRadius: BorderRadius.circular(12),
+          onTap: onTap,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 14),
+            child: Row(children: [
+              CircleAvatar(radius: 14, child: Text(letter, style: const TextStyle(fontSize: 13))),
+              const SizedBox(width: 12),
+              Expanded(child: Text(label, style: Theme.of(context).textTheme.bodyLarge)),
+              if (icon != null) Icon(icon, color: border),
+            ]),
+          ),
+        ),
+      ),
+    );
+  }
+}

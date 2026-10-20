@@ -17,7 +17,8 @@ content/
   questions/        approved questions bundled into the app
 sources/            official PDFs (copyrighted, gitignored)
 tools/qgen/         question generation pipeline (Python + Claude API)
-app/                Flutter app (coming next)
+  samples/          placeholder questions (ids `sample-…`) used until reviewed ones exist
+app/                Flutter app (iOS, Android, web)
 ```
 
 ## Question scopes
@@ -48,5 +49,21 @@ Claude API credentials come from `ANTHROPIC_API_KEY` or an `ant auth login` prof
 Each chapter's PDF is sent as a prompt-cached block, so repeated calls on the same chapter are cheap. Uses `claude-opus-5-5` with server-side refusal fallback.
 
 Tests (offline, no API calls): `../.venv/bin/python -m pytest tests`
+
+## App
+
+```sh
+tools/sync_app_content.sh     # copy exams + question banks into app/assets (approved ones override samples)
+cd app
+flutter test                  # unit, content and widget tests
+flutter run -d chrome         # or an Android device / iOS simulator
+```
+
+- **Practice:** explanation after every answer.
+- **Mock exam:** timed, no feedback until the end, pass/fail against the exam's pass mark.
+- **Review:** questions you missed, until you answer each correctly twice.
+- Per-exam readiness, daily streak, FR/EN switch. French is the default unless the device is in English.
+- While sample questions are bundled, the home screen shows a "not reviewed" warning.
+- Ads go through `AdService` (currently a no-op): an interstitial between a finished test and its results, never mid-question.
 
 **Rule:** questions are written in original wording from the manuals' facts. Never copy official exam questions or manual text.

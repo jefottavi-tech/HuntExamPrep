@@ -1,0 +1,147 @@
+[
+  {
+    "id": "sample-h01",
+    "scope": "hunter-common",
+    "chapter": "safety",
+    "objectiveId": "sample-h01",
+    "reviewYear": null,
+    "fr": {
+      "q": "Qu'est-ce que la « zone de tir » d'un chasseur?",
+      "choices": [
+        "La distance maximale de sa munition",
+        "Le territoire de chasse inscrit sur son permis",
+        "La zone où il peut tirer en toute sécurité",
+        "L'endroit où il range ses munitions"
+      ],
+      "explanation": "La zone de tir est le secteur dans lequel un chasseur peut tirer sans mettre personne en danger."
+    },
+    "en": {
+      "q": "What is a hunter's \"zone of fire\"?",
+      "choices": [
+        "The maximum range of their ammunition",
+        "The hunting area on their licence",
+        "The area where they can shoot safely",
+        "Where they store their ammunition"
+      ],
+      "explanation": "The zone of fire is the area in which a hunter can shoot without endangering anyone."
+    },
+    "answerIndex": 2,
+    "sourceRef": "sample"
+  },
+  {
+    "id": "sample-h02",
+    "scope": "hunter-common",
+    "chapter": "safety",
+    "objectiveId": "sample-h02",
+    "reviewYear": null,
+    "fr": {
+      "q": "Avant de tirer, que devez-vous identifier avec certitude?",
+      "choices": [
+        "Seulement l'espèce de l'animal",
+        "La direction du vent seulement",
+        "L'heure exacte",
+        "La cible et ce qui se trouve derrière elle"
+      ],
+      "explanation": "Il faut identifier clairement la cible et s'assurer que rien ni personne ne se trouve derrière."
+    },
+    "en": {
+      "q": "Before shooting, what must you identify with certainty?",
+      "choices": [
+        "Only the animal's species",
+        "Only the wind direction",
+        "The exact time",
+        "The target and what is beyond it"
+      ],
+      "explanation": "You must clearly identify the target and make sure nothing and no one is beyond it."
+    },
+    "answerIndex": 3,
+    "sourceRef": "sample"
+  },
+  {
+    "id": "sample-h03",
+    "scope": "hunter-common",
+    "chapter": "field",
+    "objectiveId": "sample-h03",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous devez franchir une clôture seul avec votre arme. Que faites-vous?",
+      "choices": [
+        "Grimper en tenant l'arme chargée",
+        "Sauter par-dessus en gardant le doigt sur la détente",
+        "Décharger l'arme, la passer de l'autre côté, puis franchir la clôture",
+        "Appuyer l'arme chargée contre la clôture"
+      ],
+      "explanation": "Déchargez l'arme et déposez-la de l'autre côté, bouche du canon pointée en lieu sûr, avant de franchir l'obstacle."
+    },
+    "en": {
+      "q": "You must cross a fence alone with your firearm. What do you do?",
+      "choices": [
+        "Climb while holding the loaded firearm",
+        "Jump over with your finger on the trigger",
+        "Unload it, pass it to the other side, then cross",
+        "Lean the loaded firearm against the fence"
+      ],
+      "explanation": "Unload the firearm and place it on the other side, muzzle pointed safely, before crossing."
+    },
+    "answerIndex": 2,
+    "sourceRef": "sample"
+  },
+  {
+    "id": "sample-h04",
+    "scope": "hunter-common",
+    "chapter": "ethics",
+    "objectiveId": "sample-h04",
+    "reviewYear": null,
+    "fr": {
+      "q": "Où viser pour un tir éthique sur un gros gibier de profil?",
+      "choices": [
+        "La région du cœur et des poumons",
+        "La tête",
+        "L'arrière-train",
+        "Les pattes"
+      ],
+      "explanation": "La région cœur-poumons offre la plus grande cible vitale et permet une mort rapide."
+    },
+    "en": {
+      "q": "Where should you aim for an ethical shot on broadside big game?",
+      "choices": [
+        "The heart and lung area",
+        "The head",
+        "The hindquarters",
+        "The legs"
+      ],
+      "explanation": "The heart-lung area is the largest vital target and gives a quick, humane kill."
+    },
+    "answerIndex": 0,
+    "sourceRef": "sample"
+  },
+  {
+    "id": "sample-h05",
+    "scope": "hunter-common",
+    "chapter": "survival",
+    "objectiveId": "sample-h05",
+    "reviewYear": null,
+    "fr": {
+      "q": "Avant de partir à la chasse, que devriez-vous laisser à un proche?",
+      "choices": [
+        "Vos clés de maison",
+        "Votre permis",
+        "Un plan de sortie : lieu, itinéraire et heure de retour",
+        "Rien, la chasse est une activité solitaire"
+      ],
+      "explanation": "Un plan de sortie permet aux secours de vous retrouver rapidement en cas de problème."
+    },
+    "en": {
+      "q": "Before going hunting, what should you leave with someone you trust?",
+      "choices": [
+        "Your house keys",
+        "Your licence",
+        "A trip plan: location, route and return time",
+        "Nothing; hunting is a solo activity"
+      ],
+      "explanation": "A trip plan lets rescuers find you quickly if something goes wrong."
+    },
+    "answerIndex": 2,
+    "sourceRef": "sample"
+  }
+]

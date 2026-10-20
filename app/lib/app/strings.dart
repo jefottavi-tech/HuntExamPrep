@@ -1,0 +1,43 @@
+/// UI strings, French first. Small enough that a map beats code generation.
+const _strings = <String, Map<String, String>>{
+  'appTitle': {'fr': 'Examen PAL & Chasse', 'en': 'PAL & Hunting Exam Prep'},
+  'practice': {'fr': 'Pratique', 'en': 'Practice'},
+  'examSim': {'fr': 'Examen simulé', 'en': 'Mock exam'},
+  'review': {'fr': 'Révision', 'en': 'Review'},
+  'comingSoon': {'fr': 'Bientôt disponible', 'en': 'Coming soon'},
+  'questions': {'fr': 'questions', 'en': 'questions'},
+  'readiness': {'fr': 'Préparation', 'en': 'Readiness'},
+  'streakOne': {'fr': '1 jour de suite', 'en': '1-day streak'},
+  'streakMany': {'fr': '{n} jours de suite', 'en': '{n}-day streak'},
+  'next': {'fr': 'Suivant', 'en': 'Next'},
+  'finish': {'fr': 'Terminer', 'en': 'Finish'},
+  'correct': {'fr': 'Bonne réponse!', 'en': 'Correct!'},
+  'wrong': {'fr': 'Mauvaise réponse', 'en': 'Incorrect'},
+  'question': {'fr': 'Question', 'en': 'Question'},
+  'score': {'fr': 'Résultat', 'en': 'Score'},
+  'passed': {'fr': 'Réussi', 'en': 'Passed'},
+  'failed': {'fr': 'Échoué', 'en': 'Not passed'},
+  'passMark': {'fr': 'Note de passage', 'en': 'Pass mark'},
+  'missedTitle': {'fr': 'Questions à revoir', 'en': 'Questions to review'},
+  'allCorrect': {'fr': 'Aucune erreur, bravo!', 'en': 'No mistakes, well done!'},
+  'answer': {'fr': 'Réponse : ', 'en': 'Answer: '},
+  'again': {'fr': 'Recommencer', 'en': 'Try again'},
+  'home': {'fr': 'Accueil', 'en': 'Home'},
+  'noQuestions': {'fr': 'Aucune question disponible.', 'en': 'No questions available.'},
+  'noWeak': {'fr': 'Aucune question à revoir pour l\'instant.', 'en': 'Nothing to review yet.'},
+  'timeUp': {'fr': 'Temps écoulé', 'en': 'Time is up'},
+  'sampleBanner': {
+    'fr': 'Contenu d\'exemple, non révisé. Ne pas utiliser pour étudier.',
+    'en': 'Sample content, not reviewed. Do not use to study.',
+  },
+  'disclaimer': {
+    'fr': 'Application indépendante, non affiliée à la GRC, au gouvernement du Québec ni à la FédéCP.',
+    'en': 'Independent app, not affiliated with the RCMP, the Government of Québec or FédéCP.',
+  },
+  'quitTitle': {'fr': 'Quitter le test?', 'en': 'Quit this test?'},
+  'quitBody': {'fr': 'Votre progression dans ce test sera perdue.', 'en': 'Your progress in this test will be lost.'},
+  'quit': {'fr': 'Quitter', 'en': 'Quit'},
+  'cancel': {'fr': 'Annuler', 'en': 'Cancel'},
+};
+
+String tr(String lang, String key) => _strings[key]?[lang] ?? _strings[key]?['fr'] ?? key;

@@ -1,0 +1,321 @@
+[
+  {
+    "id": "sample-f01",
+    "scope": "federal",
+    "chapter": "acts",
+    "objectiveId": "sample-f01",
+    "reviewYear": null,
+    "fr": {
+      "q": "Selon la règle de sécurité de base, comment devez-vous traiter toute arme à feu?",
+      "choices": [
+        "Comme si elle était chargée",
+        "Comme déchargée si le cran de sûreté est mis",
+        "Comme chargée seulement si un chargeur est inséré",
+        "Comme déchargée si elle vient d'un armurier"
+      ],
+      "explanation": "Supposez toujours qu'une arme à feu est chargée, jusqu'à ce que vous l'ayez vérifiée vous-même."
+    },
+    "en": {
+      "q": "Under the basic safety rule, how should you treat every firearm?",
+      "choices": [
+        "As if it is loaded",
+        "As unloaded if the safety is on",
+        "As loaded only if a magazine is inserted",
+        "As unloaded if it comes from a gunsmith"
+      ],
+      "explanation": "Always assume a firearm is loaded until you have checked it yourself."
+    },
+    "answerIndex": 0,
+    "sourceRef": "sample"
+  },
+  {
+    "id": "sample-f02",
+    "scope": "federal",
+    "chapter": "acts",
+    "objectiveId": "sample-f02",
+    "reviewYear": null,
+    "fr": {
+      "q": "Que devez-vous contrôler en tout temps lorsque vous manipulez une arme à feu?",
+      "choices": [
+        "La direction de la bouche du canon",
+        "La température du canon",
+        "Le nombre de cartouches dans votre poche",
+        "La position de la bretelle"
+      ],
+      "explanation": "La bouche du canon doit toujours pointer dans la direction la plus sécuritaire possible."
+    },
+    "en": {
+      "q": "What must you control at all times when handling a firearm?",
+      "choices": [
+        "The direction of the muzzle",
+        "The temperature of the barrel",
+        "The number of cartridges in your pocket",
+        "The position of the sling"
+      ],
+      "explanation": "The muzzle must always point in the safest available direction."
+    },
+    "answerIndex": 0,
+    "sourceRef": "sample"
+  },
+  {
+    "id": "sample-f03",
+    "scope": "federal",
+    "chapter": "acts",
+    "objectiveId": "sample-f03",
+    "reviewYear": null,
+    "fr": {
+      "q": "Où doit se trouver votre doigt tant que vous n'êtes pas prêt à tirer?",
+      "choices": [
+        "Sur la détente, sans appuyer",
+        "Sur le cran de sûreté",
+        "Hors de la détente et hors du pontet",
+        "Sous le canon"
+      ],
+      "explanation": "Gardez le doigt hors de la détente et hors du pontet pour éviter un tir accidentel."
+    },
+    "en": {
+      "q": "Where should your finger be until you are ready to shoot?",
+      "choices": [
+        "On the trigger, without pulling",
+        "On the safety",
+        "Off the trigger and outside the trigger guard",
+        "Under the barrel"
+      ],
+      "explanation": "Keep your finger off the trigger and outside the trigger guard to prevent an accidental discharge."
+    },
+    "answerIndex": 2,
+    "sourceRef": "sample"
+  },
+  {
+    "id": "sample-f04",
+    "scope": "federal",
+    "chapter": "prove",
+    "objectiveId": "sample-f04",
+    "reviewYear": null,
+    "fr": {
+      "q": "Quelle est la première étape pour vérifier qu'une arme à feu est déchargée?",
+      "choices": [
+        "Examiner l'âme du canon",
+        "Retirer les cartouches",
+        "Regarder dans la chambre",
+        "Pointer l'arme dans la direction la plus sécuritaire"
+      ],
+      "explanation": "Avant toute autre étape, pointez l'arme dans la direction la plus sécuritaire possible."
+    },
+    "en": {
+      "q": "What is the first step in checking that a firearm is unloaded?",
+      "choices": [
+        "Examine the bore",
+        "Remove all cartridges",
+        "Look into the chamber",
+        "Point the firearm in the safest available direction"
+      ],
+      "explanation": "Before anything else, point the firearm in the safest available direction."
+    },
+    "answerIndex": 3,
+    "sourceRef": "sample"
+  },
+  {
+    "id": "sample-f05",
+    "scope": "federal",
+    "chapter": "prove",
+    "objectiveId": "sample-f05",
+    "reviewYear": null,
+    "fr": {
+      "q": "Pourquoi examine-t-on l'âme du canon lors de la vérification d'une arme?",
+      "choices": [
+        "Pour mesurer le calibre",
+        "Pour la lubrifier",
+        "Pour vérifier qu'elle n'est pas obstruée",
+        "Pour vérifier le numéro de série"
+      ],
+      "explanation": "Une obstruction dans le canon peut provoquer un éclatement au moment du tir."
+    },
+    "en": {
+      "q": "Why do you examine the bore when checking a firearm?",
+      "choices": [
+        "To measure the calibre",
+        "To lubricate it",
+        "To make sure it is not obstructed",
+        "To check the serial number"
+      ],
+      "explanation": "An obstruction in the barrel can cause the barrel to burst when fired."
+    },
+    "answerIndex": 2,
+    "sourceRef": "sample"
+  },
+  {
+    "id": "sample-f06",
+    "scope": "federal",
+    "chapter": "mechanics",
+    "objectiveId": "sample-f06",
+    "reviewYear": null,
+    "fr": {
+      "q": "Que faut-il savoir au sujet du cran de sûreté mécanique?",
+      "choices": [
+        "Il peut faire défaut; il ne faut jamais s'y fier seul",
+        "Il remplace les règles de manipulation sécuritaire",
+        "Il décharge l'arme automatiquement",
+        "Il n'existe que sur les armes de poing"
+      ],
+      "explanation": "Un cran de sûreté est un dispositif mécanique qui peut faire défaut; la manipulation sécuritaire reste essentielle."
+    },
+    "en": {
+      "q": "What should you know about a firearm's mechanical safety?",
+      "choices": [
+        "It can fail, so never rely on it alone",
+        "It replaces safe handling rules",
+        "It unloads the firearm automatically",
+        "It only exists on handguns"
+      ],
+      "explanation": "A safety is a mechanical device that can fail; safe handling is still essential."
+    },
+    "answerIndex": 0,
+    "sourceRef": "sample"
+  },
+  {
+    "id": "sample-f07",
+    "scope": "federal",
+    "chapter": "ammunition",
+    "objectiveId": "sample-f07",
+    "reviewYear": null,
+    "fr": {
+      "q": "Comment savoir quelle munition utiliser dans une arme à feu?",
+      "choices": [
+        "Prendre celle qui entre dans la chambre",
+        "Vérifier que la munition correspond au marquage sur l'arme",
+        "Demander à un autre chasseur",
+        "Choisir la plus puissante disponible"
+      ],
+      "explanation": "Utilisez seulement une munition qui correspond exactement au marquage (calibre ou jauge) inscrit sur l'arme."
+    },
+    "en": {
+      "q": "How do you know which ammunition to use in a firearm?",
+      "choices": [
+        "Use whatever fits in the chamber",
+        "Check that it matches the marking on the firearm",
+        "Ask another hunter",
+        "Choose the most powerful available"
+      ],
+      "explanation": "Only use ammunition that exactly matches the calibre or gauge marked on the firearm."
+    },
+    "answerIndex": 1,
+    "sourceRef": "sample"
+  },
+  {
+    "id": "sample-f08",
+    "scope": "federal",
+    "chapter": "ammunition",
+    "objectiveId": "sample-f08",
+    "reviewYear": null,
+    "fr": {
+      "q": "La cartouche ne part pas quand vous appuyez sur la détente. Que faites-vous d'abord?",
+      "choices": [
+        "Ouvrir immédiatement la culasse",
+        "Regarder dans le canon",
+        "Frapper l'arme pour débloquer la cartouche",
+        "Garder l'arme pointée dans une direction sécuritaire et attendre au moins 60 secondes"
+      ],
+      "explanation": "Il peut s'agir d'un long feu : la cartouche peut partir avec un délai. Attendez au moins 60 secondes en gardant l'arme pointée en lieu sûr."
+    },
+    "en": {
+      "q": "The cartridge does not fire when you pull the trigger. What do you do first?",
+      "choices": [
+        "Open the action immediately",
+        "Look down the barrel",
+        "Strike the firearm to free the cartridge",
+        "Keep the firearm pointed in a safe direction and wait at least 60 seconds"
+      ],
+      "explanation": "It may be a hangfire: the cartridge can fire after a delay. Wait at least 60 seconds with the firearm pointed in a safe direction."
+    },
+    "answerIndex": 3,
+    "sourceRef": "sample"
+  },
+  {
+    "id": "sample-f09",
+    "scope": "federal",
+    "chapter": "storage",
+    "objectiveId": "sample-f09",
+    "reviewYear": null,
+    "fr": {
+      "q": "Laquelle de ces façons d'entreposer une arme à feu sans restriction est conforme?",
+      "choices": [
+        "Déchargée, avec un verrou de pontet ou dans un contenant verrouillé",
+        "Chargée, dans un placard",
+        "Déchargée, sur un support mural sans verrou",
+        "Chargée, dans un coffre verrouillé"
+      ],
+      "explanation": "Une arme sans restriction doit être déchargée et munie d'un dispositif de verrouillage, ou rangée dans un contenant ou une pièce verrouillés."
+    },
+    "en": {
+      "q": "Which of these ways of storing a non-restricted firearm complies with the rules?",
+      "choices": [
+        "Unloaded, with a trigger lock or in a locked container",
+        "Loaded, in a closet",
+        "Unloaded, on a wall rack without a lock",
+        "Loaded, in a locked safe"
+      ],
+      "explanation": "A non-restricted firearm must be unloaded and fitted with a locking device, or stored in a locked container or room."
+    },
+    "answerIndex": 0,
+    "sourceRef": "sample"
+  },
+  {
+    "id": "sample-f10",
+    "scope": "federal",
+    "chapter": "transport",
+    "objectiveId": "sample-f10",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous laissez votre véhicule sans surveillance avec une arme sans restriction. Que devez-vous faire?",
+      "choices": [
+        "La laisser chargée sur la banquette",
+        "La laisser sur le tableau de bord",
+        "La décharger et la placer hors de vue dans le coffre ou le véhicule verrouillé",
+        "Retirer seulement le chargeur"
+      ],
+      "explanation": "Dans un véhicule sans surveillance, l'arme doit être déchargée et hors de vue, dans un véhicule ou un coffre verrouillé."
+    },
+    "en": {
+      "q": "You leave your vehicle unattended with a non-restricted firearm inside. What must you do?",
+      "choices": [
+        "Leave it loaded on the seat",
+        "Leave it on the dashboard",
+        "Unload it and put it out of sight in the locked trunk or vehicle",
+        "Only remove the magazine"
+      ],
+      "explanation": "In an unattended vehicle, the firearm must be unloaded and out of sight in a locked vehicle or trunk."
+    },
+    "answerIndex": 2,
+    "sourceRef": "sample"
+  },
+  {
+    "id": "sample-f11",
+    "scope": "federal",
+    "chapter": "law",
+    "objectiveId": "sample-f11",
+    "reviewYear": null,
+    "fr": {
+      "q": "Quel permis permet à un adulte d'acquérir une arme à feu sans restriction au Canada?",
+      "choices": [
+        "Un permis de conduire",
+        "Un certificat du chasseur seulement",
+        "Aucun permis n'est requis",
+        "Un permis de possession et d'acquisition (PPA)"
+      ],
+      "explanation": "Le PPA est le permis fédéral qui autorise la possession et l'acquisition d'armes à feu."
+    },
+    "en": {
+      "q": "Which licence allows an adult to acquire a non-restricted firearm in Canada?",
+      "choices": [
+        "A driver's licence",
+        "Only a hunting certificate",
+        "No licence is required",
+        "A possession and acquisition licence (PAL)"
+      ],
+      "explanation": "The PAL is the federal licence that allows you to possess and acquire firearms."
+    },
+    "answerIndex": 3,
+    "sourceRef": "sample"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "sample-q01",
+    "scope": "QC",
+    "chapter": "regulations",
+    "objectiveId": "sample-q01",
+    "reviewYear": null,
+    "fr": {
+      "q": "Au Québec, comment doit être porté le vêtement orangé fluorescent obligatoire à la chasse à l'arme à feu?",
+      "choices": [
+        "Seulement sur la tête",
+        "Seulement dans le dos",
+        "Dans le sac à dos",
+        "Visible de tous les côtés"
+      ],
+      "explanation": "Le vêtement orangé fluorescent doit couvrir le torse et être visible de tous les côtés."
+    },
+    "en": {
+      "q": "In Québec, how must the mandatory blaze orange clothing be worn when hunting with a firearm?",
+      "choices": [
+        "Only on the head",
+        "Only on the back",
+        "In the backpack",
+        "Visible from all sides"
+      ],
+      "explanation": "Blaze orange clothing must cover the torso and be visible from all sides."
+    },
+    "answerIndex": 3,
+    "sourceRef": "sample"
+  },
+  {
+    "id": "sample-q02",
+    "scope": "QC",
+    "chapter": "regulations",
+    "objectiveId": "sample-q02",
+    "reviewYear": null,
+    "fr": {
+      "q": "Au Québec, quand peut-on chasser le gros gibier avec une arme à feu?",
+      "choices": [
+        "À toute heure",
+        "Seulement la nuit",
+        "D'une demi-heure avant le lever du soleil à une demi-heure après son coucher",
+        "Seulement de midi au coucher du soleil"
+      ],
+      "explanation": "La chasse à l'arme à feu est permise d'une demi-heure avant le lever du soleil jusqu'à une demi-heure après son coucher."
+    },
+    "en": {
+      "q": "In Québec, when may you hunt big game with a firearm?",
+      "choices": [
+        "At any time",
+        "Only at night",
+        "From half an hour before sunrise to half an hour after sunset",
+        "Only from noon to sunset"
+      ],
+      "explanation": "Firearm hunting is allowed from half an hour before sunrise until half an hour after sunset."
+    },
+    "answerIndex": 2,
+    "sourceRef": "sample"
+  }
+]
