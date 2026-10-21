@@ -1,0 +1,37 @@
+name: Deploy to GoDaddy
+
+# Manual for now; switch to push on main (and delete web.yml) after the DNS cutover.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.47.7
+          channel: stable
+          cache: true
+      - run: ../tools/sync_app_content.sh
+      - run: flutter pub get
+      - run: flutter test
+      - run: flutter build web --release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: app/build/web
+
+  deploy:
+    needs: build
+    uses: kallistesoft/kallistesoft-site/.github/workflows/deploy-ftp.yml@main
+    with:
+      folder: examen.kallistesoft.ca
+    secrets: inherit
