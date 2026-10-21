@@ -6,15 +6,26 @@ import '../quiz/quiz_session.dart';
 import 'quiz_screen.dart';
 
 /// How each exam is presented on the home screen.
-typedef _ExamStyle = ({IconData icon, String region, bool firearms});
+/// Home-screen sections, in display order, with their title key.
+enum _Group {
+  firearms('groupFirearms'),
+  hunting('groupHunting'),
+  identification('groupId');
+
+  const _Group(this.titleKey);
+  final String titleKey;
+}
+
+typedef _ExamStyle = ({IconData icon, String region, _Group group});
 
 const _styles = <String, _ExamStyle>{
-  'PAL': (icon: Icons.shield_outlined, region: 'Canada', firearms: true),
-  'CRFSC': (icon: Icons.lock_outline, region: 'Canada', firearms: true),
-  'ICAF': (icon: Icons.forest_outlined, region: 'Québec', firearms: false),
-  'ABHE': (icon: Icons.landscape_outlined, region: 'Alberta', firearms: false),
+  'PAL': (icon: Icons.shield_outlined, region: 'Canada', group: _Group.firearms),
+  'CRFSC': (icon: Icons.lock_outline, region: 'Canada', group: _Group.firearms),
+  'ICAF': (icon: Icons.forest_outlined, region: 'Québec', group: _Group.hunting),
+  'ABHE': (icon: Icons.landscape_outlined, region: 'Alberta', group: _Group.hunting),
+  'ID': (icon: Icons.photo_camera_outlined, region: 'Canada', group: _Group.identification),
 };
-const _fallback = (icon: Icons.school_outlined, region: '', firearms: true);
+const _fallback = (icon: Icons.school_outlined, region: '', group: _Group.firearms);
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -26,14 +37,13 @@ class HomeScreen extends StatelessWidget {
     final scheme = theme.colorScheme;
     final streak = app.progress.streak;
     final exams = app.content.exams;
-    final firearms = [
-      for (final e in exams)
-        if ((_styles[e.id] ?? _fallback).firearms) e,
-    ];
-    final hunting = [
-      for (final e in exams)
-        if (!(_styles[e.id] ?? _fallback).firearms) e,
-    ];
+    final byGroup = {
+      for (final g in _Group.values)
+        g: [
+          for (final e in exams)
+            if ((_styles[e.id] ?? _fallback).group == g) e,
+        ],
+    };
 
     return Scaffold(
       appBar: AppBar(
@@ -77,11 +87,11 @@ class HomeScreen extends StatelessWidget {
           ],
           const SizedBox(height: 16),
           _HowItWorks(),
-          for (final (title, group) in [(app.t('groupFirearms'), firearms), (app.t('groupHunting'), hunting)])
+          for (final MapEntry(key: g, value: group) in byGroup.entries)
             if (group.isNotEmpty) ...[
               const SizedBox(height: 24),
               Text(
-                title.toUpperCase(),
+                app.t(g.titleKey).toUpperCase(),
                 style: theme.textTheme.labelLarge?.copyWith(color: scheme.primary, letterSpacing: 0.8),
               ),
               const SizedBox(height: 8),

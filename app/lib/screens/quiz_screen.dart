@@ -6,6 +6,7 @@ import '../app/app_scope.dart';
 import '../app/links.dart';
 import '../quiz/quiz_session.dart';
 import 'result_screen.dart';
+import 'question_photo.dart';
 import 'source_links.dart';
 
 class QuizScreen extends StatefulWidget {
@@ -158,6 +159,7 @@ class _QuizScreenState extends State<QuizScreen> {
           child: ListView(
             padding: const EdgeInsets.all(16),
             children: [
+              if (q.image != null) ...[QuestionPhoto(question: q), const SizedBox(height: 16)],
               Text(text.q, style: theme.textTheme.titleLarge?.copyWith(height: 1.3)),
               const SizedBox(height: 20),
               for (var i = 0; i < text.choices.length; i++)
@@ -198,9 +200,28 @@ class _QuizScreenState extends State<QuizScreen> {
                           ),
                         ]),
                         const SizedBox(height: 10),
-                        Text(app.t('why'), style: theme.textTheme.labelLarge),
+                        Text(app.t(q.image != null ? 'howRecognise' : 'why'), style: theme.textTheme.labelLarge),
                         const SizedBox(height: 2),
                         Text(text.explanation),
+                        if (text.habitat != null) ...[
+                          const SizedBox(height: 10),
+                          Text(app.t('whereLives'), style: theme.textTheme.labelLarge),
+                          const SizedBox(height: 2),
+                          Text(text.habitat!),
+                        ],
+                        if (text.confuse != null) ...[
+                          const SizedBox(height: 10),
+                          Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                            Icon(Icons.warning_amber_rounded, size: 20, color: theme.colorScheme.tertiary),
+                            const SizedBox(width: 6),
+                            Expanded(
+                              child: Text.rich(TextSpan(children: [
+                                TextSpan(text: '${app.t('dontConfuse')} : ', style: const TextStyle(fontWeight: FontWeight.w600)),
+                                TextSpan(text: text.confuse),
+                              ])),
+                            ),
+                          ]),
+                        ],
                         const SizedBox(height: 6),
                         SourceLinks(question: q),
                       ],

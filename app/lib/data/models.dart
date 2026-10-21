@@ -1,14 +1,35 @@
 class QuestionText {
-  const QuestionText({required this.q, required this.choices, required this.explanation});
+  const QuestionText({required this.q, required this.choices, required this.explanation, this.habitat, this.confuse});
 
   final String q;
   final List<String> choices;
   final String explanation;
 
+  /// Photo ID questions: where the animal lives, and a protected look-alike warning.
+  final String? habitat;
+  final String? confuse;
+
   factory QuestionText.fromJson(Map<String, dynamic> json) => QuestionText(
         q: json['q'] as String,
         choices: List<String>.from(json['choices'] as List),
         explanation: json['explanation'] as String,
+        habitat: json['habitat'] as String?,
+        confuse: json['confuse'] as String?,
+      );
+}
+
+/// Credit line required by the photo's free licence (Wikimedia Commons).
+class ImageCredit {
+  const ImageCredit({required this.author, required this.license, required this.page});
+
+  final String author;
+  final String license;
+  final String page;
+
+  factory ImageCredit.fromJson(Map<String, dynamic> json) => ImageCredit(
+        author: json['author'] as String,
+        license: json['license'] as String,
+        page: json['page'] as String,
       );
 }
 
@@ -22,6 +43,8 @@ class Question {
     required this.sourceRef,
     this.reviewYear,
     this.sourceUrl,
+    this.image,
+    this.imageCredit,
   });
 
   final String id;
@@ -34,6 +57,10 @@ class Question {
 
   /// Official page confirming the current rule (law, quebec.ca, rcmp.ca), if checked.
   final String? sourceUrl;
+
+  /// Asset path of the photo for "What is it?" questions, with its licence credit.
+  final String? image;
+  final ImageCredit? imageCredit;
 
   /// Sample questions are placeholders until reviewed questions are bundled.
   bool get isSample => id.startsWith('sample-');
@@ -52,6 +79,10 @@ class Question {
         sourceRef: json['sourceRef'] as String? ?? '',
         reviewYear: json['reviewYear'] as int?,
         sourceUrl: json['sourceUrl'] as String?,
+        image: json['image'] as String?,
+        imageCredit: json['imageCredit'] == null
+            ? null
+            : ImageCredit.fromJson(json['imageCredit'] as Map<String, dynamic>),
       );
 }
 

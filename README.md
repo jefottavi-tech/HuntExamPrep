@@ -50,10 +50,18 @@ Each chapter's PDF is sent as a prompt-cached block, so repeated calls on the sa
 
 Tests (offline, no API calls): `../.venv/bin/python -m pytest tests`
 
+## Photo ID quiz ("Qu'est-ce que c'est? / What is it?")
+
+`content/wildlife-id/species.json` holds one card per species (names, 3 same-family look-alikes, how to recognise it,
+where it lives, protected look-alike warning, fact-sheet link). Photos in `content/wildlife-id/photos/` come from
+Wikimedia Commons under CC0 / public domain / CC BY / CC BY-SA; the app shows each photo's author and licence.
+`tools/wildlife_id.py` fetches photos (`fetch`, `candidates`, `preview`, `use`) and builds the bank (`build`).
+
 ## App
 
 ```sh
 tools/sync_app_content.sh     # copy exams + question banks into app/assets (approved ones override samples)
+                              # and build the photo ID bank (tools/wildlife_id.py build)
 cd app
 flutter test                  # unit, content and widget tests
 flutter run -d chrome         # or an Android device / iOS simulator

@@ -24,7 +24,13 @@ class SourceLinks extends StatelessWidget {
       children: [
         Text(app.t('source'), style: Theme.of(context).textTheme.labelMedium),
         if (manual != null) _Link(key: const Key('source-manual'), label: manual.label, uri: manual.uri),
-        if (rule != null) _Link(key: const Key('source-rule'), label: app.t('currentRule'), uri: Uri.parse(rule)),
+        if (rule != null)
+          _Link(
+            key: const Key('source-rule'),
+            // Photo ID questions link to the species' fact sheet, not to a rule.
+            label: app.t(question.image != null ? 'speciesPage' : 'currentRule'),
+            uri: Uri.parse(rule),
+          ),
       ],
     );
   }

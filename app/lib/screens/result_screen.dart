@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../app/app_scope.dart';
 import '../quiz/quiz_session.dart';
+import 'question_photo.dart';
 import 'quiz_screen.dart';
 import 'source_links.dart';
 
@@ -80,6 +81,7 @@ class ResultScreen extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    if (q.image != null) ...[PhotoThumb(image: q.image!), const SizedBox(height: 8)],
                     Text(q.text(app.lang).q, style: theme.textTheme.titleSmall),
                     if (picked != null) ...[
                       const SizedBox(height: 6),
