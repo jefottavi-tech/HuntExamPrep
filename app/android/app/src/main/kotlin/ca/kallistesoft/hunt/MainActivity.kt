@@ -1,4 +1,4 @@
-package ca.huntexamprep.hunt_exam_prep
+package ca.kallistesoft.hunt
 
 import io.flutter.embedding.android.FlutterActivity
 

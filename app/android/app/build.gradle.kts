@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "ca.huntexamprep.hunt_exam_prep"
+    namespace = "ca.kallistesoft.hunt"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -16,7 +16,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "ca.huntexamprep.hunt_exam_prep"
+        applicationId = "ca.kallistesoft.hunt"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
