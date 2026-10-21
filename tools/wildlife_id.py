@@ -196,12 +196,16 @@ def build() -> None:
         sys.exit("wildlife-id build failed:\n  " + "\n  ".join(errors))
     APP_BANK.parent.mkdir(parents=True, exist_ok=True)
     APP_BANK.write_text(json.dumps(questions, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    if APP_PHOTOS.exists():
-        shutil.rmtree(APP_PHOTOS)
-    APP_PHOTOS.mkdir(parents=True)
+    APP_PHOTOS.mkdir(parents=True, exist_ok=True)
+    wanted = {Path(q["image"]).name for q in questions}
+    for stale in APP_PHOTOS.glob("*.jpg"):
+        if stale.name not in wanted:
+            stale.unlink()
     sips = shutil.which("sips")  # macOS: 640 px, quality 70 (~75 KB each) keeps the app light
     for q in questions:
         src, dest = PHOTOS / f"{q['id'].removeprefix('id-')}.jpg", APP_PHOTOS / Path(q["image"]).name
+        if not sips and dest.exists():
+            continue  # keep the committed compressed copy (CI runs on Linux, without sips)
         if sips:
             subprocess.run([sips, "-Z", "640", "-s", "format", "jpeg", "-s", "formatOptions", "70", str(src),
                             "--out", str(dest)], check=True, capture_output=True)
