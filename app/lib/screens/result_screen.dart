@@ -40,21 +40,30 @@ class ResultScreen extends StatelessWidget {
             child: SizedBox(
               width: 160,
               height: 160,
-              child: Stack(alignment: Alignment.center, children: [
-                SizedBox.expand(
-                  child: CircularProgressIndicator(
-                    value: s.score,
-                    strokeWidth: 12,
-                    color: color,
-                    backgroundColor: theme.colorScheme.surfaceContainerHighest,
+              child: Stack(
+                alignment: Alignment.center,
+                children: [
+                  SizedBox.expand(
+                    child: CircularProgressIndicator(
+                      value: s.score,
+                      strokeWidth: 12,
+                      color: color,
+                      backgroundColor: theme.colorScheme.surfaceContainerHighest,
+                    ),
                   ),
-                ),
-                Column(mainAxisSize: MainAxisSize.min, children: [
-                  Text('$pct %', key: const Key('score'),
-                      style: theme.textTheme.displaySmall?.copyWith(color: color, fontWeight: FontWeight.bold)),
-                  Text('${s.correctCount} / ${s.questions.length}', style: theme.textTheme.titleMedium),
-                ]),
-              ]),
+                  Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        '$pct %',
+                        key: const Key('score'),
+                        style: theme.textTheme.displaySmall?.copyWith(color: color, fontWeight: FontWeight.bold),
+                      ),
+                      Text('${s.correctCount} / ${s.questions.length}', style: theme.textTheme.titleMedium),
+                    ],
+                  ),
+                ],
+              ),
             ),
           ),
           if (isExam) ...[
@@ -85,12 +94,16 @@ class ResultScreen extends StatelessWidget {
                     Text(q.text(app.lang).q, style: theme.textTheme.titleSmall),
                     if (picked != null) ...[
                       const SizedBox(height: 6),
-                      Text('${app.t('yourAnswer')}${q.text(app.lang).choices[picked]}',
-                          style: TextStyle(color: theme.colorScheme.error)),
+                      Text(
+                        '${app.t('yourAnswer')}${q.text(app.lang).choices[picked]}',
+                        style: TextStyle(color: theme.colorScheme.error),
+                      ),
                     ],
                     const SizedBox(height: 4),
-                    Text('${app.t('answer')}${q.text(app.lang).choices[q.answerIndex]}',
-                        style: TextStyle(color: Colors.green.shade700, fontWeight: FontWeight.w600)),
+                    Text(
+                      '${app.t('answer')}${q.text(app.lang).choices[q.answerIndex]}',
+                      style: TextStyle(color: Colors.green.shade700, fontWeight: FontWeight.w600),
+                    ),
                     const SizedBox(height: 4),
                     Text(q.text(app.lang).explanation, style: theme.textTheme.bodySmall),
                     SourceLinks(question: q),
@@ -103,13 +116,17 @@ class ResultScreen extends StatelessWidget {
       bottomNavigationBar: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(16),
-          child: Row(children: [
-            Expanded(
-              child: OutlinedButton(onPressed: () => Navigator.pop(context), child: Text(app.t('home'))),
-            ),
-            const SizedBox(width: 12),
-            Expanded(child: FilledButton(key: const Key('again'), onPressed: again, child: Text(app.t('again')))),
-          ]),
+          child: Row(
+            children: [
+              Expanded(
+                child: OutlinedButton(onPressed: () => Navigator.pop(context), child: Text(app.t('home'))),
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: FilledButton(key: const Key('again'), onPressed: again, child: Text(app.t('again'))),
+              ),
+            ],
+          ),
         ),
       ),
     );

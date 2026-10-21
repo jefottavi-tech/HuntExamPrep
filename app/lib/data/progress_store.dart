@@ -7,8 +7,8 @@ import 'models.dart';
 /// Local progress: last result per question, weak spots, daily streak, language.
 class ProgressStore {
   ProgressStore(this._prefs)
-      : _last = _readMap(_prefs, _kLast).cast<String, bool>(),
-        _weak = _readMap(_prefs, _kWeak).cast<String, int>();
+    : _last = _readMap(_prefs, _kLast).cast<String, bool>(),
+      _weak = _readMap(_prefs, _kWeak).cast<String, int>();
 
   final SharedPreferences _prefs;
   final Map<String, bool> _last;
@@ -46,7 +46,10 @@ class ProgressStore {
     await _touchStreak(now ?? DateTime.now());
   }
 
-  Set<String> weakIds(Iterable<Question> pool) => {for (final q in pool) if (_weak.containsKey(q.id)) q.id};
+  Set<String> weakIds(Iterable<Question> pool) => {
+    for (final q in pool)
+      if (_weak.containsKey(q.id)) q.id,
+  };
 
   /// Share of the pool whose last answer was correct (0..1).
   double readiness(List<Question> pool) =>

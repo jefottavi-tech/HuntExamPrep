@@ -48,8 +48,12 @@ class HuntExamApp extends StatelessWidget {
           side: BorderSide(color: scheme.outlineVariant.withValues(alpha: 0.5)),
         ),
       ),
-      filledButtonTheme: FilledButtonThemeData(style: FilledButton.styleFrom(shape: pill, minimumSize: tall)),
-      outlinedButtonTheme: OutlinedButtonThemeData(style: OutlinedButton.styleFrom(shape: pill, minimumSize: tall)),
+      filledButtonTheme: FilledButtonThemeData(
+        style: FilledButton.styleFrom(shape: pill, minimumSize: tall),
+      ),
+      outlinedButtonTheme: OutlinedButtonThemeData(
+        style: OutlinedButton.styleFrom(shape: pill, minimumSize: tall),
+      ),
       textButtonTheme: TextButtonThemeData(style: TextButton.styleFrom(shape: pill)),
       snackBarTheme: const SnackBarThemeData(behavior: SnackBarBehavior.floating),
     );

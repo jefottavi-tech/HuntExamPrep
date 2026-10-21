@@ -6,8 +6,14 @@ const _strings = <String, Map<String, String>>{
     'fr': 'Choisissez un examen. Pratiquez d\'abord, puis testez-vous en conditions réelles.',
     'en': 'Pick an exam. Practise first, then test yourself under real exam conditions.',
   },
-  'howPractice': {'fr': 'Correction et explication après chaque question', 'en': 'Answer and explanation after every question'},
-  'howExam': {'fr': 'Chronométré, résultat à la fin, comme le vrai', 'en': 'Timed, results at the end, like the real one'},
+  'howPractice': {
+    'fr': 'Correction et explication après chaque question',
+    'en': 'Answer and explanation after every question',
+  },
+  'howExam': {
+    'fr': 'Chronométré, résultat à la fin, comme le vrai',
+    'en': 'Timed, results at the end, like the real one',
+  },
   'groupFirearms': {'fr': 'Permis d\'armes à feu', 'en': 'Firearms licence'},
   'groupHunting': {'fr': 'Éducation à la chasse', 'en': 'Hunter education'},
   'toPass': {'fr': '{p} % pour réussir', 'en': '{p}% to pass'},
@@ -50,12 +56,14 @@ const _strings = <String, Map<String, String>>{
     'en': 'Sample content, not reviewed. Do not use to study.',
   },
   'disclaimer': {
-    'fr': 'Outil d\'étude indépendant, non affilié à la GRC, au Programme canadien des armes à feu, '
+    'fr':
+        'Outil d\'étude indépendant, non affilié à la GRC, au Programme canadien des armes à feu, '
         'au gouvernement du Québec ni à la FédéCP, et non approuvé par eux. Les questions sont des '
         'questions de pratique originales, rédigées à partir des manuels officiels; ce ne sont pas les '
         'questions des examens officiels. Des erreurs sont possibles et les lois changent : vérifiez '
         'toujours dans le manuel officiel et la réglementation en vigueur. Aucune garantie de réussite.',
-    'en': 'Independent study aid, not affiliated with or endorsed by the RCMP, the Canadian Firearms '
+    'en':
+        'Independent study aid, not affiliated with or endorsed by the RCMP, the Canadian Firearms '
         'Program, the Government of Québec or FédéCP. Questions are original practice questions based on '
         'the official manuals; they are not the official exam questions. Errors are possible and laws change: '
         'always check the official manual and current regulations. No guarantee of passing.',

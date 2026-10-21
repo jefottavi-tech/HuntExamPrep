@@ -15,46 +15,69 @@ class QuestionPhoto extends StatelessWidget {
     final app = AppScope.of(context);
     final theme = Theme.of(context);
     final credit = question.imageCredit;
-    final image = Image.asset(
-      question.image!,
-      key: const Key('question-photo'),
-      fit: BoxFit.contain, // never crop: heads and tails must stay visible
-      semanticLabel: question.text(app.lang).q,
-      errorBuilder: (_, _, _) => SizedBox(
-        height: 200,
-        child: ColoredBox(
-          color: theme.colorScheme.surfaceContainerHighest,
-          child: const Center(child: Icon(Icons.image_not_supported_outlined, size: 40)),
-        ),
-      ),
+    final maxHeight = MediaQuery.sizeOf(context).height * 0.42;
+    final placeholder = ColoredBox(
+      color: theme.colorScheme.surfaceContainerHighest,
+      child: const Center(child: SizedBox.square(dimension: 28, child: CircularProgressIndicator(strokeWidth: 3))),
     );
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        // Whole photo at its own shape; tall photos are capped so the choices stay on screen.
-        ConstrainedBox(
-          constraints: BoxConstraints(maxHeight: MediaQuery.sizeOf(context).height * 0.42),
-          child: Center(
-            heightFactor: 1, // as tall as the photo, so the credit sits right under it
-            child: GestureDetector(
-              onTap: () => Navigator.of(context)
-                  .push(MaterialPageRoute(fullscreenDialog: true, builder: (_) => _FullPhoto(image: question.image!))),
-              child: Stack(
-                children: [
-                  ClipRRect(borderRadius: BorderRadius.circular(16), child: image),
-                  Positioned(
-                    right: 8,
-                    bottom: 8,
-                    child: CircleAvatar(
-                      radius: 16,
-                      backgroundColor: Colors.black45,
-                      child: Icon(Icons.zoom_out_map, size: 18, color: Colors.white, semanticLabel: app.t('zoomPhoto')),
+        // The box has the photo's exact shape before it loads (no jump), capped so the choices stay on screen.
+        LayoutBuilder(
+          builder: (context, constraints) {
+            final aspect = question.imageAspect ?? 4 / 3;
+            var width = constraints.maxWidth;
+            var height = width / aspect;
+            if (height > maxHeight) (height, width) = (maxHeight, maxHeight * aspect);
+            return Center(
+              child: GestureDetector(
+                onTap: () => Navigator.of(
+                  context,
+                ).push(MaterialPageRoute(fullscreenDialog: true, builder: (_) => _FullPhoto(image: question.image!))),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(16),
+                  child: SizedBox(
+                    key: const Key('photo-box'),
+                    width: width,
+                    height: height,
+                    child: Stack(
+                      fit: StackFit.expand,
+                      children: [
+                        Image.asset(
+                          question.image!,
+                          key: const Key('question-photo'),
+                          fit: BoxFit.contain, // never crop: heads and tails must stay visible
+                          semanticLabel: question.text(app.lang).q,
+                          gaplessPlayback: true,
+                          frameBuilder: (_, child, frame, syncLoaded) =>
+                              syncLoaded || frame != null ? child : placeholder, // spinner while loading
+                          errorBuilder: (_, _, _) => ColoredBox(
+                            color: theme.colorScheme.surfaceContainerHighest,
+                            child: const Center(child: Icon(Icons.image_not_supported_outlined, size: 40)),
+                          ),
+                        ),
+                        Positioned(
+                          right: 8,
+                          bottom: 8,
+                          child: CircleAvatar(
+                            radius: 16,
+                            backgroundColor: Colors.black45,
+                            child: Icon(
+                              Icons.zoom_out_map,
+                              size: 18,
+                              color: Colors.white,
+                              semanticLabel: app.t('zoomPhoto'),
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
                   ),
-                ],
+                ),
               ),
-            ),
-          ),
+            );
+          },
         ),
         if (credit != null)
           Align(

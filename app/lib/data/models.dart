@@ -10,12 +10,12 @@ class QuestionText {
   final String? confuse;
 
   factory QuestionText.fromJson(Map<String, dynamic> json) => QuestionText(
-        q: json['q'] as String,
-        choices: List<String>.from(json['choices'] as List),
-        explanation: json['explanation'] as String,
-        habitat: json['habitat'] as String?,
-        confuse: json['confuse'] as String?,
-      );
+    q: json['q'] as String,
+    choices: List<String>.from(json['choices'] as List),
+    explanation: json['explanation'] as String,
+    habitat: json['habitat'] as String?,
+    confuse: json['confuse'] as String?,
+  );
 }
 
 /// Credit line required by the photo's free licence (Wikimedia Commons).
@@ -26,11 +26,8 @@ class ImageCredit {
   final String license;
   final String page;
 
-  factory ImageCredit.fromJson(Map<String, dynamic> json) => ImageCredit(
-        author: json['author'] as String,
-        license: json['license'] as String,
-        page: json['page'] as String,
-      );
+  factory ImageCredit.fromJson(Map<String, dynamic> json) =>
+      ImageCredit(author: json['author'] as String, license: json['license'] as String, page: json['page'] as String);
 }
 
 class Question {
@@ -45,6 +42,7 @@ class Question {
     this.sourceUrl,
     this.image,
     this.imageCredit,
+    this.imageAspect,
   });
 
   final String id;
@@ -62,28 +60,33 @@ class Question {
   final String? image;
   final ImageCredit? imageCredit;
 
+  /// Width / height of the photo, so its space is reserved before it loads.
+  final double? imageAspect;
+
   /// Sample questions are placeholders until reviewed questions are bundled.
   bool get isSample => id.startsWith('sample-');
 
   QuestionText text(String lang) => texts[lang] ?? texts['fr']!;
 
   factory Question.fromJson(Map<String, dynamic> json) => Question(
-        id: json['id'] as String,
-        scope: json['scope'] as String,
-        chapter: json['chapter'] as String,
-        texts: {
-          for (final lang in const ['fr', 'en'])
-            if (json[lang] != null) lang: QuestionText.fromJson(json[lang] as Map<String, dynamic>),
-        },
-        answerIndex: json['answerIndex'] as int,
-        sourceRef: json['sourceRef'] as String? ?? '',
-        reviewYear: json['reviewYear'] as int?,
-        sourceUrl: json['sourceUrl'] as String?,
-        image: json['image'] as String?,
-        imageCredit: json['imageCredit'] == null
-            ? null
-            : ImageCredit.fromJson(json['imageCredit'] as Map<String, dynamic>),
-      );
+    id: json['id'] as String,
+    scope: json['scope'] as String,
+    chapter: json['chapter'] as String,
+    texts: {
+      for (final lang in const ['fr', 'en'])
+        if (json[lang] != null) lang: QuestionText.fromJson(json[lang] as Map<String, dynamic>),
+    },
+    answerIndex: json['answerIndex'] as int,
+    sourceRef: json['sourceRef'] as String? ?? '',
+    reviewYear: json['reviewYear'] as int?,
+    sourceUrl: json['sourceUrl'] as String?,
+    image: json['image'] as String?,
+    imageCredit: json['imageCredit'] == null ? null : ImageCredit.fromJson(json['imageCredit'] as Map<String, dynamic>),
+    imageAspect: switch (json['imageSize']) {
+      [final num w, final num h] when h > 0 => w / h,
+      _ => null,
+    },
+  );
 }
 
 class Exam {
@@ -108,12 +111,12 @@ class Exam {
   String name(String lang) => names[lang] ?? names['fr'] ?? id;
 
   factory Exam.fromJson(String id, Map<String, dynamic> json) => Exam(
-        id: id,
-        names: Map<String, String>.from(json['name'] as Map),
-        scopes: List<String>.from(json['scopes'] as List),
-        questionCount: json['questionCount'] as int? ?? 50,
-        minutes: json['minutes'] as int? ?? 60,
-        passMark: (json['passMark'] as num? ?? 0.8).toDouble(),
-        comingSoon: json['comingSoon'] as bool? ?? false,
-      );
+    id: id,
+    names: Map<String, String>.from(json['name'] as Map),
+    scopes: List<String>.from(json['scopes'] as List),
+    questionCount: json['questionCount'] as int? ?? 50,
+    minutes: json['minutes'] as int? ?? 60,
+    passMark: (json['passMark'] as num? ?? 0.8).toDouble(),
+    comingSoon: json['comingSoon'] as bool? ?? false,
+  );
 }

@@ -12,14 +12,14 @@ const manuals = {
     {'fr': 'Manuel de l\'étudiant CCSMAF (GRC, 2014)', 'en': 'CFSC student manual (RCMP, 2014)'},
     'https://fedecp.com/media/2186/manuel-ccsmaf-francais-comprenant-la-section-sur-les-armes-a-feu-a-autorisation-restreinte.pdf',
   ),
-  'icaf_fr.pdf': Manual(
-    {'fr': 'Manuel ICAF (FédéCP, 2020)', 'en': 'ICAF manual (FédéCP, 2020)'},
-    'https://fedecp.com/media/7535/icaf-fr-3-08-2020.pdf',
-  ),
-  'ab_hunting_2026.pdf': Manual(
-    {'fr': 'Guide des règlements de chasse de l\'Alberta 2026', 'en': '2026 Alberta Guide to Hunting Regulations'},
-    'https://www.albertaregulations.ca/2026-Alberta-Hunting-Regulations.pdf',
-  ),
+  'icaf_fr.pdf': Manual({
+    'fr': 'Manuel ICAF (FédéCP, 2020)',
+    'en': 'ICAF manual (FédéCP, 2020)',
+  }, 'https://fedecp.com/media/7535/icaf-fr-3-08-2020.pdf'),
+  'ab_hunting_2026.pdf': Manual({
+    'fr': 'Guide des règlements de chasse de l\'Alberta 2026',
+    'en': '2026 Alberta Guide to Hunting Regulations',
+  }, 'https://www.albertaregulations.ca/2026-Alberta-Hunting-Regulations.pdf'),
 };
 
 /// A readable source line and a link that opens the manual at the right PDF page.

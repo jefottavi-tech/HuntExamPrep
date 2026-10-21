@@ -44,13 +44,13 @@ class _Link extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => TextButton.icon(
-        style: TextButton.styleFrom(
-          visualDensity: VisualDensity.compact,
-          padding: const EdgeInsets.symmetric(horizontal: 6),
-          textStyle: Theme.of(context).textTheme.labelMedium,
-        ),
-        onPressed: () => tryOpen(uri),
-        icon: const Icon(Icons.open_in_new, size: 14),
-        label: Text(label),
-      );
+    style: TextButton.styleFrom(
+      visualDensity: VisualDensity.compact,
+      padding: const EdgeInsets.symmetric(horizontal: 6),
+      textStyle: Theme.of(context).textTheme.labelMedium,
+    ),
+    onPressed: () => tryOpen(uri),
+    icon: const Icon(Icons.open_in_new, size: 14),
+    label: Text(label),
+  );
 }

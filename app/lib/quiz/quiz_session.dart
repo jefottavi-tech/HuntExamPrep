@@ -17,13 +17,7 @@ class QuizSession {
   static const practiceSize = 20;
 
   /// [onlyIds] restricts the pool (weak-spot review).
-  factory QuizSession.start(
-    Exam exam,
-    List<Question> pool,
-    QuizMode mode, {
-    Random? random,
-    Set<String>? onlyIds,
-  }) {
+  factory QuizSession.start(Exam exam, List<Question> pool, QuizMode mode, {Random? random, Set<String>? onlyIds}) {
     final candidates = [
       for (final q in pool)
         if (onlyIds == null || onlyIds.contains(q.id)) q,
@@ -63,7 +57,7 @@ class QuizSession {
 
   /// Missed questions with the choice the user picked (null if left unanswered).
   List<(Question, int?)> get missedWithAnswers => [
-        for (var i = 0; i < questions.length; i++)
-          if (_answers[i] != questions[i].answerIndex) (questions[i], _answers[i]),
-      ];
+    for (var i = 0; i < questions.length; i++)
+      if (_answers[i] != questions[i].answerIndex) (questions[i], _answers[i]),
+  ];
 }

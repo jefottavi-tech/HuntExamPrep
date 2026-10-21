@@ -144,6 +144,31 @@ def preview(title: str, out: str) -> None:
     print(f"  {out}: {info['title']} [{info['license']}] {info['author'][:40]}")
 
 
+def _jpeg_size(path: Path) -> tuple[int, int]:
+    """(width, height) from the JPEG's SOF marker; stdlib only, so it also runs on Linux CI."""
+    data = path.read_bytes()
+    i = 2
+    while i < len(data):
+        if data[i] != 0xFF:
+            i += 1
+            continue
+        marker = data[i + 1]
+        if marker in (0xC0, 0xC1, 0xC2):
+            h = int.from_bytes(data[i + 5:i + 7], "big")
+            w = int.from_bytes(data[i + 7:i + 9], "big")
+            return w, h
+        if marker in (0xD8, 0x01) or 0xD0 <= marker <= 0xD7:
+            i += 2
+            continue
+        i += 2 + int.from_bytes(data[i + 2:i + 4], "big")
+    raise ValueError(f"{path}: no JPEG size found")
+
+
+def _cap(name: str) -> str:
+    """Choices start with a capital letter ("Coyote", "Grey wolf"), like the bird names."""
+    return name[:1].upper() + name[1:]
+
+
 def _place(choices: list[str], qid: str) -> int:
     """Correct choice is first; move it to a position derived from the id (as qgen.generate does)."""
     target = int(hashlib.sha1(qid.encode()).hexdigest(), 16) % 4
@@ -184,7 +209,7 @@ def build() -> None:
             "imageCredit": {k: photo[k] for k in ("author", "license", "page")},
         }
         for lang in ("fr", "en"):
-            names = [by_id[s]["name"][lang] for s in order]
+            names = [_cap(by_id[s]["name"][lang]) for s in order]
             if len({n.lower() for n in names}) != 4:
                 errors.append(f"{sid}: repeated choice names in {lang}")
             q[lang] = {"q": QUESTION[lang], "choices": names, "explanation": sp["identify"][lang],
@@ -211,6 +236,10 @@ def build() -> None:
                             "--out", str(dest)], check=True, capture_output=True)
         else:
             shutil.copy2(src, dest)
+    for q in questions:  # the app reserves the photo's exact space before it loads
+        w, h = _jpeg_size(APP_PHOTOS / Path(q["image"]).name)
+        q["imageSize"] = [w, h]
+    APP_BANK.write_text(json.dumps(questions, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"  wildlife-id: {len(questions)} questions, photos copied to {APP_PHOTOS.relative_to(ROOT)}")
 
 

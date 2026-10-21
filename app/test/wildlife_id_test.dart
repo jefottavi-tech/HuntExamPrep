@@ -54,13 +54,15 @@ void main() {
     expect(find.textContaining('Ne pas confondre'), findsOneWidget);
   });
 
-  testWidgets('portrait photos are shown whole, never cropped to a fixed frame', (tester) async {
+  testWidgets('photo space is reserved at its real shape before loading, with a spinner', (tester) async {
     tester.view.physicalSize = const Size(1080, 2400);
     tester.view.devicePixelRatio = 2.5;
     addTearDown(tester.view.reset);
     SharedPreferences.setMockInitialValues({});
     final json = Map<String, dynamic>.from(idQuestionJson)
-      ..['image'] = 'assets/wildlife/2065e8814ba5.jpg'; // black bear, 423x640
+      ..['image'] =
+          'assets/wildlife/2065e8814ba5.jpg' // real black bear photo, 423x640
+      ..['imageSize'] = [423, 640];
     final controller = AppController(
       content: ContentRepository(
         exams: [idExam],
@@ -74,12 +76,41 @@ void main() {
     );
     await tester.pumpWidget(HuntExamApp(controller: controller));
     await tester.tap(find.byKey(const Key('practice-ID')));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 400)); // route transition; the asset is not decoded yet
+
+    final box = tester.getSize(find.byKey(const Key('photo-box')));
+    expect(box.height / box.width, closeTo(640 / 423, 0.02)); // whole portrait shape, reserved up front
+    expect(
+      find.descendant(of: find.byKey(const Key('photo-box')), matching: find.byType(CircularProgressIndicator)),
+      findsOneWidget,
+    );
+  });
+
+  testWidgets('after answering a photo question, the animal card sits right under the photo', (tester) async {
+    tester.view.physicalSize = const Size(1080, 3200);
+    tester.view.devicePixelRatio = 2.5;
+    addTearDown(tester.view.reset);
+    SharedPreferences.setMockInitialValues({});
+    final controller = AppController(
+      content: ContentRepository(
+        exams: [idExam],
+        questionsByScope: {
+          'wildlife-id': [idQuestion],
+        },
+      ),
+      progress: await ProgressStore.open(),
+      ads: _NoAds(),
+      lang: 'fr',
+    );
+    await tester.pumpWidget(HuntExamApp(controller: controller));
+    await tester.tap(find.byKey(const Key('practice-ID')));
     await tester.pumpAndSettle();
-    final element = tester.element(find.byKey(const Key('question-photo')));
-    await tester.runAsync(() => precacheImage(AssetImage(json['image'] as String), element)); // decode the real asset
+    await tester.tap(find.byKey(const Key('choice-1')));
     await tester.pumpAndSettle();
 
-    final size = tester.getSize(find.byKey(const Key('question-photo')));
-    expect(size.height / size.width, closeTo(640 / 423, 0.05)); // whole portrait photo, head included
+    final feedbackTop = tester.getTopLeft(find.byKey(const Key('feedback'))).dy;
+    expect(feedbackTop, greaterThan(tester.getBottomLeft(find.byKey(const Key('photo-box'))).dy));
+    expect(feedbackTop, lessThan(tester.getTopLeft(find.text('Quel est cet animal?')).dy));
   });
 }

@@ -68,7 +68,11 @@ class _QuizScreenState extends State<QuizScreen> {
     }
     await app.ads.showInterstitial();
     if (!mounted) return;
-    navigator.pushReplacement(MaterialPageRoute(builder: (_) => ResultScreen(session: s, timeUp: timeUp)));
+    navigator.pushReplacement(
+      MaterialPageRoute(
+        builder: (_) => ResultScreen(session: s, timeUp: timeUp),
+      ),
+    );
   }
 
   static const _reportEmail = 'contact@kallistesoft.ca';
@@ -79,7 +83,8 @@ class _QuizScreenState extends State<QuizScreen> {
     final messenger = ScaffoldMessenger.of(context);
     final q = s.question;
     final text = q.text(app.lang);
-    final body = '${app.t('reportBody')}---\n${q.id} (${q.sourceRef})\n${text.q}\n'
+    final body =
+        '${app.t('reportBody')}---\n${q.id} (${q.sourceRef})\n${text.q}\n'
         '${[for (var i = 0; i < text.choices.length; i++) '${'ABCD'[i]}. ${text.choices[i]}'].join('\n')}';
     final uri = Uri(
       scheme: 'mailto',
@@ -88,9 +93,9 @@ class _QuizScreenState extends State<QuizScreen> {
       query: 'subject=${Uri.encodeComponent('${app.t('reportSubject')} ${q.id}')}&body=${Uri.encodeComponent(body)}',
     );
     if (!await tryOpen(uri)) {
-      messenger.showSnackBar(SnackBar(
-        content: Text(app.t('reportFallback').replaceAll('{email}', _reportEmail).replaceAll('{id}', q.id)),
-      ));
+      messenger.showSnackBar(
+        SnackBar(content: Text(app.t('reportFallback').replaceAll('{email}', _reportEmail).replaceAll('{id}', q.id))),
+      );
     }
   }
 
@@ -118,6 +123,74 @@ class _QuizScreenState extends State<QuizScreen> {
     final text = q.text(app.lang);
     final chosen = s.answerAt(s.current);
     final showFeedback = !isExam && chosen != null;
+
+    // Load the next photo while this question is read, so it appears without a wait.
+    final nextPhoto = s.isLast ? null : s.questions[s.current + 1].image;
+    if (nextPhoto != null) precacheImage(AssetImage(nextPhoto), context);
+
+    final feedback = Card(
+      key: const Key('feedback'),
+      color: (chosen == q.answerIndex ? Colors.green : theme.colorScheme.error).withValues(alpha: 0.08),
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Icon(
+                  chosen == q.answerIndex ? Icons.check_circle : Icons.cancel,
+                  color: chosen == q.answerIndex ? Colors.green.shade600 : theme.colorScheme.error,
+                ),
+                const SizedBox(width: 8),
+                Text(
+                  app.t(chosen == q.answerIndex ? 'correct' : 'wrong'),
+                  style: theme.textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.w700,
+                    color: chosen == q.answerIndex ? Colors.green.shade600 : theme.colorScheme.error,
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 10),
+            Text(app.t(q.image != null ? 'howRecognise' : 'why'), style: theme.textTheme.labelLarge),
+            const SizedBox(height: 2),
+            Text(text.explanation),
+            if (text.habitat != null) ...[
+              const SizedBox(height: 10),
+              Text(app.t('whereLives'), style: theme.textTheme.labelLarge),
+              const SizedBox(height: 2),
+              Text(text.habitat!),
+            ],
+            if (text.confuse != null) ...[
+              const SizedBox(height: 10),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Icon(Icons.warning_amber_rounded, size: 20, color: theme.colorScheme.tertiary),
+                  const SizedBox(width: 6),
+                  Expanded(
+                    child: Text.rich(
+                      TextSpan(
+                        children: [
+                          TextSpan(
+                            text: '${app.t('dontConfuse')} : ',
+                            style: const TextStyle(fontWeight: FontWeight.w600),
+                          ),
+                          TextSpan(text: text.confuse),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ],
+            const SizedBox(height: 6),
+            SourceLinks(question: q),
+          ],
+        ),
+      ),
+    );
 
     return PopScope(
       canPop: false,
@@ -157,9 +230,15 @@ class _QuizScreenState extends State<QuizScreen> {
         ),
         body: SafeArea(
           child: ListView(
+            key: ValueKey(s.current), // each question starts scrolled to the top
             padding: const EdgeInsets.all(16),
             children: [
-              if (q.image != null) ...[QuestionPhoto(question: q), const SizedBox(height: 16)],
+              if (q.image != null) ...[
+                QuestionPhoto(question: q),
+                const SizedBox(height: 12),
+                // Photo questions: the animal's card goes right under the photo, where the eye already is.
+                if (showFeedback) ...[feedback, const SizedBox(height: 16)],
+              ],
               Text(text.q, style: theme.textTheme.titleLarge?.copyWith(height: 1.3)),
               const SizedBox(height: 20),
               for (var i = 0; i < text.choices.length; i++)
@@ -175,60 +254,7 @@ class _QuizScreenState extends State<QuizScreen> {
                   },
                   onTap: () => _choose(i),
                 ),
-              if (showFeedback) ...[
-                const SizedBox(height: 8),
-                Card(
-                  key: const Key('feedback'),
-                  color: (chosen == q.answerIndex ? Colors.green : theme.colorScheme.error).withValues(alpha: 0.08),
-                  child: Padding(
-                    padding: const EdgeInsets.all(16),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Row(children: [
-                          Icon(
-                            chosen == q.answerIndex ? Icons.check_circle : Icons.cancel,
-                            color: chosen == q.answerIndex ? Colors.green.shade600 : theme.colorScheme.error,
-                          ),
-                          const SizedBox(width: 8),
-                          Text(
-                            app.t(chosen == q.answerIndex ? 'correct' : 'wrong'),
-                            style: theme.textTheme.titleMedium?.copyWith(
-                              fontWeight: FontWeight.w700,
-                              color: chosen == q.answerIndex ? Colors.green.shade600 : theme.colorScheme.error,
-                            ),
-                          ),
-                        ]),
-                        const SizedBox(height: 10),
-                        Text(app.t(q.image != null ? 'howRecognise' : 'why'), style: theme.textTheme.labelLarge),
-                        const SizedBox(height: 2),
-                        Text(text.explanation),
-                        if (text.habitat != null) ...[
-                          const SizedBox(height: 10),
-                          Text(app.t('whereLives'), style: theme.textTheme.labelLarge),
-                          const SizedBox(height: 2),
-                          Text(text.habitat!),
-                        ],
-                        if (text.confuse != null) ...[
-                          const SizedBox(height: 10),
-                          Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                            Icon(Icons.warning_amber_rounded, size: 20, color: theme.colorScheme.tertiary),
-                            const SizedBox(width: 6),
-                            Expanded(
-                              child: Text.rich(TextSpan(children: [
-                                TextSpan(text: '${app.t('dontConfuse')} : ', style: const TextStyle(fontWeight: FontWeight.w600)),
-                                TextSpan(text: text.confuse),
-                              ])),
-                            ),
-                          ]),
-                        ],
-                        const SizedBox(height: 6),
-                        SourceLinks(question: q),
-                      ],
-                    ),
-                  ),
-                ),
-              ],
+              if (showFeedback && q.image == null) ...[const SizedBox(height: 8), feedback],
             ],
           ),
         ),
@@ -279,12 +305,14 @@ class _ChoiceTile extends StatelessWidget {
           onTap: onTap,
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 14),
-            child: Row(children: [
-              CircleAvatar(radius: 14, child: Text(letter, style: const TextStyle(fontSize: 13))),
-              const SizedBox(width: 12),
-              Expanded(child: Text(label, style: Theme.of(context).textTheme.bodyLarge)),
-              if (icon != null) Icon(icon, color: border),
-            ]),
+            child: Row(
+              children: [
+                CircleAvatar(radius: 14, child: Text(letter, style: const TextStyle(fontSize: 13))),
+                const SizedBox(width: 12),
+                Expanded(child: Text(label, style: Theme.of(context).textTheme.bodyLarge)),
+                if (icon != null) Icon(icon, color: border),
+              ],
+            ),
           ),
         ),
       ),
