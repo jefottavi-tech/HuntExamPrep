@@ -28,6 +28,15 @@ const _fallback = (icon: Icons.school_outlined, region: '', group: ExamGroup.fir
 
 ExamStyle examStyle(String examId) => _styles[examId] ?? _fallback;
 
+/// Exams with questions, in section order (firearms, hunting, identification), then exams.json order.
+List<Exam> availableExams(AppController app) => [
+  for (final e in app.content.exams)
+    if (!e.comingSoon && app.content.questionsFor(e).isNotEmpty) e,
+]..sort((a, b) => examStyle(a.id).group.index.compareTo(examStyle(b.id).group.index));
+
+/// Real exams (licence, hunter education), as opposed to recognition games.
+bool isTrainingExam(Exam e) => examStyle(e.id).group != ExamGroup.identification;
+
 /// Starts a quiz on [exam]; review mode only uses the user's weak questions.
 void startQuiz(BuildContext context, Exam exam, QuizMode mode) {
   final app = AppScope.of(context);

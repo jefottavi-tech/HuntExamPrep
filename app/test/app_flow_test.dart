@@ -21,7 +21,9 @@ void main() {
   late CountingAds ads;
 
   setUp(() async {
-    SharedPreferences.setMockInitialValues({'myExams': ['PAL']});
+    SharedPreferences.setMockInitialValues({
+      'myExams': ['PAL'],
+    });
     ads = CountingAds();
     controller = AppController(
       content: ContentRepository(exams: [exam], questionsByScope: {'federal': pool.take(3).toList()}),
@@ -38,6 +40,7 @@ void main() {
       return false;
     };
     await tester.pumpWidget(HuntExamApp(controller: controller));
+    await openHub(tester, 'hub-exams');
     await tester.tap(find.byKey(const Key('practice-PAL')));
     await tester.pumpAndSettle();
 
@@ -50,6 +53,7 @@ void main() {
 
   testWidgets('practice: feedback after each answer, then results and weak-spot review', (tester) async {
     await tester.pumpWidget(HuntExamApp(controller: controller));
+    await openHub(tester, 'hub-exams');
     expect(find.text('Examen PAL'), findsWidgets); // exam card + Today card
     expect(find.text('3 questions'), findsOneWidget);
 
@@ -82,11 +86,15 @@ void main() {
     expect(find.byKey(const Key('review-PAL')), findsOneWidget);
     expect(find.text('Revoir mes erreurs (1)'), findsOneWidget);
     expect(find.byWidgetPredicate((w) => w is Semantics && w.properties.label == 'Préparation 67 %'), findsOneWidget);
+    await tester.tap(find.byType(BackButton)); // exam training → dashboard, where the Today card shows the streak
+    await tester.pumpAndSettle();
     expect(find.text('1 jour de suite'), findsOneWidget);
+    expect(find.text('3 / 20 questions aujourd\'hui'), findsOneWidget);
   });
 
   testWidgets('mock exam: all correct passes', (tester) async {
     await tester.pumpWidget(HuntExamApp(controller: controller));
+    await openHub(tester, 'hub-exams');
     await tester.tap(find.byKey(const Key('exam-PAL')));
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 500));
@@ -108,6 +116,7 @@ void main() {
     await tester.pumpWidget(HuntExamApp(controller: controller));
     await tester.tap(find.text('EN'));
     await tester.pumpAndSettle();
+    await openHub(tester, 'hub-exams');
     expect(find.text('PAL exam'), findsWidgets); // exam card + Today card
     expect(find.text('Practice'), findsOneWidget);
     expect(controller.progress.lang, 'en');
@@ -120,6 +129,7 @@ void main() {
 
   testWidgets('back during a test asks for confirmation', (tester) async {
     await tester.pumpWidget(HuntExamApp(controller: controller));
+    await openHub(tester, 'hub-exams');
     await tester.tap(find.byKey(const Key('practice-PAL')));
     await tester.pumpAndSettle();
     await tester.tap(find.byType(BackButton));

@@ -1,3 +1,5 @@
+import 'package:flutter/widgets.dart';
+import 'package:flutter_test/flutter_test.dart';
 import 'package:hunt_exam_prep/data/models.dart';
 
 const exam = Exam(
@@ -66,3 +68,9 @@ final idQuestionJson = <String, dynamic>{
   },
 };
 final idQuestion = Question.fromJson(idQuestionJson);
+
+/// Opens a dashboard hub card: 'hub-exams' (exam training) or 'hub-recognise' (recognition games).
+Future<void> openHub(WidgetTester tester, String key) async {
+  await tester.tap(find.byKey(Key(key)));
+  await tester.pumpAndSettle();
+}

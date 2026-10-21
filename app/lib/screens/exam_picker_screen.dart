@@ -29,10 +29,7 @@ class _ExamPickerScreenState extends State<ExamPickerScreen> {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final theme = Theme.of(context);
-    final exams = [
-      for (final e in app.content.exams)
-        if (!e.comingSoon && app.content.questionsFor(e).isNotEmpty) e,
-    ];
+    final exams = availableExams(app).where(isTrainingExam).toList(); // recognition games aren't exams
     return Scaffold(
       appBar: AppBar(automaticallyImplyLeading: !widget.firstRun),
       body: ListView(

@@ -27,7 +27,9 @@ void main() {
     tester.view.physicalSize = const Size(1080, 3200); // tall phone: photo + choices + feedback on screen
     tester.view.devicePixelRatio = 2.5;
     addTearDown(tester.view.reset);
-    SharedPreferences.setMockInitialValues({'myExams': ['ID']});
+    SharedPreferences.setMockInitialValues({
+      'myExams': ['ID'],
+    });
     final controller = AppController(
       content: ContentRepository(
         exams: [idExam],
@@ -40,6 +42,7 @@ void main() {
       lang: 'fr',
     );
     await tester.pumpWidget(HuntExamApp(controller: controller));
+    await openHub(tester, 'hub-recognise');
     await tester.tap(find.byKey(const Key('practice-ID')));
     await tester.pumpAndSettle();
 
@@ -58,7 +61,9 @@ void main() {
     tester.view.physicalSize = const Size(1080, 2400);
     tester.view.devicePixelRatio = 2.5;
     addTearDown(tester.view.reset);
-    SharedPreferences.setMockInitialValues({'myExams': ['ID']});
+    SharedPreferences.setMockInitialValues({
+      'myExams': ['ID'],
+    });
     final json = Map<String, dynamic>.from(idQuestionJson)
       ..['image'] =
           'assets/wildlife/2065e8814ba5.jpg' // real black bear photo, 423x640
@@ -75,6 +80,7 @@ void main() {
       lang: 'fr',
     );
     await tester.pumpWidget(HuntExamApp(controller: controller));
+    await openHub(tester, 'hub-recognise');
     await tester.tap(find.byKey(const Key('practice-ID')));
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 400)); // route transition; the asset is not decoded yet
@@ -91,7 +97,9 @@ void main() {
     tester.view.physicalSize = const Size(1080, 3200);
     tester.view.devicePixelRatio = 2.5;
     addTearDown(tester.view.reset);
-    SharedPreferences.setMockInitialValues({'myExams': ['ID']});
+    SharedPreferences.setMockInitialValues({
+      'myExams': ['ID'],
+    });
     final controller = AppController(
       content: ContentRepository(
         exams: [idExam],
@@ -104,6 +112,7 @@ void main() {
       lang: 'fr',
     );
     await tester.pumpWidget(HuntExamApp(controller: controller));
+    await openHub(tester, 'hub-recognise');
     await tester.tap(find.byKey(const Key('practice-ID')));
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const Key('choice-1')));

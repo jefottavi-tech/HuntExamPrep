@@ -3,6 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:hunt_exam_prep/ads/ad_service.dart';
 import 'package:hunt_exam_prep/app/app_scope.dart';
 import 'package:hunt_exam_prep/data/content_repository.dart';
+import 'package:hunt_exam_prep/data/models.dart';
 import 'package:hunt_exam_prep/data/progress_store.dart';
 import 'package:hunt_exam_prep/main.dart';
 import 'package:hunt_exam_prep/screens/photo_of_day.dart';
@@ -15,12 +16,17 @@ class _NoAds implements AdService {
   Future<void> showInterstitial() async {}
 }
 
+const icaf = Exam(id: 'ICAF', names: {'fr': 'Examen ICAF', 'en': 'ICAF exam'}, scopes: ['federal'], questionCount: 3);
+
 Future<AppController> _app(Map<String, Object> prefs) async {
   SharedPreferences.setMockInitialValues(prefs);
   return AppController(
     content: ContentRepository(
-      exams: [exam, idExam],
-      questionsByScope: {'federal': pool, 'wildlife-id': [idQuestion]},
+      exams: [exam, icaf, idExam],
+      questionsByScope: {
+        'federal': pool,
+        'wildlife-id': [idQuestion],
+      },
     ),
     progress: await ProgressStore.open(),
     ads: _NoAds(),
@@ -47,24 +53,52 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(controller.progress.myExams, ['PAL']);
-    expect(find.byKey(const Key('practice-PAL')), findsOneWidget); // full card under "My exams"
-    expect(find.byKey(const Key('other-ID')), findsOneWidget); // compact row under "Other tests"
+    expect(find.byKey(const Key('hub-exams')), findsOneWidget);
+    expect(find.byKey(const Key('hub-recognise')), findsOneWidget);
     expect(find.byKey(const Key('today-practice')), findsOneWidget);
     expect(find.byKey(const Key('footer')), findsOneWidget); // legal line always visible
+
+    await openHub(tester, 'hub-exams');
+    expect(find.byKey(const Key('practice-PAL')), findsOneWidget); // full card under "My exams"
+    expect(find.byKey(const Key('other-ICAF')), findsOneWidget); // compact row under "Other tests"
+    expect(find.byKey(const Key('other-ID')), findsNothing); // recognition games live in the other hub
   });
 
   testWidgets('an "other test" row opens its full card in a sheet', (tester) async {
     _tallScreen(tester);
-    await tester.pumpWidget(HuntExamApp(controller: await _app({'myExams': ['PAL']})));
-    await tester.tap(find.byKey(const Key('other-ID')));
+    await tester.pumpWidget(
+      HuntExamApp(
+        controller: await _app({
+          'myExams': ['PAL'],
+        }),
+      ),
+    );
+    await openHub(tester, 'hub-exams');
+    await tester.tap(find.byKey(const Key('other-ICAF')));
     await tester.pumpAndSettle();
+    expect(find.byKey(const Key('practice-ICAF')), findsOneWidget);
+    expect(find.byKey(const Key('exam-ICAF')), findsOneWidget);
+  });
+
+  testWidgets('the recognition hub lists the photo game', (tester) async {
+    _tallScreen(tester);
+    await tester.pumpWidget(
+      HuntExamApp(
+        controller: await _app({
+          'myExams': ['PAL'],
+        }),
+      ),
+    );
+    await openHub(tester, 'hub-recognise');
     expect(find.byKey(const Key('practice-ID')), findsOneWidget);
-    expect(find.byKey(const Key('exam-ID')), findsOneWidget);
+    expect(find.byKey(const Key('practice-PAL')), findsNothing);
   });
 
   testWidgets('photo of the day: answered inline, remembered, and counted toward the goal', (tester) async {
     _tallScreen(tester);
-    final controller = await _app({'myExams': ['PAL']});
+    final controller = await _app({
+      'myExams': ['PAL'],
+    });
     await tester.pumpWidget(HuntExamApp(controller: controller));
     expect(find.byKey(const Key('photo-of-day')), findsOneWidget);
     expect(find.byKey(const Key('pod-play')), findsNothing);

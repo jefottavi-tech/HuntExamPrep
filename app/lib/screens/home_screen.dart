@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
 import '../app/app_scope.dart';
-import '../data/models.dart';
 import 'about_screen.dart';
 import 'exam_card.dart';
 import 'exam_picker_screen.dart';
+import 'exam_training_screen.dart';
+import 'recognition_screen.dart';
 import 'photo_of_day.dart';
 import 'today_card.dart';
 
@@ -20,35 +21,17 @@ class HomeScreen extends StatelessWidget {
     final chosen = app.progress.myExams;
     if (chosen == null) return const ExamPickerScreen(firstRun: true);
 
-    // Section order (firearms, hunting, identification), then exams.json order within a section.
-    final available = [
-      for (final e in app.content.exams)
-        if (!e.comingSoon && app.content.questionsFor(e).isNotEmpty) e,
-    ]..sort((a, b) => examStyle(a.id).group.index.compareTo(examStyle(b.id).group.index));
+    final exams = availableExams(app).where(isTrainingExam).toList();
     final mine = [
-      for (final e in available)
+      for (final e in exams)
         if (chosen.contains(e.id)) e,
     ];
-    final others = [
-      for (final e in available)
-        if (!chosen.contains(e.id)) e,
-    ];
-    final photoExam = available.where((e) => e.id == 'ID').firstOrNull;
-
-    Widget section(String title, {Widget? action}) => Padding(
-      padding: const EdgeInsets.only(top: 24, bottom: 8),
-      child: Row(
-        children: [
-          Expanded(
-            child: Text(
-              title.toUpperCase(),
-              style: theme.textTheme.labelLarge?.copyWith(color: scheme.primary, letterSpacing: 0.8),
-            ),
-          ),
-          ?action,
-        ],
-      ),
-    );
+    final games = availableExams(app).where((e) => !isTrainingExam(e)).toList();
+    final photoExam = games.where((e) => e.id == 'ID').firstOrNull;
+    final readiness = mine.isEmpty
+        ? 0.0
+        : mine.map((e) => app.progress.readiness(app.content.questionsFor(e))).reduce((a, b) => a + b) / mine.length;
+    final animals = photoExam == null ? 0 : app.content.questionsFor(photoExam).length;
 
     return Scaffold(
       appBar: AppBar(
@@ -81,66 +64,111 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(height: 12),
           ],
           TodayCard(mainExam: mine.firstOrNull),
-          section(
-            app.t('myExams'),
-            action: TextButton.icon(
-              key: const Key('change-exams'),
-              onPressed: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const ExamPickerScreen())),
-              icon: const Icon(Icons.tune, size: 18),
-              label: Text(app.t('change')),
-            ),
+          const SizedBox(height: 16),
+          _HubCard(
+            key: const Key('hub-exams'),
+            icon: Icons.school_outlined,
+            title: app.t('hubExams'),
+            subtitle: app.t('hubExamsSub'),
+            facts: [
+              app.t('examsCount').replaceAll('{n}', '${exams.length}'),
+              if (mine.isNotEmpty) '${app.t('readiness')} ${(readiness * 100).round()} %',
+            ],
+            color: scheme.primaryContainer,
+            onColor: scheme.onPrimaryContainer,
+            onTap: () => _open(context, const ExamTrainingScreen()),
           ),
-          for (final exam in mine) ...[ExamCard(exam: exam), const SizedBox(height: 12)],
-          if (photoExam != null) ...[const SizedBox(height: 12), PhotoOfDay(exam: photoExam)],
-          if (others.isNotEmpty) ...[
-            section(app.t('otherTests')),
-            Card(
-              child: Column(
-                children: [
-                  for (final (i, exam) in others.indexed) ...[
-                    if (i > 0) const Divider(height: 1, indent: 72),
-                    _OtherTestRow(exam: exam),
-                  ],
-                ],
-              ),
+          if (games.isNotEmpty) ...[
+            const SizedBox(height: 12),
+            _HubCard(
+              key: const Key('hub-recognise'),
+              icon: Icons.visibility_outlined,
+              title: app.t('hubId'),
+              subtitle: app.t('hubIdSub'),
+              facts: [
+                app.t(games.length == 1 ? 'gamesCount' : 'gamesCountMany').replaceAll('{n}', '${games.length}'),
+                if (animals > 0) app.t('animalsCount').replaceAll('{n}', '$animals'),
+              ],
+              color: scheme.tertiaryContainer,
+              onColor: scheme.onTertiaryContainer,
+              onTap: () => _open(context, const RecognitionScreen()),
             ),
           ],
+          if (photoExam != null) ...[const SizedBox(height: 16), PhotoOfDay(exam: photoExam)],
           const SizedBox(height: 20),
           _Footer(),
         ],
       ),
     );
   }
+
+  static void _open(BuildContext context, Widget screen) {
+    final app = AppScope.of(context);
+    Navigator.of(context).push(MaterialPageRoute(builder: (_) => screen)).then((_) => app.refresh());
+  }
 }
 
-/// Compact row for an exam the user isn't preparing; opens its full card in a sheet.
-class _OtherTestRow extends StatelessWidget {
-  const _OtherTestRow({required this.exam});
+/// Big entry card for a section of the app (exam training, recognition games…).
+class _HubCard extends StatelessWidget {
+  const _HubCard({
+    super.key,
+    required this.icon,
+    required this.title,
+    required this.subtitle,
+    required this.facts,
+    required this.color,
+    required this.onColor,
+    required this.onTap,
+  });
 
-  final Exam exam;
+  final IconData icon;
+  final String title;
+  final String subtitle;
+  final List<String> facts;
+  final Color color;
+  final Color onColor;
+  final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
-    final app = AppScope.of(context);
-    final scheme = Theme.of(context).colorScheme;
-    final style = examStyle(exam.id);
-    return ListTile(
-      key: Key('other-${exam.id}'),
-      leading: CircleAvatar(
-        backgroundColor: scheme.primaryContainer,
-        child: Icon(style.icon, color: scheme.onPrimaryContainer),
-      ),
-      title: Text(exam.name(app.lang), style: const TextStyle(fontWeight: FontWeight.w600)),
-      subtitle: Text('${style.region} · ${app.content.questionsFor(exam).length} ${app.t('questions')}'),
-      trailing: const Icon(Icons.chevron_right),
-      onTap: () => showModalBottomSheet<void>(
-        context: context,
-        showDragHandle: true,
-        isScrollControlled: true,
-        builder: (_) => SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
-            child: ExamCard(exam: exam),
+    final text = Theme.of(context).textTheme;
+    return Card(
+      color: color,
+      clipBehavior: Clip.antiAlias,
+      child: InkWell(
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.all(20),
+          child: Row(
+            children: [
+              CircleAvatar(
+                radius: 30,
+                backgroundColor: onColor.withValues(alpha: 0.12),
+                child: Icon(icon, size: 32, color: onColor),
+              ),
+              const SizedBox(width: 16),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      title,
+                      style: text.titleLarge?.copyWith(fontWeight: FontWeight.w700, color: onColor),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(subtitle, style: text.bodyMedium?.copyWith(color: onColor.withValues(alpha: 0.85))),
+                    if (facts.isNotEmpty) ...[
+                      const SizedBox(height: 8),
+                      Text(
+                        facts.join(' · '),
+                        style: text.labelLarge?.copyWith(color: onColor, fontWeight: FontWeight.w600),
+                      ),
+                    ],
+                  ],
+                ),
+              ),
+              Icon(Icons.chevron_right, color: onColor),
+            ],
           ),
         ),
       ),
