@@ -17,8 +17,8 @@ Future<void> main() async {
     content: await ContentRepository.load(rootBundle),
     progress: progress,
     ads: const NoAdService(),
-    // French unless the device is in English (Québec-first app).
-    lang: progress.lang ?? (PlatformDispatcher.instance.locale.languageCode == 'en' ? 'en' : 'fr'),
+    // The FR/EN choice the user made wins; otherwise follow the device.
+    lang: progress.lang ?? langForLocale(PlatformDispatcher.instance.locale),
   );
   runApp(HuntExamApp(controller: controller));
 }

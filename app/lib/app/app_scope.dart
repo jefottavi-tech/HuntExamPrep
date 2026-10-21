@@ -5,6 +5,9 @@ import '../data/content_repository.dart';
 import '../data/progress_store.dart';
 import 'strings.dart';
 
+/// App language for a device locale: French for any French locale (fr, fr-CA, fr-FR…), English otherwise.
+String langForLocale(Locale locale) => locale.languageCode == 'fr' ? 'fr' : 'en';
+
 /// App-wide dependencies and the current language.
 class AppController extends ChangeNotifier {
   AppController({required this.content, required this.progress, required this.ads, required this._lang});
