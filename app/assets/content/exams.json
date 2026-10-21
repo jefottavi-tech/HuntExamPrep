@@ -1,7 +1,7 @@
 {
   "_comment": "Exam recipes: which scopes feed each exam. questionCount / minutes / passMark must be checked against the official format before launch (verified=false until then).",
   "PAL": {
-    "name": {"fr": "Examen PAL (CCSMAF, armes sans restriction)", "en": "PAL exam (CFSC, non-restricted)"},
+    "name": {"fr": "Examen PPA (CCSMAF, armes sans restriction)", "en": "PAL exam (CFSC, non-restricted)"},
     "scopes": ["federal"],
     "questionCount": 50, "minutes": 60, "passMark": 0.8,
     "verified": false

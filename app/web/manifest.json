@@ -1,11 +1,11 @@
 {
-    "name": "hunt_exam_prep",
-    "short_name": "hunt_exam_prep",
+    "name": "Examen PPA & Chasse · PAL & Hunting Exam Prep",
+    "short_name": "Hunt",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Pratique pour les examens PPA (CCSMAF) et de chasse · Practice for the PAL (CFSC) and hunter exams",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
