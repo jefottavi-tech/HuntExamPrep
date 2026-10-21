@@ -80,8 +80,8 @@ void main() {
     await tester.tap(find.text('Accueil'));
     await tester.pumpAndSettle();
     expect(find.byKey(const Key('review-PAL')), findsOneWidget);
-    expect(find.text('Révision (1)'), findsOneWidget);
-    expect(find.text('Préparation 67 %'), findsOneWidget);
+    expect(find.text('Revoir mes erreurs (1)'), findsOneWidget);
+    expect(find.byWidgetPredicate((w) => w is Semantics && w.properties.label == 'Préparation 67 %'), findsOneWidget);
     expect(find.text('1 jour de suite'), findsOneWidget);
   });
 

@@ -141,7 +141,10 @@ class _QuizScreenState extends State<QuizScreen> {
                 child: Center(
                   child: Text(
                     '${_left.inMinutes}:${(_left.inSeconds % 60).toString().padLeft(2, '0')}',
-                    style: theme.textTheme.titleMedium?.copyWith(fontFeatures: const [FontFeature.tabularFigures()]),
+                    style: theme.textTheme.titleMedium?.copyWith(
+                      fontFeatures: const [FontFeature.tabularFigures()],
+                      color: _left.inMinutes < 5 ? theme.colorScheme.error : null,
+                    ),
                   ),
                 ),
               ),
@@ -155,7 +158,7 @@ class _QuizScreenState extends State<QuizScreen> {
           child: ListView(
             padding: const EdgeInsets.all(16),
             children: [
-              Text(text.q, style: theme.textTheme.titleLarge),
+              Text(text.q, style: theme.textTheme.titleLarge?.copyWith(height: 1.3)),
               const SizedBox(height: 20),
               for (var i = 0; i < text.choices.length; i++)
                 _ChoiceTile(
@@ -174,18 +177,29 @@ class _QuizScreenState extends State<QuizScreen> {
                 const SizedBox(height: 8),
                 Card(
                   key: const Key('feedback'),
+                  color: (chosen == q.answerIndex ? Colors.green : theme.colorScheme.error).withValues(alpha: 0.08),
                   child: Padding(
                     padding: const EdgeInsets.all(16),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
-                          app.t(chosen == q.answerIndex ? 'correct' : 'wrong'),
-                          style: theme.textTheme.titleMedium?.copyWith(
-                            color: chosen == q.answerIndex ? Colors.green.shade700 : theme.colorScheme.error,
+                        Row(children: [
+                          Icon(
+                            chosen == q.answerIndex ? Icons.check_circle : Icons.cancel,
+                            color: chosen == q.answerIndex ? Colors.green.shade600 : theme.colorScheme.error,
                           ),
-                        ),
-                        const SizedBox(height: 6),
+                          const SizedBox(width: 8),
+                          Text(
+                            app.t(chosen == q.answerIndex ? 'correct' : 'wrong'),
+                            style: theme.textTheme.titleMedium?.copyWith(
+                              fontWeight: FontWeight.w700,
+                              color: chosen == q.answerIndex ? Colors.green.shade600 : theme.colorScheme.error,
+                            ),
+                          ),
+                        ]),
+                        const SizedBox(height: 10),
+                        Text(app.t('why'), style: theme.textTheme.labelLarge),
+                        const SizedBox(height: 2),
                         Text(text.explanation),
                         const SizedBox(height: 6),
                         SourceLinks(question: q),

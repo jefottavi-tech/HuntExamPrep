@@ -8,34 +8,10 @@
     "volatile": false
   },
   {
-    "objectiveId": "hunter-common-l04-002",
-    "scope": "hunter-common",
-    "chapter": "l04",
-    "statement": "A hunter who hits the vital zone keeps priority on the game even if a second hunter also hits it while it flees; a hunter who only wounds it loses priority to one who hits the vital zone.",
-    "sourceRef": "icaf_fr.pdf p.27",
-    "volatile": false
-  },
-  {
     "objectiveId": "hunter-common-l04-003",
     "scope": "hunter-common",
     "chapter": "l04",
     "statement": "In Québec, a hunter must get the owner's permission before hunting on private land, even unfenced, and must ask again at each visit.",
-    "sourceRef": "icaf_fr.pdf p.28",
-    "volatile": false
-  },
-  {
-    "objectiveId": "hunter-common-l04-004",
-    "scope": "hunter-common",
-    "chapter": "l04",
-    "statement": "On public land, free access for hunting is guaranteed by law; no hunter may claim a territory and block access to others, even if they arrived first.",
-    "sourceRef": "icaf_fr.pdf p.28",
-    "volatile": false
-  },
-  {
-    "objectiveId": "hunter-common-l04-005",
-    "scope": "hunter-common",
-    "chapter": "l04",
-    "statement": "On public land, signs warning of a hunter at a stand should state the period and a contact, be limited to about 300 m around the stand, and be removed when the hunt ends.",
     "sourceRef": "icaf_fr.pdf p.28",
     "volatile": false
   },
@@ -45,14 +21,6 @@
     "chapter": "l04",
     "statement": "If a hunting companion breaks the rules, insist politely but firmly that he comply; hunters must report any poaching.",
     "sourceRef": "icaf_fr.pdf p.28",
-    "volatile": false
-  },
-  {
-    "objectiveId": "hunter-common-l04-007",
-    "scope": "hunter-common",
-    "chapter": "l04",
-    "statement": "Before shooting, the hunter must clearly identify the game and make sure it can be recovered; the game should be still, well placed and in the open.",
-    "sourceRef": "icaf_fr.pdf p.27",
     "volatile": false
   },
   {
@@ -70,22 +38,6 @@
     "statement": "There are four groups of commercial air guns: refillable air reservoir, pump-lever, piston, and CO2.",
     "sourceRef": "icaf_fr.pdf p.30",
     "volatile": false
-  },
-  {
-    "objectiveId": "hunter-common-l05-003",
-    "scope": "hunter-common",
-    "chapter": "l05",
-    "statement": "The piston (spring-piston) air gun is the type most often used for hunting in Québec; it fires only one projectile at a time.",
-    "sourceRef": "icaf_fr.pdf p.30",
-    "volatile": false
-  },
-  {
-    "objectiveId": "hunter-common-l05-004",
-    "scope": "hunter-common",
-    "chapter": "l05",
-    "statement": "Under Québec wildlife law, air rifles of .177 calibre or more with a velocity of at least 152.4 m/s are allowed for small game hunting.",
-    "sourceRef": "icaf_fr.pdf p.30",
-    "volatile": true
   },
   {
     "objectiveId": "hunter-common-l05-005",
@@ -152,22 +104,6 @@
     "volatile": false
   },
   {
-    "objectiveId": "hunter-common-l05-013",
-    "scope": "hunter-common",
-    "chapter": "l05",
-    "statement": "With a less powerful air gun, aim at the small game's head, between the eye and the ear, the most fragile part of the skull.",
-    "sourceRef": "icaf_fr.pdf p.32",
-    "volatile": false
-  },
-  {
-    "objectiveId": "hunter-common-l05-014",
-    "scope": "hunter-common",
-    "chapter": "l05",
-    "statement": "The most common air gun calibres are .177 and .22; for hunting, choose the heavier pellet (.22) and practise at various distances with the same ammunition.",
-    "sourceRef": "icaf_fr.pdf p.32",
-    "volatile": false
-  },
-  {
     "objectiveId": "hunter-common-l05-015",
     "scope": "hunter-common",
     "chapter": "l05",
@@ -197,22 +133,6 @@
     "chapter": "l05",
     "statement": "With a break-barrel spring gun, always complete the cocking movement fully, because the barrel can snap back and injure your face or damage the gun.",
     "sourceRef": "icaf_fr.pdf p.33",
-    "volatile": false
-  },
-  {
-    "objectiveId": "hunter-common-l05-019",
-    "scope": "hunter-common",
-    "chapter": "l05",
-    "statement": "Muzzleloaders used for hunting fall into two categories by ignition: traditional percussion and in-line percussion; in-line models are bolt, sliding breech and hinged (break-action), the hinged being most used in Québec.",
-    "sourceRef": "icaf_fr.pdf p.34",
-    "volatile": false
-  },
-  {
-    "objectiveId": "hunter-common-l05-020",
-    "scope": "hunter-common",
-    "chapter": "l05",
-    "statement": "In Québec, muzzleloaders allowed for hunting can fire only one shot before being reloaded through the muzzle.",
-    "sourceRef": "icaf_fr.pdf p.34",
     "volatile": false
   },
   {
@@ -416,14 +336,6 @@
     "volatile": false
   },
   {
-    "objectiveId": "hunter-common-l07-012",
-    "scope": "hunter-common",
-    "chapter": "l07",
-    "statement": "Hunting with dogs is allowed for small game and migratory birds but prohibited for white-tailed deer, moose and bear.",
-    "sourceRef": "icaf_fr.pdf p.58",
-    "volatile": true
-  },
-  {
     "objectiveId": "hunter-common-l07-013",
     "scope": "hunter-common",
     "chapter": "l07",
@@ -432,43 +344,11 @@
     "volatile": false
   },
   {
-    "objectiveId": "hunter-common-l07-014",
-    "scope": "hunter-common",
-    "chapter": "l07",
-    "statement": "Electronic calls are prohibited for hunting ducks, geese and woodcock.",
-    "sourceRef": "icaf_fr.pdf p.59",
-    "volatile": true
-  },
-  {
     "objectiveId": "hunter-common-l07-015",
     "scope": "hunter-common",
     "chapter": "l07",
     "statement": "Rattling consists of clashing cervid antlers to imitate a fight between rivals during the rut, in order to attract a dominant male.",
     "sourceRef": "icaf_fr.pdf p.59",
-    "volatile": false
-  },
-  {
-    "objectiveId": "hunter-common-l07-016",
-    "scope": "hunter-common",
-    "chapter": "l07",
-    "statement": "Scent lures made from cervid urine are prohibited to prevent the spread of chronic wasting disease; mare-in-heat urine (commercial, synthetic or natural) may be used for deer or moose.",
-    "sourceRef": "icaf_fr.pdf p.59",
-    "volatile": true
-  },
-  {
-    "objectiveId": "hunter-common-l07-017",
-    "scope": "hunter-common",
-    "chapter": "l07",
-    "statement": "Baiting waterfowl and wild turkey is prohibited during the entire hunting period; baiting periods for bear and deer depend on the zone, so check the regulations each year.",
-    "sourceRef": "icaf_fr.pdf p.60",
-    "volatile": true
-  },
-  {
-    "objectiveId": "hunter-common-l07-018",
-    "scope": "hunter-common",
-    "chapter": "l07",
-    "statement": "Antlers 10 cm or longer are the only sign confirming that a moose is an adult male; without visible antlers it may be a young male, an adult female or a calf.",
-    "sourceRef": "icaf_fr.pdf p.60",
     "volatile": false
   },
   {
@@ -776,14 +656,6 @@
     "volatile": false
   },
   {
-    "objectiveId": "hunter-common-l10-013",
-    "scope": "hunter-common",
-    "chapter": "l10",
-    "statement": "Some animals such as raccoons and foxes can carry rabies; after an animal bite, immediately wash the wound and call Info-Santé 811 and follow their instructions.",
-    "sourceRef": "icaf_fr.pdf p.72",
-    "volatile": false
-  },
-  {
     "objectiveId": "hunter-common-l10-014",
     "scope": "hunter-common",
     "chapter": "l10",
@@ -856,14 +728,6 @@
     "volatile": false
   },
   {
-    "objectiveId": "hunter-common-l12-001",
-    "scope": "hunter-common",
-    "chapter": "l12",
-    "statement": "In Québec, wildlife is a collective good that each generation must manage wisely to ensure the survival of wildlife and of hunting.",
-    "sourceRef": "icaf_fr.pdf p.75",
-    "volatile": false
-  },
-  {
     "objectiveId": "hunter-common-l12-002",
     "scope": "hunter-common",
     "chapter": "l12",
@@ -877,14 +741,6 @@
     "chapter": "l12",
     "statement": "New hunters are advised to hunt with experienced hunters to improve their techniques, and all hunters should practise regularly to improve shooting accuracy.",
     "sourceRef": "icaf_fr.pdf p.75",
-    "volatile": false
-  },
-  {
-    "objectiveId": "hunter-common-l12-004",
-    "scope": "hunter-common",
-    "chapter": "l12",
-    "statement": "For further information, hunters can contact the ministry responsible for wildlife management or the Fédération québécoise des chasseurs et pêcheurs (FédéCP); FédéCP membership includes accident insurance.",
-    "sourceRef": "icaf_fr.pdf p.76",
     "volatile": false
   }
 ]

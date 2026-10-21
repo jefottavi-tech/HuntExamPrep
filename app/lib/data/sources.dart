@@ -16,6 +16,10 @@ const manuals = {
     {'fr': 'Manuel ICAF (FédéCP, 2020)', 'en': 'ICAF manual (FédéCP, 2020)'},
     'https://fedecp.com/media/7535/icaf-fr-3-08-2020.pdf',
   ),
+  'ab_hunting_2026.pdf': Manual(
+    {'fr': 'Guide des règlements de chasse de l\'Alberta 2026', 'en': '2026 Alberta Guide to Hunting Regulations'},
+    'https://www.albertaregulations.ca/2026-Alberta-Hunting-Regulations.pdf',
+  ),
 };
 
 /// A readable source line and a link that opens the manual at the right PDF page.

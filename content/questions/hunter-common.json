@@ -30,66 +30,6 @@
     "sourceUrl": null
   },
   {
-    "id": "hunter-common-l04-002-q1",
-    "scope": "hunter-common",
-    "chapter": "l04",
-    "objectiveId": "hunter-common-l04-002",
-    "reviewYear": null,
-    "fr": {
-      "q": "Vous blessez un cerf hors de la zone vitale. Pendant sa fuite, un autre chasseur l'atteint dans la zone vitale. Qui a priorité sur le gibier?",
-      "choices": [
-        "Vous, car vous avez tiré en premier",
-        "Le propriétaire du terrain où l'animal tombe",
-        "L'autre chasseur, car il a atteint la zone vitale",
-        "Le premier des deux qui trouve l'animal"
-      ],
-      "explanation": "Si vous ne faites que blesser l'animal et qu'un deuxième chasseur atteint la zone vitale, vous perdez votre droit de priorité."
-    },
-    "en": {
-      "q": "You wound a deer outside the vital zone. As it flees, another hunter hits it in the vital zone. Who has priority on the game?",
-      "choices": [
-        "You, because you fired first",
-        "The owner of the land where the animal falls",
-        "The other hunter, because he hit the vital zone",
-        "Whichever of the two finds the animal first"
-      ],
-      "explanation": "If you only wound the animal and a second hunter hits the vital zone, you lose your priority."
-    },
-    "answerIndex": 2,
-    "sourceRef": "icaf_fr.pdf p.27",
-    "sourceUrl": null
-  },
-  {
-    "id": "hunter-common-l04-002-q2",
-    "scope": "hunter-common",
-    "chapter": "l04",
-    "objectiveId": "hunter-common-l04-002",
-    "reviewYear": null,
-    "fr": {
-      "q": "Vous atteignez un orignal dans la zone vitale. L'animal parcourt une distance et un autre chasseur le touche aussi pendant sa fuite. Qui a priorité?",
-      "choices": [
-        "L'autre chasseur, car il a tiré en dernier",
-        "Les deux chasseurs, à parts égales",
-        "Vous, car votre tir a atteint la zone vitale",
-        "Celui qui détient le permis le plus ancien"
-      ],
-      "explanation": "Le chasseur qui a d'abord atteint la zone vitale garde la priorité sur le gibier, même si un deuxième chasseur l'atteint pendant sa fuite."
-    },
-    "en": {
-      "q": "You hit a moose in the vital zone. It travels some distance and another hunter also hits it as it flees. Who has priority?",
-      "choices": [
-        "The other hunter, because he fired last",
-        "Both hunters, equally",
-        "You, because your shot hit the vital zone",
-        "Whoever has held a licence the longest"
-      ],
-      "explanation": "The hunter who first hit the vital zone keeps priority on the game, even if a second hunter hits it while it flees."
-    },
-    "answerIndex": 2,
-    "sourceRef": "icaf_fr.pdf p.27",
-    "sourceUrl": null
-  },
-  {
     "id": "hunter-common-l04-003-q1",
     "scope": "hunter-common",
     "chapter": "l04",
@@ -116,96 +56,6 @@
       "explanation": "You must always get the owner's permission before hunting on private property, even unfenced, and renew the request at every visit."
     },
     "answerIndex": 1,
-    "sourceRef": "icaf_fr.pdf p.28",
-    "sourceUrl": null
-  },
-  {
-    "id": "hunter-common-l04-004-q1",
-    "scope": "hunter-common",
-    "chapter": "l04",
-    "objectiveId": "hunter-common-l04-004",
-    "reviewYear": null,
-    "fr": {
-      "q": "Vous êtes arrivé le premier dans un secteur de chasse en territoire public. Un autre chasseur arrive. Que dit le manuel?",
-      "choices": [
-        "Vous pouvez lui interdire l'accès au secteur puisque vous y étiez arrivé avant lui",
-        "Vous pouvez l'expulser du secteur si vous avez posé des affiches à votre nom",
-        "Il est interdit de vous approprier le territoire et d'en bloquer l'accès",
-        "Il doit vous verser un droit d'accès ou s'installer à plus d'un kilomètre"
-      ],
-      "explanation": "En territoire public, le libre accès est garanti par la loi; il est interdit de s'approprier un territoire, même si on l'occupait en premier."
-    },
-    "en": {
-      "q": "You were the first to arrive at a hunting spot on public land. Another hunter shows up. What does the manual say?",
-      "choices": [
-        "You may deny him access to the area since you got there before him",
-        "You may send him out of the area if you have posted signs with your name",
-        "You may not claim the territory or block access to it",
-        "He must pay you an access fee or set up more than a kilometre away"
-      ],
-      "explanation": "On public land, free access is guaranteed by law; you may not claim a territory, even if you were there first."
-    },
-    "answerIndex": 2,
-    "sourceRef": "icaf_fr.pdf p.28",
-    "sourceUrl": null
-  },
-  {
-    "id": "hunter-common-l04-005-q1",
-    "scope": "hunter-common",
-    "chapter": "l04",
-    "objectiveId": "hunter-common-l04-005",
-    "reviewYear": null,
-    "fr": {
-      "q": "Vous chassez à l'affût en territoire public et posez des affiches aux entrées du secteur. Dans quel rayon autour de votre poste devriez-vous raisonnablement limiter cet affichage?",
-      "choices": [
-        "100 mètres",
-        "1 kilomètre",
-        "300 mètres",
-        "5 kilomètres"
-      ],
-      "explanation": "Par respect pour les autres chasseurs, l'affichage devrait se limiter à un rayon d'environ 300 mètres autour du poste d'affût."
-    },
-    "en": {
-      "q": "You are hunting from a stand on public land and post signs at the entrances to the area. Within what radius of your stand should you reasonably limit these signs?",
-      "choices": [
-        "100 metres",
-        "1 kilometre",
-        "300 metres",
-        "5 kilometres"
-      ],
-      "explanation": "Out of respect for other hunters, signs should be limited to a radius of about 300 metres around the stand."
-    },
-    "answerIndex": 2,
-    "sourceRef": "icaf_fr.pdf p.28",
-    "sourceUrl": null
-  },
-  {
-    "id": "hunter-common-l04-005-q2",
-    "scope": "hunter-common",
-    "chapter": "l04",
-    "objectiveId": "hunter-common-l04-005",
-    "reviewYear": null,
-    "fr": {
-      "q": "Quelle pratique est correcte concernant les affiches signalant un chasseur à l'affût en territoire public?",
-      "choices": [
-        "Indiquer la période visée et un moyen de vous joindre",
-        "Les laisser en place jusqu'à la saison suivante",
-        "Y écrire que le secteur vous appartient",
-        "Les poser seulement sur les terres privées"
-      ],
-      "explanation": "L'affiche doit mentionner la période pour laquelle vous demandez le respect des autres et un moyen de vous contacter; on la retire dès la fin de l'affût."
-    },
-    "en": {
-      "q": "Which practice is correct for signs warning that a hunter is at a stand on public land?",
-      "choices": [
-        "State the period covered and a way to reach you",
-        "Leave them up until the next season",
-        "Write on them that the area belongs to you",
-        "Post them only on private land"
-      ],
-      "explanation": "The sign must state the period for which you ask others for respect and a way to contact you; remove it as soon as your hunt ends."
-    },
-    "answerIndex": 0,
     "sourceRef": "icaf_fr.pdf p.28",
     "sourceUrl": null
   },
@@ -237,36 +87,6 @@
     },
     "answerIndex": 0,
     "sourceRef": "icaf_fr.pdf p.28",
-    "sourceUrl": null
-  },
-  {
-    "id": "hunter-common-l04-007-q1",
-    "scope": "hunter-common",
-    "chapter": "l04",
-    "objectiveId": "hunter-common-l04-007",
-    "reviewYear": null,
-    "fr": {
-      "q": "Avant de tirer sur un gibier, que devez-vous vous assurer de faire, selon la loi?",
-      "choices": [
-        "Bien l'identifier et pouvoir le récupérer",
-        "Attendre qu'il soit en mouvement",
-        "Tirer avant qu'il entre dans le dégagé",
-        "Viser la tête peu importe la distance"
-      ],
-      "explanation": "Avant de tirer sur un gibier immobile et bien placé dans un endroit dégagé, il faut bien l'identifier et s'assurer de pouvoir le récupérer."
-    },
-    "en": {
-      "q": "Before shooting at game, what must you make sure of, according to the law?",
-      "choices": [
-        "That you have identified it and can recover it",
-        "That it is moving",
-        "That you shoot before it reaches the open",
-        "That you aim at the head at any distance"
-      ],
-      "explanation": "Before shooting at game that is still, well placed and in the open, you must identify it clearly and be sure you can recover it."
-    },
-    "answerIndex": 0,
-    "sourceRef": "icaf_fr.pdf p.27",
     "sourceUrl": null
   },
   {
@@ -328,66 +148,6 @@
     "answerIndex": 2,
     "sourceRef": "icaf_fr.pdf p.30",
     "sourceUrl": null
-  },
-  {
-    "id": "hunter-common-l05-003-q1",
-    "scope": "hunter-common",
-    "chapter": "l05",
-    "objectiveId": "hunter-common-l05-003",
-    "reviewYear": null,
-    "fr": {
-      "q": "Quel type d'arme à air comprimé est le plus fréquemment utilisé pour la chasse au Québec?",
-      "choices": [
-        "L'arme à CO2",
-        "L'arme à levier-pompe",
-        "L'arme à piston",
-        "L'arme à réservoir d'air rechargeable"
-      ],
-      "explanation": "Le manuel indique que l'arme à piston est la plus utilisée pour la chasse au Québec; il la prend donc comme référence."
-    },
-    "en": {
-      "q": "Which type of air gun is most often used for hunting in Québec?",
-      "choices": [
-        "The CO2 gun",
-        "The pump-lever gun",
-        "The piston gun",
-        "The refillable air reservoir gun"
-      ],
-      "explanation": "The manual states that the piston gun is the one most used for hunting in Québec, so it uses it as the reference."
-    },
-    "answerIndex": 2,
-    "sourceRef": "icaf_fr.pdf p.30",
-    "sourceUrl": null
-  },
-  {
-    "id": "hunter-common-l05-004-q1",
-    "scope": "hunter-common",
-    "chapter": "l05",
-    "objectiveId": "hunter-common-l05-004",
-    "reviewYear": 2026,
-    "fr": {
-      "q": "Selon la loi québécoise sur la faune, quelles carabines à air comprimé sont permises pour chasser le petit gibier?",
-      "choices": [
-        "Calibre .177 ou plus et vélocité d'au moins 152,4 m/s",
-        "Tout calibre, peu importe la vélocité",
-        "Calibre .22 seulement et vélocité d'au moins 300 m/s",
-        "Calibre inférieur à .177 et vélocité de moins de 152,4 m/s"
-      ],
-      "explanation": "La loi permet, pour le petit gibier, les carabines à air comprimé de calibre .177 ou plus qui atteignent au moins 152,4 m/s."
-    },
-    "en": {
-      "q": "Under Québec wildlife law, which air rifles are allowed for hunting small game?",
-      "choices": [
-        ".177 calibre or more and at least 152.4 m/s velocity",
-        "Any calibre at any velocity",
-        ".22 calibre only and at least 300 m/s velocity",
-        "Under .177 calibre and under 152.4 m/s velocity"
-      ],
-      "explanation": "For small game, the law allows air rifles of .177 calibre or more that reach at least 152.4 m/s."
-    },
-    "answerIndex": 0,
-    "sourceRef": "icaf_fr.pdf p.30",
-    "sourceUrl": "https://www.quebec.ca/tourisme-loisirs-sport/activites-sportives-et-de-plein-air/chasse-sportive/armes-munitions-equipements"
   },
   {
     "id": "hunter-common-l05-005-q1",
@@ -630,96 +390,6 @@
     "sourceUrl": null
   },
   {
-    "id": "hunter-common-l05-013-q1",
-    "scope": "hunter-common",
-    "chapter": "l05",
-    "objectiveId": "hunter-common-l05-013",
-    "reviewYear": null,
-    "fr": {
-      "q": "Votre arme à air comprimé est peu puissante. Où devriez-vous viser un petit gibier?",
-      "choices": [
-        "À l'arrière-train, pour ne pas abîmer la viande",
-        "Au milieu de l'abdomen, la cible la plus large",
-        "Aux pattes avant, pour l'empêcher de fuir",
-        "À la tête, entre l'œil et l'oreille"
-      ],
-      "explanation": "Avec une arme moins puissante, on vise la tête entre l'œil et l'oreille, la partie la plus fragile du crâne."
-    },
-    "en": {
-      "q": "Your air gun is not very powerful. Where should you aim on small game?",
-      "choices": [
-        "At the hindquarters, to avoid spoiling the meat",
-        "In the middle of the abdomen, the largest target",
-        "At the front legs, to stop it from running",
-        "At the head, between the eye and the ear"
-      ],
-      "explanation": "With a less powerful gun, aim at the head between the eye and the ear, the most fragile part of the skull."
-    },
-    "answerIndex": 3,
-    "sourceRef": "icaf_fr.pdf p.32",
-    "sourceUrl": null
-  },
-  {
-    "id": "hunter-common-l05-014-q1",
-    "scope": "hunter-common",
-    "chapter": "l05",
-    "objectiveId": "hunter-common-l05-014",
-    "reviewYear": null,
-    "fr": {
-      "q": "Vous choisissez des projectiles pour chasser le petit gibier à l'arme à air comprimé. Que recommande le manuel?",
-      "choices": [
-        "Le projectile le plus léger, en .177",
-        "Changer de projectile à chaque sortie",
-        "Des projectiles différents pour l'entraînement et la chasse",
-        "Le projectile de plus grande masse, en .22"
-      ],
-      "explanation": "Pour la chasse, on conseille le projectile de plus grande masse (.22) et de s'entraîner à différentes distances avec les mêmes munitions."
-    },
-    "en": {
-      "q": "You are choosing pellets for hunting small game with an air gun. What does the manual recommend?",
-      "choices": [
-        "The lightest pellet, in .177",
-        "A different pellet at each outing",
-        "Different pellets for practice and for hunting",
-        "The heaviest pellet, in .22"
-      ],
-      "explanation": "For hunting, choose the heaviest pellet (.22) and practise at various distances with the same ammunition."
-    },
-    "answerIndex": 3,
-    "sourceRef": "icaf_fr.pdf p.32",
-    "sourceUrl": null
-  },
-  {
-    "id": "hunter-common-l05-015-q1",
-    "scope": "hunter-common",
-    "chapter": "l05",
-    "objectiveId": "hunter-common-l05-015",
-    "reviewYear": null,
-    "fr": {
-      "q": "Quelle est la portée maximale efficace pour un tir mortel rapide sur un petit gibier avec une arme à air comprimé?",
-      "choices": [
-        "10 mètres",
-        "100 mètres",
-        "30 mètres",
-        "640 mètres"
-      ],
-      "explanation": "La portée maximale efficace pour un tir mortel rapide sur un petit gibier est de 30 mètres, soit environ 100 pieds."
-    },
-    "en": {
-      "q": "What is the maximum effective range for a quick kill on small game with an air gun?",
-      "choices": [
-        "10 metres",
-        "100 metres",
-        "30 metres",
-        "640 metres"
-      ],
-      "explanation": "The maximum effective range for a quick kill on small game is 30 metres, about 100 feet."
-    },
-    "answerIndex": 2,
-    "sourceRef": "icaf_fr.pdf p.32",
-    "sourceUrl": null
-  },
-  {
     "id": "hunter-common-l05-015-q2",
     "scope": "hunter-common",
     "chapter": "l05",
@@ -837,66 +507,6 @@
     },
     "answerIndex": 1,
     "sourceRef": "icaf_fr.pdf p.33",
-    "sourceUrl": null
-  },
-  {
-    "id": "hunter-common-l05-019-q1",
-    "scope": "hunter-common",
-    "chapter": "l05",
-    "objectiveId": "hunter-common-l05-019",
-    "reviewYear": null,
-    "fr": {
-      "q": "Parmi les armes à chargement par la bouche à percussion alignée, quel modèle est le plus utilisé pour la chasse au Québec?",
-      "choices": [
-        "L'arme à charnière (bascule)",
-        "L'arme à verrou, comme une carabine",
-        "L'arme à culasse mobile coulissante",
-        "L'arme à platine à silex traditionnelle"
-      ],
-      "explanation": "Des trois modèles à percussion alignée (verrou, culasse mobile, charnière), l'arme à charnière est la plus utilisée au Québec."
-    },
-    "en": {
-      "q": "Among in-line muzzleloaders, which model is most used for hunting in Québec?",
-      "choices": [
-        "The hinged (break-action)",
-        "The bolt action, like a rifle",
-        "The sliding-breech action",
-        "The traditional flintlock"
-      ],
-      "explanation": "Of the three in-line models (bolt, sliding breech, hinged), the hinged break-action is most used in Québec."
-    },
-    "answerIndex": 0,
-    "sourceRef": "icaf_fr.pdf p.34",
-    "sourceUrl": null
-  },
-  {
-    "id": "hunter-common-l05-020-q1",
-    "scope": "hunter-common",
-    "chapter": "l05",
-    "objectiveId": "hunter-common-l05-020",
-    "reviewYear": null,
-    "fr": {
-      "q": "Au Québec, combien de coups une arme à chargement par la bouche autorisée pour la chasse peut-elle tirer avant d'être rechargée?",
-      "choices": [
-        "Deux",
-        "Un seul",
-        "Trois",
-        "Autant que le chargeur en contient"
-      ],
-      "explanation": "Les armes autorisées ne peuvent tirer qu'un seul coup avant d'être rechargées par la bouche du canon."
-    },
-    "en": {
-      "q": "In Québec, how many shots can a muzzleloader allowed for hunting fire before it must be reloaded?",
-      "choices": [
-        "Two",
-        "Only one",
-        "Three",
-        "As many as the magazine holds"
-      ],
-      "explanation": "Allowed muzzleloaders can fire only one shot before being reloaded through the muzzle."
-    },
-    "answerIndex": 1,
-    "sourceRef": "icaf_fr.pdf p.34",
     "sourceUrl": null
   },
   {
@@ -1710,36 +1320,6 @@
     "sourceUrl": null
   },
   {
-    "id": "hunter-common-l07-012-q1",
-    "scope": "hunter-common",
-    "chapter": "l07",
-    "objectiveId": "hunter-common-l07-012",
-    "reviewYear": 2026,
-    "fr": {
-      "q": "Pour lequel de ces gibiers la chasse avec chiens est-elle permise?",
-      "choices": [
-        "Le cerf de Virginie (chevreuil)",
-        "Les oiseaux migrateurs",
-        "L'orignal, adulte ou veau",
-        "L'ours noir au printemps"
-      ],
-      "explanation": "La chasse avec chiens est permise pour le petit gibier et les oiseaux migrateurs, mais interdite pour le cerf, l'orignal et l'ours."
-    },
-    "en": {
-      "q": "For which of these game animals is hunting with dogs allowed?",
-      "choices": [
-        "White-tailed deer (whitetail)",
-        "Migratory birds",
-        "Moose, adult or calf",
-        "Black bear in spring"
-      ],
-      "explanation": "Hunting with dogs is allowed for small game and migratory birds, but prohibited for deer, moose and bear."
-    },
-    "answerIndex": 1,
-    "sourceRef": "icaf_fr.pdf p.58",
-    "sourceUrl": "https://www.quebec.ca/tourisme-loisirs-sport/activites-sportives-et-de-plein-air/chasse-sportive/regles-generales/chasse-aide-animaux"
-  },
-  {
     "id": "hunter-common-l07-013-q1",
     "scope": "hunter-common",
     "chapter": "l07",
@@ -1770,36 +1350,6 @@
     "sourceUrl": null
   },
   {
-    "id": "hunter-common-l07-014-q1",
-    "scope": "hunter-common",
-    "chapter": "l07",
-    "objectiveId": "hunter-common-l07-014",
-    "reviewYear": 2026,
-    "fr": {
-      "q": "Pour quelle espèce est-il interdit d'utiliser un appeau électronique?",
-      "choices": [
-        "Le coyote",
-        "La corneille",
-        "La bernache",
-        "Le renard roux"
-      ],
-      "explanation": "Il est interdit d'utiliser des appeaux électroniques pour chasser le canard, la bernache et la bécasse."
-    },
-    "en": {
-      "q": "For which species is the use of an electronic call prohibited?",
-      "choices": [
-        "Coyote",
-        "Crow",
-        "Goose",
-        "Red fox"
-      ],
-      "explanation": "Electronic calls are prohibited for hunting ducks, geese and woodcock."
-    },
-    "answerIndex": 2,
-    "sourceRef": "icaf_fr.pdf p.59",
-    "sourceUrl": "https://www.quebec.ca/tourisme-loisirs-sport/activites-sportives-et-de-plein-air/chasse-sportive/armes-munitions-equipements"
-  },
-  {
     "id": "hunter-common-l07-015-q1",
     "scope": "hunter-common",
     "chapter": "l07",
@@ -1827,96 +1377,6 @@
     },
     "answerIndex": 2,
     "sourceRef": "icaf_fr.pdf p.59",
-    "sourceUrl": null
-  },
-  {
-    "id": "hunter-common-l07-016-q1",
-    "scope": "hunter-common",
-    "chapter": "l07",
-    "objectiveId": "hunter-common-l07-016",
-    "reviewYear": 2026,
-    "fr": {
-      "q": "Pourquoi est-il interdit d'utiliser des leurres olfactifs à base d'urine naturelle de cerf?",
-      "choices": [
-        "Parce qu'ils attirent les ours noirs près des postes d'affût",
-        "Parce qu'ils sont inefficaces pendant la période du rut des cervidés",
-        "Pour protéger les chiens de chasse qui pourraient s'en intoxiquer",
-        "Pour éviter la propagation de la maladie débilitante chronique"
-      ],
-      "explanation": "L'urine naturelle de cervidés (sauf celle d'orignal) et les autres leurres olfactifs naturels de cervidés, comme les glandes tarsiennes, sont interdits pour éviter la propagation de la maladie débilitante chronique."
-    },
-    "en": {
-      "q": "Why are scent lures made from natural deer urine prohibited?",
-      "choices": [
-        "Because they attract black bears to hunting stands",
-        "Because they do not work during the deer rutting period",
-        "To protect hunting dogs that could be poisoned by them",
-        "To prevent the spread of chronic wasting disease"
-      ],
-      "explanation": "Natural cervid urine (except moose urine) and other natural cervid scent lures, such as tarsal glands, are prohibited to prevent the spread of chronic wasting disease."
-    },
-    "answerIndex": 3,
-    "sourceRef": "icaf_fr.pdf p.59",
-    "sourceUrl": "https://www.quebec.ca/tourisme-loisirs-sport/activites-sportives-et-de-plein-air/chasse-sportive/armes-munitions-equipements"
-  },
-  {
-    "id": "hunter-common-l07-017-q1",
-    "scope": "hunter-common",
-    "chapter": "l07",
-    "objectiveId": "hunter-common-l07-017",
-    "reviewYear": 2026,
-    "fr": {
-      "q": "Pour lequel de ces gibiers est-il interdit d'utiliser des appâts pendant toute la période de chasse?",
-      "choices": [
-        "L'ours noir",
-        "La corneille",
-        "Le cerf de Virginie",
-        "Le dindon sauvage"
-      ],
-      "explanation": "Il est interdit d'appâter la sauvagine et le dindon sauvage durant toute la période de chasse."
-    },
-    "en": {
-      "q": "For which of these game animals is baiting prohibited during the entire hunting period?",
-      "choices": [
-        "Black bear",
-        "Crow",
-        "White-tailed deer",
-        "Wild turkey"
-      ],
-      "explanation": "Baiting waterfowl and wild turkey is prohibited during the entire hunting period."
-    },
-    "answerIndex": 3,
-    "sourceRef": "icaf_fr.pdf p.60",
-    "sourceUrl": "https://cdn-contenu.quebec.ca/cdn-contenu/chasse/Documents/nouveautes-chasseurs-dindon-sauvage-2024.pdf"
-  },
-  {
-    "id": "hunter-common-l07-018-q1",
-    "scope": "hunter-common",
-    "chapter": "l07",
-    "objectiveId": "hunter-common-l07-018",
-    "reviewYear": null,
-    "fr": {
-      "q": "Quel est le seul indice certifiant qu'un orignal est un mâle adulte?",
-      "choices": [
-        "Une tache blanche sous la queue",
-        "Un museau protubérant et renflé",
-        "Une tête de forme triangulaire",
-        "Des bois de 10 centimètres et plus"
-      ],
-      "explanation": "Les bois de 10 cm et plus sont le seul indice qui certifie un mâle adulte; sans bois apparents, ce peut être un jeune mâle, une femelle ou un veau."
-    },
-    "en": {
-      "q": "What is the only sign that confirms a moose is an adult male?",
-      "choices": [
-        "A white patch under the tail",
-        "A protruding, swollen muzzle",
-        "A triangular head shape",
-        "Antlers 10 centimetres or longer"
-      ],
-      "explanation": "Antlers of 10 cm or more are the only sign confirming an adult male; without visible antlers it may be a young male, a female or a calf."
-    },
-    "answerIndex": 3,
-    "sourceRef": "icaf_fr.pdf p.60",
     "sourceUrl": null
   },
   {
@@ -3300,36 +2760,6 @@
     "sourceUrl": null
   },
   {
-    "id": "hunter-common-l10-013-q1",
-    "scope": "hunter-common",
-    "chapter": "l10",
-    "objectiveId": "hunter-common-l10-013",
-    "reviewYear": null,
-    "fr": {
-      "q": "Un raton laveur vous mord à la main. Que devez-vous faire?",
-      "choices": [
-        "Simplement mettre un pansement propre et continuer votre journée de chasse",
-        "Laver immédiatement la plaie et téléphoner à Info-Santé 811",
-        "Attendre quelques jours pour voir si de la fièvre ou des symptômes apparaissent",
-        "Brûler la plaie avec une lame chauffée pour la désinfecter"
-      ],
-      "explanation": "Après une morsure, on lave immédiatement la plaie, on téléphone à Info-Santé 811 et on suit leurs directives, car l'animal pourrait porter la rage."
-    },
-    "en": {
-      "q": "A raccoon bites your hand. What should you do?",
-      "choices": [
-        "Just put on a clean bandage and carry on with your hunting day",
-        "Wash the wound right away and call Info-Santé 811",
-        "Wait a few days to see whether fever or symptoms appear",
-        "Burn the wound with a heated blade to disinfect it"
-      ],
-      "explanation": "After a bite, wash the wound right away, call Info-Santé 811 and follow their instructions, since the animal could carry rabies."
-    },
-    "answerIndex": 1,
-    "sourceRef": "icaf_fr.pdf p.72",
-    "sourceUrl": null
-  },
-  {
     "id": "hunter-common-l10-014-q1",
     "scope": "hunter-common",
     "chapter": "l10",
@@ -3690,36 +3120,6 @@
     "sourceUrl": null
   },
   {
-    "id": "hunter-common-l12-001-q1",
-    "scope": "hunter-common",
-    "chapter": "l12",
-    "objectiveId": "hunter-common-l12-001",
-    "reviewYear": null,
-    "fr": {
-      "q": "Selon le manuel, comment la faune est-elle considérée au Québec?",
-      "choices": [
-        "Comme la propriété des chasseurs qui la récoltent",
-        "Comme un bien collectif à gérer judicieusement",
-        "Comme la propriété des propriétaires fonciers",
-        "Comme une ressource illimitée"
-      ],
-      "explanation": "La faune est un bien collectif, et chaque génération doit gérer judicieusement cette richesse pour en assurer la pérennité ainsi que celle de la chasse."
-    },
-    "en": {
-      "q": "According to the manual, how is wildlife regarded in Québec?",
-      "choices": [
-        "As the property of the hunters who harvest it",
-        "As a collective good to be managed wisely",
-        "As the property of landowners",
-        "As an unlimited resource"
-      ],
-      "explanation": "Wildlife is a collective good, and each generation must manage it wisely to ensure its survival and that of hunting."
-    },
-    "answerIndex": 1,
-    "sourceRef": "icaf_fr.pdf p.75",
-    "sourceUrl": null
-  },
-  {
     "id": "hunter-common-l12-002-q1",
     "scope": "hunter-common",
     "chapter": "l12",
@@ -3807,36 +3207,6 @@
     },
     "answerIndex": 2,
     "sourceRef": "icaf_fr.pdf p.75",
-    "sourceUrl": null
-  },
-  {
-    "id": "hunter-common-l12-004-q1",
-    "scope": "hunter-common",
-    "chapter": "l12",
-    "objectiveId": "hunter-common-l12-004",
-    "reviewYear": null,
-    "fr": {
-      "q": "Selon le manuel, quel avantage offre l'adhésion à la Fédération québécoise des chasseurs et pêcheurs?",
-      "choices": [
-        "Un permis de chasse gratuit",
-        "L'accès exclusif aux terres publiques",
-        "Une exemption des règlements de chasse",
-        "Une assurance en cas d'accidents"
-      ],
-      "explanation": "Les membres de la FédéCP profitent notamment d'une assurance en cas d'accidents et d'avantages exclusifs."
-    },
-    "en": {
-      "q": "According to the manual, what benefit does membership in the Fédération québécoise des chasseurs et pêcheurs offer?",
-      "choices": [
-        "A free hunting licence",
-        "Exclusive access to public land",
-        "An exemption from hunting regulations",
-        "Accident insurance"
-      ],
-      "explanation": "FédéCP members benefit from accident insurance among other exclusive advantages."
-    },
-    "answerIndex": 3,
-    "sourceRef": "icaf_fr.pdf p.76",
     "sourceUrl": null
   }
 ]

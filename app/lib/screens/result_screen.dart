@@ -34,16 +34,39 @@ class ResultScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         children: [
           if (timeUp) Text(app.t('timeUp'), textAlign: TextAlign.center, style: theme.textTheme.titleMedium),
-          const SizedBox(height: 8),
-          Text('$pct %', key: const Key('score'), textAlign: TextAlign.center,
-              style: theme.textTheme.displayMedium?.copyWith(color: color, fontWeight: FontWeight.bold)),
-          Text('${s.correctCount} / ${s.questions.length}', textAlign: TextAlign.center, style: theme.textTheme.titleMedium),
+          const SizedBox(height: 12),
+          Center(
+            child: SizedBox(
+              width: 160,
+              height: 160,
+              child: Stack(alignment: Alignment.center, children: [
+                SizedBox.expand(
+                  child: CircularProgressIndicator(
+                    value: s.score,
+                    strokeWidth: 12,
+                    color: color,
+                    backgroundColor: theme.colorScheme.surfaceContainerHighest,
+                  ),
+                ),
+                Column(mainAxisSize: MainAxisSize.min, children: [
+                  Text('$pct %', key: const Key('score'),
+                      style: theme.textTheme.displaySmall?.copyWith(color: color, fontWeight: FontWeight.bold)),
+                  Text('${s.correctCount} / ${s.questions.length}', style: theme.textTheme.titleMedium),
+                ]),
+              ]),
+            ),
+          ),
           if (isExam) ...[
-            const SizedBox(height: 8),
-            Text(
-              '${app.t(s.passed ? 'passed' : 'failed')} · ${app.t('passMark')} ${(s.exam.passMark * 100).round()} %',
-              textAlign: TextAlign.center,
-              style: theme.textTheme.titleMedium?.copyWith(color: color),
+            const SizedBox(height: 16),
+            Center(
+              child: Chip(
+                avatar: Icon(s.passed ? Icons.verified : Icons.error_outline, color: color, size: 20),
+                label: Text(
+                  '${app.t(s.passed ? 'passed' : 'failed')} · ${app.t('passMark')} ${(s.exam.passMark * 100).round()} %',
+                  style: TextStyle(color: color, fontWeight: FontWeight.w600),
+                ),
+                side: BorderSide(color: color),
+              ),
             ),
           ],
           const SizedBox(height: 24),

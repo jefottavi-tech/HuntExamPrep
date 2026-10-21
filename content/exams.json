@@ -12,6 +12,12 @@
     "questionCount": 50, "minutes": 60, "passMark": 0.8,
     "verified": false
   },
+  "ABHE": {
+    "name": {"fr": "Éducation à la chasse et à la conservation (Alberta)", "en": "Alberta Conservation and Hunter Education"},
+    "scopes": ["hunter-common", "AB"],
+    "questionCount": 50, "minutes": 60, "passMark": 0.8,
+    "verified": false
+  },
   "CRFSC": {
     "name": {"fr": "Examen CCSMAFAR (armes à autorisation restreinte)", "en": "CRFSC exam (restricted)"},
     "scopes": ["federal-restricted"],

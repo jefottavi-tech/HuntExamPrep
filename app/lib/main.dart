@@ -30,6 +30,31 @@ class HuntExamApp extends StatelessWidget {
 
   static const _seed = Color(0xFF2F5D3A); // forest green
 
+  static ThemeData _theme(Brightness brightness) {
+    final scheme = ColorScheme.fromSeed(seedColor: _seed, brightness: brightness);
+    const pill = StadiumBorder();
+    const tall = Size(0, 48); // comfortable touch targets
+    return ThemeData(
+      colorScheme: scheme,
+      useMaterial3: true,
+      scaffoldBackgroundColor: scheme.surface,
+      appBarTheme: AppBarTheme(backgroundColor: scheme.surface, scrolledUnderElevation: 0, centerTitle: false),
+      cardTheme: CardThemeData(
+        elevation: 0,
+        color: scheme.surfaceContainerLow,
+        margin: EdgeInsets.zero,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20),
+          side: BorderSide(color: scheme.outlineVariant.withValues(alpha: 0.5)),
+        ),
+      ),
+      filledButtonTheme: FilledButtonThemeData(style: FilledButton.styleFrom(shape: pill, minimumSize: tall)),
+      outlinedButtonTheme: OutlinedButtonThemeData(style: OutlinedButton.styleFrom(shape: pill, minimumSize: tall)),
+      textButtonTheme: TextButtonThemeData(style: TextButton.styleFrom(shape: pill)),
+      snackBarTheme: const SnackBarThemeData(behavior: SnackBarBehavior.floating),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return AppScope(
@@ -42,8 +67,8 @@ class HuntExamApp extends StatelessWidget {
           locale: Locale(controller.lang, 'CA'),
           supportedLocales: const [Locale('fr', 'CA'), Locale('en', 'CA')],
           localizationsDelegates: GlobalMaterialLocalizations.delegates,
-          theme: ThemeData(colorSchemeSeed: _seed, useMaterial3: true),
-          darkTheme: ThemeData(colorSchemeSeed: _seed, brightness: Brightness.dark, useMaterial3: true),
+          theme: _theme(Brightness.light),
+          darkTheme: _theme(Brightness.dark),
           home: const HomeScreen(),
         ),
       ),

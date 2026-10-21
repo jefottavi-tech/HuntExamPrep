@@ -59,5 +59,23 @@
       {"id": "l03", "title": "Leçon 3 : Le chasseur et la loi", "pages": [15, 25]},
       {"id": "l06", "title": "Leçon 6 : Écologie, gestion et principales espèces chassées au Québec", "pages": [40, 55]}
     ]
+  },
+  "AB": {
+    "file": "sources/ab_hunting_2026.pdf",
+    "lang": "en",
+    "chapters": [
+      {"id": "ab-intro", "title": "Hunting in Alberta, disclaimers, important changes for 2026", "pages": [10, 12]},
+      {"id": "ab-wmu", "title": "Maps and wildlife management units (WMUs)", "pages": [16, 17]},
+      {"id": "ab-lic", "title": "Licensing requirements, WIN card, youth and non-resident hunters", "pages": [18, 20]},
+      {"id": "ab-lic-costs", "title": "Licence types, costs and combinations; game bird licences", "pages": [21, 26]},
+      {"id": "ab-prohib", "title": "Enforcement and general prohibitions (weapons, hours, sale of wildlife)", "pages": [28, 32]},
+      {"id": "ab-access", "title": "Access to land, provincial parks, restricted areas", "pages": [34, 36]},
+      {"id": "ab-areas", "title": "Restricted areas, national parks, vehicle use", "pages": [38, 40]},
+      {"id": "ab-biggame", "title": "Big game regulations, game processing, bowhunting, compulsory registration", "pages": [42, 46]},
+      {"id": "ab-seasons", "title": "Big game season rules, legal hunting hours, archery-only seasons", "pages": [49, 51]},
+      {"id": "ab-bear", "title": "Black bear and cougar, baiting", "pages": [57, 58]},
+      {"id": "ab-birds", "title": "Other species, federal migratory bird rules, game bird seasons", "pages": [60, 63]},
+      {"id": "ab-mgmt", "title": "Game management, chronic wasting disease, mule deer licence", "pages": [64, 68]}
+    ]
   }
 }
