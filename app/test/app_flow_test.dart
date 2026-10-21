@@ -21,7 +21,7 @@ void main() {
   late CountingAds ads;
 
   setUp(() async {
-    SharedPreferences.setMockInitialValues({});
+    SharedPreferences.setMockInitialValues({'myExams': ['PAL']});
     ads = CountingAds();
     controller = AppController(
       content: ContentRepository(exams: [exam], questionsByScope: {'federal': pool.take(3).toList()}),
@@ -50,7 +50,7 @@ void main() {
 
   testWidgets('practice: feedback after each answer, then results and weak-spot review', (tester) async {
     await tester.pumpWidget(HuntExamApp(controller: controller));
-    expect(find.text('Examen PAL'), findsOneWidget);
+    expect(find.text('Examen PAL'), findsWidgets); // exam card + Today card
     expect(find.text('3 questions'), findsOneWidget);
 
     await tester.tap(find.byKey(const Key('practice-PAL')));
@@ -108,7 +108,7 @@ void main() {
     await tester.pumpWidget(HuntExamApp(controller: controller));
     await tester.tap(find.text('EN'));
     await tester.pumpAndSettle();
-    expect(find.text('PAL exam'), findsOneWidget);
+    expect(find.text('PAL exam'), findsWidgets); // exam card + Today card
     expect(find.text('Practice'), findsOneWidget);
     expect(controller.progress.lang, 'en');
 
@@ -127,6 +127,6 @@ void main() {
     expect(find.text('Quitter le test?'), findsOneWidget);
     await tester.tap(find.text('Quitter'));
     await tester.pumpAndSettle();
-    expect(find.text('Examen PAL'), findsOneWidget);
+    expect(find.byKey(const Key('practice-PAL')), findsOneWidget); // back on the dashboard
   });
 }

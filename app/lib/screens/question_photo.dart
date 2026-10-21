@@ -6,16 +6,19 @@ import '../data/models.dart';
 
 /// Photo of a "What is it?" question with the credit its free licence requires.
 class QuestionPhoto extends StatelessWidget {
-  const QuestionPhoto({super.key, required this.question});
+  const QuestionPhoto({super.key, required this.question, this.maxHeightFactor = 0.42});
 
   final Question question;
+
+  /// Tallest the photo may be, as a share of the screen height.
+  final double maxHeightFactor;
 
   @override
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final theme = Theme.of(context);
     final credit = question.imageCredit;
-    final maxHeight = MediaQuery.sizeOf(context).height * 0.42;
+    final maxHeight = MediaQuery.sizeOf(context).height * maxHeightFactor;
     final placeholder = ColoredBox(
       color: theme.colorScheme.surfaceContainerHighest,
       child: const Center(child: SizedBox.square(dimension: 28, child: CircularProgressIndicator(strokeWidth: 3))),

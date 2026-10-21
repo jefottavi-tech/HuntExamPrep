@@ -2,31 +2,13 @@ import 'package:flutter/material.dart';
 
 import '../app/app_scope.dart';
 import '../data/models.dart';
-import '../quiz/quiz_session.dart';
-import 'quiz_screen.dart';
+import 'about_screen.dart';
+import 'exam_card.dart';
+import 'exam_picker_screen.dart';
+import 'photo_of_day.dart';
+import 'today_card.dart';
 
-/// How each exam is presented on the home screen.
-/// Home-screen sections, in display order, with their title key.
-enum _Group {
-  firearms('groupFirearms'),
-  hunting('groupHunting'),
-  identification('groupId');
-
-  const _Group(this.titleKey);
-  final String titleKey;
-}
-
-typedef _ExamStyle = ({IconData icon, String region, _Group group});
-
-const _styles = <String, _ExamStyle>{
-  'PAL': (icon: Icons.shield_outlined, region: 'Canada', group: _Group.firearms),
-  'CRFSC': (icon: Icons.lock_outline, region: 'Canada', group: _Group.firearms),
-  'ICAF': (icon: Icons.forest_outlined, region: 'Québec', group: _Group.hunting),
-  'ABHE': (icon: Icons.landscape_outlined, region: 'Alberta', group: _Group.hunting),
-  'ID': (icon: Icons.photo_camera_outlined, region: 'Canada', group: _Group.identification),
-};
-const _fallback = (icon: Icons.school_outlined, region: '', group: _Group.firearms);
-
+/// Dashboard built around the exams the user is preparing for. On first launch it shows the picker instead.
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -35,33 +17,59 @@ class HomeScreen extends StatelessWidget {
     final app = AppScope.of(context);
     final theme = Theme.of(context);
     final scheme = theme.colorScheme;
-    final streak = app.progress.streak;
-    final exams = app.content.exams;
-    final byGroup = {
-      for (final g in _Group.values)
-        g: [
-          for (final e in exams)
-            if ((_styles[e.id] ?? _fallback).group == g) e,
+    final chosen = app.progress.myExams;
+    if (chosen == null) return const ExamPickerScreen(firstRun: true);
+
+    // Section order (firearms, hunting, identification), then exams.json order within a section.
+    final available = [
+      for (final e in app.content.exams)
+        if (!e.comingSoon && app.content.questionsFor(e).isNotEmpty) e,
+    ]..sort((a, b) => examStyle(a.id).group.index.compareTo(examStyle(b.id).group.index));
+    final mine = [
+      for (final e in available)
+        if (chosen.contains(e.id)) e,
+    ];
+    final others = [
+      for (final e in available)
+        if (!chosen.contains(e.id)) e,
+    ];
+    final photoExam = available.where((e) => e.id == 'ID').firstOrNull;
+
+    Widget section(String title, {Widget? action}) => Padding(
+      padding: const EdgeInsets.only(top: 24, bottom: 8),
+      child: Row(
+        children: [
+          Expanded(
+            child: Text(
+              title.toUpperCase(),
+              style: theme.textTheme.labelLarge?.copyWith(color: scheme.primary, letterSpacing: 0.8),
+            ),
+          ),
+          ?action,
         ],
-    };
+      ),
+    );
 
     return Scaffold(
       appBar: AppBar(
         title: Text(app.t('appTitle'), style: theme.textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w700)),
         actions: [
-          Padding(
-            padding: const EdgeInsets.only(right: 12),
-            child: SegmentedButton<String>(
-              key: const Key('langToggle'),
-              showSelectedIcon: false,
-              style: const ButtonStyle(visualDensity: VisualDensity.compact),
-              segments: const [
-                ButtonSegment(value: 'fr', label: Text('FR')),
-                ButtonSegment(value: 'en', label: Text('EN')),
-              ],
-              selected: {app.lang},
-              onSelectionChanged: (s) => app.setLang(s.first),
-            ),
+          SegmentedButton<String>(
+            key: const Key('langToggle'),
+            showSelectedIcon: false,
+            style: const ButtonStyle(visualDensity: VisualDensity.compact),
+            segments: const [
+              ButtonSegment(value: 'fr', label: Text('FR')),
+              ButtonSegment(value: 'en', label: Text('EN')),
+            ],
+            selected: {app.lang},
+            onSelectionChanged: (s) => app.setLang(s.first),
+          ),
+          IconButton(
+            key: const Key('about'),
+            tooltip: app.t('about'),
+            icon: const Icon(Icons.info_outline),
+            onPressed: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const AboutScreen())),
           ),
         ],
       ),
@@ -72,48 +80,93 @@ class HomeScreen extends StatelessWidget {
             _Banner(icon: Icons.warning_amber_rounded, text: app.t('sampleBanner')),
             const SizedBox(height: 12),
           ],
-          Text(app.t('heroTitle'), style: theme.textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w700)),
-          const SizedBox(height: 4),
-          Text(app.t('heroSubtitle'), style: theme.textTheme.bodyMedium?.copyWith(color: scheme.onSurfaceVariant)),
-          if (streak > 0) ...[
-            const SizedBox(height: 12),
-            Align(
-              alignment: Alignment.centerLeft,
-              child: Chip(
-                avatar: const Icon(Icons.local_fire_department, color: Colors.deepOrange, size: 18),
-                label: Text(streak == 1 ? app.t('streakOne') : app.t('streakMany').replaceAll('{n}', '$streak')),
+          TodayCard(mainExam: mine.firstOrNull),
+          section(
+            app.t('myExams'),
+            action: TextButton.icon(
+              key: const Key('change-exams'),
+              onPressed: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const ExamPickerScreen())),
+              icon: const Icon(Icons.tune, size: 18),
+              label: Text(app.t('change')),
+            ),
+          ),
+          for (final exam in mine) ...[ExamCard(exam: exam), const SizedBox(height: 12)],
+          if (photoExam != null) ...[const SizedBox(height: 12), PhotoOfDay(exam: photoExam)],
+          if (others.isNotEmpty) ...[
+            section(app.t('otherTests')),
+            Card(
+              child: Column(
+                children: [
+                  for (final (i, exam) in others.indexed) ...[
+                    if (i > 0) const Divider(height: 1, indent: 72),
+                    _OtherTestRow(exam: exam),
+                  ],
+                ],
               ),
             ),
           ],
-          const SizedBox(height: 16),
-          _HowItWorks(),
-          for (final MapEntry(key: g, value: group) in byGroup.entries)
-            if (group.isNotEmpty) ...[
-              const SizedBox(height: 24),
-              Text(
-                app.t(g.titleKey).toUpperCase(),
-                style: theme.textTheme.labelLarge?.copyWith(color: scheme.primary, letterSpacing: 0.8),
-              ),
-              const SizedBox(height: 8),
-              for (final exam in group) ...[_ExamCard(exam: exam), const SizedBox(height: 12)],
-            ],
-          const SizedBox(height: 12),
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Icon(Icons.info_outline, size: 16, color: scheme.onSurfaceVariant),
-              const SizedBox(width: 8),
-              Expanded(
-                child: Text(
-                  app.t('disclaimer'),
-                  key: const Key('disclaimer'),
-                  style: theme.textTheme.bodySmall?.copyWith(color: scheme.onSurfaceVariant),
-                ),
-              ),
-            ],
-          ),
+          const SizedBox(height: 20),
+          _Footer(),
         ],
       ),
+    );
+  }
+}
+
+/// Compact row for an exam the user isn't preparing; opens its full card in a sheet.
+class _OtherTestRow extends StatelessWidget {
+  const _OtherTestRow({required this.exam});
+
+  final Exam exam;
+
+  @override
+  Widget build(BuildContext context) {
+    final app = AppScope.of(context);
+    final scheme = Theme.of(context).colorScheme;
+    final style = examStyle(exam.id);
+    return ListTile(
+      key: Key('other-${exam.id}'),
+      leading: CircleAvatar(
+        backgroundColor: scheme.primaryContainer,
+        child: Icon(style.icon, color: scheme.onPrimaryContainer),
+      ),
+      title: Text(exam.name(app.lang), style: const TextStyle(fontWeight: FontWeight.w600)),
+      subtitle: Text('${style.region} · ${app.content.questionsFor(exam).length} ${app.t('questions')}'),
+      trailing: const Icon(Icons.chevron_right),
+      onTap: () => showModalBottomSheet<void>(
+        context: context,
+        showDragHandle: true,
+        isScrollControlled: true,
+        builder: (_) => SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+            child: ExamCard(exam: exam),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// The three legal points, always visible, with a link to the full text in About.
+class _Footer extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final app = AppScope.of(context);
+    final theme = Theme.of(context);
+    final muted = theme.textTheme.bodySmall?.copyWith(color: theme.colorScheme.onSurfaceVariant);
+    return Row(
+      children: [
+        Icon(Icons.info_outline, size: 16, color: theme.colorScheme.onSurfaceVariant),
+        const SizedBox(width: 8),
+        Expanded(
+          child: Text(app.t('footer'), key: const Key('footer'), style: muted),
+        ),
+        TextButton(
+          onPressed: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const AboutScreen())),
+          child: Text(app.t('learnMore')),
+        ),
+      ],
     );
   }
 }
@@ -140,199 +193,6 @@ class _Banner extends StatelessWidget {
             ),
           ],
         ),
-      ),
-    );
-  }
-}
-
-/// Explains the two modes once, so the buttons on each card need no guessing.
-class _HowItWorks extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    final app = AppScope.of(context);
-    final theme = Theme.of(context);
-    Widget row(IconData icon, String mode, String how) => Padding(
-      padding: const EdgeInsets.symmetric(vertical: 4),
-      child: Row(
-        children: [
-          Icon(icon, size: 20, color: theme.colorScheme.primary),
-          const SizedBox(width: 10),
-          Expanded(
-            child: Text.rich(
-              TextSpan(
-                children: [
-                  TextSpan(
-                    text: '$mode  ',
-                    style: const TextStyle(fontWeight: FontWeight.w600),
-                  ),
-                  TextSpan(
-                    text: how,
-                    style: TextStyle(color: theme.colorScheme.onSurfaceVariant),
-                  ),
-                ],
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-    return Card(
-      color: theme.colorScheme.secondaryContainer.withValues(alpha: 0.5),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
-        child: Column(
-          children: [
-            row(Icons.school_outlined, app.t('practice'), app.t('howPractice')),
-            row(Icons.timer_outlined, app.t('examSim'), app.t('howExam')),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class _ExamCard extends StatelessWidget {
-  const _ExamCard({required this.exam});
-
-  final Exam exam;
-
-  @override
-  Widget build(BuildContext context) {
-    final app = AppScope.of(context);
-    final theme = Theme.of(context);
-    final scheme = theme.colorScheme;
-    final text = theme.textTheme;
-    final style = _styles[exam.id] ?? _fallback;
-    final pool = app.content.questionsFor(exam);
-    final available = !exam.comingSoon && pool.isNotEmpty;
-    final readiness = app.progress.readiness(pool);
-    final weak = app.progress.weakIds(pool);
-
-    void start(QuizMode mode) {
-      final session = QuizSession.start(exam, pool, mode, onlyIds: mode == QuizMode.review ? weak : null);
-      if (session.isEmpty) {
-        ScaffoldMessenger.of(context)
-            .showSnackBar(SnackBar(content: Text(app.t(mode == QuizMode.review ? 'noWeak' : 'noQuestions'))));
-        return;
-      }
-      Navigator.of(context)
-          .push(MaterialPageRoute(builder: (_) => QuizScreen(session: session)))
-          .then((_) => app.refresh());
-    }
-
-    final meta = [
-      if (style.region.isNotEmpty) style.region,
-      if (available) app.t('minutes').replaceAll('{n}', '${exam.minutes}'),
-      if (available) app.t('toPass').replaceAll('{p}', '${(exam.passMark * 100).round()}'),
-    ].join(' · ');
-
-    return Card(
-      child: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                CircleAvatar(
-                  radius: 22,
-                  backgroundColor: scheme.primaryContainer,
-                  child: Icon(style.icon, color: scheme.onPrimaryContainer),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(exam.name(app.lang), style: text.titleMedium?.copyWith(fontWeight: FontWeight.w600)),
-                      const SizedBox(height: 2),
-                      Text(
-                        available ? '${pool.length} ${app.t('questions')}' : app.t('comingSoon'),
-                        style: text.bodySmall?.copyWith(color: scheme.onSurfaceVariant),
-                      ),
-                      if (meta.isNotEmpty) Text(meta, style: text.bodySmall?.copyWith(color: scheme.onSurfaceVariant)),
-                    ],
-                  ),
-                ),
-                if (available) _Readiness(value: readiness),
-              ],
-            ),
-            if (available) ...[
-              const SizedBox(height: 16),
-              Row(
-                children: [
-                  Expanded(
-                    child: FilledButton.icon(
-                      key: Key('practice-${exam.id}'),
-                      onPressed: () => start(QuizMode.practice),
-                      icon: const Icon(Icons.school_outlined),
-                      label: Text(app.t('practice')),
-                    ),
-                  ),
-                  const SizedBox(width: 8),
-                  Expanded(
-                    child: OutlinedButton.icon(
-                      key: Key('exam-${exam.id}'),
-                      onPressed: () => start(QuizMode.exam),
-                      icon: const Icon(Icons.timer_outlined),
-                      label: Text(app.t('examSim'), overflow: TextOverflow.ellipsis),
-                    ),
-                  ),
-                ],
-              ),
-              if (weak.isNotEmpty)
-                Padding(
-                  padding: const EdgeInsets.only(top: 4),
-                  child: TextButton.icon(
-                    key: Key('review-${exam.id}'),
-                    onPressed: () => start(QuizMode.review),
-                    icon: const Icon(Icons.replay),
-                    label: Text('${app.t('reviewMistakes')} (${weak.length})'),
-                  ),
-                ),
-            ],
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-/// Small ring showing how ready the user is for this exam.
-class _Readiness extends StatelessWidget {
-  const _Readiness({required this.value});
-
-  final double value;
-
-  @override
-  Widget build(BuildContext context) {
-    final app = AppScope.of(context);
-    final theme = Theme.of(context);
-    final pct = (value * 100).round();
-    return Semantics(
-      label: '${app.t('readiness')} $pct %',
-      excludeSemantics: true,
-      child: Column(
-        children: [
-          SizedBox(
-            width: 48,
-            height: 48,
-            child: Stack(
-              alignment: Alignment.center,
-              children: [
-                CircularProgressIndicator(
-                  value: value,
-                  strokeWidth: 5,
-                  backgroundColor: theme.colorScheme.surfaceContainerHighest,
-                ),
-                Text('$pct%', style: theme.textTheme.labelMedium?.copyWith(fontWeight: FontWeight.w700)),
-              ],
-            ),
-          ),
-          const SizedBox(height: 4),
-          Text(app.t('readiness'), style: theme.textTheme.labelSmall),
-        ],
       ),
     );
   }

@@ -27,7 +27,7 @@ void main() {
     tester.view.physicalSize = const Size(1080, 3200); // tall phone: photo + choices + feedback on screen
     tester.view.devicePixelRatio = 2.5;
     addTearDown(tester.view.reset);
-    SharedPreferences.setMockInitialValues({});
+    SharedPreferences.setMockInitialValues({'myExams': ['ID']});
     final controller = AppController(
       content: ContentRepository(
         exams: [idExam],
@@ -58,7 +58,7 @@ void main() {
     tester.view.physicalSize = const Size(1080, 2400);
     tester.view.devicePixelRatio = 2.5;
     addTearDown(tester.view.reset);
-    SharedPreferences.setMockInitialValues({});
+    SharedPreferences.setMockInitialValues({'myExams': ['ID']});
     final json = Map<String, dynamic>.from(idQuestionJson)
       ..['image'] =
           'assets/wildlife/2065e8814ba5.jpg' // real black bear photo, 423x640
@@ -79,10 +79,10 @@ void main() {
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 400)); // route transition; the asset is not decoded yet
 
-    final box = tester.getSize(find.byKey(const Key('photo-box')));
+    final box = tester.getSize(find.byKey(const Key('photo-box')).last); // the quiz's photo, above the dashboard's
     expect(box.height / box.width, closeTo(640 / 423, 0.02)); // whole portrait shape, reserved up front
     expect(
-      find.descendant(of: find.byKey(const Key('photo-box')), matching: find.byType(CircularProgressIndicator)),
+      find.descendant(of: find.byKey(const Key('photo-box')).last, matching: find.byType(CircularProgressIndicator)),
       findsOneWidget,
     );
   });
@@ -91,7 +91,7 @@ void main() {
     tester.view.physicalSize = const Size(1080, 3200);
     tester.view.devicePixelRatio = 2.5;
     addTearDown(tester.view.reset);
-    SharedPreferences.setMockInitialValues({});
+    SharedPreferences.setMockInitialValues({'myExams': ['ID']});
     final controller = AppController(
       content: ContentRepository(
         exams: [idExam],

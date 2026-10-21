@@ -1,11 +1,37 @@
 /// UI strings, French first. Small enough that a map beats code generation.
 const _strings = <String, Map<String, String>>{
   'appTitle': {'fr': 'Examen PAL & Chasse', 'en': 'PAL & Hunting Exam Prep'},
-  'heroTitle': {'fr': 'Prêt pour votre examen?', 'en': 'Ready for your exam?'},
-  'heroSubtitle': {
-    'fr': 'Choisissez un examen. Pratiquez d\'abord, puis testez-vous en conditions réelles.',
-    'en': 'Pick an exam. Practise first, then test yourself under real exam conditions.',
+  'pickerTitle': {'fr': 'Quel examen préparez-vous?', 'en': 'Which exam are you preparing for?'},
+  'pickerSubtitle': {
+    'fr': 'Choisissez un ou plusieurs tests. Vous pourrez changer plus tard.',
+    'en': 'Pick one or more. You can change this later.',
   },
+  'continue': {'fr': 'Continuer', 'en': 'Continue'},
+  'skip': {'fr': 'Passer', 'en': 'Skip'},
+  'myExams': {'fr': 'Mes examens', 'en': 'My exams'},
+  'change': {'fr': 'Modifier', 'en': 'Change'},
+  'otherTests': {'fr': 'Autres tests', 'en': 'Other tests'},
+  'today': {'fr': 'Aujourd\'hui', 'en': 'Today'},
+  'goalProgress': {'fr': '{n} / {g} questions aujourd\'hui', 'en': '{n} / {g} questions today'},
+  'goalDone': {'fr': 'Objectif du jour atteint!', 'en': 'Today\'s goal reached!'},
+  'goalHint': {'fr': 'Objectif : {g} questions par jour', 'en': 'Goal: {g} questions a day'},
+  'practiseNow': {'fr': 'S\'exercer maintenant', 'en': 'Practise now'},
+  'photoOfDay': {'fr': 'Photo du jour', 'en': 'Photo of the day'},
+  'playId': {'fr': 'Jouer à « Qu\'est-ce que c\'est? »', 'en': 'Play "What is it?"'},
+  'about': {'fr': 'À propos', 'en': 'About'},
+  'footer': {
+    'fr': 'Outil indépendant · non officiel · erreurs possibles.',
+    'en': 'Independent tool · unofficial · errors possible.',
+  },
+  'learnMore': {'fr': 'En savoir plus', 'en': 'Learn more'},
+  'howItWorks': {'fr': 'Comment ça marche', 'en': 'How it works'},
+  'sources': {'fr': 'Sources', 'en': 'Sources'},
+  'photosCredit': {
+    'fr': 'Photos : Wikimedia Commons, sous licences libres. L\'auteur et la licence sont indiqués sous chaque photo.',
+    'en': 'Photos: Wikimedia Commons, under free licences. Author and licence are shown under each photo.',
+  },
+  'contact': {'fr': 'Contact', 'en': 'Contact'},
+  'privacy': {'fr': 'Politique de confidentialité', 'en': 'Privacy policy'},
   'howPractice': {
     'fr': 'Correction et explication après chaque question',
     'en': 'Answer and explanation after every question',
