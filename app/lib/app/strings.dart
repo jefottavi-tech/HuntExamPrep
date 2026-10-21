@@ -1,6 +1,6 @@
 /// UI strings, French first. Small enough that a map beats code generation.
 const _strings = <String, Map<String, String>>{
-  'appTitle': {'fr': 'Examen PPA & Chasse', 'en': 'PAL & Hunting Exam Prep'},
+  'appTitle': {'fr': 'BetterHunter', 'en': 'BetterHunter'},
   'pickerTitle': {'fr': 'Quel examen préparez-vous?', 'en': 'Which exam are you preparing for?'},
   'pickerSubtitle': {
     'fr': 'Choisissez un ou plusieurs tests. Vous pourrez changer plus tard.',

@@ -1,11 +1,11 @@
 {
-    "name": "Examen PPA & Chasse · PAL & Hunting Exam Prep",
-    "short_name": "Hunt",
+    "name": "BetterHunter",
+    "short_name": "BetterHunter",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Pratique pour les examens PPA (CCSMAF) et de chasse · Practice for the PAL (CFSC) and hunter exams",
+    "description": "Chassez mieux : gibier, règlements, examens PPA et de chasse · Hunt better: game ID, rules, PAL and hunter exams",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

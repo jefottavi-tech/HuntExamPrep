@@ -1,6 +1,8 @@
-# HuntExamPrep
+# BetterHunter
 
-Bilingual (FR/EN) practice app for Canadian hunter and firearm-licence exams: the PAL (CFSC) and Québec's ICAF first, then BC CORE, Ontario Hunter Ed and Alberta. Built with Flutter, free with ads.
+*Chassez mieux. / Hunt better.* An app for better hunters: telling game species apart, knowing the rules, and preparing the licence and hunter exams.
+
+Bilingual (FR/EN), with practice for Canadian hunter and firearm-licence exams: the PAL (CFSC) and Québec's ICAF first, then BC CORE, Ontario Hunter Ed and Alberta. Built with Flutter, free with ads.
 
 > Independent study aid: not affiliated with or endorsed by the RCMP, the Canadian Firearms Program, the Government of Québec, FédéCP or any provincial agency. Questions are original practice questions written from the official manuals, not the official exam questions, and may contain errors: always check the official manual.
 
