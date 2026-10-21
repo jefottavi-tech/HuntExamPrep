@@ -34,5 +34,5 @@ jobs:
     needs: build
     uses: kallistesoft/kallistesoft-site/.github/workflows/deploy-ftp.yml@main
     with:
-      folder: examen.kallistesoft.ca
+      folder: hunt.kallistesoft.ca
     secrets: inherit
