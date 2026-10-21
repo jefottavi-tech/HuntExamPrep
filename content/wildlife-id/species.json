@@ -549,7 +549,7 @@
     "huntable": true,
     "photo": {
       "file": "black-bear.jpg",
-      "author": "California Department of Fish and Wildlife from Sacramento, CA, USA",
+      "author": "California Department of Fish and Wildlife",
       "license": "CC BY 2.0",
       "page": "https://commons.wikimedia.org/wiki/File:American_black_bear_(19647087094).jpg",
       "commons": "File:American black bear (19647087094).jpg"
@@ -584,10 +584,10 @@
     "huntable": true,
     "photo": {
       "file": "grizzly-bear.jpg",
-      "author": "Unknown",
-      "license": "CC BY 2.5",
-      "page": "https://commons.wikimedia.org/wiki/File:Grizzly_Denali_edit.jpg",
-      "commons": "File:Grizzly Denali edit.jpg"
+      "author": "USFWS/Jon Nickles",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Grizzlybear55.jpg",
+      "commons": "File:Grizzlybear55.jpg"
     },
     "name": {
       "fr": "grizzli",
@@ -649,7 +649,7 @@
     "huntable": true,
     "photo": {
       "file": "snowshoe-hare.jpg",
-      "author": "Lepus_americanus_5459.JPG: Walter Siegmund (talk) derivative work: Wsiegmund",
+      "author": "Walter Siegmund",
       "license": "CC BY-SA 3.0",
       "page": "https://commons.wikimedia.org/wiki/File:Lepus_americanus_5459_cropped.jpg",
       "commons": "File:Lepus americanus 5459 cropped.jpg"
@@ -746,7 +746,7 @@
     "huntable": true,
     "photo": {
       "file": "groundhog.jpg",
-      "author": "No machine-readable author provided. ElC assumed (based on copyright claims).",
+      "author": "ElC",
       "license": "CC BY-SA 3.0",
       "page": "https://commons.wikimedia.org/wiki/File:Groundhog3.jpg",
       "commons": "File:Groundhog3.jpg"
@@ -877,7 +877,7 @@
     "huntable": true,
     "photo": {
       "file": "ruffed-grouse.jpg",
-      "author": "Mdf Original uploader at en.wikipedia was Mad Tinman at en.wikipedia",
+      "author": "Mad Tinman",
       "license": "CC BY-SA 3.0",
       "page": "https://commons.wikimedia.org/wiki/File:Bonasa-umbellus-001edit1.jpg",
       "commons": "File:Bonasa-umbellus-001edit1.jpg"
@@ -1129,7 +1129,7 @@
     "huntable": true,
     "photo": {
       "file": "gray-partridge.jpg",
-      "author": "Unknown",
+      "author": "Marek Szczepanek",
       "license": "CC BY-SA 3.0",
       "page": "https://commons.wikimedia.org/wiki/File:Perdix_perdix_(Marek_Szczepanek).jpg",
       "commons": "File:Perdix perdix (Marek Szczepanek).jpg"
@@ -1325,10 +1325,10 @@
     "huntable": true,
     "photo": {
       "file": "gadwall.jpg",
-      "author": "Unknown",
-      "license": "CC BY-SA 2.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Anas_strepera_pair.jpg",
-      "commons": "File:Anas strepera pair.jpg"
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gadwall_male_(00188).jpg",
+      "commons": "File:Gadwall male (00188).jpg"
     },
     "name": {
       "fr": "canard chipeau",

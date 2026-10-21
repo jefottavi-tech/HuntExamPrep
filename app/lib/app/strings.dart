@@ -26,6 +26,7 @@ const _strings = <String, Map<String, String>>{
   'howRecognise': {'fr': 'Comment le reconnaître', 'en': 'How to recognise it'},
   'whereLives': {'fr': 'Où il vit', 'en': 'Where it lives'},
   'dontConfuse': {'fr': 'Ne pas confondre', 'en': 'Don\'t confuse it'},
+  'zoomPhoto': {'fr': 'Agrandir la photo', 'en': 'Enlarge photo'},
   'photoBy': {'fr': 'Photo : ', 'en': 'Photo: '},
   'groupId': {'fr': 'Identification', 'en': 'Identification'},
   'why': {'fr': 'Pourquoi?', 'en': 'Why?'},

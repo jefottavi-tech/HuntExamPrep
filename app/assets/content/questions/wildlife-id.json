@@ -664,7 +664,7 @@
     "sourceUrl": "https://www.hww.ca/wildlife/mammals/black-bear/",
     "image": "assets/wildlife/2065e8814ba5.jpg",
     "imageCredit": {
-      "author": "California Department of Fish and Wildlife from Sacramento, CA, USA",
+      "author": "California Department of Fish and Wildlife",
       "license": "CC BY 2.0",
       "page": "https://commons.wikimedia.org/wiki/File:American_black_bear_(19647087094).jpg"
     },
@@ -704,9 +704,9 @@
     "sourceUrl": "https://www.hww.ca/wildlife/mammals/grizzly-bear/",
     "image": "assets/wildlife/d18dff31758e.jpg",
     "imageCredit": {
-      "author": "Unknown",
-      "license": "CC BY 2.5",
-      "page": "https://commons.wikimedia.org/wiki/File:Grizzly_Denali_edit.jpg"
+      "author": "USFWS/Jon Nickles",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Grizzlybear55.jpg"
     },
     "fr": {
       "q": "Quel est cet animal?",
@@ -744,7 +744,7 @@
     "sourceUrl": "https://www.hww.ca/wildlife/mammals/snowshoe-hare/",
     "image": "assets/wildlife/4c46aa8e6965.jpg",
     "imageCredit": {
-      "author": "Lepus_americanus_5459.JPG: Walter Siegmund (talk) derivative work: Wsiegmund",
+      "author": "Walter Siegmund",
       "license": "CC BY-SA 3.0",
       "page": "https://commons.wikimedia.org/wiki/File:Lepus_americanus_5459_cropped.jpg"
     },
@@ -860,7 +860,7 @@
     "sourceUrl": "https://www.hww.ca/wildlife/mammals/woodchuck/",
     "image": "assets/wildlife/5578139b470e.jpg",
     "imageCredit": {
-      "author": "No machine-readable author provided. ElC assumed (based on copyright claims).",
+      "author": "ElC",
       "license": "CC BY-SA 3.0",
       "page": "https://commons.wikimedia.org/wiki/File:Groundhog3.jpg"
     },
@@ -978,7 +978,7 @@
     "sourceUrl": "https://www.hww.ca/wildlife/birds/ruffed-grouse/",
     "image": "assets/wildlife/4283f13c7806.jpg",
     "imageCredit": {
-      "author": "Mdf Original uploader at en.wikipedia was Mad Tinman at en.wikipedia",
+      "author": "Mad Tinman",
       "license": "CC BY-SA 3.0",
       "page": "https://commons.wikimedia.org/wiki/File:Bonasa-umbellus-001edit1.jpg"
     },
@@ -1284,7 +1284,7 @@
     "sourceUrl": "https://www.audubon.org/field-guide/bird/gray-partridge",
     "image": "assets/wildlife/d344b63a7294.jpg",
     "imageCredit": {
-      "author": "Unknown",
+      "author": "Marek Szczepanek",
       "license": "CC BY-SA 3.0",
       "page": "https://commons.wikimedia.org/wiki/File:Perdix_perdix_(Marek_Szczepanek).jpg"
     },
@@ -1512,9 +1512,9 @@
     "sourceUrl": "https://www.audubon.org/field-guide/bird/gadwall",
     "image": "assets/wildlife/db14999a32a3.jpg",
     "imageCredit": {
-      "author": "Unknown",
-      "license": "CC BY-SA 2.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Anas_strepera_pair.jpg"
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gadwall_male_(00188).jpg"
     },
     "fr": {
       "q": "Quel est cet animal?",
