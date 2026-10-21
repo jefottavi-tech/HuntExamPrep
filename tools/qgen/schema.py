@@ -76,6 +76,7 @@ class Question(BaseModel):
     en: LangBlock
     answerIndex: int
     sourceRef: str
+    sourceUrl: Optional[str] = None  # official page confirming a regulation fact (law, quebec.ca, rcmp.ca)
     flags: list[str] = []
 
 

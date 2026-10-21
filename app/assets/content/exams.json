@@ -9,12 +9,13 @@
   "ICAF": {
     "name": {"fr": "Initiation à la chasse avec arme à feu (Québec)", "en": "Hunter education with firearms (Québec)"},
     "scopes": ["hunter-common", "QC"],
-    "questionCount": 50, "minutes": 60, "passMark": 0.75,
+    "questionCount": 50, "minutes": 60, "passMark": 0.8,
     "verified": false
   },
   "CRFSC": {
     "name": {"fr": "Examen CCSMAFAR (armes à autorisation restreinte)", "en": "CRFSC exam (restricted)"},
     "scopes": ["federal-restricted"],
-    "comingSoon": true
+    "questionCount": 50, "minutes": 60, "passMark": 0.8,
+    "verified": false
   }
 }

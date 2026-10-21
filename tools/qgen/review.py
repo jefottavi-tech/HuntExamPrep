@@ -15,7 +15,7 @@ COLUMNS = [
     "status", "notes", "id", "scope", "chapter", "flags", "answer",
     "fr_q", *(f"fr_{l}" for l in LETTERS), "fr_explanation",
     "en_q", *(f"en_{l}" for l in LETTERS), "en_explanation",
-    "sourceRef", "reviewYear", "objectiveId",
+    "sourceRef", "sourceUrl", "reviewYear", "objectiveId",
 ]
 REVIEWED = {"approved", "fix", "rejected"}
 
@@ -31,7 +31,8 @@ def _to_row(q: Question) -> dict:
     row = {
         "status": "pending", "notes": "", "id": q.id, "scope": q.scope, "chapter": q.chapter,
         "flags": "; ".join(problems(q)), "answer": LETTERS[q.answerIndex] if 0 <= q.answerIndex < 4 else "?",
-        "sourceRef": q.sourceRef, "reviewYear": q.reviewYear or "", "objectiveId": q.objectiveId,
+        "sourceRef": q.sourceRef, "sourceUrl": q.sourceUrl or "", "reviewYear": q.reviewYear or "",
+        "objectiveId": q.objectiveId,
     }
     for lang in ("fr", "en"):
         b = getattr(q, lang)
@@ -56,6 +57,7 @@ def _from_row(row: dict) -> Question:
         fr=block("fr"), en=block("en"),
         answerIndex=LETTERS.find(row["answer"].strip().upper()),
         sourceRef=row["sourceRef"],
+        sourceUrl=row.get("sourceUrl", "").strip() or None,
     )
 
 

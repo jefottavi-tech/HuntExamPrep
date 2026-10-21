@@ -41,6 +41,16 @@ const _strings = <String, Map<String, String>>{
         'the official manuals; they are not the official exam questions. Errors are possible and laws change: '
         'always check the official manual and current regulations. No guarantee of passing.',
   },
+  'source': {'fr': 'Source :', 'en': 'Source:'},
+  'currentRule': {'fr': 'Règle officielle à jour', 'en': 'Current official rule'},
+  'yourAnswer': {'fr': 'Votre réponse : ', 'en': 'Your answer: '},
+  'report': {'fr': 'Signaler un problème', 'en': 'Report a problem'},
+  'reportSubject': {'fr': 'Erreur dans une question', 'en': 'Problem with a question'},
+  'reportBody': {
+    'fr': 'Décrivez le problème (erreur, règle changée, traduction…) :\n\n\n',
+    'en': 'Describe the problem (error, rule change, translation…):\n\n\n',
+  },
+  'reportFallback': {'fr': 'Écrivez-nous à {email} (question {id})', 'en': 'Email us at {email} (question {id})'},
   'quitTitle': {'fr': 'Quitter le test?', 'en': 'Quit this test?'},
   'quitBody': {'fr': 'Votre progression dans ce test sera perdue.', 'en': 'Your progress in this test will be lost.'},
   'quit': {'fr': 'Quitter', 'en': 'Quit'},

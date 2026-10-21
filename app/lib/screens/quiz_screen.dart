@@ -3,8 +3,10 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 import '../app/app_scope.dart';
+import '../app/links.dart';
 import '../quiz/quiz_session.dart';
 import 'result_screen.dart';
+import 'source_links.dart';
 
 class QuizScreen extends StatefulWidget {
   const QuizScreen({super.key, required this.session});
@@ -68,6 +70,29 @@ class _QuizScreenState extends State<QuizScreen> {
     navigator.pushReplacement(MaterialPageRoute(builder: (_) => ResultScreen(session: s, timeUp: timeUp)));
   }
 
+  static const _reportEmail = 'contact@kallistesoft.ca';
+
+  /// Opens a pre-filled email about the current question; no backend needed.
+  Future<void> _report() async {
+    final app = AppScope.of(context);
+    final messenger = ScaffoldMessenger.of(context);
+    final q = s.question;
+    final text = q.text(app.lang);
+    final body = '${app.t('reportBody')}---\n${q.id} (${q.sourceRef})\n${text.q}\n'
+        '${[for (var i = 0; i < text.choices.length; i++) '${'ABCD'[i]}. ${text.choices[i]}'].join('\n')}';
+    final uri = Uri(
+      scheme: 'mailto',
+      path: _reportEmail,
+      // Uri's queryParameters encodes spaces as '+', which mail apps show literally.
+      query: 'subject=${Uri.encodeComponent('${app.t('reportSubject')} ${q.id}')}&body=${Uri.encodeComponent(body)}',
+    );
+    if (!await tryOpen(uri)) {
+      messenger.showSnackBar(SnackBar(
+        content: Text(app.t('reportFallback').replaceAll('{email}', _reportEmail).replaceAll('{id}', q.id)),
+      ));
+    }
+  }
+
   Future<bool> _confirmQuit() async {
     final app = AppScope.of(context);
     return await showDialog<bool>(
@@ -104,6 +129,12 @@ class _QuizScreenState extends State<QuizScreen> {
         appBar: AppBar(
           title: Text('${app.t('question')} ${s.current + 1}/${s.questions.length}'),
           actions: [
+            IconButton(
+              key: const Key('report'),
+              tooltip: app.t('report'),
+              icon: const Icon(Icons.flag_outlined),
+              onPressed: _report,
+            ),
             if (isExam)
               Padding(
                 padding: const EdgeInsets.only(right: 16),
@@ -156,6 +187,8 @@ class _QuizScreenState extends State<QuizScreen> {
                         ),
                         const SizedBox(height: 6),
                         Text(text.explanation),
+                        const SizedBox(height: 6),
+                        SourceLinks(question: q),
                       ],
                     ),
                   ),

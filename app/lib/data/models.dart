@@ -21,6 +21,7 @@ class Question {
     required this.answerIndex,
     required this.sourceRef,
     this.reviewYear,
+    this.sourceUrl,
   });
 
   final String id;
@@ -30,6 +31,9 @@ class Question {
   final int answerIndex;
   final String sourceRef;
   final int? reviewYear;
+
+  /// Official page confirming the current rule (law, quebec.ca, rcmp.ca), if checked.
+  final String? sourceUrl;
 
   /// Sample questions are placeholders until reviewed questions are bundled.
   bool get isSample => id.startsWith('sample-');
@@ -47,6 +51,7 @@ class Question {
         answerIndex: json['answerIndex'] as int,
         sourceRef: json['sourceRef'] as String? ?? '',
         reviewYear: json['reviewYear'] as int?,
+        sourceUrl: json['sourceUrl'] as String?,
       );
 }
 

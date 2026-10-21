@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../app/app_scope.dart';
 import '../quiz/quiz_session.dart';
 import 'quiz_screen.dart';
+import 'source_links.dart';
 
 class ResultScreen extends StatelessWidget {
   const ResultScreen({super.key, required this.session, this.timeUp = false});
@@ -49,7 +50,7 @@ class ResultScreen extends StatelessWidget {
           Text(app.t('missedTitle'), style: theme.textTheme.titleMedium),
           const SizedBox(height: 8),
           if (s.missed.isEmpty) Text(app.t('allCorrect')),
-          for (final q in s.missed)
+          for (final (q, picked) in s.missedWithAnswers)
             Card(
               child: Padding(
                 padding: const EdgeInsets.all(12),
@@ -57,11 +58,17 @@ class ResultScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(q.text(app.lang).q, style: theme.textTheme.titleSmall),
-                    const SizedBox(height: 6),
+                    if (picked != null) ...[
+                      const SizedBox(height: 6),
+                      Text('${app.t('yourAnswer')}${q.text(app.lang).choices[picked]}',
+                          style: TextStyle(color: theme.colorScheme.error)),
+                    ],
+                    const SizedBox(height: 4),
                     Text('${app.t('answer')}${q.text(app.lang).choices[q.answerIndex]}',
                         style: TextStyle(color: Colors.green.shade700, fontWeight: FontWeight.w600)),
                     const SizedBox(height: 4),
                     Text(q.text(app.lang).explanation, style: theme.textTheme.bodySmall),
+                    SourceLinks(question: q),
                   ],
                 ),
               ),

@@ -59,8 +59,11 @@ class QuizSession {
   double get score => questions.isEmpty ? 0 : correctCount / questions.length;
   bool get passed => score >= exam.passMark;
 
-  List<Question> get missed => [
+  List<Question> get missed => [for (final (q, _) in missedWithAnswers) q];
+
+  /// Missed questions with the choice the user picked (null if left unanswered).
+  List<(Question, int?)> get missedWithAnswers => [
         for (var i = 0; i < questions.length; i++)
-          if (_answers[i] != questions[i].answerIndex) questions[i],
+          if (_answers[i] != questions[i].answerIndex) (questions[i], _answers[i]),
       ];
 }

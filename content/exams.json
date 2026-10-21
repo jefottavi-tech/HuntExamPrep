@@ -15,6 +15,7 @@
   "CRFSC": {
     "name": {"fr": "Examen CCSMAFAR (armes à autorisation restreinte)", "en": "CRFSC exam (restricted)"},
     "scopes": ["federal-restricted"],
-    "comingSoon": true
+    "questionCount": 50, "minutes": 60, "passMark": 0.8,
+    "verified": false
   }
 }

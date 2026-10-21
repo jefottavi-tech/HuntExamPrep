@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hunt_exam_prep/ads/ad_service.dart';
 import 'package:hunt_exam_prep/app/app_scope.dart';
+import 'package:hunt_exam_prep/app/links.dart';
 import 'package:hunt_exam_prep/data/content_repository.dart';
 import 'package:hunt_exam_prep/data/progress_store.dart';
 import 'package:hunt_exam_prep/main.dart';
@@ -30,6 +31,23 @@ void main() {
     );
   });
 
+  testWidgets('report button falls back to showing the email when no mail app opens', (tester) async {
+    Uri? opened;
+    openUrl = (uri) async {
+      opened = uri;
+      return false;
+    };
+    await tester.pumpWidget(HuntExamApp(controller: controller));
+    await tester.tap(find.byKey(const Key('practice-PAL')));
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.byKey(const Key('report')));
+    await tester.pumpAndSettle();
+    expect(opened?.scheme, 'mailto');
+    expect(opened?.path, 'contact@kallistesoft.ca');
+    expect(find.textContaining('contact@kallistesoft.ca'), findsOneWidget);
+  });
+
   testWidgets('practice: feedback after each answer, then results and weak-spot review', (tester) async {
     await tester.pumpWidget(HuntExamApp(controller: controller));
     expect(find.text('Examen PAL'), findsOneWidget);
@@ -44,6 +62,7 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Mauvaise réponse'), findsOneWidget);
     expect(find.textContaining('Explication'), findsOneWidget);
+    expect(find.textContaining('Manuel de l\'étudiant CCSMAF (GRC, 2014), p. 61'), findsOneWidget);
     await tester.tap(find.byKey(const Key('next')));
     await tester.pumpAndSettle();
 
