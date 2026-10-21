@@ -1,0 +1,1386 @@
+[
+  {
+    "objectiveId": "federal-restricted-intro-r-001",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "The CRFSC is an introductory course designed for novice users of restricted firearms and people who want to acquire them.",
+    "sourceRef": "cfsc_fr.pdf p.220",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-002",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "The Canadian Firearms Program (CFP) is managed by the RCMP, working with provincial chief firearms officers to administer the Firearms Act.",
+    "sourceRef": "cfsc_fr.pdf p.220",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-003",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "CFP activities include licensing all firearm owners and businesses, delivering the safety courses, public education on storage/transport/use, and import/export controls.",
+    "sourceRef": "cfsc_fr.pdf p.220",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-004",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "Licensing and registration information is kept in the Canadian Firearms Information System, a national CFP database to which law enforcement has some access.",
+    "sourceRef": "cfsc_fr.pdf p.220",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-005",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "All firearms safety course instructors and examiners must be recognized by the chief firearms officer of the province or territory where the course is taken.",
+    "sourceRef": "cfsc_fr.pdf p.221",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-006",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "The CRFSC includes classroom lessons, manual study, and written and practical exams, but no live-fire exercises.",
+    "sourceRef": "cfsc_fr.pdf p.222",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-007",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "When you hear of a firearm accident, at least one of the vital four ACTS rules was broken.",
+    "sourceRef": "cfsc_fr.pdf p.223",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-008",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "Vital rule T: treat every firearm as if it were loaded (assume it is potentially dangerous).",
+    "sourceRef": "cfsc_fr.pdf p.224",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-009",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "Vital rule P: always point the firearm in the safest available direction and never at yourself or anyone else.",
+    "sourceRef": "cfsc_fr.pdf p.224",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-010",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "Vital rule T: keep your finger off the trigger and out of the trigger guard except when firing.",
+    "sourceRef": "cfsc_fr.pdf p.224",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-011",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "Vital rule O: only hand over or accept a firearm when its action is open and it is unloaded.",
+    "sourceRef": "cfsc_fr.pdf p.224",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-012",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "PROVE sequence: Point in safest direction, Remove all cartridges, Open action and check chamber(s), Verify feeding path, Examine bore for obstructions.",
+    "sourceRef": "cfsc_fr.pdf p.225",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-013",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "The last PROVE step is to examine the bore to make sure it is free of obstructions.",
+    "sourceRef": "cfsc_fr.pdf p.225",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-014",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "A valid licence holder must notify the Firearms Program before moving so that an authorization to transport can be issued for restricted firearms.",
+    "sourceRef": "cfsc_fr.pdf p.226",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-015",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "A possession-only licence (POL) holder may borrow firearms of the same class they may possess; a PAL holder may borrow, buy, inherit or otherwise acquire firearms of that class.",
+    "sourceRef": "cfsc_fr.pdf p.226",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-016",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "Hunting with a restricted firearm is prohibited in Canada.",
+    "sourceRef": "cfsc_fr.pdf p.226",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-017",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "Municipal bylaws (noise, nuisance, zoning) may prohibit discharging a firearm anywhere within municipal limits.",
+    "sourceRef": "cfsc_fr.pdf p.226",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-018",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "Beyond the law, keep an inventory of your firearms with photos and manuals in a safe place to help describe a lost or stolen firearm.",
+    "sourceRef": "cfsc_fr.pdf p.227",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-intro-r-019",
+    "scope": "federal-restricted",
+    "chapter": "intro-r",
+    "statement": "Pointing a firearm, loaded or unloaded, at another person without lawful excuse is a Criminal Code offence punishable by up to five years if prosecuted as indictable.",
+    "sourceRef": "cfsc_fr.pdf p.227",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m12-001",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "FFFFg (pulvérin) is the finest black powder and is used only for priming flintlock pans, never as a propellant.",
+    "sourceRef": "cfsc_fr.pdf p.230",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-002",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "FFFg is the most common black powder grade and is used in almost all muzzleloading revolvers and pistols.",
+    "sourceRef": "cfsc_fr.pdf p.230",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-003",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "The finer the black powder granules, the higher the pressure when fired.",
+    "sourceRef": "cfsc_fr.pdf p.230",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-004",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "Black powder can be ignited by a spark, static electricity, heat, friction or a sudden shock.",
+    "sourceRef": "cfsc_fr.pdf p.231",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-005",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "Black powder should be stored in a safe, cool, dry place in its original container.",
+    "sourceRef": "cfsc_fr.pdf p.231",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-006",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "Aged black powder that clumps and forms white crystals is very dangerous and should be immersed in water immediately.",
+    "sourceRef": "cfsc_fr.pdf p.231",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-007",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "Smokeless powder must never be used in a muzzleloader; only black powder or black powder substitutes such as Pyrodex.",
+    "sourceRef": "cfsc_fr.pdf p.239",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-008",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "Glowing embers can remain in the bore after firing a black powder firearm, creating an explosion risk if reloaded immediately.",
+    "sourceRef": "cfsc_fr.pdf p.231",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-009",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "A Minié ball is a conical bullet with a hollow base that expands to prevent gas escaping during firing.",
+    "sourceRef": "cfsc_fr.pdf p.231",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-010",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "In a percussion muzzleloader, ignition comes from the hammer striking a percussion cap; in a flintlock, from the flint striking the frizzen.",
+    "sourceRef": "cfsc_fr.pdf p.233",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-011",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "To make sure a muzzleloader is not primed: point safely, finger off trigger, check hammer not cocked, check for cap or priming powder, remove it.",
+    "sourceRef": "cfsc_fr.pdf p.234",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-012",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "Marking the ramrod at the empty-bore depth shows whether a muzzleloader is loaded.",
+    "sourceRef": "cfsc_fr.pdf p.234",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-013",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "Always use a volumetric measure to pour powder into the muzzle, never directly from the container, flask or horn.",
+    "sourceRef": "cfsc_fr.pdf p.238",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-014",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "Under safe storage rules, a black powder firearm is considered loaded when there is powder in the barrel, and must not be stored with powder in it.",
+    "sourceRef": "cfsc_fr.pdf p.238",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-015",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "Clean a black powder firearm after every shooting session with a black powder solvent or hot soapy water, because black powder is very corrosive.",
+    "sourceRef": "cfsc_fr.pdf p.238",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-016",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "In a black powder revolver, grease over each ball prevents chain firing of all chambers.",
+    "sourceRef": "cfsc_fr.pdf p.237",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m12-017",
+    "scope": "federal-restricted",
+    "chapter": "m12",
+    "statement": "Treat a muzzleloader misfire as a possible hangfire: keep it pointed safely for at least 60 seconds.",
+    "sourceRef": "cfsc_fr.pdf p.239",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-001",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "Rifling is a series of spiral grooves inside the barrel; the metal between the grooves is called lands.",
+    "sourceRef": "cfsc_fr.pdf p.243",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-002",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "Rifling makes the bullet spin as it leaves the barrel, giving it stability in flight.",
+    "sourceRef": "cfsc_fr.pdf p.243",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-003",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "Calibre is the bore diameter, in thousandths of an inch (land to land) or in millimetres (groove to groove).",
+    "sourceRef": "cfsc_fr.pdf p.243",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-004",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "Imperial calibre is usually measured land to land, metric dimensions groove to groove.",
+    "sourceRef": "cfsc_fr.pdf p.243",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-005",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "The most important thing is to match the cartridge designation on the head stamp with the markings stamped on the barrel or slide.",
+    "sourceRef": "cfsc_fr.pdf p.245",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-006",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "If a firearm has no markings (or markings may be wrong due to modification), have a qualified person check it and measure the chamber.",
+    "sourceRef": "cfsc_fr.pdf p.245",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-007",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "Never accept or use reloaded cartridges unless you are certain they were made and reloaded correctly; improper loads can make the firearm explode.",
+    "sourceRef": "cfsc_fr.pdf p.245",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-008",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "The two main types of modern cartridges are rimfire and centrefire, named for where the primer is located.",
+    "sourceRef": "cfsc_fr.pdf p.247",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-009",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "In rimfire ammunition, the priming compound is inside the rim; the firing pin crushes the soft rim to ignite it.",
+    "sourceRef": "cfsc_fr.pdf p.247",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-010",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "In centrefire ammunition, the primer is at the centre of the case head and is used in more powerful, larger calibres.",
+    "sourceRef": "cfsc_fr.pdf p.248",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-011",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": ".22 Magnum cartridges are not interchangeable with other .22 rimfire cartridges.",
+    "sourceRef": "cfsc_fr.pdf p.247",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-012",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "Dry-firing a rimfire firearm (firing sequence with no cartridge in the chamber) can damage it.",
+    "sourceRef": "cfsc_fr.pdf p.247",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-013",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "A handgun cartridge has four components: bullet (hits target), powder (propels), case (holds components), primer (ignites charge).",
+    "sourceRef": "cfsc_fr.pdf p.248",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-014",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "A bullet fully covered at the tip is jacketed (ball); one with exposed lead at the tip is semi-jacketed.",
+    "sourceRef": "cfsc_fr.pdf p.252",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-015",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "Cartridges with different designations are not interchangeable (e.g., .38 S&W, .38 Special, .38 Super Auto).",
+    "sourceRef": "cfsc_fr.pdf p.249",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-016",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "The head stamp shows the cartridge designation, calibre, manufacturer and regular/magnum quality; reading it is the only way to be sure the cartridge matches.",
+    "sourceRef": "cfsc_fr.pdf p.249",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-017",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "Some ammunition, such as rimfire cartridges, may have no designation; check the box and have it verified if in doubt.",
+    "sourceRef": "cfsc_fr.pdf p.250",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-018",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "Handguns can fire bullets more than two kilometres; shooters must know their projectile's danger range.",
+    "sourceRef": "cfsc_fr.pdf p.255",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-019",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "Trajectory is the curved path of a projectile, affected by gravity, air resistance, velocity and mass; it crosses the line of sight twice.",
+    "sourceRef": "cfsc_fr.pdf p.256",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-020",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "A hangfire is a delayed ignition; removing the cartridge too soon can make the case burst and cause injury.",
+    "sourceRef": "cfsc_fr.pdf p.257",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-021",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "A squib load fires with little noise or recoil and may leave the bullet stuck in the barrel; firing again can burst the barrel.",
+    "sourceRef": "cfsc_fr.pdf p.257",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-022",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "After a misfire, hangfire or squib, wait 60 seconds pointed safely, then open the action, remove the ammunition and PROVE the firearm safe, checking the barrel for obstruction.",
+    "sourceRef": "cfsc_fr.pdf p.257",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-023",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "Restricted firearm ammunition must be stored away from the firearm unless stored in a securely locked container or a vault/safe/room built or modified for restricted firearms.",
+    "sourceRef": "cfsc_fr.pdf p.258",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m13-024",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "In a residence, restricted firearm ammunition must not be displayed with the firearm.",
+    "sourceRef": "cfsc_fr.pdf p.258",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m13-025",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "Store ammunition in a cool, dry place, ideally in a ventilated container; a non-ventilated container can create an explosion hazard in a fire.",
+    "sourceRef": "cfsc_fr.pdf p.258",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m13-026",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "Natural Resources Canada allows a reasonable quantity of sporting ammunition for personal use, not for resale.",
+    "sourceRef": "cfsc_fr.pdf p.258",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m13-027",
+    "scope": "federal-restricted",
+    "chapter": "m13",
+    "statement": "The safest way to transport ammunition is in its original container; carry only ammunition suited to the firearm you are using.",
+    "sourceRef": "cfsc_fr.pdf p.259",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-001",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "The two main handgun action types are the revolver (cylinder) action and the semi-automatic action.",
+    "sourceRef": "cfsc_fr.pdf p.263",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-002",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "A revolver action has several chambers in a rotating cylinder, each holding one cartridge.",
+    "sourceRef": "cfsc_fr.pdf p.263",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-003",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "A semi-automatic action extracts and ejects the empty case and chambers another cartridge with each trigger pull.",
+    "sourceRef": "cfsc_fr.pdf p.263",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-004",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "A break (hinge) action opens near the breech and is usually found on single- or double-barrel firearms.",
+    "sourceRef": "cfsc_fr.pdf p.264",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-005",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "Single action: the trigger only releases a cocked hammer.",
+    "sourceRef": "cfsc_fr.pdf p.264",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-006",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "Double action cocks and fires with one continuous trigger pull and can also fire in single action; double-action-only cannot fire in single action.",
+    "sourceRef": "cfsc_fr.pdf p.265",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-007",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "Mechanical safeties can fail; a sudden shock may fire the gun even with the safety on, so safe handling is the most important safety.",
+    "sourceRef": "cfsc_fr.pdf p.265",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-008",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "Safeties interrupt the firing sequence by blocking the trigger, sear, hammer or firing pin.",
+    "sourceRef": "cfsc_fr.pdf p.265",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-009",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "Manual safeties (slide, lever, frame, safety catch) can be put on and off; built-in safeties include decocking buttons, trigger safeties, magazine disconnects and grip safeties.",
+    "sourceRef": "cfsc_fr.pdf p.266",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-010",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "The magazine disconnect prevents firing when the magazine is removed.",
+    "sourceRef": "cfsc_fr.pdf p.267",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-011",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "The grip safety, usually on semi-automatic pistols, disengages when the gun is gripped in firing position.",
+    "sourceRef": "cfsc_fr.pdf p.267",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-012",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "A decocking button safely lowers the hammer on single/double-action pistols; double-action-only pistols have none.",
+    "sourceRef": "cfsc_fr.pdf p.267",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-013",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "A hammer block (drop safety) keeps the firing pin from striking the primer if the hammer is hit; older revolvers may lack one.",
+    "sourceRef": "cfsc_fr.pdf p.267",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-014",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "A half-cock position is not necessarily a safety; check the owner's manual.",
+    "sourceRef": "cfsc_fr.pdf p.267",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-015",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "To lower a cocked single-action hammer: firm grip with strong hand, weak-hand thumb fully on hammer, press trigger and ease hammer forward, releasing trigger once clear.",
+    "sourceRef": "cfsc_fr.pdf p.268",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-016",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "With an internal hammer (striker), it is hard to see whether it is cocked, so extra caution is needed; all external-hammer safety procedures apply.",
+    "sourceRef": "cfsc_fr.pdf p.268",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-017",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "PROVE steps: Point, Remove, Observe (open action, check chamber), Verify feed path, Examine bore.",
+    "sourceRef": "cfsc_fr.pdf p.271",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-018",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "When unloading, remove a detachable magazine first so a semi-automatic does not chamber another cartridge.",
+    "sourceRef": "cfsc_fr.pdf p.271",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-019",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "A PROVEd firearm stays unloaded and safe only while the person who PROVEd it keeps direct control.",
+    "sourceRef": "cfsc_fr.pdf p.271",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14a-020",
+    "scope": "federal-restricted",
+    "chapter": "m14a",
+    "statement": "When loading, keep the safety on (if applicable) until ready to fire, and load only when you intend to use it where legal and safe.",
+    "sourceRef": "cfsc_fr.pdf p.272",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-001",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "The owner's manual is the best source for detailed loading and unloading of a specific firearm; general steps don't replace it.",
+    "sourceRef": "cfsc_fr.pdf p.273",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-002",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "In a revolver, only one chamber aligns with the barrel when firing; cylinders rotate clockwise or counter-clockwise depending on the maker.",
+    "sourceRef": "cfsc_fr.pdf p.273",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-003",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "Most single-action revolvers have fixed cylinders loaded one cartridge at a time through a loading gate, usually on the right side.",
+    "sourceRef": "cfsc_fr.pdf p.273",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-004",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "With a single-action revolver, the hammer must be cocked manually for each shot; the trigger only releases the hammer.",
+    "sourceRef": "cfsc_fr.pdf p.273",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-005",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "Unloading a fixed-cylinder single-action revolver: if the cylinder won't rotate with the gate open, put the safety on and place the hammer at half-cock.",
+    "sourceRef": "cfsc_fr.pdf p.275",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-006",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "In a fixed-cylinder revolver, use the ejector rod under the barrel, pushed front to back, with the chamber aligned with the loading gate.",
+    "sourceRef": "cfsc_fr.pdf p.275",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-007",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "Let ejected cartridges/cases fall on the bench or floor and don't pick them up until all unloading steps are completed.",
+    "sourceRef": "cfsc_fr.pdf p.275",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-008",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "Most revolvers have no safety, though some do; check the owner's manual or a qualified gunsmith.",
+    "sourceRef": "cfsc_fr.pdf p.277",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-009",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "When loading, select cartridges by matching the firearm's marking with the cartridge head stamp.",
+    "sourceRef": "cfsc_fr.pdf p.277",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-010",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "Unloading a swing-out cylinder revolver: operate the cylinder release, swing out the cylinder, point muzzle slightly up, use ejector rod.",
+    "sourceRef": "cfsc_fr.pdf p.279",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-011",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "Pulling a double-action revolver trigger fully back rotates the cylinder to align a cartridge and cocks and releases the hammer.",
+    "sourceRef": "cfsc_fr.pdf p.281",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-012",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "When loading a double-action swing-out revolver, keep the hammer fully down if possible and close the cylinder by locking the action firmly.",
+    "sourceRef": "cfsc_fr.pdf p.281",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-013",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "Break-top revolvers work like other revolvers but the action tips up or down rather than swinging sideways.",
+    "sourceRef": "cfsc_fr.pdf p.282",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-014",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "A semi-automatic uses part of the energy of the expanding powder gases to extract the empty case and chamber a new cartridge from the magazine.",
+    "sourceRef": "cfsc_fr.pdf p.283",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-015",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "In single/double-action semi-autos the hammer stays cocked after each shot (lighter trigger); in double-action-only it returns forward.",
+    "sourceRef": "cfsc_fr.pdf p.283",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-016",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "Unloading a semi-automatic pistol: remove the magazine first, then pull the slide fully back without covering the ejection port, then lock the slide back.",
+    "sourceRef": "cfsc_fr.pdf p.286",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-017",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "Magazine release buttons are in different places (behind trigger, bottom of grip, elsewhere) depending on make and model.",
+    "sourceRef": "cfsc_fr.pdf p.289",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-018",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "Direct control means the firearm is in sight and/or within arm's reach of the shooter.",
+    "sourceRef": "cfsc_fr.pdf p.289",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-019",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "Loading a semi-auto: set the firearm down pointed safely with action open to fill the magazine, insert it until it locks, then pull the slide fully back and release to chamber a round.",
+    "sourceRef": "cfsc_fr.pdf p.290",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m14b-020",
+    "scope": "federal-restricted",
+    "chapter": "m14b",
+    "statement": "Magazine capacity for semi-automatic handguns is limited by regulation to 10 cartridges.",
+    "sourceRef": "cfsc_fr.pdf p.290",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m15-001",
+    "scope": "federal-restricted",
+    "chapter": "m15",
+    "statement": "Shooting glasses should be made of impact-resistant glass or polycarbonate and have side shields.",
+    "sourceRef": "cfsc_fr.pdf p.294",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m15-002",
+    "scope": "federal-restricted",
+    "chapter": "m15",
+    "statement": "Eye injuries while shooting can be caused by ejected cases, case fragments and other debris.",
+    "sourceRef": "cfsc_fr.pdf p.294",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m15-003",
+    "scope": "federal-restricted",
+    "chapter": "m15",
+    "statement": "For maximum hearing protection, wear earplugs together with earmuffs.",
+    "sourceRef": "cfsc_fr.pdf p.295",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m15-004",
+    "scope": "federal-restricted",
+    "chapter": "m15",
+    "statement": "Disposable foam or wax earplugs can be used only once.",
+    "sourceRef": "cfsc_fr.pdf p.294",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m15-005",
+    "scope": "federal-restricted",
+    "chapter": "m15",
+    "statement": "If you fall while holding a firearm, first control the direction the muzzle is pointing.",
+    "sourceRef": "cfsc_fr.pdf p.295",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m15-006",
+    "scope": "federal-restricted",
+    "chapter": "m15",
+    "statement": "Button your collar and sleeves so hot ejected cases cannot get inside and startle you.",
+    "sourceRef": "cfsc_fr.pdf p.295",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m15-007",
+    "scope": "federal-restricted",
+    "chapter": "m15",
+    "statement": "Marksmanship depends on grip, stance, aiming, trigger control, breath control and follow-through.",
+    "sourceRef": "cfsc_fr.pdf p.295",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m15-008",
+    "scope": "federal-restricted",
+    "chapter": "m15",
+    "statement": "With a two-hand grip on a semi-automatic pistol, keep the weak-hand thumb away from behind the slide to avoid injury from slide recoil.",
+    "sourceRef": "cfsc_fr.pdf p.296",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m15-009",
+    "scope": "federal-restricted",
+    "chapter": "m15",
+    "statement": "Hold a handgun with about the same pressure used to hold a hammer.",
+    "sourceRef": "cfsc_fr.pdf p.296",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m15-010",
+    "scope": "federal-restricted",
+    "chapter": "m15",
+    "statement": "In the two-hand standing position, face the target squarely, feet shoulder-width apart, knees straight but not locked, arms extended with elbows locked.",
+    "sourceRef": "cfsc_fr.pdf p.297",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m15-011",
+    "scope": "federal-restricted",
+    "chapter": "m15",
+    "statement": "In the one-hand standing position, turn the body about 45 degrees from the target and lock the elbow and wrist of the shooting arm.",
+    "sourceRef": "cfsc_fr.pdf p.299",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m15-012",
+    "scope": "federal-restricted",
+    "chapter": "m15",
+    "statement": "Aim with the dominant eye, ideally with both eyes open; with a scope or red dot, keep your eyes on the target and raise the handgun until the sight comes between eye and target.",
+    "sourceRef": "cfsc_fr.pdf p.300",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-001",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Sight alignment is lining up the front and rear sights on the target, which creates the sight picture.",
+    "sourceRef": "cfsc_fr.pdf p.305",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-002",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "The shot should be fired during the natural pause (about 2.5 seconds) after exhaling.",
+    "sourceRef": "cfsc_fr.pdf p.305",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-003",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "To lengthen the natural respiratory pause: breathe in deeply, exhale forcefully, breathe in deeply again, then let the air out naturally.",
+    "sourceRef": "cfsc_fr.pdf p.305",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-004",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Good trigger control means squeezing slowly and progressively, without jerking or anticipating the shot.",
+    "sourceRef": "cfsc_fr.pdf p.306",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-005",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Follow-through means keeping the sight picture and firing position after the shot.",
+    "sourceRef": "cfsc_fr.pdf p.306",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-006",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Range commands vary by sport, range and jurisdiction; if in doubt, ask the range safety officer.",
+    "sourceRef": "cfsc_fr.pdf p.307",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-007",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "The range safety officer is ultimately responsible for the safety of all range users and must be obeyed at all times.",
+    "sourceRef": "cfsc_fr.pdf p.307",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-008",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "At the range, the action must be open at all times except when firing, and firearms are loaded only on the safety officer's order.",
+    "sourceRef": "cfsc_fr.pdf p.307",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-009",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Firearms may be handled, loaded and fired only at the firing line, and only after the safety officer gives the order to load.",
+    "sourceRef": "cfsc_fr.pdf p.307",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-010",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "On 'cease fire': stop firing, unload, open the action, set the firearm down pointing safely downrange, and step back behind the cease-fire line.",
+    "sourceRef": "cfsc_fr.pdf p.308",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-011",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "During a cease fire, nobody may handle firearms or ammunition or return to the firing line until the officer gives further orders.",
+    "sourceRef": "cfsc_fr.pdf p.308",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-012",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "The safety officer inspects every firearm (actions open, no cartridges in chambers or magazines) before anyone crosses the firing line.",
+    "sourceRef": "cfsc_fr.pdf p.308",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-013",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "In an emergency, anyone may call a cease fire.",
+    "sourceRef": "cfsc_fr.pdf p.308",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-014",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Direct control means the firearm is within the shooter's sight and/or within arm's length.",
+    "sourceRef": "cfsc_fr.pdf p.309",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-015",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Minors and guests without a valid firearms licence must be under direct and immediate supervision at all times when shooting.",
+    "sourceRef": "cfsc_fr.pdf p.309",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-016",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Shooters using semi-automatics should position themselves so ejected cases don't hit others; black-powder shooters should position so smoke isn't blown onto others.",
+    "sourceRef": "cfsc_fr.pdf p.310",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-017",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Before leaving the range, with the officer's permission: pick up cases and targets, put back range equipment, and sign out in the log.",
+    "sourceRef": "cfsc_fr.pdf p.311",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-018",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Unacceptable targets include those that can cause ricochets, glass or fragmenting materials, other people's targets and targets not directly in front of your position.",
+    "sourceRef": "cfsc_fr.pdf p.311",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-019",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "A handgun may be discharged only where it is legal, such as ranges approved by the Chief Firearms Officer; hunting with a handgun is prohibited.",
+    "sourceRef": "cfsc_fr.pdf p.312",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-020",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Even minor repairs should be done by qualified people; the average user should only do basic cleaning and lubrication.",
+    "sourceRef": "cfsc_fr.pdf p.312",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-021",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Rust from moisture and excessive build-up of residue can cause excessive pressure and damage the barrel, so firearms should be cleaned regularly.",
+    "sourceRef": "cfsc_fr.pdf p.313",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-022",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Old military ammunition may be corrosive; if you use corrosive ammunition, clean the firearm immediately after use.",
+    "sourceRef": "cfsc_fr.pdf p.313",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-023",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Whenever possible, clean the barrel from the breech toward the muzzle; if cleaning from the muzzle, avoid rubbing the rod against the muzzle to protect the rifling.",
+    "sourceRef": "cfsc_fr.pdf p.314",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-024",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "In the cleaning method, the solvent-soaked brush is passed through the bore first, then solvent patch, then dry patches until clean, then a lightly oiled patch.",
+    "sourceRef": "cfsc_fr.pdf p.314",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-025",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Before using the firearm again after storage, run a dry patch through the bore and chambers to remove oil, since oil or dirt can raise pressure and burst the barrel.",
+    "sourceRef": "cfsc_fr.pdf p.318",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-026",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "While cleaning, keep ammunition away and avoid distractions; never clean a firearm while doing something else.",
+    "sourceRef": "cfsc_fr.pdf p.314",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-027",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "After cleaning a firearm for storage, avoid touching metal parts with bare skin because acids in sweat can cause rust.",
+    "sourceRef": "cfsc_fr.pdf p.316",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m16-028",
+    "scope": "federal-restricted",
+    "chapter": "m16",
+    "statement": "Keep ammunition clean and dry, away from heat and vibration, and never wipe it with an oily cloth since primers react badly to penetrating oils.",
+    "sourceRef": "cfsc_fr.pdf p.318",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m17-001",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "Individuals may generally own restricted firearms for a lawful profession, target shooting or competition, collecting, or in very rare cases self-protection.",
+    "sourceRef": "cfsc_fr.pdf p.322",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m17-002",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "A handgun that is not prohibited is a restricted firearm.",
+    "sourceRef": "cfsc_fr.pdf p.322",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-003",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "A non-prohibited semi-automatic centrefire firearm with a barrel shorter than 470 mm (18.5 in) is restricted.",
+    "sourceRef": "cfsc_fr.pdf p.322",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-004",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "A firearm designed or adapted to fire when reduced by folding or telescoping to an overall length under 660 mm (26 in) is restricted.",
+    "sourceRef": "cfsc_fr.pdf p.322",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-005",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "Handguns with a barrel of 105 mm (4 1/8 in) or less, or designed to fire .25 or .32 calibre, are prohibited, except those used in ISSF competitions prescribed by regulation.",
+    "sourceRef": "cfsc_fr.pdf p.323",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-006",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "Handguns designed or adapted to fire .25 or .32 calibre cartridges are prohibited (with the ISSF competition exception).",
+    "sourceRef": "cfsc_fr.pdf p.323",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-007",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "Automatic firearms are prohibited; prohibited firearms generally cannot be acquired by individuals.",
+    "sourceRef": "cfsc_fr.pdf p.323",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-008",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "A device designed to muffle or stop the sound of a firearm (silencer) is a prohibited device.",
+    "sourceRef": "cfsc_fr.pdf p.324",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-009",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "To store a restricted firearm: unloaded, and either locked with a secure locking device inside a locked container/room not easily broken into, or kept in a vault, safe or room specially built for restricted firearms.",
+    "sourceRef": "cfsc_fr.pdf p.325",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-010",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "A restricted firearm stored in a vault, safe or room specially built for restricted firearms and kept locked does not also need a locking device.",
+    "sourceRef": "cfsc_fr.pdf p.325",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-011",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "A restricted firearm may only be stored at the address shown on its registration documents.",
+    "sourceRef": "cfsc_fr.pdf p.326",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-012",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "Storing ammunition in an unventilated container can create an explosion hazard in a fire.",
+    "sourceRef": "cfsc_fr.pdf p.326",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m17-013",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "To display a restricted firearm in a home: unloaded, disabled by a secure locking device, securely attached to a non-portable structure, and not displayed with or near ammunition it can fire.",
+    "sourceRef": "cfsc_fr.pdf p.329",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-014",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "When displayed away from its registered address, a restricted firearm may be detached so someone can handle it under the direct supervision of the person displaying it.",
+    "sourceRef": "cfsc_fr.pdf p.329",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-015",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "Transporting a restricted firearm between places requires an authorization to transport, obtained from the Chief Firearms Officer.",
+    "sourceRef": "cfsc_fr.pdf p.331",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-016",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "To transport a restricted firearm: unloaded, disabled by a secure locking device, and in a locked opaque container that cannot be easily broken or accidentally opened; a padlocked heavy-duty soft case can qualify.",
+    "sourceRef": "cfsc_fr.pdf p.331",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-017",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "A locked container with a restricted firearm may be left in an unattended vehicle's locked trunk; if there is no trunk, the vehicle must be locked and the container not visible from outside.",
+    "sourceRef": "cfsc_fr.pdf p.331",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-018",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "Removing the firing pin or another part of a restricted or prohibited handgun does not make it legally deactivated or safe for transport.",
+    "sourceRef": "cfsc_fr.pdf p.331",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m17-019",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "Pointing a firearm, loaded or not, at another person without lawful excuse is an offence; as an indictable offence it carries up to five years in prison.",
+    "sourceRef": "cfsc_fr.pdf p.334",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-020",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "Contravening the storage, display, transport and handling regulations is, on indictment, punishable by up to two years for a first offence and five years for a subsequent offence.",
+    "sourceRef": "cfsc_fr.pdf p.334",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-m17-021",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "Only hand over or accept a firearm when its action is open and it is unloaded.",
+    "sourceRef": "cfsc_fr.pdf p.335",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-m17-022",
+    "scope": "federal-restricted",
+    "chapter": "m17",
+    "statement": "The PROVE steps are: Point safely, Remove all cartridges, Observe the chambers (open action), Verify the feeding path, Examine the bore.",
+    "sourceRef": "cfsc_fr.pdf p.336",
+    "volatile": false
+  },
+  {
+    "objectiveId": "federal-restricted-ann-cession-r-001",
+    "scope": "federal-restricted",
+    "chapter": "ann-cession-r",
+    "statement": "A person transferring a firearm must require the recipient to show a licence authorizing acquisition and possession of that class of firearm, and be satisfied it does.",
+    "sourceRef": "cfsc_fr.pdf p.350",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-ann-cession-r-002",
+    "scope": "federal-restricted",
+    "chapter": "ann-cession-r",
+    "statement": "The transferor must have no reason to believe the recipient has a mental illness threatening public safety or is impaired by alcohol or drugs.",
+    "sourceRef": "cfsc_fr.pdf p.350",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-ann-cession-r-003",
+    "scope": "federal-restricted",
+    "chapter": "ann-cession-r",
+    "statement": "The transferor must inform a chief firearms officer of the transfer and obtain authorization.",
+    "sourceRef": "cfsc_fr.pdf p.350",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-ann-cession-r-004",
+    "scope": "federal-restricted",
+    "chapter": "ann-cession-r",
+    "statement": "The transferor must give the chief firearms officer both parties' names, addresses and licence numbers, and the class of firearm transferred.",
+    "sourceRef": "cfsc_fr.pdf p.350",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-ann-cession-r-005",
+    "scope": "federal-restricted",
+    "chapter": "ann-cession-r",
+    "statement": "For restricted firearms, the recipient must tell the chief firearms officer why the firearm is needed (e.g., protection of life, target practice or competition, or a collection).",
+    "sourceRef": "cfsc_fr.pdf p.351",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-ann-cession-r-006",
+    "scope": "federal-restricted",
+    "chapter": "ann-cession-r",
+    "statement": "A collector acquiring a restricted firearm must give the CFO information on knowledge of its features, written consent to reasonable periodic inspections, and understanding of safe storage requirements.",
+    "sourceRef": "cfsc_fr.pdf p.351",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-ann-cession-r-007",
+    "scope": "federal-restricted",
+    "chapter": "ann-cession-r",
+    "statement": "Before authorizing a transfer, the CFO must determine whether it could endanger others' safety; if authorized, both parties get the same transfer authorization number.",
+    "sourceRef": "cfsc_fr.pdf p.351",
+    "volatile": true
+  },
+  {
+    "objectiveId": "federal-restricted-ann-cession-r-008",
+    "scope": "federal-restricted",
+    "chapter": "ann-cession-r",
+    "statement": "For a transfer completed by telephone, the transfer number serves as confirmation and as a temporary registration certificate until the new certificate arrives by mail.",
+    "sourceRef": "cfsc_fr.pdf p.351",
+    "volatile": true
+  }
+]

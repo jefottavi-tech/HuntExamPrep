@@ -31,8 +31,15 @@ const _strings = <String, Map<String, String>>{
     'en': 'Sample content, not reviewed. Do not use to study.',
   },
   'disclaimer': {
-    'fr': 'Application indépendante, non affiliée à la GRC, au gouvernement du Québec ni à la FédéCP.',
-    'en': 'Independent app, not affiliated with the RCMP, the Government of Québec or FédéCP.',
+    'fr': 'Outil d\'étude indépendant, non affilié à la GRC, au Programme canadien des armes à feu, '
+        'au gouvernement du Québec ni à la FédéCP, et non approuvé par eux. Les questions sont des '
+        'questions de pratique originales, rédigées à partir des manuels officiels; ce ne sont pas les '
+        'questions des examens officiels. Des erreurs sont possibles et les lois changent : vérifiez '
+        'toujours dans le manuel officiel et la réglementation en vigueur. Aucune garantie de réussite.',
+    'en': 'Independent study aid, not affiliated with or endorsed by the RCMP, the Canadian Firearms '
+        'Program, the Government of Québec or FédéCP. Questions are original practice questions based on '
+        'the official manuals; they are not the official exam questions. Errors are possible and laws change: '
+        'always check the official manual and current regulations. No guarantee of passing.',
   },
   'quitTitle': {'fr': 'Quitter le test?', 'en': 'Quit this test?'},
   'quitBody': {'fr': 'Votre progression dans ce test sera perdue.', 'en': 'Your progress in this test will be lost.'},

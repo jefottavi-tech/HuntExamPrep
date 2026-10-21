@@ -62,11 +62,17 @@ class HomeScreen extends StatelessWidget {
             ),
           for (final exam in app.content.exams) _ExamCard(exam: exam),
           const SizedBox(height: 24),
-          Text(
-            app.t('disclaimer'),
-            textAlign: TextAlign.center,
-            style: Theme.of(context).textTheme.bodySmall?.copyWith(color: scheme.onSurfaceVariant),
-          ),
+          Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Icon(Icons.info_outline, size: 16, color: scheme.onSurfaceVariant),
+            const SizedBox(width: 8),
+            Expanded(
+              child: Text(
+                app.t('disclaimer'),
+                key: const Key('disclaimer'),
+                style: Theme.of(context).textTheme.bodySmall?.copyWith(color: scheme.onSurfaceVariant),
+              ),
+            ),
+          ]),
         ],
       ),
     );

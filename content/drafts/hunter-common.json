@@ -1,0 +1,3842 @@
+[
+  {
+    "id": "hunter-common-l04-001-q1",
+    "scope": "hunter-common",
+    "chapter": "l04",
+    "objectiveId": "hunter-common-l04-001",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous apercevez une silhouette au loin et voulez savoir s'il s'agit d'un orignal ou d'une personne. Que devez-vous utiliser?",
+      "choices": [
+        "La lunette de visée de votre carabine",
+        "Des jumelles",
+        "Le guidon de votre fusil",
+        "Le viseur point rouge de votre arme"
+      ],
+      "explanation": "Pour identifier quelque chose au loin, on utilise toujours des jumelles et jamais une lunette de visée, afin de ne jamais pointer une arme vers autrui."
+    },
+    "en": {
+      "q": "You see a shape in the distance and want to know whether it is a moose or a person. What should you use?",
+      "choices": [
+        "The scope on your rifle",
+        "Binoculars",
+        "The front sight of your shotgun",
+        "The red-dot sight on your firearm"
+      ],
+      "explanation": "To identify something far away, always use binoculars and never a scope, so you never point a firearm at someone."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.27",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l04-002-q1",
+    "scope": "hunter-common",
+    "chapter": "l04",
+    "objectiveId": "hunter-common-l04-002",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous blessez un cerf hors de la zone vitale. Pendant sa fuite, un autre chasseur l'atteint dans la zone vitale. Qui a priorité sur le gibier?",
+      "choices": [
+        "Vous, car vous avez tiré en premier",
+        "Le propriétaire du terrain où l'animal tombe",
+        "L'autre chasseur, car il a atteint la zone vitale",
+        "Le premier des deux qui trouve l'animal"
+      ],
+      "explanation": "Si vous ne faites que blesser l'animal et qu'un deuxième chasseur atteint la zone vitale, vous perdez votre droit de priorité."
+    },
+    "en": {
+      "q": "You wound a deer outside the vital zone. As it flees, another hunter hits it in the vital zone. Who has priority on the game?",
+      "choices": [
+        "You, because you fired first",
+        "The owner of the land where the animal falls",
+        "The other hunter, because he hit the vital zone",
+        "Whichever of the two finds the animal first"
+      ],
+      "explanation": "If you only wound the animal and a second hunter hits the vital zone, you lose your priority."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.27",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l04-002-q2",
+    "scope": "hunter-common",
+    "chapter": "l04",
+    "objectiveId": "hunter-common-l04-002",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous atteignez un orignal dans la zone vitale. L'animal parcourt une distance et un autre chasseur le touche aussi pendant sa fuite. Qui a priorité?",
+      "choices": [
+        "L'autre chasseur, car il a tiré en dernier",
+        "Les deux chasseurs, à parts égales",
+        "Vous, car votre tir a atteint la zone vitale",
+        "Celui qui détient le permis le plus ancien"
+      ],
+      "explanation": "Le chasseur qui a d'abord atteint la zone vitale garde la priorité sur le gibier, même si un deuxième chasseur l'atteint pendant sa fuite."
+    },
+    "en": {
+      "q": "You hit a moose in the vital zone. It travels some distance and another hunter also hits it as it flees. Who has priority?",
+      "choices": [
+        "The other hunter, because he fired last",
+        "Both hunters, equally",
+        "You, because your shot hit the vital zone",
+        "Whoever has held a licence the longest"
+      ],
+      "explanation": "The hunter who first hit the vital zone keeps priority on the game, even if a second hunter hits it while it flees."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.27",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l04-003-q1",
+    "scope": "hunter-common",
+    "chapter": "l04",
+    "objectiveId": "hunter-common-l04-003",
+    "reviewYear": null,
+    "fr": {
+      "q": "Un propriétaire vous a permis de chasser sur sa terre non clôturée l'an dernier. Que devez-vous faire avant d'y retourner cette année?",
+      "choices": [
+        "Rien, la permission reste valide d'une année à l'autre",
+        "Redemander sa permission, comme à chaque visite",
+        "Seulement l'aviser si vous venez avec un compagnon",
+        "Rien, car un terrain non clôturé est ouvert à tous"
+      ],
+      "explanation": "Il faut toujours obtenir la permission du propriétaire avant de chasser sur sa propriété, même non clôturée, et réitérer cette demande à chaque visite."
+    },
+    "en": {
+      "q": "Last year a landowner let you hunt on his unfenced land. What must you do before going back this year?",
+      "choices": [
+        "Nothing, the permission carries over each year",
+        "Ask permission again, as at every visit",
+        "Tell him only if you bring a companion",
+        "Nothing, since unfenced land is open to all"
+      ],
+      "explanation": "You must always get the owner's permission before hunting on private property, even unfenced, and renew the request at every visit."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.28",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l04-004-q1",
+    "scope": "hunter-common",
+    "chapter": "l04",
+    "objectiveId": "hunter-common-l04-004",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous êtes arrivé le premier dans un secteur de chasse en territoire public. Un autre chasseur arrive. Que dit le manuel?",
+      "choices": [
+        "Vous pouvez lui interdire l'accès puisque vous étiez là avant",
+        "Vous pouvez l'expulser si vous avez posé des affiches",
+        "Il est interdit de vous approprier le territoire et d'en bloquer l'accès",
+        "Il doit vous verser un droit d'accès"
+      ],
+      "explanation": "En territoire public, le libre accès est garanti par la loi; il est interdit de s'approprier un territoire, même si on l'occupait en premier."
+    },
+    "en": {
+      "q": "You were the first to arrive at a hunting spot on public land. Another hunter shows up. What does the manual say?",
+      "choices": [
+        "You may deny him access since you were there first",
+        "You may send him away if you have posted signs",
+        "You may not claim the territory or block access to it",
+        "He must pay you an access fee"
+      ],
+      "explanation": "On public land, free access is guaranteed by law; you may not claim a territory, even if you were there first."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.28",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l04-005-q1",
+    "scope": "hunter-common",
+    "chapter": "l04",
+    "objectiveId": "hunter-common-l04-005",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous chassez à l'affût en territoire public et posez des affiches aux entrées du secteur. Dans quel rayon autour de votre poste devriez-vous raisonnablement limiter cet affichage?",
+      "choices": [
+        "100 mètres",
+        "1 kilomètre",
+        "300 mètres",
+        "5 kilomètres"
+      ],
+      "explanation": "Par respect pour les autres chasseurs, l'affichage devrait se limiter à un rayon d'environ 300 mètres autour du poste d'affût."
+    },
+    "en": {
+      "q": "You are hunting from a stand on public land and post signs at the entrances to the area. Within what radius of your stand should you reasonably limit these signs?",
+      "choices": [
+        "100 metres",
+        "1 kilometre",
+        "300 metres",
+        "5 kilometres"
+      ],
+      "explanation": "Out of respect for other hunters, signs should be limited to a radius of about 300 metres around the stand."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.28",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l04-005-q2",
+    "scope": "hunter-common",
+    "chapter": "l04",
+    "objectiveId": "hunter-common-l04-005",
+    "reviewYear": null,
+    "fr": {
+      "q": "Quelle pratique est correcte concernant les affiches signalant un chasseur à l'affût en territoire public?",
+      "choices": [
+        "Indiquer la période visée et un moyen de vous joindre",
+        "Les laisser en place jusqu'à la saison suivante",
+        "Y écrire que le secteur vous appartient",
+        "Les poser seulement sur les terres privées"
+      ],
+      "explanation": "L'affiche doit mentionner la période pour laquelle vous demandez le respect des autres et un moyen de vous contacter; on la retire dès la fin de l'affût."
+    },
+    "en": {
+      "q": "Which practice is correct for signs warning that a hunter is at a stand on public land?",
+      "choices": [
+        "State the period covered and a way to reach you",
+        "Leave them up until the next season",
+        "Write on them that the area belongs to you",
+        "Post them only on private land"
+      ],
+      "explanation": "The sign must state the period for which you ask others for respect and a way to contact you; remove it as soon as your hunt ends."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.28",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l04-006-q1",
+    "scope": "hunter-common",
+    "chapter": "l04",
+    "objectiveId": "hunter-common-l04-006",
+    "reviewYear": null,
+    "fr": {
+      "q": "Votre compagnon de chasse ne respecte pas les règles. Selon le code de comportement, que devez-vous faire?",
+      "choices": [
+        "Insister poliment mais fermement pour qu'il se conforme",
+        "Ignorer la situation pour éviter un conflit",
+        "Quitter la chasse sans rien dire",
+        "Attendre la fin de la saison pour en parler"
+      ],
+      "explanation": "Le chasseur doit insister poliment mais fermement pour que son compagnon respecte les règles, et il doit rapporter tout acte de braconnage."
+    },
+    "en": {
+      "q": "Your hunting companion is not following the rules. Under the code of conduct, what should you do?",
+      "choices": [
+        "Insist politely but firmly that he comply",
+        "Ignore it to avoid a conflict",
+        "Leave the hunt without saying anything",
+        "Wait until the season ends to bring it up"
+      ],
+      "explanation": "A hunter must insist politely but firmly that the companion follow the rules, and must report any poaching."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.28",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l04-007-q1",
+    "scope": "hunter-common",
+    "chapter": "l04",
+    "objectiveId": "hunter-common-l04-007",
+    "reviewYear": null,
+    "fr": {
+      "q": "Avant de tirer sur un gibier, que devez-vous vous assurer de faire, selon la loi?",
+      "choices": [
+        "Bien l'identifier et pouvoir le récupérer",
+        "Attendre qu'il soit en mouvement",
+        "Tirer avant qu'il entre dans le dégagé",
+        "Viser la tête peu importe la distance"
+      ],
+      "explanation": "Avant de tirer sur un gibier immobile et bien placé dans un endroit dégagé, il faut bien l'identifier et s'assurer de pouvoir le récupérer."
+    },
+    "en": {
+      "q": "Before shooting at game, what must you make sure of, according to the law?",
+      "choices": [
+        "That you have identified it and can recover it",
+        "That it is moving",
+        "That you shoot before it reaches the open",
+        "That you aim at the head at any distance"
+      ],
+      "explanation": "Before shooting at game that is still, well placed and in the open, you must identify it clearly and be sure you can recover it."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.27",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-001-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-001",
+    "reviewYear": null,
+    "fr": {
+      "q": "Qu'est-ce qui propulse le projectile d'une arme à air comprimé?",
+      "choices": [
+        "La combustion de poudre sans fumée",
+        "La décompression d'un gaz",
+        "L'explosion d'une amorce seule",
+        "La détente d'un élastique"
+      ],
+      "explanation": "Les armes à air comprimé utilisent la décompression d'un gaz, alors que les armes à feu utilisent la combustion d'une charge explosive."
+    },
+    "en": {
+      "q": "What propels the projectile of an air gun?",
+      "choices": [
+        "The burning of smokeless powder",
+        "The decompression of a gas",
+        "The explosion of a primer alone",
+        "The release of an elastic band"
+      ],
+      "explanation": "Air guns use the decompression of a gas, while firearms use the combustion of an explosive charge."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.29",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-002-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-002",
+    "reviewYear": null,
+    "fr": {
+      "q": "Lequel de ces types ne fait PAS partie des quatre groupes d'armes à air comprimé décrits dans le manuel?",
+      "choices": [
+        "Arme à piston",
+        "Arme à CO2",
+        "Arme à platine à silex",
+        "Arme à levier-pompe"
+      ],
+      "explanation": "Les quatre groupes sont les armes à réservoir d'air rechargeable, à levier-pompe, à piston et à CO2. La platine à silex appartient aux armes à chargement par la bouche."
+    },
+    "en": {
+      "q": "Which of these is NOT one of the four groups of air guns described in the manual?",
+      "choices": [
+        "Piston gun",
+        "CO2 gun",
+        "Flintlock gun",
+        "Pump-lever gun"
+      ],
+      "explanation": "The four groups are refillable air reservoir, pump-lever, piston and CO2 guns. The flintlock belongs to muzzleloaders."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.30",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-003-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-003",
+    "reviewYear": null,
+    "fr": {
+      "q": "Quel type d'arme à air comprimé est le plus fréquemment utilisé pour la chasse au Québec?",
+      "choices": [
+        "L'arme à CO2",
+        "L'arme à levier-pompe",
+        "L'arme à piston",
+        "L'arme à réservoir d'air rechargeable"
+      ],
+      "explanation": "Le manuel indique que l'arme à piston est la plus utilisée pour la chasse au Québec; il la prend donc comme référence."
+    },
+    "en": {
+      "q": "Which type of air gun is most often used for hunting in Québec?",
+      "choices": [
+        "The CO2 gun",
+        "The pump-lever gun",
+        "The piston gun",
+        "The refillable air reservoir gun"
+      ],
+      "explanation": "The manual states that the piston gun is the one most used for hunting in Québec, so it uses it as the reference."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.30",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-004-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-004",
+    "reviewYear": 2026,
+    "fr": {
+      "q": "Selon la loi québécoise sur la faune, quelles carabines à air comprimé sont permises pour chasser le petit gibier?",
+      "choices": [
+        "Calibre .177 ou plus et vélocité d'au moins 152,4 m/s",
+        "Tout calibre, peu importe la vélocité",
+        "Calibre .22 seulement et vélocité d'au moins 300 m/s",
+        "Calibre inférieur à .177 et vélocité de moins de 152,4 m/s"
+      ],
+      "explanation": "La loi permet, pour le petit gibier, les carabines à air comprimé de calibre .177 ou plus qui atteignent au moins 152,4 m/s."
+    },
+    "en": {
+      "q": "Under Québec wildlife law, which air rifles are allowed for hunting small game?",
+      "choices": [
+        ".177 calibre or more and at least 152.4 m/s velocity",
+        "Any calibre at any velocity",
+        ".22 calibre only and at least 300 m/s velocity",
+        "Under .177 calibre and under 152.4 m/s velocity"
+      ],
+      "explanation": "For small game, the law allows air rifles of .177 calibre or more that reach at least 152.4 m/s."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.30",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-005-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-005",
+    "reviewYear": 2026,
+    "fr": {
+      "q": "Selon la loi fédérale sur les armes à feu, à partir de quels seuils une arme à air comprimé est-elle considérée comme une arme à feu?",
+      "choices": [
+        "152,4 m/s et 5,7 joules",
+        "100 m/s et 2 joules",
+        "200 m/s et 10 joules",
+        "Aucune arme à air comprimé n'est visée"
+      ],
+      "explanation": "Une arme à air comprimé qui atteint au moins 152,4 m/s et une énergie initiale de 5,7 joules est assujettie à la loi à titre d'arme à feu."
+    },
+    "en": {
+      "q": "Under the federal Firearms Act, at what thresholds is an air gun considered a firearm?",
+      "choices": [
+        "152.4 m/s and 5.7 joules",
+        "100 m/s and 2 joules",
+        "200 m/s and 10 joules",
+        "No air gun is covered"
+      ],
+      "explanation": "An air gun reaching at least 152.4 m/s and 5.7 joules of muzzle energy is covered by the Act as a firearm."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.30",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-006-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-006",
+    "reviewYear": null,
+    "fr": {
+      "q": "Sur la plupart des armes à piston-ressort, quelle pièce sert de levier d'armement pour comprimer le ressort?",
+      "choices": [
+        "Le canon lui-même",
+        "La crosse",
+        "La détente",
+        "Le cran de sûreté"
+      ],
+      "explanation": "La compression s'obtient manuellement à l'aide d'un levier d'armement qui est, dans la plupart des cas, le canon lui-même."
+    },
+    "en": {
+      "q": "On most spring-piston air guns, which part serves as the cocking lever to compress the spring?",
+      "choices": [
+        "The barrel itself",
+        "The stock",
+        "The trigger",
+        "The safety"
+      ],
+      "explanation": "Compression is done by hand with a cocking lever which, in most cases, is the barrel itself."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.30",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-007-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-007",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous venez d'insérer le projectile dans votre arme à piston-ressort à canon basculant. Quelle est l'étape suivante?",
+      "choices": [
+        "Tirer à vide pour vérifier le ressort",
+        "Remonter le canon et engager le cran de sûreté",
+        "Laisser le canon ouvert jusqu'à l'arrivée du gibier",
+        "Huiler l'intérieur du canon"
+      ],
+      "explanation": "Après avoir inséré le projectile, on remonte le canon et on engage le cran de sûreté."
+    },
+    "en": {
+      "q": "You have just inserted the pellet in your break-barrel spring-piston gun. What is the next step?",
+      "choices": [
+        "Dry-fire to check the spring",
+        "Close the barrel and engage the safety",
+        "Leave the barrel open until game appears",
+        "Oil the inside of the barrel"
+      ],
+      "explanation": "After inserting the pellet, close the barrel and engage the safety."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.31",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-008-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-008",
+    "reviewYear": null,
+    "fr": {
+      "q": "Pourquoi ne faut-il jamais tirer à vide avec une arme à air comprimé à piston?",
+      "choices": [
+        "Cela vide le réservoir de CO2",
+        "Cela pourrait briser le piston",
+        "Cela déplace la lunette de visée",
+        "Cela use les rayures du canon"
+      ],
+      "explanation": "Tirer sans projectile peut briser le piston et endommager le mécanisme."
+    },
+    "en": {
+      "q": "Why should you never dry-fire a piston air gun?",
+      "choices": [
+        "It empties the CO2 reservoir",
+        "It could break the piston",
+        "It knocks the scope out of alignment",
+        "It wears out the rifling"
+      ],
+      "explanation": "Firing without a pellet can break the piston and damage the mechanism."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.33",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-009-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-009",
+    "reviewYear": null,
+    "fr": {
+      "q": "Pour un tir précis avec une arme à piston-ressort, comment devriez-vous appuyer l'arme?",
+      "choices": [
+        "Sur un appui fixe et rigide",
+        "En serrant fermement le fût",
+        "En déposant le fût sur la main porteuse sans trop serrer",
+        "En appuyant le canon contre un arbre"
+      ],
+      "explanation": "Ces armes produisent un contrecoup; on dépose simplement le fût sur la main porteuse sans trop serrer, et on évite un appui fixe et rigide."
+    },
+    "en": {
+      "q": "For an accurate shot with a spring-piston gun, how should you support it?",
+      "choices": [
+        "On a fixed, rigid rest",
+        "By gripping the forend tightly",
+        "By resting the forend loosely on your supporting hand",
+        "By pressing the barrel against a tree"
+      ],
+      "explanation": "These guns recoil; just rest the forend on your supporting hand without squeezing, and avoid a fixed, rigid rest."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.31",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-010-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-010",
+    "reviewYear": null,
+    "fr": {
+      "q": "Lors du tir, qu'est-ce qui procure de la stabilité au projectile à jupe (diabolo)?",
+      "choices": [
+        "Le poids de sa tête pleine",
+        "La fumée produite derrière le projectile",
+        "La rotation donnée lorsque la jupe s'engage dans les rayures",
+        "Le sabot de plastique qui l'entoure"
+      ],
+      "explanation": "La pression du gaz fait gonfler la jupe, qui s'engage dans les rayures, forme un scellé et imprime une rotation qui stabilise le projectile."
+    },
+    "en": {
+      "q": "When fired, what gives a skirted (diabolo) pellet its stability?",
+      "choices": [
+        "The weight of its solid head",
+        "The smoke produced behind the pellet",
+        "The spin it gets when the skirt engages the rifling",
+        "The plastic sabot around it"
+      ],
+      "explanation": "Gas pressure expands the skirt into the rifling, sealing the bore and creating a spin that stabilizes the pellet."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.31",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-011-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-011",
+    "reviewYear": null,
+    "fr": {
+      "q": "À quoi sert une tête creuse sur un projectile d'arme à air comprimé?",
+      "choices": [
+        "À traverser la cible plus facilement",
+        "À s'écraser sur la cible plutôt qu'à la traverser",
+        "À réduire le contrecoup de l'arme",
+        "À éviter l'usure du canon"
+      ],
+      "explanation": "Les projectiles à tête creuse sont conçus pour s'écraser sur la cible au lieu de la traverser."
+    },
+    "en": {
+      "q": "What is the purpose of a hollow-point head on an air gun pellet?",
+      "choices": [
+        "To pass through the target more easily",
+        "To flatten on the target instead of passing through",
+        "To reduce the gun's recoil",
+        "To prevent barrel wear"
+      ],
+      "explanation": "Hollow-point pellets are designed to flatten on the target instead of passing through it."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.31",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-012-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-012",
+    "reviewYear": null,
+    "fr": {
+      "q": "Combien de grains équivalent à un gramme?",
+      "choices": [
+        "15,43 grains",
+        "5,7 grains",
+        "10 grains",
+        "30 grains"
+      ],
+      "explanation": "La masse d'un projectile se mesure en grains, et 15,43 grains équivalent à un gramme."
+    },
+    "en": {
+      "q": "How many grains equal one gram?",
+      "choices": [
+        "15.43 grains",
+        "5.7 grains",
+        "10 grains",
+        "30 grains"
+      ],
+      "explanation": "Projectile mass is measured in grains, and 15.43 grains equal one gram."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.32",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-013-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-013",
+    "reviewYear": null,
+    "fr": {
+      "q": "Votre arme à air comprimé est peu puissante. Où devriez-vous viser un petit gibier?",
+      "choices": [
+        "À l'arrière-train",
+        "Au milieu de l'abdomen",
+        "Aux pattes avant",
+        "À la tête, entre l'œil et l'oreille"
+      ],
+      "explanation": "Avec une arme moins puissante, on vise la tête entre l'œil et l'oreille, la partie la plus fragile du crâne."
+    },
+    "en": {
+      "q": "Your air gun is not very powerful. Where should you aim on small game?",
+      "choices": [
+        "At the hindquarters",
+        "In the middle of the abdomen",
+        "At the front legs",
+        "At the head, between the eye and the ear"
+      ],
+      "explanation": "With a less powerful gun, aim at the head between the eye and the ear, the most fragile part of the skull."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.32",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-014-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-014",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous choisissez des projectiles pour chasser le petit gibier à l'arme à air comprimé. Que recommande le manuel?",
+      "choices": [
+        "Le projectile le plus léger, en .177",
+        "Changer de projectile à chaque sortie",
+        "Des projectiles différents pour l'entraînement et la chasse",
+        "Le projectile de plus grande masse, en .22"
+      ],
+      "explanation": "Pour la chasse, on conseille le projectile de plus grande masse (.22) et de s'entraîner à différentes distances avec les mêmes munitions."
+    },
+    "en": {
+      "q": "You are choosing pellets for hunting small game with an air gun. What does the manual recommend?",
+      "choices": [
+        "The lightest pellet, in .177",
+        "A different pellet at each outing",
+        "Different pellets for practice and for hunting",
+        "The heaviest pellet, in .22"
+      ],
+      "explanation": "For hunting, choose the heaviest pellet (.22) and practise at various distances with the same ammunition."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.32",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-015-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-015",
+    "reviewYear": null,
+    "fr": {
+      "q": "Quelle est la portée maximale efficace pour un tir mortel rapide sur un petit gibier avec une arme à air comprimé?",
+      "choices": [
+        "10 mètres",
+        "100 mètres",
+        "30 mètres",
+        "640 mètres"
+      ],
+      "explanation": "La portée maximale efficace pour un tir mortel rapide sur un petit gibier est de 30 mètres, soit environ 100 pieds."
+    },
+    "en": {
+      "q": "What is the maximum effective range for a quick kill on small game with an air gun?",
+      "choices": [
+        "10 metres",
+        "100 metres",
+        "30 metres",
+        "640 metres"
+      ],
+      "explanation": "The maximum effective range for a quick kill on small game is 30 metres, about 100 feet."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.32",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-015-q2",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-015",
+    "reviewYear": null,
+    "fr": {
+      "q": "Jusqu'à quelle distance environ un projectile d'arme à air comprimé peut-il demeurer dangereux?",
+      "choices": [
+        "30 mètres",
+        "100 mètres",
+        "3 kilomètres",
+        "640 mètres"
+      ],
+      "explanation": "Même si la portée efficace est de 30 mètres, la portée limite dangereuse de ces armes est d'environ 640 mètres."
+    },
+    "en": {
+      "q": "Up to roughly what distance can an air gun pellet remain dangerous?",
+      "choices": [
+        "30 metres",
+        "100 metres",
+        "3 kilometres",
+        "640 metres"
+      ],
+      "explanation": "Although the effective range is 30 metres, the dangerous range of these guns is about 640 metres."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.32",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-016-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-016",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous installez une lunette de visée sur votre arme à piston-ressort. Quelle caractéristique est essentielle?",
+      "choices": [
+        "Avoir un grossissement d'au moins 20x",
+        "Être fixée directement sur le canon basculant",
+        "Avoir un réticule lumineux rouge",
+        "Être conçue pour résister aux contrecoups de ces armes"
+      ],
+      "explanation": "La lunette est fortement recommandée, mais elle doit être conçue pour résister aux contrecoups des armes à air comprimé."
+    },
+    "en": {
+      "q": "You are mounting a scope on your spring-piston gun. Which feature is essential?",
+      "choices": [
+        "It must have at least 20x magnification",
+        "It must be mounted directly on the break barrel",
+        "It must have an illuminated red reticle",
+        "It must be built to withstand this type of recoil"
+      ],
+      "explanation": "A scope is strongly recommended, but it must be designed to withstand air-gun recoil."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.32",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-017-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-017",
+    "reviewYear": null,
+    "fr": {
+      "q": "Quel type d'huile devez-vous utiliser pour entretenir une arme à air comprimé?",
+      "choices": [
+        "Une huile détersive pour moteur",
+        "Une huile non détersive conçue pour ces armes",
+        "Une huile de cuisson végétale",
+        "Aucune huile, seulement de l'eau savonneuse"
+      ],
+      "explanation": "On utilise une huile non détersive spécialement conçue pour ces armes afin de ne pas endommager les joints d'étanchéité."
+    },
+    "en": {
+      "q": "What kind of oil should you use to maintain an air gun?",
+      "choices": [
+        "A detergent motor oil",
+        "A non-detergent oil made for these guns",
+        "A vegetable cooking oil",
+        "No oil, only soapy water"
+      ],
+      "explanation": "Use a non-detergent oil designed for these guns so as not to damage the seals."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.33",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-018-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-018",
+    "reviewYear": null,
+    "fr": {
+      "q": "Quel danger particulier présente une arme à ressort à canon basculant lors de l'armement?",
+      "choices": [
+        "La poudre peut s'enflammer",
+        "Le retour brusque du canon peut blesser au visage",
+        "L'amorce peut exploser dans la main",
+        "Le chargeur peut se détacher"
+      ],
+      "explanation": "Le canon peut revenir brusquement et blesser au visage ou endommager l'arme; il faut toujours compléter le mouvement jusqu'au bout."
+    },
+    "en": {
+      "q": "What particular danger does a break-barrel spring gun present when cocking?",
+      "choices": [
+        "The powder can ignite",
+        "The barrel can snap back and injure your face",
+        "The primer can explode in your hand",
+        "The magazine can fall out"
+      ],
+      "explanation": "The barrel can snap back and injure your face or damage the gun; always complete the movement fully."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.33",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-019-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-019",
+    "reviewYear": null,
+    "fr": {
+      "q": "Parmi les armes à chargement par la bouche à percussion alignée, quel modèle est le plus utilisé pour la chasse au Québec?",
+      "choices": [
+        "L'arme à charnière (bascule)",
+        "L'arme à verrou",
+        "L'arme à culasse mobile",
+        "L'arme à platine à silex"
+      ],
+      "explanation": "Des trois modèles à percussion alignée (verrou, culasse mobile, charnière), l'arme à charnière est la plus utilisée au Québec."
+    },
+    "en": {
+      "q": "Among in-line muzzleloaders, which model is most used for hunting in Québec?",
+      "choices": [
+        "The hinged (break-action)",
+        "The bolt action",
+        "The sliding breech",
+        "The flintlock"
+      ],
+      "explanation": "Of the three in-line models (bolt, sliding breech, hinged), the hinged break-action is most used in Québec."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.34",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-020-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-020",
+    "reviewYear": null,
+    "fr": {
+      "q": "Au Québec, combien de coups une arme à chargement par la bouche autorisée pour la chasse peut-elle tirer avant d'être rechargée?",
+      "choices": [
+        "Deux",
+        "Un seul",
+        "Trois",
+        "Autant que le chargeur en contient"
+      ],
+      "explanation": "Les armes autorisées ne peuvent tirer qu'un seul coup avant d'être rechargées par la bouche du canon."
+    },
+    "en": {
+      "q": "In Québec, how many shots can a muzzleloader allowed for hunting fire before it must be reloaded?",
+      "choices": [
+        "Two",
+        "Only one",
+        "Three",
+        "As many as the magazine holds"
+      ],
+      "explanation": "Allowed muzzleloaders can fire only one shot before being reloaded through the muzzle."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.34",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-021-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-021",
+    "reviewYear": null,
+    "fr": {
+      "q": "Dans une arme à chargement par la bouche à percussion alignée, quel est le rôle de la « lumière »?",
+      "choices": [
+        "Éclairer la cible à l'aube",
+        "Transmettre la flamme de l'amorce à la charge explosive",
+        "Indiquer que l'arme est chargée",
+        "Laisser s'échapper la fumée après le tir"
+      ],
+      "explanation": "La lumière est un petit trou qui prolonge la cavité du bouchon de culasse et transmet la flamme de l'amorce à la charge explosive."
+    },
+    "en": {
+      "q": "In an in-line muzzleloader, what is the role of the flash hole?",
+      "choices": [
+        "To light up the target at dawn",
+        "To carry the primer's flame to the powder charge",
+        "To show that the gun is loaded",
+        "To let smoke escape after firing"
+      ],
+      "explanation": "The flash hole is a small hole extending from the breech-plug cavity that carries the primer's flame to the powder charge."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.35",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-022-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-022",
+    "reviewYear": null,
+    "fr": {
+      "q": "Un ami vous offre de la poudre sans fumée pour votre arme à chargement par la bouche conçue pour la poudre noire. Que faites-vous?",
+      "choices": [
+        "Vous l'utilisez en réduisant un peu la charge",
+        "Vous la mélangez à de la poudre noire",
+        "Vous refusez, car le canon pourrait éclater",
+        "Vous l'utilisez seulement au champ de tir"
+      ],
+      "explanation": "Il ne faut jamais utiliser de poudre sans fumée dans une arme conçue pour la poudre noire; le canon pourrait éclater et causer de graves blessures."
+    },
+    "en": {
+      "q": "A friend offers you smokeless powder for your muzzleloader designed for black powder. What do you do?",
+      "choices": [
+        "Use it with a slightly reduced charge",
+        "Mix it with black powder",
+        "Refuse, because the barrel could burst",
+        "Use it only at the range"
+      ],
+      "explanation": "Never use smokeless powder in a gun designed for black powder; the barrel could burst and cause serious injuries."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.35",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-023-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-023",
+    "reviewYear": null,
+    "fr": {
+      "q": "Quel avantage les substituts de poudre noire offrent-ils par rapport à la poudre noire?",
+      "choices": [
+        "Ils sont moins corrosifs, plus stables et font moins de fumée",
+        "Ils sont plus corrosifs, donc nettoient le canon",
+        "Ils peuvent remplacer la poudre sans fumée",
+        "Ils n'exigent aucun nettoyage de l'arme"
+      ],
+      "explanation": "Les substituts sont moins corrosifs, plus stables et génèrent moins de fumée que la poudre noire."
+    },
+    "en": {
+      "q": "What advantage do black powder substitutes offer over black powder?",
+      "choices": [
+        "They are less corrosive, more stable and less smoky",
+        "They are more corrosive, so they clean the barrel",
+        "They can replace smokeless powder",
+        "They require no cleaning of the gun"
+      ],
+      "explanation": "Substitutes are less corrosive, more stable and produce less smoke than black powder."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.35",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-024-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-024",
+    "reviewYear": null,
+    "fr": {
+      "q": "Quel accessoire sert à retirer plus aisément le projectile d'une arme à chargement par la bouche?",
+      "choices": [
+        "Le bloc de départ",
+        "Le distributeur d'amorces",
+        "La graisse anti-grippage",
+        "Le tire-balle"
+      ],
+      "explanation": "Le tire-balle se fixe au bout de la baguette et se visse dans le projectile pour le retirer du canon."
+    },
+    "en": {
+      "q": "Which accessory makes it easier to remove the projectile from a muzzleloader?",
+      "choices": [
+        "The short starter",
+        "The primer dispenser",
+        "The anti-seize grease",
+        "The bullet puller"
+      ],
+      "explanation": "The bullet puller attaches to the end of the ramrod and screws into the projectile to pull it out of the barrel."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.35",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-025-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-025",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous chargez votre arme à chargement par la bouche. Quelle position est sécuritaire?",
+      "choices": [
+        "Arme à l'horizontale sur vos genoux, canon vers vous",
+        "Crosse à l'épaule, canon pointé vers le haut",
+        "Crosse au sol entre vos pieds, visage et mains jamais au-dessus de la bouche",
+        "Arme appuyée contre un arbre, amorce en place"
+      ],
+      "explanation": "On appuie la crosse au sol, bloquée entre les pieds, sans que le visage ou les mains se trouvent au-dessus de la bouche du canon."
+    },
+    "en": {
+      "q": "You are loading your muzzleloader. Which position is safe?",
+      "choices": [
+        "Gun flat across your knees, barrel toward you",
+        "Butt on your shoulder, barrel pointing up",
+        "Butt on the ground between your feet, face and hands never over the muzzle",
+        "Gun leaning on a tree with a primer in place"
+      ],
+      "explanation": "Rest the butt on the ground secured between your feet, never with your face or hands over the muzzle."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.36",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-025-q2",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-025",
+    "reviewYear": null,
+    "fr": {
+      "q": "À quel moment ne faut-il jamais avoir une amorce dans le bouchon de culasse?",
+      "choices": [
+        "Juste avant de tirer sur le lieu de chasse",
+        "Lorsque le gibier est en vue",
+        "Au champ de tir, prêt à tirer",
+        "Pendant le chargement ou le déchargement de l'arme"
+      ],
+      "explanation": "Il ne faut jamais mettre d'amorce dans le bouchon de culasse pendant qu'on charge ou décharge l'arme."
+    },
+    "en": {
+      "q": "When must there never be a primer in the breech plug?",
+      "choices": [
+        "Just before firing at the hunting site",
+        "When game is in sight",
+        "At the range, ready to fire",
+        "While loading or unloading the gun"
+      ],
+      "explanation": "Never put a primer in the breech plug while loading or unloading the gun."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.36",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-026-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-026",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous insérez votre baguette marquée dans le canon et elle s'arrête à la première marque, faite canon vide. Que signifie cela?",
+      "choices": [
+        "L'arme est chargée",
+        "Il y a deux charges dans le canon",
+        "La lumière est obstruée",
+        "L'arme est déchargée"
+      ],
+      "explanation": "La première marque, faite quand le canon est vide, indique que l'arme est déchargée; la seconde indique qu'elle est chargée."
+    },
+    "en": {
+      "q": "You insert your marked ramrod and it stops at the first mark, made with the barrel empty. What does this mean?",
+      "choices": [
+        "The gun is loaded",
+        "There are two charges in the barrel",
+        "The flash hole is blocked",
+        "The gun is unloaded"
+      ],
+      "explanation": "The first mark, made with the barrel empty, shows the gun is unloaded; the second shows it is loaded."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.37",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-027-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-027",
+    "reviewYear": null,
+    "fr": {
+      "q": "Votre arme à chargement par la bouche n'a pas de cran de sûreté. Quand devez-vous armer le chien?",
+      "choices": [
+        "À la maison, avant de partir",
+        "Au dernier moment, juste avant de tirer",
+        "Dès que l'arme est chargée",
+        "En marchant vers votre poste"
+      ],
+      "explanation": "Sans cran de sûreté, on attend le dernier moment, juste avant de tirer, pour armer le chien."
+    },
+    "en": {
+      "q": "Your muzzleloader has no safety. When should you cock the hammer?",
+      "choices": [
+        "At home, before leaving",
+        "At the last moment, just before firing",
+        "As soon as the gun is loaded",
+        "While walking to your stand"
+      ],
+      "explanation": "Without a safety, wait until the last moment, just before firing, to cock the hammer."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.37",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-028-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-028",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous appuyez sur la détente de votre arme à chargement par la bouche et rien ne se produit. Que faites-vous d'abord?",
+      "choices": [
+        "Ouvrir aussitôt l'arme pour voir l'amorce",
+        "Regarder dans la bouche du canon",
+        "Garder l'arme pointée en direction sécuritaire et attendre 60 secondes",
+        "Réarmer et tirer immédiatement à nouveau"
+      ],
+      "explanation": "Il faut pointer l'arme dans une direction sécuritaire et attendre 60 secondes, au cas où le coup partirait à retardement."
+    },
+    "en": {
+      "q": "You pull the trigger on your muzzleloader and nothing happens. What do you do first?",
+      "choices": [
+        "Open the gun right away to check the primer",
+        "Look into the muzzle",
+        "Keep it pointed in a safe direction and wait 60 seconds",
+        "Re-cock and fire again immediately"
+      ],
+      "explanation": "Point the gun in a safe direction and wait 60 seconds in case of a delayed discharge."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.37",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-029-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-029",
+    "reviewYear": null,
+    "fr": {
+      "q": "L'amorce de votre arme explose, mais la poudre ne s'enflamme pas. Laquelle de ces causes est possible?",
+      "choices": [
+        "Une baguette trop longue",
+        "Un projectile trop léger",
+        "Un cran de sûreté désengagé",
+        "Une poudre humide"
+      ],
+      "explanation": "Un raté d'allumage peut être causé par une amorce défectueuse, de la poudre humide ou une obstruction de la cheminée."
+    },
+    "en": {
+      "q": "Your gun's primer fires but the powder does not ignite. Which of these is a possible cause?",
+      "choices": [
+        "A ramrod that is too long",
+        "A projectile that is too light",
+        "A disengaged safety",
+        "Damp powder"
+      ],
+      "explanation": "A hangfire can be caused by a defective primer, damp powder or a blocked nipple."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.38",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-030-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-030",
+    "reviewYear": null,
+    "fr": {
+      "q": "Pour décharger votre arme à chargement par la bouche, quelle est la première étape après l'avoir pointée vers une zone sécuritaire?",
+      "choices": [
+        "Dévisser le bouchon de culasse",
+        "Pousser le projectile avec la baguette",
+        "Tirer l'arme dans le sol",
+        "Retirer l'amorce"
+      ],
+      "explanation": "On pointe l'arme vers une zone sécuritaire, puis on retire l'amorce avant de retirer la charge et le projectile."
+    },
+    "en": {
+      "q": "To unload your muzzleloader, what is the first step after pointing it in a safe direction?",
+      "choices": [
+        "Unscrew the breech plug",
+        "Push the projectile out with the ramrod",
+        "Fire the gun into the ground",
+        "Remove the primer"
+      ],
+      "explanation": "Point the gun in a safe direction, then remove the primer before removing the charge and projectile."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.37",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-031-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-031",
+    "reviewYear": null,
+    "fr": {
+      "q": "Laquelle de ces pratiques est conforme aux règles de sécurité des armes à chargement par la bouche?",
+      "choices": [
+        "Retirer la baguette du canon avant de faire feu",
+        "Charger l'arme à l'intérieur du chalet, à l'abri du vent",
+        "Fumer en chargeant, loin de la boîte de poudre",
+        "Tirer même si on soupçonne deux charges"
+      ],
+      "explanation": "Il faut toujours retirer la baguette avant de tirer; on ne charge jamais à l'intérieur, on ne fume jamais près de la poudre et on ne tire jamais avec une double charge suspectée."
+    },
+    "en": {
+      "q": "Which of these practices follows muzzleloader safety rules?",
+      "choices": [
+        "Removing the ramrod from the barrel before firing",
+        "Loading the gun inside the cabin, out of the wind",
+        "Smoking while loading, away from the powder tin",
+        "Firing even if you suspect a double charge"
+      ],
+      "explanation": "Always remove the ramrod before firing; never load indoors, never smoke near powder and never fire with a suspected double charge."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.38",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-032-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-032",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous avez tiré un cerf avec votre arme à chargement par la bouche. Combien de temps devez-vous attendre avant de partir à sa recherche?",
+      "choices": [
+        "Au moins 30 minutes, idéalement une heure",
+        "Aucun délai, il faut le suivre tout de suite",
+        "Exactement 5 minutes",
+        "Au moins 24 heures"
+      ],
+      "explanation": "Le manuel recommande d'attendre au minimum 30 minutes, mais idéalement une heure, avant de rechercher le gibier."
+    },
+    "en": {
+      "q": "You have shot a deer with your muzzleloader. How long should you wait before searching for it?",
+      "choices": [
+        "At least 30 minutes, ideally one hour",
+        "No delay, follow it right away",
+        "Exactly 5 minutes",
+        "At least 24 hours"
+      ],
+      "explanation": "The manual says to wait at least 30 minutes, but ideally one hour, before searching for the game."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.38",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-033-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-033",
+    "reviewYear": null,
+    "fr": {
+      "q": "Après un premier lavage à l'eau savonneuse, comment devez-vous rincer le canon d'une arme à chargement par la bouche?",
+      "choices": [
+        "À l'eau froide pour éviter la rouille",
+        "Avec de la poudre sans fumée",
+        "Avec de l'huile détersive",
+        "À l'eau très chaude pour qu'il sèche rapidement"
+      ],
+      "explanation": "On rince le canon à l'eau très chaude pour qu'il sèche rapidement, puis on l'essuie et on le lubrifie."
+    },
+    "en": {
+      "q": "After a first wash with soapy water, how should you rinse a muzzleloader barrel?",
+      "choices": [
+        "With cold water to prevent rust",
+        "With smokeless powder",
+        "With detergent oil",
+        "With very hot water so it dries quickly"
+      ],
+      "explanation": "Rinse the barrel with very hot water so it dries quickly, then wipe and lubricate it."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.39",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l05-034-q1",
+    "scope": "hunter-common",
+    "chapter": "l05",
+    "objectiveId": "hunter-common-l05-034",
+    "reviewYear": null,
+    "fr": {
+      "q": "Comment devez-vous entreposer la poudre noire et les amorces?",
+      "choices": [
+        "Ensemble, dans un contenant parfaitement étanche",
+        "Dans l'arme chargée, prête à servir",
+        "Séparément, dans des contenants non étanches où l'air circule",
+        "Près du poêle à bois pour les garder au sec"
+      ],
+      "explanation": "Les amorces et la poudre s'entreposent séparément, idéalement sous verrou, dans des contenants non étanches, loin de toute source d'allumage."
+    },
+    "en": {
+      "q": "How should you store black powder and primers?",
+      "choices": [
+        "Together, in a fully airtight container",
+        "In the loaded gun, ready for use",
+        "Separately, in non-airtight containers with air flow",
+        "Near the wood stove to keep them dry"
+      ],
+      "explanation": "Primers and powder are stored separately, ideally locked, in non-airtight containers, away from any ignition source."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.39",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-001-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-001",
+    "reviewYear": null,
+    "fr": {
+      "q": "Laquelle de ces qualités est recherchée dans un bon vêtement de chasse?",
+      "choices": [
+        "Être parfumé pour masquer la sueur",
+        "Être silencieux lors des mouvements",
+        "Être rigide pour protéger des branches",
+        "Être d'une seule épaisseur très chaude"
+      ],
+      "explanation": "Un bon vêtement de chasse est confortable, adapté à la météo, se confond avec le décor, est silencieux, n'entrave pas le tir et est inodore."
+    },
+    "en": {
+      "q": "Which of these qualities is wanted in good hunting clothing?",
+      "choices": [
+        "Being scented to mask sweat",
+        "Being silent when you move",
+        "Being stiff to protect from branches",
+        "Being a single very warm layer"
+      ],
+      "explanation": "Good hunting clothing is comfortable, suited to the weather, blends in, is silent, does not interfere with shooting and is odourless."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.57",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-002-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-002",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous portez un sac à dos pour transporter votre équipement de survie. Où doit se trouver votre dossard?",
+      "choices": [
+        "Sous votre manteau",
+        "Dans le sac à dos",
+        "Attaché à votre arme",
+        "Par-dessus le sac à dos"
+      ],
+      "explanation": "Il faut toujours porter le dossard par-dessus le sac à dos pour qu'il demeure visible."
+    },
+    "en": {
+      "q": "You carry a backpack with your survival gear. Where should your blaze orange vest be?",
+      "choices": [
+        "Under your coat",
+        "Inside the backpack",
+        "Tied to your firearm",
+        "Over the backpack"
+      ],
+      "explanation": "Always wear the vest over the backpack so it stays visible."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.57",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-003-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-003",
+    "reviewYear": null,
+    "fr": {
+      "q": "Pourquoi recommande-t-on des savons à lessive spéciaux pour laver les vêtements de chasse?",
+      "choices": [
+        "Pour éliminer les odeurs et les reflets ultraviolets",
+        "Pour rendre les vêtements imperméables",
+        "Pour raviver la couleur orangée du dossard",
+        "Pour ajouter une odeur de pin aux vêtements"
+      ],
+      "explanation": "Ces savons éliminent les odeurs et les reflets ultraviolets; certains gibiers, comme le cerf de Virginie, détectent les reflets UV."
+    },
+    "en": {
+      "q": "Why are special laundry detergents recommended for washing hunting clothes?",
+      "choices": [
+        "To remove odours and ultraviolet reflections",
+        "To make the clothes waterproof",
+        "To brighten the orange of the vest",
+        "To add a pine scent to the clothes"
+      ],
+      "explanation": "These detergents remove odours and UV reflections; some game, such as white-tailed deer, can detect UV reflections."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.57",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-004-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-004",
+    "reviewYear": null,
+    "fr": {
+      "q": "En prospectant votre territoire, vous trouvez des rameaux effilochés et de l'écorce arrachée. Qu'indiquent ces signes?",
+      "choices": [
+        "Le passage d'un autre chasseur",
+        "Une maladie des arbres sans lien avec le gibier",
+        "Du broutage ou de l'alimentation par le gibier",
+        "Le travail récent d'un bûcheron"
+      ],
+      "explanation": "Des rameaux effilochés, des branches dépouillées ou de l'écorce arrachée sont des indices de broutage ou d'alimentation du gibier."
+    },
+    "en": {
+      "q": "While scouting your area, you find frayed twigs and torn bark. What do these signs show?",
+      "choices": [
+        "That another hunter passed by",
+        "A tree disease unrelated to game",
+        "Browsing or feeding by game",
+        "Recent work by a logger"
+      ],
+      "explanation": "Frayed twigs, stripped branches or torn bark are signs of browsing or feeding by game."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.57",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-005-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-005",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous installez votre poste d'affût pour le cerf. De quelle direction proviennent majoritairement les vents dominants à considérer?",
+      "choices": [
+        "Du nord",
+        "De l'est",
+        "Du sud",
+        "De l'ouest"
+      ],
+      "explanation": "Le manuel indique que les vents dominants proviennent majoritairement de l'ouest; on chasse face au vent pour ne pas être flairé."
+    },
+    "en": {
+      "q": "You are setting up your stand for deer. From which direction do the prevailing winds mostly come?",
+      "choices": [
+        "From the north",
+        "From the east",
+        "From the south",
+        "From the west"
+      ],
+      "explanation": "The manual says prevailing winds come mostly from the west; hunt facing the wind so game does not smell you."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.58",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-006-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-006",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous venez d'acheter une tente de camouflage neuve pour l'affût au sol. Que devriez-vous faire avant de l'installer sur votre site?",
+      "choices": [
+        "La vaporiser d'urine de cervidé",
+        "La laver avec un savon parfumé",
+        "La monter et la laisser aérer pour chasser l'odeur synthétique",
+        "La recouvrir de ruban orangé fluorescent"
+      ],
+      "explanation": "On monte la tente neuve à l'avance pour la faire aérer et faire disparaître les odeurs de matières synthétiques."
+    },
+    "en": {
+      "q": "You just bought a new camouflage ground blind. What should you do before setting it up at your site?",
+      "choices": [
+        "Spray it with cervid urine",
+        "Wash it with scented soap",
+        "Set it up and air it out to remove the synthetic smell",
+        "Cover it with blaze orange tape"
+      ],
+      "explanation": "Set up a new blind ahead of time to air it out and get rid of synthetic material odours."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.58",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-007-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-007",
+    "reviewYear": null,
+    "fr": {
+      "q": "Pour la chasse à l'ours noir à l'affût, quelle méthode le manuel recommande-t-il?",
+      "choices": [
+        "L'affût au sol dans une tente",
+        "La chasse avec chiens",
+        "L'affût en mirador",
+        "La chasse en battue"
+      ],
+      "explanation": "L'affût au sol est déconseillé pour l'ours; l'affût en mirador est recommandé, surtout pour l'ours noir."
+    },
+    "en": {
+      "q": "For hunting black bear from a stand, which method does the manual recommend?",
+      "choices": [
+        "A ground blind tent",
+        "Hunting with dogs",
+        "A tree stand",
+        "A drive hunt"
+      ],
+      "explanation": "A ground blind is not recommended for bear; the tree stand is recommended, especially for black bear."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.58",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-008-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-008",
+    "reviewYear": null,
+    "fr": {
+      "q": "Pourquoi le tir à partir d'un mirador est-il considéré plus sécuritaire?",
+      "choices": [
+        "Parce que le gibier ne peut pas vous voir",
+        "Parce qu'on n'a pas besoin de dossard",
+        "Parce que l'arme peut rester chargée en montant",
+        "Parce que le tir est dirigé vers le sol"
+      ],
+      "explanation": "En mirador, le tir est dirigé vers le sol, ce qui le rend plus sécuritaire."
+    },
+    "en": {
+      "q": "Why is shooting from a tree stand considered safer?",
+      "choices": [
+        "Because game cannot see you",
+        "Because no vest is needed",
+        "Because the gun can stay loaded while climbing",
+        "Because the shot is directed toward the ground"
+      ],
+      "explanation": "From a tree stand, the shot is directed toward the ground, which makes it safer."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.58",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-008-q2",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-008",
+    "reviewYear": null,
+    "fr": {
+      "q": "Lequel de ces éléments est un désavantage de l'affût en mirador?",
+      "choices": [
+        "Une vision réduite du territoire",
+        "Un tir dirigé à l'horizontale",
+        "Une odeur plus facilement captée à courte distance",
+        "Un risque accru de blessure grave en cas de chute"
+      ],
+      "explanation": "Le mirador est exigeant à transporter et à installer, et les risques de blessures graves ou de mort en cas de chute sont accrus."
+    },
+    "en": {
+      "q": "Which of these is a disadvantage of hunting from a tree stand?",
+      "choices": [
+        "A reduced view of the area",
+        "A shot fired horizontally",
+        "Scent more easily detected at close range",
+        "A higher risk of serious injury from a fall"
+      ],
+      "explanation": "A tree stand is demanding to carry and set up, and the risk of serious injury or death from a fall is higher."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.58",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-009-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-009",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous pratiquez la chasse fine au cerf. Quelle façon de vous déplacer est appropriée?",
+      "choices": [
+        "Marcher vite pour couvrir plus de terrain",
+        "Courir lorsque vous entendez un bruit",
+        "Marcher dos au vent pour être discret",
+        "Marcher lentement, sans bruit, avec des pauses fréquentes"
+      ],
+      "explanation": "La chasse fine consiste à marcher lentement, sans bruit, idéalement contre le vent, en faisant des pauses fréquentes pour écouter et observer."
+    },
+    "en": {
+      "q": "You are still hunting for deer. Which way of moving is appropriate?",
+      "choices": [
+        "Walk fast to cover more ground",
+        "Run when you hear a noise",
+        "Walk with the wind at your back to stay hidden",
+        "Walk slowly and quietly with frequent pauses"
+      ],
+      "explanation": "Still hunting means walking slowly and quietly, ideally into the wind, with frequent pauses to listen and watch."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.58",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-010-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-010",
+    "reviewYear": null,
+    "fr": {
+      "q": "Selon le manuel, quelle technique est idéale pour s'initier à la chasse?",
+      "choices": [
+        "L'affût en mirador",
+        "La chasse avec appâts",
+        "La chasse en battue",
+        "La chasse fine"
+      ],
+      "explanation": "La chasse fine nécessite peu d'équipement et peu de préparation, ce qui en fait la technique idéale pour débuter."
+    },
+    "en": {
+      "q": "According to the manual, which technique is ideal for getting started in hunting?",
+      "choices": [
+        "Tree stand hunting",
+        "Hunting over bait",
+        "Drive hunting",
+        "Still hunting"
+      ],
+      "explanation": "Still hunting needs little equipment and preparation, making it the ideal technique for beginners."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.58",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-011-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-011",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous chassez la gélinotte en chasse fine avec deux amis. Quelle règle de sécurité devez-vous suivre?",
+      "choices": [
+        "Marcher en file, l'un derrière l'autre",
+        "Vous séparer pour couvrir trois secteurs différents",
+        "Marcher côte à côte sans jamais perdre de vue vos compagnons",
+        "Laisser le plus expérimenté marcher loin devant"
+      ],
+      "explanation": "En chasse fine en groupe, il faut marcher côte à côte sans jamais perdre de vue ses compagnons de chasse."
+    },
+    "en": {
+      "q": "You are still hunting for grouse with two friends. Which safety rule must you follow?",
+      "choices": [
+        "Walk in single file, one behind the other",
+        "Split up to cover three different areas",
+        "Walk side by side and never lose sight of your companions",
+        "Let the most experienced walk far ahead"
+      ],
+      "explanation": "When still hunting in a group, walk side by side and never lose sight of your companions."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.58",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-012-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-012",
+    "reviewYear": 2026,
+    "fr": {
+      "q": "Pour lequel de ces gibiers la chasse avec chiens est-elle permise?",
+      "choices": [
+        "Le cerf de Virginie",
+        "Les oiseaux migrateurs",
+        "L'orignal",
+        "L'ours noir"
+      ],
+      "explanation": "La chasse avec chiens est permise pour le petit gibier et les oiseaux migrateurs, mais interdite pour le cerf, l'orignal et l'ours."
+    },
+    "en": {
+      "q": "For which of these game animals is hunting with dogs allowed?",
+      "choices": [
+        "White-tailed deer",
+        "Migratory birds",
+        "Moose",
+        "Black bear"
+      ],
+      "explanation": "Hunting with dogs is allowed for small game and migratory birds, but prohibited for deer, moose and bear."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.58",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-013-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-013",
+    "reviewYear": null,
+    "fr": {
+      "q": "La chasse à l'appel n'est généralement pas utilisée pour le petit gibier. Laquelle de ces espèces fait exception?",
+      "choices": [
+        "Le lièvre",
+        "La corneille",
+        "La gélinotte",
+        "L'écureuil"
+      ],
+      "explanation": "La chasse à l'appel ne sert pas pour le petit gibier, sauf la corneille et certains prédateurs comme le coyote et le renard roux."
+    },
+    "en": {
+      "q": "Calling is generally not used for small game. Which of these species is an exception?",
+      "choices": [
+        "Hare",
+        "Crow",
+        "Grouse",
+        "Squirrel"
+      ],
+      "explanation": "Calling is not used for small game, except for the crow and some predators such as the coyote and red fox."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.59",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-014-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-014",
+    "reviewYear": 2026,
+    "fr": {
+      "q": "Pour quelle espèce est-il interdit d'utiliser un appeau électronique?",
+      "choices": [
+        "Le coyote",
+        "La corneille",
+        "La bernache",
+        "Le renard roux"
+      ],
+      "explanation": "Il est interdit d'utiliser des appeaux électroniques pour chasser le canard, la bernache et la bécasse."
+    },
+    "en": {
+      "q": "For which species is the use of an electronic call prohibited?",
+      "choices": [
+        "Coyote",
+        "Crow",
+        "Goose",
+        "Red fox"
+      ],
+      "explanation": "Electronic calls are prohibited for hunting ducks, geese and woodcock."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.59",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-015-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-015",
+    "reviewYear": null,
+    "fr": {
+      "q": "Quel est le but du « rattling » à la chasse au cerf ou à l'orignal?",
+      "choices": [
+        "Faire fuir les femelles vers les chasseurs",
+        "Masquer l'odeur humaine du chasseur",
+        "Imiter un combat entre mâles en rut pour attirer un mâle dominant",
+        "Imiter l'appel d'un veau en détresse"
+      ],
+      "explanation": "Le « rattling » consiste à entrechoquer des bois de cervidés pour imiter un combat entre rivaux pendant le rut et attirer un mâle dominant."
+    },
+    "en": {
+      "q": "What is the purpose of rattling when hunting deer or moose?",
+      "choices": [
+        "To drive females toward the hunters",
+        "To mask the hunter's human scent",
+        "To imitate a fight between rutting males and attract a dominant male",
+        "To imitate a calf in distress"
+      ],
+      "explanation": "Rattling means clashing cervid antlers to imitate a fight between rivals during the rut and attract a dominant male."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.59",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-016-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-016",
+    "reviewYear": 2026,
+    "fr": {
+      "q": "Pourquoi est-il interdit d'utiliser des leurres olfactifs à base d'urine de cervidés?",
+      "choices": [
+        "Parce qu'ils attirent les ours",
+        "Parce qu'ils sont inefficaces pendant le rut",
+        "Pour protéger les chiens de chasse",
+        "Pour éviter la propagation de la maladie débilitante chronique"
+      ],
+      "explanation": "Les leurres à base d'urine de cervidés sont interdits pour éviter la propagation de la maladie débilitante chronique."
+    },
+    "en": {
+      "q": "Why are scent lures made from cervid urine prohibited?",
+      "choices": [
+        "Because they attract bears",
+        "Because they do not work during the rut",
+        "To protect hunting dogs",
+        "To prevent the spread of chronic wasting disease"
+      ],
+      "explanation": "Cervid-urine lures are prohibited to prevent the spread of chronic wasting disease."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.59",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-017-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-017",
+    "reviewYear": 2026,
+    "fr": {
+      "q": "Pour lequel de ces gibiers est-il interdit d'utiliser des appâts pendant toute la période de chasse?",
+      "choices": [
+        "L'ours noir",
+        "La corneille",
+        "Le cerf de Virginie",
+        "Le dindon sauvage"
+      ],
+      "explanation": "Il est interdit d'appâter la sauvagine et le dindon sauvage durant toute la période de chasse."
+    },
+    "en": {
+      "q": "For which of these game animals is baiting prohibited during the entire hunting period?",
+      "choices": [
+        "Black bear",
+        "Crow",
+        "White-tailed deer",
+        "Wild turkey"
+      ],
+      "explanation": "Baiting waterfowl and wild turkey is prohibited during the entire hunting period."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.60",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-018-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-018",
+    "reviewYear": null,
+    "fr": {
+      "q": "Quel est le seul indice certifiant qu'un orignal est un mâle adulte?",
+      "choices": [
+        "Une tache blanche sous la queue",
+        "Un museau protubérant et renflé",
+        "Une tête de forme triangulaire",
+        "Des bois de 10 centimètres et plus"
+      ],
+      "explanation": "Les bois de 10 cm et plus sont le seul indice qui certifie un mâle adulte; sans bois apparents, ce peut être un jeune mâle, une femelle ou un veau."
+    },
+    "en": {
+      "q": "What is the only sign that confirms a moose is an adult male?",
+      "choices": [
+        "A white patch under the tail",
+        "A protruding, swollen muzzle",
+        "A triangular head shape",
+        "Antlers 10 centimetres or longer"
+      ],
+      "explanation": "Antlers of 10 cm or more are the only sign confirming an adult male; without visible antlers it may be a young male, a female or a calf."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.60",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-019-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-019",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous observez un orignal sans bois qui présente une tache blanche triangulaire sous la queue. De quoi s'agit-il généralement?",
+      "choices": [
+        "D'un veau",
+        "D'un jeune mâle",
+        "D'une femelle adulte",
+        "D'un mâle ayant perdu ses bois"
+      ],
+      "explanation": "La femelle adulte possède généralement une tache vulvaire blanche triangulaire, de la base de la queue jusqu'à la vulve."
+    },
+    "en": {
+      "q": "You see an antlerless moose with a white triangular patch under the tail. What is it generally?",
+      "choices": [
+        "A calf",
+        "A young male",
+        "An adult female",
+        "A male that has shed its antlers"
+      ],
+      "explanation": "The adult female generally has a white, triangular vulvar patch from the base of the tail to the vulva."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.60",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-020-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-020",
+    "reviewYear": null,
+    "fr": {
+      "q": "Votre permis vous autorise à tirer un veau d'orignal. Vu de face, quelle forme de tête reconnaît le veau?",
+      "choices": [
+        "Rectangulaire, museau renflé",
+        "Ronde, avec de petits bois",
+        "Allongée, avec une tache blanche",
+        "Triangulaire, museau assez pointu"
+      ],
+      "explanation": "Vue de face, la tête du veau est triangulaire avec un museau assez pointu, alors que celle de la femelle adulte est plutôt rectangulaire."
+    },
+    "en": {
+      "q": "Your licence allows you to shoot a moose calf. Seen from the front, what head shape identifies the calf?",
+      "choices": [
+        "Rectangular, with a swollen muzzle",
+        "Round, with small antlers",
+        "Long, with a white patch",
+        "Triangular, with a fairly pointed muzzle"
+      ],
+      "explanation": "From the front, the calf's head is triangular with a fairly pointed muzzle, while the adult female's is rather rectangular."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.61",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-020-q2",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-020",
+    "reviewYear": null,
+    "fr": {
+      "q": "Pourquoi faut-il être prudent pour éviter un double abattage en tirant un veau d'orignal?",
+      "choices": [
+        "Parce que le veau est toujours accompagné d'un mâle",
+        "Parce que les veaux se déplacent en grands troupeaux",
+        "Parce qu'un veau blessé attire les prédateurs",
+        "Parce que le veau se déplace rarement seul et reste près de sa mère"
+      ],
+      "explanation": "Le veau se déplace rarement seul et passe la plupart du temps près de sa mère, d'où le risque de double abattage."
+    },
+    "en": {
+      "q": "Why must you be careful to avoid a double kill when shooting a moose calf?",
+      "choices": [
+        "The calf is always with a male",
+        "Calves travel in large herds",
+        "A wounded calf attracts predators",
+        "The calf rarely travels alone and stays near its mother"
+      ],
+      "explanation": "The calf rarely travels alone and spends most of its time near its mother, hence the risk of a double kill."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.61",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-021-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-021",
+    "reviewYear": null,
+    "fr": {
+      "q": "Où devez-vous viser un cerf pour atteindre le centre de la zone vitale?",
+      "choices": [
+        "Au cou, juste sous la tête",
+        "À l'arrière-train, près de la queue",
+        "Au couple cœur-poumons, juste derrière les pattes avant",
+        "Au milieu de l'abdomen"
+      ],
+      "explanation": "On vise le centre de la zone vitale, le couple cœur-poumons, situé immédiatement derrière les pattes avant chez les cervidés."
+    },
+    "en": {
+      "q": "Where should you aim on a deer to hit the centre of the vital zone?",
+      "choices": [
+        "At the neck, just below the head",
+        "At the hindquarters, near the tail",
+        "At the heart-lungs, just behind the front legs",
+        "In the middle of the abdomen"
+      ],
+      "explanation": "Aim at the centre of the vital zone, the heart and lungs, just behind the front legs on cervids."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.61",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-021-q2",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-021",
+    "reviewYear": null,
+    "fr": {
+      "q": "Comparativement aux cervidés, où se situe le point de visée dans la zone vitale de l'ours?",
+      "choices": [
+        "Beaucoup plus vers l'avant, au cou",
+        "Légèrement plus vers l'arrière",
+        "À la tête seulement",
+        "Exactement au même endroit"
+      ],
+      "explanation": "Le centre de la zone vitale est immédiatement derrière les pattes avant chez les cervidés, et légèrement plus vers l'arrière chez l'ours."
+    },
+    "en": {
+      "q": "Compared with cervids, where is the aiming point in a bear's vital zone?",
+      "choices": [
+        "Much farther forward, at the neck",
+        "Slightly farther back",
+        "At the head only",
+        "Exactly in the same spot"
+      ],
+      "explanation": "The centre of the vital zone is just behind the front legs on cervids and slightly farther back on bear."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.61",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-022-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-022",
+    "reviewYear": null,
+    "fr": {
+      "q": "Un orignal est à bonne portée. Dans quelle position devrait-il idéalement être avant que vous tiriez?",
+      "choices": [
+        "En course, de face",
+        "En marche, dos à vous",
+        "Couché derrière des arbustes",
+        "Immobile et perpendiculaire à votre ligne de tir"
+      ],
+      "explanation": "On tire seulement lorsque le gibier est immobile et idéalement perpendiculaire à la ligne de tir, sans obstacle."
+    },
+    "en": {
+      "q": "A moose is within good range. In what position should it ideally be before you shoot?",
+      "choices": [
+        "Running, facing you",
+        "Walking, facing away from you",
+        "Lying behind bushes",
+        "Still and broadside to your line of fire"
+      ],
+      "explanation": "Shoot only when the game is still and ideally perpendicular to your line of fire, with no obstacles."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.62",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-023-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-023",
+    "reviewYear": null,
+    "fr": {
+      "q": "Après votre tir, le cerf sursaute et s'enfuit la tête baissée. Qu'indique généralement ce comportement?",
+      "choices": [
+        "Que vous l'avez manqué",
+        "Qu'il a été atteint à la patte arrière",
+        "Qu'il est atteint d'une maladie",
+        "Qu'il a été atteint au cœur ou aux poumons"
+      ],
+      "explanation": "Un cervidé atteint au cœur ou aux poumons sursaute et s'enfuit presque toujours la tête baissée, pour s'effondrer un peu plus loin."
+    },
+    "en": {
+      "q": "After your shot, the deer jumps and runs off with its head down. What does this usually show?",
+      "choices": [
+        "You missed it",
+        "It was hit in a hind leg",
+        "It is sick",
+        "It was hit in the heart or lungs"
+      ],
+      "explanation": "A cervid hit in the heart or lungs nearly always jumps and runs off with its head down, collapsing a little farther away."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.62",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-024-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-024",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous apercevez un cerf à l'apparence anormale et au comportement inhabituel. Que conseille le manuel?",
+      "choices": [
+        "Le tirer en priorité pour protéger le troupeau",
+        "Le tirer puis le laisser sur place",
+        "Ne pas le récolter, car il pourrait être malade",
+        "L'appâter pour l'observer de plus près"
+      ],
+      "explanation": "Une apparence anormale ou un comportement inhabituel peut indiquer une maladie; il est fortement conseillé de ne pas récolter l'animal."
+    },
+    "en": {
+      "q": "You see a deer that looks abnormal and behaves unusually. What does the manual advise?",
+      "choices": [
+        "Shoot it first to protect the herd",
+        "Shoot it and leave it where it falls",
+        "Do not harvest it, since it may be sick",
+        "Bait it to watch it more closely"
+      ],
+      "explanation": "An abnormal look or unusual behaviour may mean the animal is sick; you are strongly advised not to harvest it."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.62",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l07-025-q1",
+    "scope": "hunter-common",
+    "chapter": "l07",
+    "objectiveId": "hunter-common-l07-025",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous venez de tirer un orignal qui a disparu de votre vue. Que devez-vous faire ensuite?",
+      "choices": [
+        "Le poursuivre immédiatement en courant",
+        "Tirer d'autres coups dans sa direction",
+        "Quitter votre poste pour chercher un autre gibier",
+        "Sécuriser votre arme, noter l'heure et l'endroit, aviser vos partenaires"
+      ],
+      "explanation": "Restez calme, sécurisez votre arme, notez l'heure et l'endroit du tir, puis avisez vos partenaires pour éviter un double abattage."
+    },
+    "en": {
+      "q": "You just shot a moose that has disappeared from view. What should you do next?",
+      "choices": [
+        "Chase it right away at a run",
+        "Fire more shots in its direction",
+        "Leave your stand to look for other game",
+        "Secure your firearm, note the time and place, tell your partners"
+      ],
+      "explanation": "Stay calm, secure your firearm, note the time and place of the shot, then tell your partners to avoid a double kill."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.62",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l08-001-q1",
+    "scope": "hunter-common",
+    "chapter": "l08",
+    "objectiveId": "hunter-common-l08-001",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous croyez avoir atteint un cerf au cœur, puis il disparaît de votre vue. Combien de temps devez-vous attendre au minimum avant de le chercher?",
+      "choices": [
+        "Aucun délai",
+        "10 minutes",
+        "Une heure",
+        "Douze heures"
+      ],
+      "explanation": "Même si vous croyez avoir atteint le cœur ou les poumons, il faut attendre au moins une heure avant de partir à la recherche du gibier."
+    },
+    "en": {
+      "q": "You believe you hit a deer in the heart, then it disappears from view. What is the minimum wait before searching for it?",
+      "choices": [
+        "No wait",
+        "10 minutes",
+        "One hour",
+        "Twelve hours"
+      ],
+      "explanation": "Even if you think you hit the heart or lungs, wait at least one hour before searching for the game."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.63",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l08-002-q1",
+    "scope": "hunter-common",
+    "chapter": "l08",
+    "objectiveId": "hunter-common-l08-002",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous arrivez à l'endroit où se tenait le gibier au moment du tir. Que devez-vous faire?",
+      "choices": [
+        "Marquer l'endroit d'un ruban biodégradable et prendre l'azimut du point de fuite",
+        "Ramasser le sang et les poils pour les examiner chez vous",
+        "Marcher en cercle pour bien piétiner la zone",
+        "Crier pour faire lever l'animal"
+      ],
+      "explanation": "On marque l'emplacement avec un ruban biodégradable ou du papier hygiénique et on prend l'azimut du point de fuite, sans brouiller les indices."
+    },
+    "en": {
+      "q": "You reach the spot where the game stood when you fired. What should you do?",
+      "choices": [
+        "Mark the spot with biodegradable tape and take a bearing of the escape point",
+        "Collect blood and hair to examine at home",
+        "Walk in circles to tread down the area",
+        "Shout to make the animal get up"
+      ],
+      "explanation": "Mark the spot with biodegradable tape or toilet paper and take a bearing of the escape point, without disturbing the signs."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.63",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l08-003-q1",
+    "scope": "hunter-common",
+    "chapter": "l08",
+    "objectiveId": "hunter-common-l08-003",
+    "reviewYear": null,
+    "fr": {
+      "q": "Sur le lieu du tir, vous remarquez des empreintes plus profondes qu'à l'habitude. Qu'est-ce que cela indique généralement?",
+      "choices": [
+        "Que vous l'avez manqué",
+        "Qu'un autre animal est passé",
+        "Que l'animal a été touché",
+        "Que le sol est simplement mou"
+      ],
+      "explanation": "Un animal atteint réagit énergiquement; des empreintes plus profondes qu'à l'habitude indiquent généralement qu'il a été touché."
+    },
+    "en": {
+      "q": "At the shot site, you notice tracks deeper than usual. What does this generally indicate?",
+      "choices": [
+        "You missed it",
+        "Another animal passed by",
+        "The animal was hit",
+        "The ground is simply soft"
+      ],
+      "explanation": "A hit animal reacts energetically; tracks deeper than usual generally show it was hit."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.63",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l08-004-q1",
+    "scope": "hunter-common",
+    "chapter": "l08",
+    "objectiveId": "hunter-common-l08-004",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous trouvez du sang rosé, écumeux, contenant de petits morceaux de tissu. Quel organe a probablement été atteint?",
+      "choices": [
+        "Le foie",
+        "Les intestins",
+        "Les poumons",
+        "Une patte"
+      ],
+      "explanation": "Le sang provenant des poumons est généralement plus clair, rosé, écumeux et peut contenir de petits morceaux de poumon."
+    },
+    "en": {
+      "q": "You find pinkish, frothy blood with small bits of tissue. Which organ was probably hit?",
+      "choices": [
+        "The liver",
+        "The intestines",
+        "The lungs",
+        "A leg"
+      ],
+      "explanation": "Lung blood is generally lighter, pinkish and frothy, and may contain small bits of lung."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.64",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l08-005-q1",
+    "scope": "hunter-common",
+    "chapter": "l08",
+    "objectiveId": "hunter-common-l08-005",
+    "reviewYear": null,
+    "fr": {
+      "q": "Le sang trouvé sur place est d'un rouge brunâtre, dense, et forme des taches granuleuses. Combien de temps devriez-vous attendre avant la recherche?",
+      "choices": [
+        "Idéalement quatre heures",
+        "Aucun délai",
+        "15 minutes",
+        "Une semaine"
+      ],
+      "explanation": "Ce sang provient du foie; il faut attendre idéalement quatre heures avant de partir à la recherche de l'animal."
+    },
+    "en": {
+      "q": "The blood you find is brownish red, dense and forms granular spots. How long should you wait before searching?",
+      "choices": [
+        "Ideally four hours",
+        "No wait",
+        "15 minutes",
+        "A week"
+      ],
+      "explanation": "This blood comes from the liver; wait ideally four hours before searching for the animal."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.64",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l08-006-q1",
+    "scope": "hunter-common",
+    "chapter": "l08",
+    "objectiveId": "hunter-common-l08-006",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous trouvez de fines gouttelettes de sang verdâtre mêlées à des matières stomacales. Quelle partie a probablement été atteinte?",
+      "choices": [
+        "Le cœur",
+        "Les poumons",
+        "Le cou",
+        "L'estomac ou les intestins"
+      ],
+      "explanation": "Un tir vers l'arrière de la zone vitale peut toucher l'estomac ou les intestins : le sang est verdâtre, en fines gouttelettes, parfois mêlé de matières stomacales ou fécales."
+    },
+    "en": {
+      "q": "You find fine droplets of greenish blood mixed with stomach contents. What was probably hit?",
+      "choices": [
+        "The heart",
+        "The lungs",
+        "The neck",
+        "The stomach or intestines"
+      ],
+      "explanation": "A shot behind the vital zone may hit the stomach or intestines: the blood is greenish, in fine droplets, sometimes mixed with stomach or fecal matter."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.64",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l08-007-q1",
+    "scope": "hunter-common",
+    "chapter": "l08",
+    "objectiveId": "hunter-common-l08-007",
+    "reviewYear": null,
+    "fr": {
+      "q": "En général, que remarque-t-on lorsque la zone vitale a été atteinte?",
+      "choices": [
+        "Beaucoup de sang au point d'impact, puis de moins en moins",
+        "Aucune trace de sang sur toute la piste",
+        "Peu de sang au point d'impact, puis une quantité qui augmente",
+        "Du sang uniquement à l'endroit où l'animal tombe"
+      ],
+      "explanation": "Quand la zone vitale est atteinte, on trouve généralement peu de sang au lieu d'impact, mais la quantité tend à augmenter par la suite."
+    },
+    "en": {
+      "q": "In general, what do you see when the vital zone has been hit?",
+      "choices": [
+        "Lots of blood at the impact site, then less and less",
+        "No blood anywhere on the trail",
+        "Little blood at the impact site, then increasing amounts",
+        "Blood only where the animal falls"
+      ],
+      "explanation": "When the vital zone is hit, there is usually little blood at the impact site, but the amount tends to increase afterwards."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.64",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l08-008-q1",
+    "scope": "hunter-common",
+    "chapter": "l08",
+    "objectiveId": "hunter-common-l08-008",
+    "reviewYear": null,
+    "fr": {
+      "q": "À l'automne, les feuilles rougeâtres rendent le sang difficile à voir. Quel produit peut vous aider à le repérer?",
+      "choices": [
+        "De l'huile non détersive",
+        "De l'urine de jument en chaleur",
+        "De l'eau savonneuse",
+        "Du peroxyde d'hydrogène en vaporisateur"
+      ],
+      "explanation": "Au contact du sang, le peroxyde d'hydrogène provoque une réaction qui dégage des bulles faciles à voir."
+    },
+    "en": {
+      "q": "In autumn, reddish leaves make blood hard to see. What product can help you spot it?",
+      "choices": [
+        "Non-detergent oil",
+        "Mare-in-heat urine",
+        "Soapy water",
+        "Hydrogen peroxide in a spray bottle"
+      ],
+      "explanation": "On contact with blood, hydrogen peroxide reacts and gives off bubbles that are easy to see."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.64",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l08-009-q1",
+    "scope": "hunter-common",
+    "chapter": "l08",
+    "objectiveId": "hunter-common-l08-009",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous suivez une piste de sang et ne trouvez plus d'indices. Que devez-vous faire?",
+      "choices": [
+        "Abandonner la recherche",
+        "Marcher droit devant jusqu'à la nuit",
+        "Revenir au dernier ruban et ratisser en augmentant le rayon",
+        "Retirer tous les rubans et recommencer au point de tir"
+      ],
+      "explanation": "On revient au dernier ruban et on ratisse le terrain en augmentant le rayon de recherche, en gardant toujours un œil sur le dernier marqueur."
+    },
+    "en": {
+      "q": "You are following a blood trail and find no more signs. What should you do?",
+      "choices": [
+        "Give up the search",
+        "Walk straight ahead until dark",
+        "Go back to the last ribbon and search in a widening radius",
+        "Remove all ribbons and restart at the shot site"
+      ],
+      "explanation": "Go back to the last ribbon and search the area in a widening radius, always keeping an eye on the last marker."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.65",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l08-010-q1",
+    "scope": "hunter-common",
+    "chapter": "l08",
+    "objectiveId": "hunter-common-l08-010",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous ne trouvez ni l'animal ni de traces de sang dans un rayon de 200 mètres du point d'impact. Que recommande le manuel?",
+      "choices": [
+        "Abandonner et chasser un autre animal",
+        "Poursuivre sans arrêt jusqu'à le trouver",
+        "Attendre au moins quatre heures ou appeler un conducteur de chien de sang",
+        "Revenir la saison suivante"
+      ],
+      "explanation": "Sans animal ni sang dans un rayon de 200 m, attendez au moins quatre heures avant de reprendre, ou faites appel à un conducteur de chien de sang."
+    },
+    "en": {
+      "q": "You find neither the animal nor any blood within 200 metres of the impact point. What does the manual recommend?",
+      "choices": [
+        "Give up and hunt another animal",
+        "Keep searching non-stop until you find it",
+        "Wait at least four hours or call a blood-tracking dog handler",
+        "Come back next season"
+      ],
+      "explanation": "With no animal or blood within 200 m, wait at least four hours before resuming, or call a blood-tracking dog handler."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.65",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l08-011-q1",
+    "scope": "hunter-common",
+    "chapter": "l08",
+    "objectiveId": "hunter-common-l08-011",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous découvrez une « couche » encore chaude, maculée de sang. Que devez-vous faire?",
+      "choices": [
+        "Poser deux rubans et attendre au moins quatre heures",
+        "Accélérer pour rattraper l'animal",
+        "Tirer en direction de la fuite",
+        "Effacer la couche pour ne pas alerter les autres chasseurs"
+      ],
+      "explanation": "Devant une couche, on pose deux rubans et on attend un minimum de quatre heures, pour laisser l'hémorragie causer la mort."
+    },
+    "en": {
+      "q": "You find a still-warm, bloody bed where the animal lay down. What should you do?",
+      "choices": [
+        "Place two ribbons and wait at least four hours",
+        "Speed up to catch the animal",
+        "Shoot in the direction it fled",
+        "Erase the bed so other hunters are not alerted"
+      ],
+      "explanation": "At a bed, place two ribbons and wait at least four hours to let the bleeding cause death."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.65",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l08-012-q1",
+    "scope": "hunter-common",
+    "chapter": "l08",
+    "objectiveId": "hunter-common-l08-012",
+    "reviewYear": null,
+    "fr": {
+      "q": "Selon le manuel, quand peut-on cesser la recherche d'un gros gibier blessé?",
+      "choices": [
+        "Seulement après avoir épuisé toutes les possibilités de le retrouver",
+        "Dès la tombée de la nuit",
+        "Après une heure de recherche",
+        "Dès qu'il commence à pleuvoir"
+      ],
+      "explanation": "Par respect pour la faune, on n'abandonne jamais avant d'avoir épuisé toutes les possibilités; les recherches se font de jour comme de nuit, sous la pluie ou la neige."
+    },
+    "en": {
+      "q": "According to the manual, when may you stop searching for wounded big game?",
+      "choices": [
+        "Only after exhausting every possibility of finding it",
+        "As soon as night falls",
+        "After one hour of searching",
+        "As soon as it starts to rain"
+      ],
+      "explanation": "Out of respect for wildlife, never give up before exhausting every possibility; searches go on day and night, in rain or snow."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.65",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l09-001-q1",
+    "scope": "hunter-common",
+    "chapter": "l09",
+    "objectiveId": "hunter-common-l09-001",
+    "reviewYear": null,
+    "fr": {
+      "q": "Pourquoi faut-il éviscérer le gibier le plus rapidement possible après l'abattage?",
+      "choices": [
+        "Pour alléger l'animal avant de le peser",
+        "Pour attirer les prédateurs loin du camp",
+        "Pour que la viande garde sa chaleur",
+        "Pour refroidir la carcasse et empêcher la prolifération des bactéries"
+      ],
+      "explanation": "L'éviscération rapide fait refroidir la carcasse et empêche la prolifération des bactéries qui rendraient la viande impropre à la consommation."
+    },
+    "en": {
+      "q": "Why should game be field dressed as soon as possible after the kill?",
+      "choices": [
+        "To lighten the animal before weighing it",
+        "To draw predators away from camp",
+        "To keep the meat warm",
+        "To cool the carcass and stop bacteria from multiplying"
+      ],
+      "explanation": "Quick field dressing cools the carcass and stops bacteria from multiplying and making the meat unfit to eat."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.66",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l09-002-q1",
+    "scope": "hunter-common",
+    "chapter": "l09",
+    "objectiveId": "hunter-common-l09-002",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous vous apprêtez à éviscérer un chevreuil. Quel équipement de protection le manuel recommande-t-il pour les mains?",
+      "choices": [
+        "Des gants de nitrile",
+        "Des gants de laine",
+        "Des gants de cuir épais",
+        "Aucun, pour mieux sentir les organes"
+      ],
+      "explanation": "Il faut porter des gants de nitrile pour éviter de contracter des maladies transmissibles à l'humain."
+    },
+    "en": {
+      "q": "You are about to field dress a deer. What hand protection does the manual recommend?",
+      "choices": [
+        "Nitrile gloves",
+        "Wool gloves",
+        "Thick leather gloves",
+        "None, to feel the organs better"
+      ],
+      "explanation": "Wear nitrile gloves to avoid catching diseases transmissible to humans."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.66",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l09-002-q2",
+    "scope": "hunter-common",
+    "chapter": "l09",
+    "objectiveId": "hunter-common-l09-002",
+    "reviewYear": null,
+    "fr": {
+      "q": "Pourquoi conseille-t-on d'humecter l'animal avec de l'eau et de porter un masque lors du dépouillement?",
+      "choices": [
+        "Pour refroidir la viande plus vite",
+        "Pour masquer l'odeur du sang",
+        "Pour éviter la contamination par l'inhalation de poils",
+        "Pour faciliter la coupe des os"
+      ],
+      "explanation": "Humecter l'animal et porter un masque réduit le risque de contamination par l'inhalation de poils en suspension."
+    },
+    "en": {
+      "q": "Why are you advised to moisten the animal with water and wear a mask when skinning it?",
+      "choices": [
+        "To cool the meat faster",
+        "To mask the smell of blood",
+        "To avoid contamination from inhaling hair",
+        "To make cutting bones easier"
+      ],
+      "explanation": "Moistening the animal and wearing a mask reduces the risk of contamination from inhaling airborne hair."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.66",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l09-003-q1",
+    "scope": "hunter-common",
+    "chapter": "l09",
+    "objectiveId": "hunter-common-l09-003",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous avez récolté plusieurs canards. Comment favoriser un refroidissement rapide de leur chair?",
+      "choices": [
+        "Les entasser dans un sac fermé",
+        "Éviter d'entasser les carcasses les unes contre les autres",
+        "Les laisser au soleil",
+        "Les envelopper ensemble dans une couverture"
+      ],
+      "explanation": "Pour que la chair du petit gibier et de la sauvagine refroidisse plus vite, on évite d'entasser les carcasses."
+    },
+    "en": {
+      "q": "You have harvested several ducks. How do you help their meat cool quickly?",
+      "choices": [
+        "Pile them in a closed bag",
+        "Avoid piling the carcasses against each other",
+        "Leave them in the sun",
+        "Wrap them together in a blanket"
+      ],
+      "explanation": "To cool small game and waterfowl faster, avoid piling the carcasses together."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.66",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l09-004-q1",
+    "scope": "hunter-common",
+    "chapter": "l09",
+    "objectiveId": "hunter-common-l09-004",
+    "reviewYear": null,
+    "fr": {
+      "q": "En éviscérant un lièvre, vous remarquez des points blancs sur les viscères. De quelle maladie s'agit-il probablement?",
+      "choices": [
+        "La maladie de Lyme",
+        "La rage",
+        "La tularémie",
+        "La maladie débilitante chronique"
+      ],
+      "explanation": "Des points blancs sur les viscères indiquent que le lièvre a contracté la tularémie, qui peut causer une forte fièvre chez l'humain."
+    },
+    "en": {
+      "q": "While field dressing a hare, you notice white spots on the internal organs. Which disease is this probably?",
+      "choices": [
+        "Lyme disease",
+        "Rabies",
+        "Tularemia",
+        "Chronic wasting disease"
+      ],
+      "explanation": "White spots on the organs show the hare has tularemia, which can cause a high fever in humans."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.67",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l09-005-q1",
+    "scope": "hunter-common",
+    "chapter": "l09",
+    "objectiveId": "hunter-common-l09-005",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous avez en votre possession un lièvre atteint de tularémie. Que devez-vous faire de la carcasse?",
+      "choices": [
+        "La faire cuire longtemps et la manger",
+        "L'emballer dans un sac, la jeter aux ordures puis désinfecter le matériel et vos mains",
+        "La laisser en forêt pour les prédateurs",
+        "La congeler pour la faire analyser plus tard"
+      ],
+      "explanation": "On emballe la carcasse dans un sac, on la jette aux ordures ménagères, puis on désinfecte tout le matériel et les mains."
+    },
+    "en": {
+      "q": "You have a hare infected with tularemia. What should you do with the carcass?",
+      "choices": [
+        "Cook it well and eat it",
+        "Bag it, put it in the household garbage, then disinfect your gear and hands",
+        "Leave it in the woods for predators",
+        "Freeze it to have it tested later"
+      ],
+      "explanation": "Wrap the carcass in a bag, put it in the household garbage, then disinfect all equipment and your hands."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.67",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l09-006-q1",
+    "scope": "hunter-common",
+    "chapter": "l09",
+    "objectiveId": "hunter-common-l09-006",
+    "reviewYear": null,
+    "fr": {
+      "q": "En préparant un gibier à plumes, quelle partie ne faut-il pas oublier d'enlever, en plus des organes internes?",
+      "choices": [
+        "Le gésier",
+        "Le croupion",
+        "Les ailes",
+        "Le bréchet"
+      ],
+      "explanation": "Après avoir retiré la peau, les plumes et les organes internes, il ne faut pas oublier d'enlever le croupion."
+    },
+    "en": {
+      "q": "When preparing a game bird, which part must you not forget to remove besides the internal organs?",
+      "choices": [
+        "The gizzard",
+        "The tail gland (croupion)",
+        "The wings",
+        "The breastbone"
+      ],
+      "explanation": "After removing the skin, feathers and internal organs, do not forget to remove the tail gland."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.67",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l09-007-q1",
+    "scope": "hunter-common",
+    "chapter": "l09",
+    "objectiveId": "hunter-common-l09-007",
+    "reviewYear": null,
+    "fr": {
+      "q": "Dans quel délai est-il recommandé de congeler la viande de petit gibier que vous ne mangerez pas bientôt?",
+      "choices": [
+        "Dans la semaine suivant la récolte",
+        "À la fin de la saison de chasse",
+        "Dans les 24 heures suivant la récolte",
+        "Il n'est jamais nécessaire de la congeler"
+      ],
+      "explanation": "On recommande de congeler la viande de petit gibier dans les 24 heures suivant la récolte, sauf si on la consomme rapidement."
+    },
+    "en": {
+      "q": "Within what time is it recommended to freeze small game meat you will not eat soon?",
+      "choices": [
+        "Within a week of the harvest",
+        "At the end of the hunting season",
+        "Within 24 hours of the harvest",
+        "It never needs freezing"
+      ],
+      "explanation": "Freeze small game meat within 24 hours of harvest, unless you will eat it shortly."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.67",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l09-007-q2",
+    "scope": "hunter-common",
+    "chapter": "l09",
+    "objectiveId": "hunter-common-l09-007",
+    "reviewYear": null,
+    "fr": {
+      "q": "Pourquoi emballer la viande dans une pellicule plastique avant de la mettre dans un sac de congélation?",
+      "choices": [
+        "Pour qu'elle sèche moins au contact de l'air froid",
+        "Pour qu'elle décongèle plus vite",
+        "Pour éliminer les bactéries",
+        "Pour masquer son odeur dans le congélateur"
+      ],
+      "explanation": "En emballant la viande dans une pellicule puis en retirant l'air du sac, elle risque moins de sécher au contact de l'air froid."
+    },
+    "en": {
+      "q": "Why wrap meat in plastic film before putting it in a freezer bag?",
+      "choices": [
+        "So it dries out less in contact with cold air",
+        "So it thaws faster",
+        "To kill bacteria",
+        "To mask its smell in the freezer"
+      ],
+      "explanation": "Wrapping meat in film and removing the air from the bag makes it less likely to dry out in cold air."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.67",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-001-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-001",
+    "reviewYear": null,
+    "fr": {
+      "q": "Avant votre partie de chasse, que devez-vous communiquer à une personne de confiance?",
+      "choices": [
+        "Seulement le modèle de votre arme",
+        "Le nombre de munitions que vous apportez",
+        "Le nom de vos compagnons seulement",
+        "Votre itinéraire, le lieu de chasse et le jour et l'heure de votre retour"
+      ],
+      "explanation": "Cette personne doit connaître votre itinéraire, l'endroit où vous chassez et le moment de votre retour pour pouvoir coordonner les secours."
+    },
+    "en": {
+      "q": "Before your hunt, what should you tell a trusted person?",
+      "choices": [
+        "Only the model of your firearm",
+        "How much ammunition you are bringing",
+        "Only your companions' names",
+        "Your route, hunting area and the day and time you will return"
+      ],
+      "explanation": "That person needs your route, hunting area and return time so they can coordinate a rescue if needed."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.68",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-002-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-002",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous partez chasser en région éloignée, sans couverture cellulaire. Quel moyen de communication le manuel recommande-t-il?",
+      "choices": [
+        "Un émetteur radio à courte portée",
+        "Un téléphone cellulaire ordinaire",
+        "Un téléphone satellitaire ou une balise de détresse",
+        "Un miroir de signalisation seulement"
+      ],
+      "explanation": "En zones éloignées, il faut un téléphone lié au réseau satellite ou une balise de détresse, car le cellulaire et les radios ne suffisent souvent pas."
+    },
+    "en": {
+      "q": "You are going hunting in a remote area with no cell coverage. Which means of communication does the manual recommend?",
+      "choices": [
+        "A short-range radio",
+        "An ordinary cell phone",
+        "A satellite phone or a distress beacon",
+        "A signal mirror only"
+      ],
+      "explanation": "In remote areas, carry a satellite phone or a distress beacon, since cell phones and radios often fall short."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.69",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-003-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-003",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous avez un GPS. Pourquoi le manuel conseille-t-il d'apporter aussi une carte et une boussole?",
+      "choices": [
+        "Le GPS est interdit en forêt",
+        "La boussole est plus précise que le GPS",
+        "La pile du GPS peut tomber à plat ou l'appareil faire défaut",
+        "La carte remplace le permis de chasse"
+      ],
+      "explanation": "La pile du GPS pourrait se vider ou l'appareil présenter une défaillance; la carte et la boussole servent de solution de rechange."
+    },
+    "en": {
+      "q": "You have a GPS. Why does the manual advise bringing a map and compass too?",
+      "choices": [
+        "GPS units are banned in the woods",
+        "A compass is more accurate than a GPS",
+        "The GPS battery may die or the unit may fail",
+        "The map replaces your hunting licence"
+      ],
+      "explanation": "The GPS battery could die or the unit could malfunction; a map and compass are the backup."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.69",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-003-q2",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-003",
+    "reviewYear": null,
+    "fr": {
+      "q": "Par grand froid, comment préserver l'efficacité des piles de vos appareils électroniques?",
+      "choices": [
+        "Les laisser dans le sac à dos extérieur",
+        "Les ranger dans la neige",
+        "Les retirer et les jeter après usage",
+        "Les garder près de votre corps"
+      ],
+      "explanation": "Les piles perdent beaucoup d'efficacité au froid; on garde appareils et piles près du corps pour les garder au chaud."
+    },
+    "en": {
+      "q": "In very cold weather, how do you keep your device batteries working well?",
+      "choices": [
+        "Leave them in the outer pocket of your pack",
+        "Store them in the snow",
+        "Remove them and throw them out after use",
+        "Keep them close to your body"
+      ],
+      "explanation": "Batteries lose much of their efficiency in the cold; keep devices and batteries close to your body to keep them warm."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.69",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-004-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-004",
+    "reviewYear": null,
+    "fr": {
+      "q": "Si vous êtes perdu en forêt, quels seront vos principaux défis selon le manuel?",
+      "choices": [
+        "La faim et les animaux sauvages",
+        "Les insectes et le bruit",
+        "Le froid et la soif",
+        "L'ennui et la fatigue"
+      ],
+      "explanation": "Le principal défi d'une personne perdue en forêt sera de faire face au froid et à la soif."
+    },
+    "en": {
+      "q": "If you get lost in the woods, what will your main challenges be according to the manual?",
+      "choices": [
+        "Hunger and wild animals",
+        "Insects and noise",
+        "Cold and thirst",
+        "Boredom and fatigue"
+      ],
+      "explanation": "The main challenge for someone lost in the woods is dealing with cold and thirst."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.69",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-005-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-005",
+    "reviewYear": null,
+    "fr": {
+      "q": "Combien de sources de feu le manuel recommande-t-il d'avoir dans votre équipement de survie indispensable?",
+      "choices": [
+        "Une seule",
+        "Deux",
+        "Quatre",
+        "Aucune, il faut savoir faire du feu par friction"
+      ],
+      "explanation": "La liste des accessoires indispensables comprend deux sources de feu."
+    },
+    "en": {
+      "q": "How many fire sources does the manual recommend in your essential survival gear?",
+      "choices": [
+        "Only one",
+        "Two",
+        "Four",
+        "None, you should know how to make fire by friction"
+      ],
+      "explanation": "The list of essential items includes two fire sources."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.69",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-005-q2",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-005",
+    "reviewYear": null,
+    "fr": {
+      "q": "Dans une trousse de survie, à quoi sert le fil de laiton?",
+      "choices": [
+        "À nettoyer le canon de l'arme",
+        "À réparer les bottes pantalon",
+        "À fabriquer des collets ou attacher la structure d'un abri",
+        "À retirer les tiques"
+      ],
+      "explanation": "Le fil de laiton permet de fabriquer des collets ou d'attacher la structure d'un abri."
+    },
+    "en": {
+      "q": "In a survival kit, what is brass wire used for?",
+      "choices": [
+        "Cleaning the firearm's barrel",
+        "Repairing chest waders",
+        "Making snares or tying a shelter frame",
+        "Removing ticks"
+      ],
+      "explanation": "Brass wire is used to make snares or tie together the frame of a shelter."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.69",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-006-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-006",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous êtes perdu, la journée s'achève et vous vous êtes foulé la cheville. Que devez-vous faire?",
+      "choices": [
+        "Prodiguer les premiers soins et vous préparer à passer la nuit",
+        "Courir pour sortir du bois avant la nuit",
+        "Marcher toute la nuit à la lampe de poche",
+        "Tirer des coups de feu jusqu'à épuisement des munitions"
+      ],
+      "explanation": "Si le jour s'achève ou si vous êtes blessé, prodiguez les premiers soins et préparez-vous à passer la nuit sur place."
+    },
+    "en": {
+      "q": "You are lost, the day is ending and you have sprained your ankle. What should you do?",
+      "choices": [
+        "Give first aid and prepare to spend the night",
+        "Run to get out of the woods before dark",
+        "Walk all night by flashlight",
+        "Fire shots until your ammunition runs out"
+      ],
+      "explanation": "If the day is ending or you are injured, give first aid and prepare to spend the night where you are."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.70",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-006-q2",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-006",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous réalisez que vous êtes perdu. Quelle est la première chose à faire, une fois calmé?",
+      "choices": [
+        "Courir dans la direction qui vous semble la bonne",
+        "Décider s'il vaut mieux rester sur place ou tenter de retrouver votre chemin",
+        "Manger toutes vos provisions pour garder vos forces",
+        "Retirer vos vêtements mouillés de sueur"
+      ],
+      "explanation": "Après avoir accepté la situation, la première chose est de déterminer s'il est préférable de rester sur place ou de tenter de retrouver son chemin."
+    },
+    "en": {
+      "q": "You realize you are lost. Once calm, what is the first thing to do?",
+      "choices": [
+        "Run in the direction that seems right",
+        "Decide whether to stay put or try to find your way",
+        "Eat all your food to keep your strength",
+        "Take off your sweat-soaked clothes"
+      ],
+      "explanation": "After accepting the situation, first decide whether it is better to stay put or try to find your way."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.70",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-007-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-007",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous êtes perdu en hiver et avez soif. Quel inconvénient présente le fait de manger de la neige?",
+      "choices": [
+        "Elle contient toujours des parasites",
+        "Elle est interdite dans les zones de chasse",
+        "Elle n'hydrate pas du tout",
+        "Elle vous fait perdre une bonne partie de votre chaleur corporelle"
+      ],
+      "explanation": "Vous pouvez manger de la neige, mais elle vous fera perdre une bonne partie de votre chaleur corporelle."
+    },
+    "en": {
+      "q": "You are lost in winter and thirsty. What is the drawback of eating snow?",
+      "choices": [
+        "It always contains parasites",
+        "It is prohibited in hunting zones",
+        "It provides no hydration at all",
+        "It makes you lose a lot of body heat"
+      ],
+      "explanation": "You can eat snow, but it will make you lose a good part of your body heat."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.70",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-008-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-008",
+    "reviewYear": null,
+    "fr": {
+      "q": "Si vous êtes trempé, à quelle vitesse perdez-vous votre chaleur corporelle par rapport à lorsque vous êtes au sec?",
+      "choices": [
+        "Cinq fois plus vite",
+        "Deux fois plus vite",
+        "Dix fois plus vite",
+        "À la même vitesse"
+      ],
+      "explanation": "Lorsqu'on est trempé, on perd sa chaleur cinq fois plus rapidement; il faut donc se garder au sec."
+    },
+    "en": {
+      "q": "If you are soaked, how fast do you lose body heat compared with being dry?",
+      "choices": [
+        "Five times as fast",
+        "Twice as fast",
+        "Ten times as fast",
+        "At the same rate"
+      ],
+      "explanation": "When soaked, you lose heat five times faster, so stay dry."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.70",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-009-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-009",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous êtes perdu et voulez que les secours repèrent votre feu de loin. Avec quoi devriez-vous l'alimenter?",
+      "choices": [
+        "Du bois sec seulement, pour une flamme vive",
+        "Des vêtements de rechange",
+        "Des branches de résineux et des feuilles vertes pour une fumée épaisse",
+        "De la neige pour produire de la vapeur"
+      ],
+      "explanation": "Des branches de résineux et des feuilles vertes produisent une fumée épaisse visible à des kilomètres à la ronde."
+    },
+    "en": {
+      "q": "You are lost and want rescuers to spot your fire from afar. What should you feed it with?",
+      "choices": [
+        "Only dry wood for a bright flame",
+        "Spare clothing",
+        "Conifer boughs and green leaves for thick smoke",
+        "Snow to make steam"
+      ],
+      "explanation": "Conifer boughs and green leaves produce thick smoke that can be seen for kilometres around."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.70",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-010-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-010",
+    "reviewYear": null,
+    "fr": {
+      "q": "Quel insecte peut transmettre la maladie de Lyme?",
+      "choices": [
+        "Le maringouin",
+        "La mouche noire",
+        "Le taon",
+        "La tique à pattes noires"
+      ],
+      "explanation": "La maladie de Lyme peut se développer après la piqûre d'une tique à pattes noires porteuse de la bactérie Borrelia burgdorferi."
+    },
+    "en": {
+      "q": "Which creature can transmit Lyme disease?",
+      "choices": [
+        "The mosquito",
+        "The black fly",
+        "The horse fly",
+        "The black-legged tick"
+      ],
+      "explanation": "Lyme disease can develop after a bite from a black-legged tick carrying the bacterium Borrelia burgdorferi."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.70",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-011-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-011",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous trouvez une tique agrippée à votre peau. Quelle méthode est correcte pour la retirer?",
+      "choices": [
+        "La saisir près de la peau avec une pince effilée et tirer doucement",
+        "Verser de l'huile dessus pour qu'elle se retire d'elle-même",
+        "L'écraser entre vos doigts",
+        "La couvrir de savon liquide"
+      ],
+      "explanation": "On saisit la tique le plus près possible de la peau avec une pince effilée ou un tire-tique, on tire doucement, puis on désinfecte."
+    },
+    "en": {
+      "q": "You find a tick attached to your skin. What is the correct way to remove it?",
+      "choices": [
+        "Grasp it close to the skin with fine tweezers and pull gently",
+        "Pour oil on it so it backs out by itself",
+        "Crush it between your fingers",
+        "Cover it with liquid soap"
+      ],
+      "explanation": "Grasp the tick as close to the skin as possible with fine tweezers or a tick remover, pull gently, then disinfect."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.71",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-011-q2",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-011",
+    "reviewYear": null,
+    "fr": {
+      "q": "Pourquoi ne faut-il jamais verser d'huile ou de savon sur une tique pour la forcer à se retirer?",
+      "choices": [
+        "Elle s'enfoncera plus profondément dans les muscles",
+        "Elle videra son estomac, augmentant le risque de transmission",
+        "Elle se multipliera plus vite",
+        "Elle deviendra impossible à identifier"
+      ],
+      "explanation": "La tique viderait son estomac avant de se retirer, ce qui augmente les chances de transmission de la bactérie."
+    },
+    "en": {
+      "q": "Why should you never pour oil or soap on a tick to make it back out?",
+      "choices": [
+        "It will burrow deeper into the muscle",
+        "It will empty its stomach, raising the risk of transmission",
+        "It will multiply faster",
+        "It will become impossible to identify"
+      ],
+      "explanation": "The tick would empty its stomach before letting go, increasing the chance of transmitting the bacterium."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.71",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-012-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-012",
+    "reviewYear": null,
+    "fr": {
+      "q": "Quelques jours après une piqûre de tique, une rougeur croissante apparaît sur votre peau. Que devez-vous faire?",
+      "choices": [
+        "Attendre qu'elle disparaisse d'elle-même",
+        "Consulter rapidement un médecin",
+        "Appliquer de l'huile sur la rougeur",
+        "Retourner en forêt chercher la tique"
+      ],
+      "explanation": "Il faut consulter rapidement un médecin en cas de rougeur croissante, douleurs musculaires, maux de tête ou fièvre après une piqûre."
+    },
+    "en": {
+      "q": "A few days after a tick bite, a growing redness appears on your skin. What should you do?",
+      "choices": [
+        "Wait for it to go away",
+        "See a doctor quickly",
+        "Put oil on the redness",
+        "Go back to the woods to find the tick"
+      ],
+      "explanation": "See a doctor quickly if a growing redness, muscle pain, headache or fever appears after a bite."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.71",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-013-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-013",
+    "reviewYear": null,
+    "fr": {
+      "q": "Un raton laveur vous mord à la main. Que devez-vous faire?",
+      "choices": [
+        "Simplement mettre un pansement et continuer la chasse",
+        "Laver immédiatement la plaie et téléphoner à Info-Santé 811",
+        "Attendre de voir si la fièvre apparaît",
+        "Brûler la plaie pour la désinfecter"
+      ],
+      "explanation": "Après une morsure, on lave immédiatement la plaie, on téléphone à Info-Santé 811 et on suit leurs directives, car l'animal pourrait porter la rage."
+    },
+    "en": {
+      "q": "A raccoon bites your hand. What should you do?",
+      "choices": [
+        "Just put on a bandage and keep hunting",
+        "Wash the wound right away and call Info-Santé 811",
+        "Wait to see whether a fever develops",
+        "Burn the wound to disinfect it"
+      ],
+      "explanation": "After a bite, wash the wound right away, call Info-Santé 811 and follow their instructions, since the animal could carry rabies."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.72",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-014-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-014",
+    "reviewYear": null,
+    "fr": {
+      "q": "Votre compagnon saigne abondamment et le pansement que vous avez appliqué est gorgé de sang. Que faites-vous?",
+      "choices": [
+        "Appliquer un autre pansement par-dessus et maintenir la pression",
+        "Retirer le pansement et en mettre un neuf",
+        "Cesser la pression pour laisser le sang couler",
+        "Rincer la plaie à l'eau froide"
+      ],
+      "explanation": "Si le pansement se gorge de sang, on ne l'enlève surtout pas : on en applique un autre par-dessus et on continue la pression."
+    },
+    "en": {
+      "q": "Your companion is bleeding heavily and the dressing you applied is soaked with blood. What do you do?",
+      "choices": [
+        "Put another dressing on top and keep up the pressure",
+        "Remove the dressing and put on a new one",
+        "Release the pressure to let blood flow",
+        "Rinse the wound with cold water"
+      ],
+      "explanation": "If the dressing soaks through, do not remove it: put another on top and keep pressing."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.72",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-015-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-015",
+    "reviewYear": null,
+    "fr": {
+      "q": "Votre compagnon s'est disloqué la cheville. Que devez-vous faire?",
+      "choices": [
+        "Replacer l'os vous-même",
+        "Retirer sa botte pour examiner le pied",
+        "Immobiliser le membre sans retirer la chaussure ni replacer l'os",
+        "Le faire marcher pour éviter l'enflure"
+      ],
+      "explanation": "En cas de dislocation, on ne replace jamais l'os soi-même; on immobilise le membre et, si la blessure est au pied, on ne retire pas la chaussure."
+    },
+    "en": {
+      "q": "Your companion has dislocated an ankle. What should you do?",
+      "choices": [
+        "Put the bone back yourself",
+        "Take off the boot to examine the foot",
+        "Immobilize the limb without removing the boot or resetting the bone",
+        "Have him walk to prevent swelling"
+      ],
+      "explanation": "With a dislocation, never reset the bone yourself; immobilize the limb and, for a foot injury, leave the boot on."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.72",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-016-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-016",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous vous êtes brûlé la main au feu de camp et des cloques apparaissent. Que faut-il éviter?",
+      "choices": [
+        "Crever les cloques",
+        "Plonger la main dans l'eau froide",
+        "Appliquer une compresse stérile humide",
+        "Nettoyer la plaie"
+      ],
+      "explanation": "Il ne faut surtout pas crever les cloques, car la brûlure pourrait s'infecter."
+    },
+    "en": {
+      "q": "You burned your hand on the campfire and blisters appear. What must you avoid?",
+      "choices": [
+        "Popping the blisters",
+        "Putting the hand in cold water",
+        "Applying a moist sterile compress",
+        "Cleaning the wound"
+      ],
+      "explanation": "Never pop the blisters, as the burn could become infected."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.72",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l10-017-q1",
+    "scope": "hunter-common",
+    "chapter": "l10",
+    "objectiveId": "hunter-common-l10-017",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous soupçonnez une hémorragie interne chez un compagnon. Que devez-vous faire?",
+      "choices": [
+        "Lui donner à manger pour qu'il reprenne des forces",
+        "Le transporter rapidement à l'hôpital en le gardant conscient et à jeun",
+        "Le laisser dormir sur place jusqu'au lendemain",
+        "Lui appliquer un garrot au ventre"
+      ],
+      "explanation": "En cas d'hémorragie interne, on transporte le blessé à l'hôpital le plus vite possible, en le gardant conscient et à jeun."
+    },
+    "en": {
+      "q": "You suspect internal bleeding in a companion. What should you do?",
+      "choices": [
+        "Give him food to regain strength",
+        "Get him to hospital quickly, keeping him conscious and fasting",
+        "Let him sleep where he is until morning",
+        "Apply a tourniquet to his abdomen"
+      ],
+      "explanation": "With internal bleeding, get the injured person to hospital as fast as possible, keeping them conscious and with nothing to eat or drink."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.72",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l11-001-q1",
+    "scope": "hunter-common",
+    "chapter": "l11",
+    "objectiveId": "hunter-common-l11-001",
+    "reviewYear": 2026,
+    "fr": {
+      "q": "Vous voulez utiliser une petite chaloupe avec un moteur de faible puissance pour chasser la sauvagine. Que devez-vous avoir obtenu?",
+      "choices": [
+        "Une carte de conducteur d'embarcation de plaisance",
+        "Rien, car le moteur est peu puissant",
+        "Un permis de pêche",
+        "Un certificat de premiers soins seulement"
+      ],
+      "explanation": "Peu importe la longueur, le type de moteur ou la puissance, il faut suivre un cours en sécurité nautique menant à une carte de compétence."
+    },
+    "en": {
+      "q": "You want to use a small boat with a low-power motor to hunt waterfowl. What must you have obtained?",
+      "choices": [
+        "A Pleasure Craft Operator Card",
+        "Nothing, since the motor is low-power",
+        "A fishing licence",
+        "Only a first aid certificate"
+      ],
+      "explanation": "Whatever the length, motor type or power, you must take a boating safety course leading to a competency card."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.73",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l11-002-q1",
+    "scope": "hunter-common",
+    "chapter": "l11",
+    "objectiveId": "hunter-common-l11-002",
+    "reviewYear": 2026,
+    "fr": {
+      "q": "Lequel de ces équipements fait partie de ceux à prévoir obligatoirement à bord de l'embarcation?",
+      "choices": [
+        "Un appeau électronique",
+        "Une écope",
+        "Une tente de camouflage",
+        "Un réchaud au propane"
+      ],
+      "explanation": "Parmi les équipements obligatoires : rames ou avirons, ancre, écope, dispositif de signalisation sonore, lampe étanche et ligne d'attrape flottante."
+    },
+    "en": {
+      "q": "Which of these is among the equipment you must have on board the boat?",
+      "choices": [
+        "An electronic call",
+        "A bailer",
+        "A camouflage blind",
+        "A propane stove"
+      ],
+      "explanation": "Required equipment includes oars or paddles, an anchor, a bailer, a sound-signalling device, a waterproof flashlight and a buoyant heaving line."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.74",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l11-002-q2",
+    "scope": "hunter-common",
+    "chapter": "l11",
+    "objectiveId": "hunter-common-l11-002",
+    "reviewYear": 2026,
+    "fr": {
+      "q": "À quoi sert la ligne d'attrape flottante à bord d'une embarcation?",
+      "choices": [
+        "À secourir une personne tombée à l'eau",
+        "À ancrer le bateau",
+        "À attacher les appelants",
+        "À remorquer le gibier abattu"
+      ],
+      "explanation": "La ligne d'attrape flottante sert à secourir une personne tombée à l'eau."
+    },
+    "en": {
+      "q": "What is the buoyant heaving line on board a boat used for?",
+      "choices": [
+        "Rescuing a person who fell in the water",
+        "Anchoring the boat",
+        "Tying decoys",
+        "Towing harvested game"
+      ],
+      "explanation": "The buoyant heaving line is used to rescue a person who has fallen into the water."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.74",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l11-003-q1",
+    "scope": "hunter-common",
+    "chapter": "l11",
+    "objectiveId": "hunter-common-l11-003",
+    "reviewYear": null,
+    "fr": {
+      "q": "Pourquoi ne faut-il jamais porter votre arme en bandoulière dans une embarcation?",
+      "choices": [
+        "Elle pourrait rayer la coque",
+        "Elle serait trop visible pour le gibier",
+        "Elle pourrait se mouiller",
+        "Elle pourrait vous entraîner vers le fond si vous tombez à l'eau"
+      ],
+      "explanation": "Portée en bandoulière, l'arme pourrait vous entraîner vers le fond si vous tombez à l'eau."
+    },
+    "en": {
+      "q": "Why should you never carry your firearm slung over your shoulder in a boat?",
+      "choices": [
+        "It could scratch the hull",
+        "It would be too visible to game",
+        "It could get wet",
+        "It could pull you to the bottom if you fall in"
+      ],
+      "explanation": "Slung over your shoulder, the firearm could drag you to the bottom if you fall into the water."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.74",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l11-003-q2",
+    "scope": "hunter-common",
+    "chapter": "l11",
+    "objectiveId": "hunter-common-l11-003",
+    "reviewYear": null,
+    "fr": {
+      "q": "Pourquoi conseille-t-on d'attacher votre équipement à l'embarcation?",
+      "choices": [
+        "Pour faciliter sa récupération si vous chavirez",
+        "Pour alourdir le bateau et le stabiliser",
+        "Pour empêcher le vol au quai",
+        "Pour respecter la limite de charge"
+      ],
+      "explanation": "Attacher l'équipement à l'embarcation facilite sa récupération en cas de chavirement."
+    },
+    "en": {
+      "q": "Why are you advised to tie your gear to the boat?",
+      "choices": [
+        "To make recovery easier if you capsize",
+        "To weigh down and steady the boat",
+        "To prevent theft at the dock",
+        "To stay within the load limit"
+      ],
+      "explanation": "Tying gear to the boat makes it easier to recover if you capsize."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.74",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l11-004-q1",
+    "scope": "hunter-common",
+    "chapter": "l11",
+    "objectiveId": "hunter-common-l11-004",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous portez des bottes pantalon dans une embarcation. Que devez-vous faire pour réduire le risque si vous tombez à l'eau?",
+      "choices": [
+        "Bien serrer la ceinture des bottes pantalon",
+        "Les laisser déboutonnées pour les enlever vite",
+        "Les remplir d'eau pour être plus stable",
+        "Porter votre gilet sous les bottes pantalon"
+      ],
+      "explanation": "On serre bien la ceinture pour empêcher l'eau de pénétrer dans les bottes en cas de chute à l'eau."
+    },
+    "en": {
+      "q": "You are wearing chest waders in a boat. What should you do to reduce the risk if you fall in?",
+      "choices": [
+        "Tighten the waders' belt well",
+        "Leave them unfastened so you can remove them fast",
+        "Fill them with water for stability",
+        "Wear your life jacket under the waders"
+      ],
+      "explanation": "Tighten the belt to keep water from getting into the waders if you fall in."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.74",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l11-004-q2",
+    "scope": "hunter-common",
+    "chapter": "l11",
+    "objectiveId": "hunter-common-l11-004",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous tombez à l'eau avec vos bottes pantalon. Que conseille le manuel de faire rapidement?",
+      "choices": [
+        "Nager vers le fond pour retirer les bottes",
+        "Relever les jambes pour que l'air emprisonné dans les bottes vous fasse flotter",
+        "Rester debout en battant des bras",
+        "Remplir les bottes d'eau pour couler moins vite"
+      ],
+      "explanation": "En relevant les jambes rapidement, l'air emprisonné au bout des bottes vous aide à flotter."
+    },
+    "en": {
+      "q": "You fall into the water wearing chest waders. What does the manual advise doing quickly?",
+      "choices": [
+        "Dive down to pull off the boots",
+        "Raise your legs so trapped air in the boots helps you float",
+        "Stay upright and wave your arms",
+        "Let the boots fill so you sink more slowly"
+      ],
+      "explanation": "Raising your legs quickly lets the air trapped in the boot feet help you float."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.74",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l11-005-q1",
+    "scope": "hunter-common",
+    "chapter": "l11",
+    "objectiveId": "hunter-common-l11-005",
+    "reviewYear": null,
+    "fr": {
+      "q": "Laquelle de ces pratiques est sécuritaire lorsque vous chassez à partir d'une embarcation?",
+      "choices": [
+        "Tirer debout pour mieux viser",
+        "Charger le bateau au maximum pour un seul voyage",
+        "Porter un vêtement de flottaison adapté à votre taille",
+        "Garder le gilet de sauvetage rangé sous le banc"
+      ],
+      "explanation": "Il faut toujours porter une veste de flottaison adaptée à sa taille, ne jamais surcharger l'embarcation et ne jamais tirer debout."
+    },
+    "en": {
+      "q": "Which of these practices is safe when hunting from a boat?",
+      "choices": [
+        "Shooting while standing for better aim",
+        "Loading the boat to the maximum for one trip",
+        "Wearing a PFD that fits your size",
+        "Keeping the life jacket stowed under the seat"
+      ],
+      "explanation": "Always wear a PFD that fits your size, never overload the boat and never shoot standing up."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.74",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l12-001-q1",
+    "scope": "hunter-common",
+    "chapter": "l12",
+    "objectiveId": "hunter-common-l12-001",
+    "reviewYear": null,
+    "fr": {
+      "q": "Selon le manuel, comment la faune est-elle considérée au Québec?",
+      "choices": [
+        "Comme la propriété des chasseurs qui la récoltent",
+        "Comme un bien collectif à gérer judicieusement",
+        "Comme la propriété des propriétaires fonciers",
+        "Comme une ressource illimitée"
+      ],
+      "explanation": "La faune est un bien collectif, et chaque génération doit gérer judicieusement cette richesse pour en assurer la pérennité ainsi que celle de la chasse."
+    },
+    "en": {
+      "q": "According to the manual, how is wildlife regarded in Québec?",
+      "choices": [
+        "As the property of the hunters who harvest it",
+        "As a collective good to be managed wisely",
+        "As the property of landowners",
+        "As an unlimited resource"
+      ],
+      "explanation": "Wildlife is a collective good, and each generation must manage it wisely to ensure its survival and that of hunting."
+    },
+    "answerIndex": 1,
+    "sourceRef": "icaf_fr.pdf p.75",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l12-002-q1",
+    "scope": "hunter-common",
+    "chapter": "l12",
+    "objectiveId": "hunter-common-l12-002",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous chassez le cerf depuis plusieurs années. Que devez-vous faire avant chaque nouvelle saison?",
+      "choices": [
+        "Consulter la réglementation en vigueur",
+        "Rien, les règles ne changent pas",
+        "Seulement renouveler vos munitions",
+        "Demander à un ami s'il y a du nouveau"
+      ],
+      "explanation": "Avant chaque saison, il faut consulter la réglementation pour connaître les règles qui s'appliquent à la chasse pratiquée."
+    },
+    "en": {
+      "q": "You have hunted deer for several years. What should you do before each new season?",
+      "choices": [
+        "Check the current regulations",
+        "Nothing, the rules do not change",
+        "Only buy fresh ammunition",
+        "Ask a friend whether anything is new"
+      ],
+      "explanation": "Before each season, consult the regulations to know the rules for the hunting you practise."
+    },
+    "answerIndex": 0,
+    "sourceRef": "icaf_fr.pdf p.75",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l12-003-q1",
+    "scope": "hunter-common",
+    "chapter": "l12",
+    "objectiveId": "hunter-common-l12-003",
+    "reviewYear": null,
+    "fr": {
+      "q": "Vous en êtes à votre première saison de chasse. Que conseille le manuel pour parfaire vos techniques?",
+      "choices": [
+        "Chasser seul pour apprendre plus vite",
+        "Éviter de pratiquer le tir hors saison",
+        "Utiliser une arme différente à chaque sortie",
+        "Chasser en compagnie de chasseurs expérimentés"
+      ],
+      "explanation": "Pour un débutant, on conseille de chasser avec des chasseurs expérimentés et de pratiquer régulièrement le tir."
+    },
+    "en": {
+      "q": "This is your first hunting season. What does the manual advise to improve your techniques?",
+      "choices": [
+        "Hunt alone to learn faster",
+        "Avoid shooting practice outside the season",
+        "Use a different firearm each outing",
+        "Hunt with experienced hunters"
+      ],
+      "explanation": "Beginners are advised to hunt with experienced hunters and to practise shooting regularly."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.75",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l12-003-q2",
+    "scope": "hunter-common",
+    "chapter": "l12",
+    "objectiveId": "hunter-common-l12-003",
+    "reviewYear": null,
+    "fr": {
+      "q": "Selon le manuel, que devriez-vous faire régulièrement pour améliorer la précision de votre tir?",
+      "choices": [
+        "Changer de lunette chaque année",
+        "Tirer seulement pendant la saison",
+        "Pratiquer le tir",
+        "Augmenter le calibre de votre arme"
+      ],
+      "explanation": "Le manuel recommande de pratiquer régulièrement pour améliorer la précision du tir."
+    },
+    "en": {
+      "q": "According to the manual, what should you do regularly to improve your shooting accuracy?",
+      "choices": [
+        "Change scopes every year",
+        "Shoot only during the season",
+        "Practise shooting",
+        "Move up to a bigger calibre"
+      ],
+      "explanation": "The manual recommends practising regularly to improve shooting accuracy."
+    },
+    "answerIndex": 2,
+    "sourceRef": "icaf_fr.pdf p.75",
+    "flags": []
+  },
+  {
+    "id": "hunter-common-l12-004-q1",
+    "scope": "hunter-common",
+    "chapter": "l12",
+    "objectiveId": "hunter-common-l12-004",
+    "reviewYear": null,
+    "fr": {
+      "q": "Selon le manuel, quel avantage offre l'adhésion à la Fédération québécoise des chasseurs et pêcheurs?",
+      "choices": [
+        "Un permis de chasse gratuit",
+        "L'accès exclusif aux terres publiques",
+        "Une exemption des règlements de chasse",
+        "Une assurance en cas d'accidents"
+      ],
+      "explanation": "Les membres de la FédéCP profitent notamment d'une assurance en cas d'accidents et d'avantages exclusifs."
+    },
+    "en": {
+      "q": "According to the manual, what benefit does membership in the Fédération québécoise des chasseurs et pêcheurs offer?",
+      "choices": [
+        "A free hunting licence",
+        "Exclusive access to public land",
+        "An exemption from hunting regulations",
+        "Accident insurance"
+      ],
+      "explanation": "FédéCP members benefit from accident insurance among other exclusive advantages."
+    },
+    "answerIndex": 3,
+    "sourceRef": "icaf_fr.pdf p.76",
+    "flags": []
+  }
+]

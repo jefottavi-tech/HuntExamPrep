@@ -2,7 +2,7 @@
 
 Bilingual (FR/EN) practice app for Canadian hunter and firearm-licence exams: the PAL (CFSC) and Québec's ICAF first, then BC CORE, Ontario Hunter Ed and Alberta. Built with Flutter, free with ads.
 
-> Not affiliated with the RCMP, the Government of Québec, FédéCP or any provincial agency.
+> Independent study aid: not affiliated with or endorsed by the RCMP, the Canadian Firearms Program, the Government of Québec, FédéCP or any provincial agency. Questions are original practice questions written from the official manuals, not the official exam questions, and may contain errors: always check the official manual.
 
 ## Layout
 
