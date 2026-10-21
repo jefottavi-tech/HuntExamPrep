@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3B7348"/>
+      <stop offset="1" stop-color="#1F4229"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g fill="none" stroke="#F4F1E8" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <!-- left antler: main beam sweeps out and up, tines point up -->
+    <path d="M222 236 C190 214 150 196 118 160 C96 134 86 104 92 70"/>
+    <path d="M168 196 C164 160 172 130 188 104"/>
+    <path d="M128 168 C120 138 124 112 136 88"/>
+    <path d="M196 220 C200 196 212 178 226 166"/>
+    <!-- right antler (mirror) -->
+    <path d="M290 236 C322 214 362 196 394 160 C416 134 426 104 420 70"/>
+    <path d="M344 196 C348 160 340 130 324 104"/>
+    <path d="M384 168 C392 138 388 112 376 88"/>
+    <path d="M316 220 C312 196 300 178 286 166"/>
+  </g>
+  <!-- ears -->
+  <path d="M206 262 C176 256 150 262 132 278 C156 296 186 298 214 290 Z" fill="#F4F1E8"/>
+  <path d="M306 262 C336 256 362 262 380 278 C356 296 326 298 298 290 Z" fill="#F4F1E8"/>
+  <!-- head -->
+  <path d="M196 244 C196 230 226 222 256 222 C286 222 316 230 316 244 C316 300 296 364 274 410 C268 424 244 424 238 410 C216 364 196 300 196 244 Z" fill="#F4F1E8"/>
+  <!-- eyes and nose -->
+  <ellipse cx="226" cy="290" rx="9" ry="11" fill="#1F4229"/>
+  <ellipse cx="286" cy="290" rx="9" ry="11" fill="#1F4229"/>
+  <ellipse cx="256" cy="398" rx="16" ry="11" fill="#1F4229"/>
+</svg>
