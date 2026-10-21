@@ -8,26 +8,28 @@
     "fr": {
       "q": "À qui s'adresse principalement le Cours canadien de sécurité dans le maniement des armes à feu à autorisation restreinte (CCSMAFAR)?",
       "choices": [
-        "Aux armuriers qui veulent obtenir une licence d'entreprise",
-        "Aux nouveaux utilisateurs et aux personnes qui veulent acquérir des armes à feu à autorisation restreinte",
-        "Uniquement aux policiers et aux agents de la faune",
-        "Aux chasseurs qui utilisent des armes sans restriction"
+        "Aux armuriers qui veulent obtenir une licence d'entreprise pour vendre des armes",
+        "Aux nouveaux utilisateurs et à ceux qui veulent acquérir des armes à autorisation restreinte",
+        "Uniquement aux policiers, aux militaires et aux agents de protection de la faune",
+        "Aux chasseurs qui utilisent seulement des armes sans restriction pour le gros gibier"
       ],
       "explanation": "Le CCSMAFAR est un cours d'introduction destiné aux nouveaux utilisateurs et aux personnes qui désirent acquérir des armes à feu à autorisation restreinte."
     },
     "en": {
       "q": "Who is the Canadian Restricted Firearms Safety Course (CRFSC) mainly intended for?",
       "choices": [
-        "Gunsmiths seeking a business licence",
+        "Gunsmiths seeking a business licence to sell firearms",
         "New users and people who want to acquire restricted firearms",
-        "Only police officers and wildlife officers",
-        "Hunters who use non-restricted firearms"
+        "Only police officers, military members and wildlife protection officers",
+        "Hunters who use only non-restricted firearms for big game"
       ],
       "explanation": "The CRFSC is an introductory course for new users of restricted firearms and people who want to acquire them."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.220",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-002-q1",
@@ -57,7 +59,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.220",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-003-q1",
@@ -68,26 +72,28 @@
     "fr": {
       "q": "Laquelle de ces activités fait partie du Programme canadien des armes à feu?",
       "choices": [
-        "La fixation des saisons de chasse",
+        "La fixation des saisons de chasse et des quotas de prises pour chaque province",
         "La délivrance de permis aux propriétaires et aux entreprises d'armes à feu",
-        "La gestion des champs de tir municipaux",
-        "La fabrication des dispositifs de verrouillage"
+        "La gestion et l'inspection quotidienne des champs de tir municipaux",
+        "La fabrication et la distribution gratuite des dispositifs de verrouillage"
       ],
       "explanation": "Le PCAF délivre des permis aux propriétaires et entreprises, offre les cours de sécurité, fait de l'éducation publique et contrôle l'importation et l'exportation."
     },
     "en": {
       "q": "Which of these activities is part of the Canadian Firearms Program?",
       "choices": [
-        "Setting hunting seasons",
+        "Setting hunting seasons and bag limits for each province",
         "Issuing licences to firearm owners and businesses",
-        "Running municipal shooting ranges",
-        "Manufacturing locking devices"
+        "Running and inspecting municipal shooting ranges every day",
+        "Manufacturing and handing out free locking devices"
       ],
       "explanation": "The CFP licenses owners and businesses, delivers the safety courses, provides public education, and controls imports and exports."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.220",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-004-q1",
@@ -98,9 +104,9 @@
     "fr": {
       "q": "Où sont consignés les renseignements sur la délivrance de permis et l'enregistrement des armes à feu?",
       "choices": [
-        "Dans le registre foncier de chaque province",
-        "Dans un fichier tenu par chaque club de tir",
-        "Uniquement sur le certificat remis au propriétaire",
+        "Dans le registre foncier de chaque province, à l'adresse du propriétaire",
+        "Dans un fichier papier tenu à jour par chaque club de tir agréé",
+        "Uniquement sur le certificat remis au propriétaire, sans aucune copie",
         "Dans le Système canadien d'information relativement aux armes à feu"
       ],
       "explanation": "Ces renseignements sont consignés dans le Système canadien d'information relativement aux armes à feu, une base de données nationale gérée par le PCAF."
@@ -108,16 +114,18 @@
     "en": {
       "q": "Where is licensing and registration information about firearms recorded?",
       "choices": [
-        "In each province's land registry",
-        "In a file kept by each shooting club",
-        "Only on the certificate given to the owner",
+        "In each province's land registry, under the owner's address",
+        "In a paper file kept up to date by each approved shooting club",
+        "Only on the certificate given to the owner, with no copy kept",
         "In the Canadian Firearms Information System"
       ],
       "explanation": "This information is recorded in the Canadian Firearms Information System, a national database managed by the CFP."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.220",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-005-q1",
@@ -128,26 +136,28 @@
     "fr": {
       "q": "Par qui les instructeurs et examinateurs des cours canadiens de sécurité doivent-ils être reconnus?",
       "choices": [
-        "Par le fabricant des armes utilisées en classe",
-        "Par la municipalité où se trouve la salle de cours",
-        "Par l'association de chasseurs de la région",
-        "Par le contrôleur des armes à feu de la province ou du territoire où se donne le cours"
+        "Par le fabricant des armes utilisées en classe, qui fournit aussi le matériel",
+        "Par la municipalité où se trouve la salle de cours, selon son règlement local",
+        "Par l'association de chasseurs de la région, qui choisit ses propres moniteurs",
+        "Par le contrôleur des armes à feu de la province ou du territoire du cours"
       ],
       "explanation": "Tous les instructeurs et examinateurs doivent être reconnus par le contrôleur des armes à feu de la province ou du territoire où le cours est suivi."
     },
     "en": {
       "q": "By whom must instructors and examiners of the Canadian firearms safety courses be recognized?",
       "choices": [
-        "The manufacturer of the firearms used in class",
-        "The municipality where the classroom is located",
-        "The local hunters' association",
+        "The manufacturer of the firearms used in class, which also supplies the equipment",
+        "The municipality where the classroom is located, under its local bylaw",
+        "The local hunters' association, which picks its own instructors",
         "The chief firearms officer of the province or territory where the course is given"
       ],
       "explanation": "All instructors and examiners must be recognized by the chief firearms officer of the province or territory where the course is taken."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.221",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-006-q1",
@@ -177,7 +187,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.222",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-007-q1",
@@ -188,26 +200,28 @@
     "fr": {
       "q": "Selon le manuel, que peut-on conclure lorsqu'on entend parler d'un accident lié à une arme à feu?",
       "choices": [
-        "L'arme à feu était sans doute défectueuse",
-        "L'utilisateur n'avait pas de permis valide",
-        "Les munitions étaient de mauvaise qualité",
-        "Au moins une des quatre règles vitales a été enfreinte"
+        "L'arme à feu était sans doute défectueuse ou mal entretenue par son propriétaire",
+        "L'utilisateur n'avait pas de permis valide pour cette catégorie d'arme à feu",
+        "Les munitions étaient de mauvaise qualité ou mal adaptées au calibre de l'arme",
+        "Au moins une des quatre règles vitales de sécurité a été enfreinte"
       ],
       "explanation": "Le manuel indique qu'un accident signifie qu'au moins une des quatre règles vitales TPTO n'a pas été respectée."
     },
     "en": {
       "q": "According to the manual, what can you conclude when you hear about a firearm accident?",
       "choices": [
-        "The firearm was probably defective",
-        "The user did not have a valid licence",
-        "The ammunition was of poor quality",
-        "At least one of the vital four rules was broken"
+        "The firearm was probably defective or poorly maintained by its owner",
+        "The user did not have a valid licence for that class of firearm",
+        "The ammunition was of poor quality or wrong for the firearm's calibre",
+        "At least one of the vital four safety rules was broken"
       ],
       "explanation": "The manual says an accident means at least one of the vital four ACTS rules was not followed."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.223",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-008-q1",
@@ -237,7 +251,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.224",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-009-q1",
@@ -248,9 +264,9 @@
     "fr": {
       "q": "Que demande la règle vitale concernant la direction du canon?",
       "choices": [
-        "Pointer le canon vers le sol en tout temps",
-        "Pointer le canon vers le haut lorsqu'il y a du monde",
-        "Pointer le canon vers la cible seulement une fois chargé",
+        "Pointer le canon vers le sol en tout temps, quelle que soit la situation",
+        "Pointer le canon vers le haut dès qu'il y a du monde autour de vous",
+        "Pointer le canon vers la cible seulement une fois que l'arme est chargée",
         "Établir la direction la plus sécuritaire et y maintenir le canon"
       ],
       "explanation": "Il faut déterminer la direction la plus sécuritaire, y pointer l'arme et l'y maintenir, sans jamais la pointer sur soi ou sur autrui."
@@ -258,16 +274,18 @@
     "en": {
       "q": "What does the vital rule about muzzle direction require?",
       "choices": [
-        "Pointing the muzzle at the ground at all times",
-        "Pointing the muzzle upward when people are around",
-        "Pointing the muzzle at the target only once loaded",
+        "Pointing the muzzle at the ground at all times, whatever the situation",
+        "Pointing the muzzle upward as soon as people are around you",
+        "Pointing the muzzle at the target only once the firearm is loaded",
         "Determining the safest direction and keeping the muzzle there"
       ],
       "explanation": "Determine the safest direction, point the firearm there and keep it there, never at yourself or anyone else."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.224",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-010-q1",
@@ -278,9 +296,9 @@
     "fr": {
       "q": "Pendant que vous manipulez une arme à feu sans avoir l'intention de tirer, où doit se trouver votre doigt?",
       "choices": [
-        "Sur la détente, sans appuyer",
-        "À l'intérieur du pontet, contre l'avant",
-        "Sur le cran de sûreté en permanence",
+        "Sur la détente, sans appuyer, pour être prêt à tirer rapidement",
+        "À l'intérieur du pontet, appuyé contre l'avant de celui-ci",
+        "Sur le cran de sûreté en permanence, même pendant la visée",
         "À l'extérieur du pontet, éloigné de la détente"
       ],
       "explanation": "Le doigt doit rester éloigné de la détente et à l'extérieur du pontet, sauf pour faire feu."
@@ -288,16 +306,18 @@
     "en": {
       "q": "While handling a firearm without intending to shoot, where should your finger be?",
       "choices": [
-        "On the trigger, without pressing",
-        "Inside the trigger guard, against the front",
-        "On the safety at all times",
+        "On the trigger, without pressing, so you are ready to fire quickly",
+        "Inside the trigger guard, resting against its front",
+        "On the safety at all times, even while aiming",
         "Outside the trigger guard, away from the trigger"
       ],
       "explanation": "Keep your finger away from the trigger and outside the trigger guard except when firing."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.224",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-011-q1",
@@ -327,7 +347,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.224",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-012-q1",
@@ -338,10 +360,10 @@
     "fr": {
       "q": "Dans la séquence PROUVEr, quelle étape vient immédiatement après « Retirez toutes les cartouches »?",
       "choices": [
-        "Ouvrez le mécanisme et assurez-vous que la ou les chambres sont vides",
-        "Pointez l'arme dans la direction la plus sécuritaire",
-        "Examinez l'âme du canon",
-        "Vérifiez le trajet d'alimentation"
+        "Ouvrir le mécanisme et vérifier que la ou les chambres sont vides",
+        "Pointer l'arme dans la direction la plus sécuritaire possible",
+        "Examiner l'âme du canon pour y repérer toute obstruction éventuelle",
+        "Vérifier le trajet d'alimentation et retirer le chargeur"
       ],
       "explanation": "L'ordre est : Pointer, Retirer les cartouches, OUvrir le mécanisme et vérifier les chambres, Vérifier le trajet d'alimentation, Examiner l'âme du canon."
     },
@@ -349,15 +371,17 @@
       "q": "In the PROVE sequence, which step comes right after \"Remove all cartridges\"?",
       "choices": [
         "Open the action and check that the chamber(s) are empty",
-        "Point the firearm in the safest direction",
-        "Examine the bore",
-        "Verify the feeding path"
+        "Point the firearm in the safest possible direction",
+        "Examine the bore for any possible obstruction",
+        "Verify the feeding path and remove the magazine"
       ],
       "explanation": "The order is: Point, Remove cartridges, Open the action and check chambers, Verify the feeding path, Examine the bore."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.225",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-013-q1",
@@ -368,26 +392,28 @@
     "fr": {
       "q": "Quelle est la dernière étape pour PROUVEr qu'une arme à feu est sécuritaire?",
       "choices": [
-        "Examiner l'âme du canon pour s'assurer qu'elle est exempte d'obstructions",
-        "Engager le cran de sûreté",
-        "Installer un verrou de pontet",
-        "Ranger les munitions dans un contenant verrouillé"
+        "Examiner l'âme du canon pour s'assurer qu'elle est dégagée",
+        "Engager le cran de sûreté et le laisser en position verrouillée",
+        "Installer un verrou de pontet avant de ranger l'arme dans l'étui",
+        "Ranger les munitions dans un contenant verrouillé à part"
       ],
       "explanation": "La dernière étape de PROUVEr consiste à examiner l'âme du canon pour vérifier qu'elle n'est pas obstruée."
     },
     "en": {
       "q": "What is the last step to PROVE a firearm safe?",
       "choices": [
-        "Examine the bore to make sure it is free of obstructions",
-        "Engage the safety",
-        "Install a trigger lock",
-        "Put the ammunition in a locked container"
+        "Examine the bore to make sure it is clear",
+        "Engage the safety and leave it in the locked position",
+        "Install a trigger lock before putting the firearm in its case",
+        "Put the ammunition away in a separate locked container"
       ],
       "explanation": "The last PROVE step is examining the bore to make sure it is not obstructed."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.225",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-014-q1",
@@ -398,26 +424,28 @@
     "fr": {
       "q": "Vous déménagez dans une autre ville et possédez des armes à feu à autorisation restreinte. Que devez-vous faire avant le déménagement?",
       "choices": [
-        "Remettre vos armes à la police jusqu'à la fin du déménagement",
+        "Remettre vos armes au poste de police local jusqu'à la fin du déménagement",
         "Informer le Programme des armes à feu pour obtenir une autorisation de transport",
-        "Simplement les placer dans un coffre verrouillé dans le camion",
-        "Aviser votre club de tir de votre nouvelle adresse"
+        "Simplement les placer dans un coffre verrouillé à l'arrière du camion de déménagement",
+        "Aviser votre club de tir de votre nouvelle adresse dans les 30 jours suivants"
       ],
       "explanation": "Vous devez informer le Programme des armes à feu avant le déménagement afin qu'une autorisation de transport soit délivrée pour vos armes à autorisation restreinte."
     },
     "en": {
       "q": "You are moving to another city and own restricted firearms. What must you do before the move?",
       "choices": [
-        "Hand your firearms to police until the move is over",
+        "Hand your firearms to the local police station until the move is over",
         "Notify the Firearms Program to get an authorization to transport",
-        "Simply place them in a locked chest in the truck",
-        "Inform your shooting club of your new address"
+        "Simply place them in a locked chest at the back of the moving truck",
+        "Inform your shooting club of your new address within the following 30 days"
       ],
       "explanation": "You must notify the Firearms Program before the move so an authorization to transport can be issued for your restricted firearms."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.226",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-015-q1",
@@ -428,26 +456,28 @@
     "fr": {
       "q": "Quelle est la différence entre un permis de possession seulement (PPS) et un permis de possession et d'acquisition (PPA) quant aux armes d'une catégorie autorisée?",
       "choices": [
-        "Le titulaire d'un PPS peut seulement emprunter, alors que celui d'un PPA peut aussi acheter, hériter ou acquérir autrement",
-        "Le titulaire d'un PPS peut acheter des armes, mais pas les emprunter",
-        "Les deux permis permettent exactement les mêmes acquisitions",
-        "Le titulaire d'un PPA peut seulement hériter d'armes à feu"
+        "Le PPS permet seulement d'emprunter; le PPA permet aussi d'acheter, d'hériter, etc.",
+        "Le titulaire d'un PPS peut acheter des armes à feu, mais il n'a pas le droit de les emprunter",
+        "Les deux permis permettent exactement les mêmes acquisitions; seule la durée de validité diffère",
+        "Le titulaire d'un PPA peut seulement hériter d'armes à feu, alors que le PPS permet de les acheter"
       ],
       "explanation": "Le PPS permet d'emprunter une arme de la même catégorie; le PPA permet d'emprunter, d'acheter, d'hériter ou d'acquérir autrement une arme de cette catégorie."
     },
     "en": {
       "q": "What is the difference between a possession-only licence (POL) and a possession and acquisition licence (PAL) regarding firearms of an authorized class?",
       "choices": [
-        "A POL holder may only borrow, while a PAL holder may also buy, inherit or otherwise acquire",
-        "A POL holder may buy firearms but not borrow them",
-        "Both licences allow exactly the same acquisitions",
-        "A PAL holder may only inherit firearms"
+        "A POL only allows borrowing; a PAL also allows buying, inheriting, etc.",
+        "A POL holder may buy firearms but is not allowed to borrow them",
+        "Both licences allow exactly the same acquisitions; only their period of validity differs",
+        "A PAL holder may only inherit firearms, while a POL allows buying them"
       ],
       "explanation": "A POL allows borrowing a firearm of the same class; a PAL allows borrowing, buying, inheriting or otherwise acquiring a firearm of that class."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.226",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-016-q1",
@@ -458,26 +488,28 @@
     "fr": {
       "q": "Un nouveau titulaire de permis veut utiliser son arme de poing à autorisation restreinte pour chasser le petit gibier. Que dit le manuel?",
       "choices": [
-        "C'est permis avec un permis de chasse valide",
-        "Il est interdit de chasser avec une arme à feu à autorisation restreinte au Canada",
-        "C'est permis seulement pour le petit gibier",
-        "C'est permis seulement en région éloignée"
+        "C'est permis avec un permis de chasse provincial valide et le cours de chasseur",
+        "Il est interdit de chasser avec une arme à autorisation restreinte au Canada",
+        "C'est permis seulement pour le petit gibier, avec des munitions de faible calibre",
+        "C'est permis seulement en région éloignée, à plus de 50 km d'une municipalité"
       ],
       "explanation": "Le manuel indique qu'il est interdit de pratiquer la chasse avec une arme à feu à autorisation restreinte au Canada."
     },
     "en": {
       "q": "A new licence holder wants to use his restricted handgun to hunt small game. What does the manual say?",
       "choices": [
-        "It is allowed with a valid hunting licence",
+        "It is allowed with a valid provincial hunting licence and the hunter course",
         "Hunting with a restricted firearm is prohibited in Canada",
-        "It is allowed only for small game",
-        "It is allowed only in remote areas"
+        "It is allowed only for small game, using low-calibre ammunition",
+        "It is allowed only in remote areas, more than 50 km from a municipality"
       ],
       "explanation": "The manual states that hunting with a restricted firearm is prohibited in Canada."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.226",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-017-q1",
@@ -507,7 +539,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.226",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-018-q1",
@@ -537,7 +571,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.227",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-intro-r-019-q1",
@@ -567,7 +603,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.227",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-001-q1",
@@ -597,7 +635,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.230",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-002-q1",
@@ -627,7 +667,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.230",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-003-q1",
@@ -657,7 +699,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.230",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-004-q1",
@@ -669,9 +713,9 @@
       "q": "Lequel des éléments suivants peut faire exploser la poudre noire?",
       "choices": [
         "L'électricité statique ou un choc brusque",
-        "Uniquement une flamme nue",
-        "Uniquement le contact avec l'eau",
-        "Uniquement une température sous zéro"
+        "Uniquement une flamme nue placée directement en contact",
+        "Uniquement un contact prolongé avec l'eau ou l'humidité",
+        "Uniquement une exposition à une température sous zéro"
       ],
       "explanation": "La poudre noire peut s'enflammer à cause d'une étincelle, de la chaleur, d'une friction, d'un choc brusque ou de l'électricité statique."
     },
@@ -679,15 +723,17 @@
       "q": "Which of the following can make black powder explode?",
       "choices": [
         "Static electricity or a sudden shock",
-        "Only an open flame",
-        "Only contact with water",
-        "Only below-freezing temperatures"
+        "Only an open flame placed in direct contact",
+        "Only prolonged contact with water or moisture",
+        "Only exposure to below-freezing temperatures"
       ],
       "explanation": "Black powder can be ignited by a spark, heat, friction, a sudden shock or static electricity."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.231",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-005-q1",
@@ -698,18 +744,18 @@
     "fr": {
       "q": "Comment devriez-vous entreposer votre poudre noire?",
       "choices": [
-        "Dans un endroit chaud près du foyer pour la garder sèche",
-        "Dans un sac de plastique scellé à l'intérieur du canon",
-        "Dans un endroit sécuritaire, frais et sec, dans son contenant original",
-        "Dans un contenant de verre transparent exposé au soleil"
+        "Dans un endroit chaud près du foyer pour la garder bien sèche",
+        "Dans un sac de plastique scellé rangé à l'intérieur du canon",
+        "Dans un endroit sûr, frais et sec, dans son contenant d'origine",
+        "Dans un contenant de verre transparent exposé à la lumière du soleil"
       ],
       "explanation": "La poudre noire doit être entreposée dans un endroit sécuritaire, frais et sec, toujours dans son contenant original."
     },
     "en": {
       "q": "How should you store your black powder?",
       "choices": [
-        "In a warm spot near the fireplace to keep it dry",
-        "In a sealed plastic bag inside the barrel",
+        "In a warm spot near the fireplace to keep it nice and dry",
+        "In a sealed plastic bag stored inside the barrel",
         "In a safe, cool, dry place in its original container",
         "In a clear glass jar exposed to sunlight"
       ],
@@ -717,7 +763,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.231",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-006-q1",
@@ -747,7 +795,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.231",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-007-q1",
@@ -777,7 +827,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.239",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-008-q1",
@@ -788,9 +840,9 @@
     "fr": {
       "q": "Pourquoi est-il dangereux de recharger immédiatement une arme à poudre noire qui vient de tirer?",
       "choices": [
-        "Le canon est trop froid pour enflammer la poudre",
-        "La capsule détonante est encore armée sur la cheminée",
-        "Le calepin bloque toujours la bouche du canon",
+        "Le canon est encore trop froid pour enflammer la nouvelle charge de poudre",
+        "La capsule détonante est encore armée sur la cheminée après le tir",
+        "Le calepin reste toujours coincé à la bouche du canon après le tir",
         "Des braises incandescentes peuvent rester dans l'âme du canon"
       ],
       "explanation": "Des braises incandescentes peuvent demeurer dans l'âme après le tir et enflammer la nouvelle charge de poudre."
@@ -798,16 +850,18 @@
     "en": {
       "q": "Why is it dangerous to reload a black powder firearm immediately after firing?",
       "choices": [
-        "The barrel is too cold to ignite the powder",
-        "The percussion cap is still cocked on the nipple",
-        "The patch always blocks the muzzle",
+        "The barrel is still too cold to ignite the new powder charge",
+        "The percussion cap is still cocked on the nipple after firing",
+        "The patch always stays stuck at the muzzle after firing",
         "Glowing embers may remain in the bore"
       ],
       "explanation": "Glowing embers may remain in the bore after firing and could ignite the new powder charge."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.231",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-009-q1",
@@ -837,7 +891,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.231",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-010-q1",
@@ -867,7 +923,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.233",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-011-q1",
@@ -879,9 +937,9 @@
       "q": "Après avoir pointé la bouche dans une direction sécuritaire et éloigné le doigt de la détente, quelle est l'étape suivante pour vérifier qu'une arme à chargement par la bouche n'est pas amorcée?",
       "choices": [
         "Vérifier que le chien n'est pas en position armée",
-        "Retirer la balle à l'aide de la baguette",
-        "Verser de l'eau dans le canon",
-        "Tirer une capsule pour nettoyer la cheminée"
+        "Retirer la balle à l'aide de la baguette, sans attendre",
+        "Verser de l'eau froide dans le canon pour noyer la poudre",
+        "Tirer une capsule à blanc pour nettoyer la cheminée"
       ],
       "explanation": "Après avoir pointé l'arme de façon sécuritaire, on vérifie que le chien n'est pas armé, puis la présence d'une capsule ou de pulvérin, qu'on retire."
     },
@@ -889,15 +947,17 @@
       "q": "After pointing the muzzle in a safe direction and keeping your finger off the trigger, what is the next step to check that a muzzleloader is not primed?",
       "choices": [
         "Check that the hammer is not cocked",
-        "Remove the ball with the ramrod",
-        "Pour water into the barrel",
-        "Fire a cap to clean the nipple"
+        "Remove the ball with the ramrod, without waiting",
+        "Pour cold water into the barrel to drown the powder",
+        "Fire a blank cap to clean the nipple"
       ],
       "explanation": "After pointing safely, you check that the hammer is not cocked, then look for a cap or priming powder and remove it."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.234",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-012-q1",
@@ -908,26 +968,28 @@
     "fr": {
       "q": "Comment pouvez-vous savoir s'il y a déjà une charge dans le canon de votre arme à chargement par la bouche?",
       "choices": [
-        "En regardant par la lumière",
-        "En secouant l'arme pour entendre la balle",
-        "En insérant une baguette marquée au niveau du canon vide",
-        "En pesant l'arme avant et après le chargement"
+        "En regardant par la lumière pour apercevoir la poudre ou la balle",
+        "En secouant doucement l'arme pour entendre si la balle bouge",
+        "Avec une baguette marquée au niveau du canon vide",
+        "En pesant l'arme sur une balance avant et après le chargement"
       ],
       "explanation": "Une marque sur la baguette indiquant la profondeur du canon vide permet de voir si l'arme est chargée lorsqu'on l'insère."
     },
     "en": {
       "q": "How can you tell whether there is already a charge in the barrel of your muzzleloader?",
       "choices": [
-        "By looking through the flash hole",
-        "By shaking the firearm to hear the ball",
-        "By inserting a ramrod marked at the empty-bore depth",
-        "By weighing the firearm before and after loading"
+        "By looking through the flash hole to spot the powder or ball",
+        "By gently shaking the firearm to hear whether the ball moves",
+        "With a ramrod marked at the empty-bore depth",
+        "By weighing the firearm on a scale before and after loading"
       ],
       "explanation": "A mark on the ramrod showing the empty-bore depth reveals whether the firearm is loaded when the rod is inserted."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.234",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-013-q1",
@@ -957,7 +1019,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.238",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-014-q1",
@@ -987,7 +1051,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.238",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-015-q1",
@@ -998,26 +1064,28 @@
     "fr": {
       "q": "Vous venez de terminer une séance de tir avec votre arme à poudre noire. Que devez-vous utiliser pour la nettoyer?",
       "choices": [
-        "Uniquement un chiffon sec, sans liquide",
+        "Uniquement un chiffon sec, sans aucun liquide ni huile",
         "Un solvant pour poudre noire ou de l'eau chaude savonneuse",
-        "De l'essence pour dissoudre le carbone",
-        "De l'eau froide salée"
+        "De l'essence ou du diluant pour bien dissoudre le carbone",
+        "De l'eau froide salée, suivie d'un séchage à l'air libre"
       ],
       "explanation": "La poudre noire est très corrosive; on nettoie après chaque séance avec un solvant conçu pour la poudre noire ou de l'eau chaude savonneuse."
     },
     "en": {
       "q": "You have just finished shooting your black powder firearm. What should you use to clean it?",
       "choices": [
-        "Only a dry cloth, with no liquid",
+        "Only a dry cloth, with no liquid or oil at all",
         "A black powder solvent or hot soapy water",
-        "Gasoline to dissolve the carbon",
-        "Cold salt water"
+        "Gasoline or paint thinner to dissolve the carbon",
+        "Cold salt water, followed by air drying"
       ],
       "explanation": "Black powder is very corrosive; clean after every session with a solvent made for black powder or hot soapy water."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.238",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-016-q1",
@@ -1047,7 +1115,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.237",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m12-017-q1",
@@ -1058,26 +1128,28 @@
     "fr": {
       "q": "Votre arme à chargement par la bouche ne fait pas feu quand vous appuyez sur la détente. Que devez-vous faire?",
       "choices": [
-        "Recharger immédiatement une nouvelle charge",
-        "Regarder dans la bouche du canon pour voir la balle",
-        "Attendre au moins 60 secondes en pointant l'arme dans une direction sécuritaire",
-        "Retirer la capsule tout de suite avec les doigts"
+        "Recharger immédiatement une nouvelle charge de poudre et une balle par-dessus",
+        "Regarder dans la bouche du canon pour voir si la balle est toujours en place",
+        "Attendre au moins 60 secondes, l'arme pointée dans une direction sûre",
+        "Retirer la capsule tout de suite avec les doigts pour en poser une neuve"
       ],
       "explanation": "Un non feu doit être traité comme un long feu qui peut partir à tout moment : on attend au moins 60 secondes en pointant l'arme de façon sécuritaire."
     },
     "en": {
       "q": "Your muzzleloader does not fire when you pull the trigger. What should you do?",
       "choices": [
-        "Immediately load a new charge",
-        "Look into the muzzle to see the ball",
-        "Wait at least 60 seconds with the firearm pointed in a safe direction",
-        "Remove the cap right away with your fingers"
+        "Immediately load a new powder charge and a ball on top",
+        "Look into the muzzle to see whether the ball is still in place",
+        "Wait at least 60 seconds, firearm pointed in a safe direction",
+        "Remove the cap right away with your fingers to put on a new one"
       ],
       "explanation": "A misfire must be treated as a hangfire that could fire at any moment: wait at least 60 seconds pointed in a safe direction."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.239",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-001-q1",
@@ -1107,7 +1179,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.243",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-002-q1",
@@ -1118,26 +1192,28 @@
     "fr": {
       "q": "Quel est le rôle des rayures dans le canon d'une arme de poing?",
       "choices": [
-        "Augmenter la quantité de poudre brûlée",
-        "Réduire le bruit de la détonation",
+        "Augmenter la quantité de poudre brûlée à chaque tir pour plus de puissance",
+        "Réduire le bruit de la détonation et le recul ressenti par le tireur",
         "Imprimer une rotation à la balle pour la stabiliser en vol",
-        "Empêcher la balle de sortir trop vite"
+        "Empêcher la balle de sortir trop vite de la bouche du canon"
       ],
       "explanation": "Les rayures font tourner la balle sur elle-même, ce qui assure sa stabilité en vol."
     },
     "en": {
       "q": "What is the purpose of rifling in a handgun barrel?",
       "choices": [
-        "To increase the amount of powder burned",
-        "To reduce the noise of the shot",
+        "To increase the amount of powder burned on each shot for more power",
+        "To reduce the noise of the shot and the recoil felt by the shooter",
         "To spin the bullet so it is stable in flight",
-        "To keep the bullet from leaving too fast"
+        "To keep the bullet from leaving the muzzle too fast"
       ],
       "explanation": "Rifling spins the bullet, which keeps it stable in flight."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.243",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-003-q1",
@@ -1149,9 +1225,9 @@
       "q": "Que mesure le calibre d'une arme à canon rayé?",
       "choices": [
         "Le diamètre de l'âme du canon",
-        "La longueur du canon",
-        "Le poids de la balle",
-        "La longueur de la cartouche"
+        "La longueur totale du canon",
+        "Le poids de la balle en grains",
+        "La longueur de la cartouche entière"
       ],
       "explanation": "Le calibre est la mesure du diamètre de l'âme, en millièmes de pouce ou en millimètres."
     },
@@ -1159,15 +1235,17 @@
       "q": "What does the calibre of a rifled firearm measure?",
       "choices": [
         "The diameter of the bore",
-        "The length of the barrel",
-        "The weight of the bullet",
-        "The length of the cartridge"
+        "The total length of the barrel",
+        "The weight of the bullet in grains",
+        "The length of the whole cartridge"
       ],
       "explanation": "Calibre is the bore diameter, measured in thousandths of an inch or in millimetres."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.243",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-004-q1",
@@ -1197,7 +1275,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.243",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-005-q1",
@@ -1208,9 +1288,9 @@
     "fr": {
       "q": "Quelle est la chose la plus importante à vérifier avant de choisir des munitions pour votre arme de poing?",
       "choices": [
-        "Que la boîte de munitions soit de la même marque que l'arme",
-        "Que la balle soit chemisée",
-        "Que les cartouches soient les moins chères possible",
+        "Que la boîte de munitions porte la même marque de fabricant que l'arme à feu",
+        "Que la balle soit chemisée de cuivre pour ne pas encrasser les rayures du canon",
+        "Que les cartouches soient les moins chères offertes pour ce type d'arme à feu",
         "Que la désignation sur le culot corresponde au poinçon du canon ou de la glissière"
       ],
       "explanation": "L'élément le plus important est que la désignation sur le culot de la cartouche corresponde aux données poinçonnées sur le canon ou la glissière."
@@ -1218,16 +1298,18 @@
     "en": {
       "q": "What is the most important thing to check before choosing ammunition for your handgun?",
       "choices": [
-        "That the ammunition box is the same brand as the firearm",
-        "That the bullet is jacketed",
-        "That the cartridges are as cheap as possible",
+        "That the ammunition box bears the same manufacturer's brand as the firearm",
+        "That the bullet is copper-jacketed so it does not foul the rifling",
+        "That the cartridges are the cheapest available for that type of firearm",
         "That the head stamp designation matches the marking on the barrel or slide"
       ],
       "explanation": "The most important point is that the cartridge designation on the head stamp matches the data stamped on the barrel or slide."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.245",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-006-q1",
@@ -1257,7 +1339,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.245",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-007-q1",
@@ -1287,7 +1371,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.245",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-008-q1",
@@ -1298,8 +1384,8 @@
     "fr": {
       "q": "Quels sont les deux principaux types de cartouches modernes?",
       "choices": [
-        "À silex et à percussion",
-        "À percussion annulaire et à percussion centrale",
+        "À platine à silex et à percussion",
+        "À percussion annulaire et centrale",
         "À poudre noire et à poudre sans fumée",
         "À balle chemisée et à balle de plomb"
       ],
@@ -1311,13 +1397,15 @@
         "Flintlock and percussion",
         "Rimfire and centrefire",
         "Black powder and smokeless powder",
-        "Jacketed and lead bullet"
+        "Jacketed bullet and lead bullet"
       ],
       "explanation": "The two common types are rimfire and centrefire, named for where the primer sits in the cartridge head."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.247",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-009-q1",
@@ -1347,7 +1435,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.247",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-010-q1",
@@ -1358,9 +1448,9 @@
     "fr": {
       "q": "Quelle affirmation décrit correctement les munitions à percussion centrale?",
       "choices": [
-        "L'amorce est dans le bourrelet et elles servent surtout au .22",
-        "Elles n'ont pas d'amorce et s'allument par friction",
-        "Elles ne peuvent jamais être rechargées",
+        "L'amorce est dans le bourrelet du culot et elles servent surtout aux armes de calibre .22",
+        "Elles n'ont pas d'amorce et la poudre s'allume par simple friction de la balle dans le canon",
+        "Elles ne peuvent jamais être rechargées, car leur douille se déforme au premier tir",
         "L'amorce est au centre du culot et elles servent surtout aux armes plus puissantes"
       ],
       "explanation": "Dans les munitions à percussion centrale, l'amorce est au centre du culot; elles sont habituellement utilisées dans les armes plus puissantes et de plus gros calibre."
@@ -1368,16 +1458,18 @@
     "en": {
       "q": "Which statement correctly describes centrefire ammunition?",
       "choices": [
-        "The primer is in the rim and it is mostly used in .22",
-        "It has no primer and ignites by friction",
-        "It can never be reloaded",
+        "The primer is in the rim of the head and it is mostly used in .22 calibre firearms",
+        "It has no primer and the powder ignites by friction of the bullet in the barrel",
+        "It can never be reloaded because its case deforms on the first shot",
         "The primer is in the centre of the head and it is mostly used in more powerful firearms"
       ],
       "explanation": "In centrefire ammunition the primer is in the centre of the case head; it is usually used in more powerful, larger-calibre firearms."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.248",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-011-q1",
@@ -1388,26 +1480,28 @@
     "fr": {
       "q": "Vous possédez une arme de poing chambrée pour la .22 long rifle. Pouvez-vous y tirer des cartouches .22 magnum?",
       "choices": [
-        "Oui, toutes les .22 sont interchangeables",
-        "Non, les .22 magnum ne sont pas interchangeables avec les autres .22",
-        "Oui, mais seulement à courte distance",
-        "Non, sauf si on réduit la charge de poudre"
+        "Oui, toutes les cartouches .22 sont interchangeables dans une arme de ce calibre",
+        "Non, les .22 Magnum ne sont pas interchangeables avec les autres .22",
+        "Oui, mais seulement pour le tir à courte distance, sous les 25 mètres",
+        "Non, sauf si on réduit soi-même la charge de poudre de la cartouche Magnum"
       ],
       "explanation": "Les cartouches .22 magnum ne sont pas interchangeables avec les autres cartouches de calibre .22."
     },
     "en": {
       "q": "You own a handgun chambered for .22 Long Rifle. Can you fire .22 Magnum cartridges in it?",
       "choices": [
-        "Yes, all .22s are interchangeable",
+        "Yes, all .22 cartridges are interchangeable in a firearm of that calibre",
         "No, .22 Magnum is not interchangeable with other .22s",
-        "Yes, but only at short range",
-        "No, unless the powder charge is reduced"
+        "Yes, but only for short-range shooting, under 25 metres",
+        "No, unless you reduce the powder charge of the Magnum cartridge yourself"
       ],
       "explanation": ".22 Magnum cartridges are not interchangeable with other .22-calibre cartridges."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.247",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-012-q1",
@@ -1437,7 +1531,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.247",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-013-q1",
@@ -1467,7 +1563,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.248",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-013-q2",
@@ -1478,26 +1576,28 @@
     "fr": {
       "q": "Quel est le rôle de la douille dans une cartouche d'arme de poing?",
       "choices": [
-        "Frapper la cible",
+        "Frapper la cible et transmettre l'énergie au point d'impact",
         "Contenir tous les autres éléments de la munition",
-        "Stabiliser la balle en vol",
-        "Allumer la poudre"
+        "Stabiliser la balle en vol grâce à sa forme effilée",
+        "Allumer la poudre lorsque le percuteur la frappe"
       ],
       "explanation": "La douille, normalement en laiton, contient la balle, la poudre et l'amorce."
     },
     "en": {
       "q": "What is the role of the case in a handgun cartridge?",
       "choices": [
-        "To strike the target",
+        "To strike the target and deliver energy at the point of impact",
         "To hold all the other components of the ammunition",
-        "To stabilize the bullet in flight",
-        "To ignite the powder"
+        "To stabilize the bullet in flight thanks to its tapered shape",
+        "To ignite the powder when struck by the firing pin"
       ],
       "explanation": "The case, usually made of brass, holds the bullet, the powder and the primer."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.252",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-014-q1",
@@ -1508,26 +1608,28 @@
     "fr": {
       "q": "Comment appelle-t-on une balle dont le plomb est exposé à la pointe?",
       "choices": [
-        "Une balle chemisée",
+        "Une balle entièrement chemisée",
         "Une balle semi-chemisée",
-        "Une balle ordinaire",
-        "Une balle Minié"
+        "Une balle ordinaire en plomb",
+        "Une balle Minié à jupe creuse"
       ],
       "explanation": "Une balle dont le plomb est exposé à la pointe est semi-chemisée; entièrement recouverte, elle est chemisée."
     },
     "en": {
       "q": "What is a bullet with exposed lead at the tip called?",
       "choices": [
-        "A jacketed bullet",
+        "A fully jacketed bullet",
         "A semi-jacketed bullet",
-        "A ball bullet",
-        "A Minié ball"
+        "A plain lead ball bullet",
+        "A hollow-skirted Minié ball"
       ],
       "explanation": "A bullet with exposed lead at the tip is semi-jacketed; when fully covered, it is jacketed."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.252",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-015-q1",
@@ -1557,7 +1659,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.249",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-016-q1",
@@ -1587,7 +1691,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.249",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-017-q1",
@@ -1617,7 +1723,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.250",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-018-q1",
@@ -1647,7 +1755,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.255",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-019-q1",
@@ -1659,9 +1769,9 @@
       "q": "Pourquoi la bouche du canon doit-elle être légèrement plus élevée que l'horizontale pour atteindre une cible?",
       "choices": [
         "Pour compenser la gravité qui attire le projectile vers le sol",
-        "Pour réduire le recul",
-        "Pour éviter que la balle tourne sur elle-même",
-        "Pour compenser l'effet des rayures"
+        "Pour réduire le recul ressenti à l'épaule à chaque tir",
+        "Pour éviter que la balle ne tourne sur elle-même en vol",
+        "Pour compenser la dérive latérale de la balle causée par les rayures"
       ],
       "explanation": "La gravité donne à la trajectoire une courbe descendante; la bouche doit donc être un peu relevée, et le projectile croise deux fois la ligne de visée."
     },
@@ -1669,15 +1779,17 @@
       "q": "Why must the muzzle be slightly above horizontal to hit a target?",
       "choices": [
         "To compensate for gravity pulling the projectile down",
-        "To reduce recoil",
-        "To keep the bullet from spinning",
-        "To compensate for the rifling"
+        "To reduce the recoil felt in the shoulder on each shot",
+        "To keep the bullet from spinning on itself in flight",
+        "To compensate for the bullet's sideways drift caused by the rifling"
       ],
       "explanation": "Gravity curves the trajectory downward, so the muzzle must be raised slightly, and the projectile crosses the line of sight twice."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.256",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-020-q1",
@@ -1707,7 +1819,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.257",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-021-q1",
@@ -1718,26 +1832,28 @@
     "fr": {
       "q": "En tirant, vous entendez un bruit faible et ne sentez presque aucun recul. Quel est le principal danger?",
       "choices": [
-        "La cartouche suivante va faire long feu",
-        "L'arme est maintenant déchargée et sécuritaire",
-        "La balle est peut-être coincée dans le canon et un autre tir pourrait le faire éclater",
-        "Le chargeur est vide"
+        "La cartouche suivante va probablement faire long feu, il faut donc attendre 60 secondes",
+        "L'arme est maintenant déchargée et sécuritaire, et on peut continuer à tirer normalement",
+        "La balle est peut-être coincée dans le canon, et un autre tir pourrait le faire éclater",
+        "Le chargeur est vide et il faut simplement le remplacer par un chargeur plein"
       ],
       "explanation": "C'est un coup d'amorce : la balle peut rester coincée dans le canon et tirer une autre cartouche peut faire éclater le canon."
     },
     "en": {
       "q": "While shooting, you hear a weak sound and feel almost no recoil. What is the main danger?",
       "choices": [
-        "The next cartridge will hangfire",
-        "The firearm is now unloaded and safe",
-        "The bullet may be stuck in the barrel and another shot could burst it",
-        "The magazine is empty"
+        "The next cartridge will probably hangfire, so you must wait 60 seconds",
+        "The firearm is now unloaded and safe, and you can keep shooting normally",
+        "The bullet may be stuck in the barrel, and another shot could burst it",
+        "The magazine is empty and simply needs to be replaced with a full one"
       ],
       "explanation": "This is a squib load: the bullet may be lodged in the barrel, and firing another cartridge could burst the barrel."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.257",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-022-q1",
@@ -1748,26 +1864,28 @@
     "fr": {
       "q": "Votre cartouche ne part pas lorsque vous appuyez sur la détente. Quelle est la bonne procédure?",
       "choices": [
-        "Attendre 60 secondes en pointant dans une direction sécuritaire, puis retirer la cartouche et PROUVEr que l'arme est sécuritaire",
-        "Ouvrir immédiatement le mécanisme et retirer la cartouche",
-        "Appuyer de nouveau sur la détente sans attendre",
-        "Regarder dans la bouche du canon pour trouver la balle"
+        "Attendre 60 s, arme pointée en lieu sûr, retirer la cartouche et PROUVER l'arme sécuritaire",
+        "Ouvrir immédiatement le mécanisme, retirer la cartouche et la remettre aussitôt dans le chargeur",
+        "Appuyer de nouveau sur la détente sans attendre, puisque l'amorce est peut-être seulement mal frappée",
+        "Regarder dans la bouche du canon pour trouver la balle avant de toucher au mécanisme de l'arme"
       ],
       "explanation": "On attend 60 secondes, la bouche pointée de façon sécuritaire, puis on ouvre le mécanisme, enlève la munition et PROUVE que le canon n'est pas obstrué."
     },
     "en": {
       "q": "Your cartridge does not fire when you pull the trigger. What is the correct procedure?",
       "choices": [
-        "Wait 60 seconds pointing in a safe direction, then remove the cartridge and PROVE the firearm safe",
-        "Immediately open the action and remove the cartridge",
-        "Pull the trigger again right away",
-        "Look into the muzzle to find the bullet"
+        "Wait 60 s pointing in a safe direction, remove the cartridge and PROVE the firearm safe",
+        "Immediately open the action, remove the cartridge and put it straight back in the magazine",
+        "Pull the trigger again right away, since the primer may simply have been struck poorly",
+        "Look into the muzzle to find the bullet before touching the firearm's action"
       ],
       "explanation": "Wait 60 seconds with the muzzle pointed safely, then open the action, remove the ammunition and PROVE there is no obstruction in the barrel."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.257",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-023-q1",
@@ -1778,26 +1896,28 @@
     "fr": {
       "q": "Dans quel cas les munitions d'une arme à feu à autorisation restreinte peuvent-elles être entreposées à proximité de l'arme?",
       "choices": [
-        "Lorsqu'elles sont dans leur boîte d'origine en carton",
+        "Lorsqu'elles sont rangées dans leur boîte d'origine en carton, sur une tablette",
         "Lorsqu'elles sont dans un contenant verrouillé qui ne peut pas être facilement forcé",
-        "Lorsque l'arme est munie d'un verrou de pontet",
-        "Lorsque la pièce est seulement fermée par une porte"
+        "Lorsque l'arme qui se trouve dans la même pièce est munie d'un verrou de pontet",
+        "Lorsque la pièce où elles se trouvent est simplement fermée par une porte ordinaire"
       ],
       "explanation": "Elles doivent être loin de l'arme, sauf si elles sont dans un contenant ou compartiment bien verrouillé difficile à forcer, ou dans une chambre forte, un coffre-fort ou une pièce aménagée à cette fin."
     },
     "en": {
       "q": "When may restricted firearm ammunition be stored close to the firearm?",
       "choices": [
-        "When it is in its original cardboard box",
+        "When it is kept in its original cardboard box on a shelf",
         "When it is in a securely locked container that cannot easily be broken into",
-        "When the firearm has a trigger lock",
-        "When the room is simply closed by a door"
+        "When the firearm in the same room has a trigger lock",
+        "When the room it is in is simply closed by an ordinary door"
       ],
       "explanation": "It must be stored away from the firearm unless it is in a securely locked container that cannot easily be broken into, or a vault, safe or room built or modified for that purpose."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.258",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-024-q1",
@@ -1808,10 +1928,10 @@
     "fr": {
       "q": "Vous voulez exposer votre arme de poing à autorisation restreinte dans votre résidence. Que dit la réglementation au sujet des munitions?",
       "choices": [
-        "Elles ne doivent pas être exposées avec l'arme et doivent être entreposées loin d'elle",
-        "Elles peuvent être exposées dans la même vitrine",
-        "Elles doivent être placées dans le chargeur pour l'exposition",
-        "Elles peuvent être exposées si elles sont d'un autre calibre"
+        "Elles ne doivent pas être exposées avec l'arme et doivent être rangées loin d'elle",
+        "Elles peuvent être exposées dans la même vitrine si celle-ci est fermée à clé",
+        "Elles doivent être placées dans le chargeur de l'arme pendant toute l'exposition",
+        "Elles peuvent être exposées avec l'arme si elles sont d'un calibre différent du sien"
       ],
       "explanation": "Dans une résidence, les munitions d'une arme à autorisation restreinte ne doivent pas être exposées avec l'arme et doivent être entreposées loin de celle-ci."
     },
@@ -1819,15 +1939,17 @@
       "q": "You want to display your restricted handgun in your home. What do the rules say about ammunition?",
       "choices": [
         "It must not be displayed with the firearm and must be stored away from it",
-        "It may be displayed in the same case",
-        "It must be loaded in the magazine for display",
-        "It may be displayed if it is a different calibre"
+        "It may be displayed in the same case if the case is locked",
+        "It must be loaded in the firearm's magazine for the whole display",
+        "It may be displayed with the firearm if it is a different calibre from it"
       ],
       "explanation": "In a residence, ammunition for a restricted firearm must not be displayed with the firearm and must be stored away from it."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.258",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-025-q1",
@@ -1838,9 +1960,9 @@
     "fr": {
       "q": "Pourquoi est-il préférable d'entreposer les munitions dans un contenant ventilé?",
       "choices": [
-        "Pour que les munitions soient plus faciles à compter",
-        "Parce que la loi interdit les contenants fermés",
-        "Pour que la poudre sèche plus rapidement",
+        "Pour que les munitions soient plus faciles à compter et à inventorier chaque année",
+        "Parce que la loi interdit de ranger les munitions dans des contenants fermés à clé",
+        "Pour que la poudre contenue dans les cartouches sèche plus rapidement après l'achat",
         "Pour prévenir la corrosion et réduire le risque d'explosion en cas d'incendie"
       ],
       "explanation": "Un endroit frais et sec et un contenant ventilé préviennent la corrosion; un contenant non ventilé peut créer un danger d'explosion en cas d'incendie."
@@ -1848,16 +1970,18 @@
     "en": {
       "q": "Why is it better to store ammunition in a ventilated container?",
       "choices": [
-        "So the ammunition is easier to count",
-        "Because the law prohibits closed containers",
-        "So the powder dries faster",
+        "So the ammunition is easier to count and inventory each year",
+        "Because the law prohibits storing ammunition in locked containers",
+        "So the powder inside the cartridges dries faster after purchase",
         "To prevent corrosion and reduce explosion risk in a fire"
       ],
       "explanation": "A cool, dry place and a ventilated container prevent corrosion; a non-ventilated container can create an explosion hazard in a fire."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.258",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-026-q1",
@@ -1868,26 +1992,28 @@
     "fr": {
       "q": "Selon les renseignements de Ressources naturelles Canada, quelle quantité de munitions sportives pouvez-vous garder chez vous?",
       "choices": [
-        "Une quantité illimitée",
-        "Seulement une boîte par arme à feu",
+        "Une quantité illimitée, tant que les munitions sont entreposées sous clé",
+        "Seulement une boîte de munitions par arme à feu enregistrée à votre nom",
         "Une quantité raisonnable pour votre usage personnel, sans revente",
-        "Aucune munition sans permis d'explosifs"
+        "Aucune munition, à moins de détenir aussi un permis d'explosifs fédéral"
       ],
       "explanation": "Vous pouvez garder une quantité raisonnable de munitions sportives, pour votre usage personnel et non pour la revente."
     },
     "en": {
       "q": "According to Natural Resources Canada information, how much sporting ammunition may you keep at home?",
       "choices": [
-        "An unlimited quantity",
-        "Only one box per firearm",
+        "An unlimited quantity, as long as the ammunition is stored under lock",
+        "Only one box of ammunition per firearm registered in your name",
         "A reasonable quantity for personal use, not for resale",
-        "None without an explosives permit"
+        "None at all unless you also hold a federal explosives permit"
       ],
       "explanation": "You may keep a reasonable quantity of sporting ammunition for personal use, not for resale."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.258",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m13-027-q1",
@@ -1917,7 +2043,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.259",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-001-q1",
@@ -1928,9 +2056,9 @@
     "fr": {
       "q": "Quels sont les deux grands types de mécanismes d'armes de poing?",
       "choices": [
-        "À verrou et à pompe",
-        "À levier et à bascule",
-        "À silex et à percussion",
+        "À verrou et à pompe, comme les carabines",
+        "À levier et à bascule, comme les fusils",
+        "À silex et à percussion, comme les armes anciennes",
         "À barillet et semi-automatique"
       ],
       "explanation": "Les deux grands types de mécanismes d'armes de poing sont le mécanisme à barillet (révolver) et le mécanisme semi-automatique."
@@ -1938,16 +2066,18 @@
     "en": {
       "q": "What are the two main types of handgun actions?",
       "choices": [
-        "Bolt and pump",
-        "Lever and break",
-        "Flintlock and percussion",
+        "Bolt and pump, like rifles",
+        "Lever and break, like shotguns",
+        "Flintlock and percussion, like antique arms",
         "Revolver and semi-automatic"
       ],
       "explanation": "The two main handgun action types are the revolver (cylinder) action and the semi-automatic action."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.263",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-002-q1",
@@ -1958,26 +2088,28 @@
     "fr": {
       "q": "Qu'est-ce qui caractérise le mécanisme à barillet?",
       "choices": [
-        "Un chargeur amovible inséré dans la poignée",
-        "Une glissière qui recule à chaque tir",
-        "Plusieurs chambres dans un cylindre rotatif contenant chacune une cartouche",
-        "Un canon qui s'ouvre près de la culasse pour un seul coup"
+        "Un chargeur amovible inséré dans la poignée, sous le mécanisme",
+        "Une glissière qui recule à chaque tir pour éjecter la douille",
+        "Plusieurs chambres dans un barillet rotatif, une cartouche chacune",
+        "Un canon qui s'ouvre près de la culasse pour tirer un seul coup"
       ],
       "explanation": "Le mécanisme à barillet compte plusieurs chambres dans un barillet rotatif, chacune contenant une cartouche."
     },
     "en": {
       "q": "What characterizes a revolver action?",
       "choices": [
-        "A detachable magazine inserted in the grip",
-        "A slide that moves back with each shot",
-        "Several chambers in a rotating cylinder, each holding a cartridge",
-        "A barrel that opens near the breech for a single shot"
+        "A detachable magazine inserted in the grip, below the action",
+        "A slide that moves back with each shot to eject the case",
+        "Several chambers in a rotating cylinder, one cartridge each",
+        "A barrel that opens near the breech to fire a single shot"
       ],
       "explanation": "A revolver action has several chambers in a rotating cylinder, each holding one cartridge."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.263",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-003-q1",
@@ -1988,26 +2120,28 @@
     "fr": {
       "q": "Que fait automatiquement un mécanisme semi-automatique à chaque pression de la détente?",
       "choices": [
-        "Il tire plusieurs coups tant que la détente est enfoncée",
-        "Il fait tourner le barillet sans tirer",
-        "Il extrait et éjecte la douille vide et charge une autre cartouche",
-        "Il engage la sûreté après chaque coup"
+        "Il tire plusieurs coups de suite tant que la détente reste enfoncée",
+        "Il fait tourner le barillet d'une chambre sans tirer de cartouche",
+        "Il éjecte la douille vide et charge une autre cartouche",
+        "Il engage la sûreté après chaque coup pour éviter un tir accidentel"
       ],
       "explanation": "Le mécanisme semi-automatique extrait et éjecte la douille vide et recharge une nouvelle cartouche dans la chambre à chaque pression de la détente."
     },
     "en": {
       "q": "What does a semi-automatic action do automatically with each trigger pull?",
       "choices": [
-        "It fires several shots as long as the trigger is held",
-        "It rotates the cylinder without firing",
-        "It extracts and ejects the empty case and chambers another cartridge",
-        "It engages the safety after each shot"
+        "It fires several shots in a row as long as the trigger is held",
+        "It rotates the cylinder one chamber without firing a cartridge",
+        "It ejects the empty case and chambers another cartridge",
+        "It engages the safety after each shot to prevent an accidental discharge"
       ],
       "explanation": "A semi-automatic action extracts and ejects the empty case and loads another cartridge into the chamber with each trigger pull."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.263",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-004-q1",
@@ -2037,7 +2171,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.264",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-005-q1",
@@ -2067,7 +2203,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.264",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-006-q1",
@@ -2079,9 +2217,9 @@
       "q": "Quelle est la différence entre un mécanisme à action double et un mécanisme à action double seulement?",
       "choices": [
         "L'action double seulement peut tirer en mode action simple, l'action double ne le peut pas",
-        "L'action double peut aussi tirer en mode action simple, l'action double seulement ne le peut pas",
-        "L'action double n'utilise pas de chien",
-        "Il n'y a aucune différence de fonctionnement"
+        "L'action double peut aussi tirer en action simple, pas l'action double seulement",
+        "L'action double n'utilise pas de chien, contrairement à l'action double seulement",
+        "Aucune différence de fonctionnement, seul le nom change selon le fabricant"
       ],
       "explanation": "L'action double arme et tire d'une pression continue et peut aussi fonctionner en action simple; l'action double seulement ne peut pas fonctionner en action simple."
     },
@@ -2089,15 +2227,17 @@
       "q": "What is the difference between a double-action and a double-action-only mechanism?",
       "choices": [
         "Double-action-only can fire in single-action mode; double action cannot",
-        "Double action can also fire in single-action mode; double-action-only cannot",
-        "Double action has no hammer",
-        "There is no difference in operation"
+        "Double action can also fire single-action; double-action-only cannot",
+        "Double action has no hammer, unlike double-action-only",
+        "No difference in operation; only the name changes by manufacturer"
       ],
       "explanation": "Double action cocks and fires with one continuous pull and can also fire in single action; double-action-only cannot operate in single action."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.265",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-006-q2",
@@ -2127,7 +2267,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.265",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-007-q1",
@@ -2139,9 +2281,9 @@
       "q": "Quel est le dispositif de sécurité le plus important d'une arme à feu, selon le manuel?",
       "choices": [
         "Le maniement sécuritaire par la personne qui la tient",
-        "Le cran de sûreté",
-        "La sûreté de poignée",
-        "Le verrou de pontet"
+        "Le cran de sûreté, s'il est engagé en tout temps",
+        "La sûreté de poignée, qui bloque le tir sans prise ferme",
+        "Le verrou de pontet, qui empêche d'atteindre la détente"
       ],
       "explanation": "Les dispositifs mécaniques peuvent faire défaut; le maniement sécuritaire de l'arme par son utilisateur demeure le plus important dispositif de sécurité."
     },
@@ -2149,15 +2291,17 @@
       "q": "According to the manual, what is the most important safety device of a firearm?",
       "choices": [
         "Safe handling by the person holding it",
-        "The safety catch",
-        "The grip safety",
-        "The trigger lock"
+        "The safety catch, if engaged at all times",
+        "The grip safety, which blocks firing without a firm grip",
+        "The trigger lock, which prevents reaching the trigger"
       ],
       "explanation": "Mechanical devices can fail; safe handling by the user is always the most important safety device."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.265",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-007-q2",
@@ -2187,7 +2331,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.265",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-008-q1",
@@ -2198,26 +2344,28 @@
     "fr": {
       "q": "Comment un mécanisme de sûreté empêche-t-il une arme de tirer?",
       "choices": [
-        "En retirant la cartouche de la chambre",
+        "En retirant automatiquement la cartouche de la chambre dès l'engagement",
         "En bloquant la détente, la gâchette, le chien ou le percuteur",
-        "En vidant automatiquement le chargeur",
-        "En obstruant l'âme du canon"
+        "En vidant automatiquement le chargeur dès qu'elle est engagée",
+        "En obstruant l'âme du canon pour arrêter le projectile au départ"
       ],
       "explanation": "Les mécanismes de sûreté interrompent la séquence de tir en bloquant la détente, la gâchette, le chien ou le percuteur."
     },
     "en": {
       "q": "How does a safety mechanism stop a firearm from firing?",
       "choices": [
-        "By removing the cartridge from the chamber",
+        "By automatically removing the cartridge from the chamber once engaged",
         "By blocking the trigger, sear, hammer or firing pin",
-        "By automatically emptying the magazine",
-        "By obstructing the bore"
+        "By automatically emptying the magazine once engaged",
+        "By obstructing the bore to stop the projectile at the start"
       ],
       "explanation": "Safeties interrupt the firing sequence by blocking the trigger, sear, hammer or firing pin."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.265",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-009-q1",
@@ -2247,7 +2395,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.266",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-010-q1",
@@ -2277,7 +2427,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.267",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-011-q1",
@@ -2307,7 +2459,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.267",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-012-q1",
@@ -2337,7 +2491,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.267",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-013-q1",
@@ -2348,26 +2504,28 @@
     "fr": {
       "q": "Dans certains vieux révolvers sans sécurité antichute, quel danger existe lorsque le chien est en position avancée sur une cartouche?",
       "choices": [
-        "Le barillet peut se détacher",
+        "Le barillet peut se détacher du bâti",
         "Un coup sur le chien peut faire partir la cartouche",
-        "La cartouche peut être éjectée",
-        "La détente se bloque définitivement"
+        "La cartouche peut être éjectée de la chambre par le recul",
+        "La détente se bloque définitivement en position arrière"
       ],
       "explanation": "Le percuteur peut reposer sur l'amorce; si le chien est frappé, la cartouche sera tirée. La sécurité antichute empêche cela."
     },
     "en": {
       "q": "In some older revolvers without a hammer block, what is the danger when the hammer is forward on a cartridge?",
       "choices": [
-        "The cylinder may fall out",
+        "The cylinder may come loose from the frame",
         "A blow to the hammer can fire the cartridge",
-        "The cartridge may be ejected",
-        "The trigger locks permanently"
+        "The cartridge may be ejected from the chamber by recoil",
+        "The trigger locks permanently in the rear position"
       ],
       "explanation": "The firing pin can rest on the primer; if the hammer is struck, the cartridge will fire. A hammer block prevents this."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.267",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-014-q1",
@@ -2378,26 +2536,28 @@
     "fr": {
       "q": "Votre révolver possède une position semi-armée. Que devez-vous en conclure?",
       "choices": [
-        "C'est toujours une sûreté fiable",
-        "Elle remplace la sécurité antichute",
-        "Ce n'est pas nécessairement une sûreté; consultez le manuel d'utilisation",
-        "Elle permet de transporter l'arme chargée sans risque"
+        "C'est toujours une sûreté fiable, peu importe le modèle",
+        "Elle remplace la sécurité antichute sur ces révolvers",
+        "Ce n'est pas forcément une sûreté, il faut consulter le manuel",
+        "Elle permet de transporter l'arme chargée sans aucun risque"
       ],
       "explanation": "Une position semi-armée ne signifie pas nécessairement qu'il s'agit d'une sûreté; certaines armes ne l'utilisent pas comme telle."
     },
     "en": {
       "q": "Your revolver has a half-cock position. What should you conclude?",
       "choices": [
-        "It is always a reliable safety",
-        "It replaces the hammer block",
-        "It is not necessarily a safety; check the owner's manual",
-        "It allows carrying the firearm loaded without risk"
+        "It is always a reliable safety, whatever the model",
+        "It replaces the hammer block on these revolvers",
+        "It is not necessarily a safety, so check the owner's manual",
+        "It allows carrying the firearm loaded without any risk"
       ],
       "explanation": "A half-cock position does not necessarily mean it is a safety; some firearms do not use it as one."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.267",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-015-q1",
@@ -2408,26 +2568,28 @@
     "fr": {
       "q": "On ordonne un cessez-le-feu alors que le chien de votre révolver à action simple est armé. Quelle est la première étape pour l'abaisser?",
       "choices": [
-        "Appuyer sur la détente et laisser le chien tomber seul",
-        "Ouvrir la portière de chargement",
-        "Frapper doucement le chien vers l'avant",
-        "Placer le pouce de la main faible entièrement sur le chien en gardant une prise solide"
+        "Appuyer sur la détente et laisser le chien retomber seul vers l'avant",
+        "Ouvrir la portière de chargement et faire tourner le barillet",
+        "Frapper doucement le chien vers l'avant avec la paume de la main",
+        "Placer le pouce de la main faible sur le chien, prise solide"
       ],
       "explanation": "On garde une prise solide avec la main forte et on place le pouce de la main faible sur le chien avant d'appuyer sur la détente et de l'abaisser doucement."
     },
     "en": {
       "q": "A cease-fire is called while your single-action revolver's hammer is cocked. What is the first step to lower it?",
       "choices": [
-        "Pull the trigger and let the hammer fall on its own",
-        "Open the loading gate",
-        "Tap the hammer forward gently",
-        "Place the weak-hand thumb fully on the hammer while keeping a firm grip"
+        "Pull the trigger and let the hammer fall forward on its own",
+        "Open the loading gate and rotate the cylinder",
+        "Tap the hammer forward gently with the palm of the hand",
+        "Put the weak-hand thumb on the hammer, keeping a firm grip"
       ],
       "explanation": "Keep a firm grip with the strong hand and place the weak-hand thumb on the hammer before pressing the trigger and easing it down."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.268",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-016-q1",
@@ -2438,26 +2600,28 @@
     "fr": {
       "q": "Pourquoi faut-il être particulièrement prudent avec une arme de poing à chien intérieur?",
       "choices": [
-        "Parce qu'elle ne peut pas être déchargée",
+        "Parce qu'elle ne peut pas être déchargée sans démonter le mécanisme",
         "Parce qu'on ne voit pas facilement si le chien est armé",
-        "Parce qu'elle n'a jamais de cran de sûreté",
-        "Parce qu'elle tire toujours en action double"
+        "Parce qu'elle n'a jamais de cran de sûreté, quel que soit le modèle",
+        "Parce qu'elle tire toujours en action double, même déjà armée"
       ],
       "explanation": "Le chien n'étant pas visible, il est difficile de voir s'il est armé; toutes les procédures de sécurité des armes à chien extérieur s'appliquent."
     },
     "en": {
       "q": "Why must you be especially careful with a handgun that has an internal hammer?",
       "choices": [
-        "Because it cannot be unloaded",
+        "Because it cannot be unloaded without taking the action apart",
         "Because you cannot easily see whether the hammer is cocked",
-        "Because it never has a safety",
-        "Because it always fires in double action"
+        "Because it never has a safety, whatever the model",
+        "Because it always fires double-action, even when already cocked"
       ],
       "explanation": "Since the hammer is not visible, it is hard to tell if it is cocked; all external-hammer safety procedures still apply."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.268",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-017-q1",
@@ -2487,7 +2651,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.271",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-018-q1",
@@ -2498,26 +2664,28 @@
     "fr": {
       "q": "Lors du déchargement d'une arme munie d'un chargeur amovible, pourquoi faut-il retirer le chargeur en premier?",
       "choices": [
-        "Pour éviter qu'une autre cartouche soit chargée dans la chambre si le mécanisme se ferme",
-        "Pour rendre l'arme plus légère",
-        "Parce que la chambre ne peut pas s'ouvrir avec le chargeur en place",
-        "Pour engager automatiquement la sûreté"
+        "Pour éviter qu'une cartouche entre dans la chambre si le mécanisme se ferme",
+        "Pour rendre l'arme plus légère et plus facile à manipuler pendant l'inspection",
+        "Parce que la chambre ne peut pas s'ouvrir tant que le chargeur est en place",
+        "Pour engager automatiquement la sûreté avant d'ouvrir le mécanisme"
       ],
       "explanation": "Retirer d'abord le chargeur empêche l'arme semi-automatique de charger une autre cartouche dans la chambre si le mécanisme se referme."
     },
     "en": {
       "q": "When unloading a firearm with a detachable magazine, why remove the magazine first?",
       "choices": [
-        "To prevent another cartridge being chambered if the action closes",
-        "To make the firearm lighter",
-        "Because the chamber cannot open with the magazine in place",
-        "To engage the safety automatically"
+        "To prevent a cartridge being chambered if the action closes",
+        "To make the firearm lighter and easier to handle during inspection",
+        "Because the chamber cannot open while the magazine is in place",
+        "To automatically engage the safety before opening the action"
       ],
       "explanation": "Removing the magazine first keeps a semi-automatic from chambering another cartridge if the action closes."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.271",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-019-q1",
@@ -2528,26 +2696,28 @@
     "fr": {
       "q": "Vous avez PROUVÉ que votre arme est sécuritaire, puis vous la laissez sans surveillance quelques minutes. Que devez-vous faire en revenant?",
       "choices": [
-        "Rien, elle reste sécuritaire indéfiniment",
-        "La charger immédiatement",
-        "Simplement engager la sûreté",
-        "La PROUVEr de nouveau, car elle n'est sécuritaire que sous votre contrôle direct"
+        "Rien, elle reste sécuritaire tant que personne ne dit l'avoir touchée",
+        "La charger immédiatement pour être prêt à reprendre le tir",
+        "Simplement engager la sûreté et vérifier que le chargeur est vide",
+        "La PROUVEr de nouveau, car elle était hors de votre contrôle direct"
       ],
       "explanation": "L'arme demeure déchargée et sécuritaire seulement tant que la personne qui l'a PROUVÉE en conserve le contrôle direct."
     },
     "en": {
       "q": "You have PROVEd your firearm safe, then leave it unattended for a few minutes. What should you do when you return?",
       "choices": [
-        "Nothing, it stays safe indefinitely",
-        "Load it immediately",
-        "Simply engage the safety",
-        "PROVE it again, since it is safe only while under your direct control"
+        "Nothing; it stays safe as long as nobody says they touched it",
+        "Load it immediately so you are ready to resume shooting",
+        "Simply engage the safety and check that the magazine is empty",
+        "PROVE it again, since it was out of your direct control"
       ],
       "explanation": "The firearm remains unloaded and safe only while the person who PROVEd it keeps direct control."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.271",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14a-020-q1",
@@ -2577,7 +2747,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.272",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-001-q1",
@@ -2607,7 +2779,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.273",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-002-q1",
@@ -2618,26 +2792,28 @@
     "fr": {
       "q": "Dans quel sens tourne le barillet d'un révolver?",
       "choices": [
-        "Toujours dans le sens horaire",
-        "Dans le sens horaire ou anti-horaire selon le fabricant",
-        "Toujours dans le sens anti-horaire",
-        "Il ne tourne pas, c'est le canon qui pivote"
+        "Toujours dans le sens horaire, vu de l'arrière de l'arme",
+        "Dans un sens ou l'autre selon le fabricant",
+        "Toujours dans le sens anti-horaire, quel que soit le modèle",
+        "Il ne tourne pas; c'est le canon qui pivote à chaque coup"
       ],
       "explanation": "Les barillets peuvent tourner dans le sens horaire ou anti-horaire selon le fabricant; une seule chambre s'aligne avec le canon au tir."
     },
     "en": {
       "q": "Which way does a revolver's cylinder rotate?",
       "choices": [
-        "Always clockwise",
-        "Clockwise or counter-clockwise, depending on the manufacturer",
-        "Always counter-clockwise",
-        "It does not rotate; the barrel pivots"
+        "Always clockwise, seen from the rear of the firearm",
+        "Either way, depending on the manufacturer",
+        "Always counter-clockwise, whatever the model",
+        "It does not rotate; the barrel pivots with each shot"
       ],
       "explanation": "Cylinders can rotate clockwise or counter-clockwise depending on the maker; only one chamber lines up with the barrel when firing."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.273",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-003-q1",
@@ -2648,26 +2824,28 @@
     "fr": {
       "q": "Comment charge-t-on habituellement la plupart des révolvers à action simple?",
       "choices": [
-        "En faisant basculer le barillet sur le côté",
-        "En insérant un chargeur dans la poignée",
-        "Par la bouche du canon",
-        "Une cartouche à la fois par une fenêtre de chargement, souvent du côté droit"
+        "En faisant basculer le barillet sur le côté pour exposer toutes les chambres",
+        "En insérant un chargeur rempli dans la poignée, sous le mécanisme",
+        "Par la bouche du canon, avec une baguette, comme les armes anciennes",
+        "Une cartouche à la fois par la fenêtre de chargement"
       ],
       "explanation": "La plupart des révolvers à action simple ont un barillet qui ne bascule pas; on insère et retire les cartouches une à la fois par la fenêtre de chargement."
     },
     "en": {
       "q": "How are most single-action revolvers usually loaded?",
       "choices": [
-        "By swinging the cylinder out to the side",
-        "By inserting a magazine in the grip",
-        "Through the muzzle",
-        "One cartridge at a time through a loading gate, usually on the right side"
+        "By swinging the cylinder out to the side to expose all chambers",
+        "By inserting a loaded magazine in the grip, below the action",
+        "Through the muzzle with a ramrod, like antique firearms",
+        "One cartridge at a time through the loading gate"
       ],
       "explanation": "Most single-action revolvers have a fixed cylinder; cartridges are loaded and removed one at a time through the loading gate."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.273",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-004-q1",
@@ -2697,7 +2875,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.273",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-005-q1",
@@ -2709,9 +2889,9 @@
       "q": "Vous ouvrez la portière de chargement d'un révolver à action simple, mais le barillet ne pivote pas. Que devez-vous faire?",
       "choices": [
         "Engager le cran de sûreté et placer le chien en position semi-armée",
-        "Armer complètement le chien et appuyer sur la détente",
-        "Forcer le barillet avec la main",
-        "Retirer la tige d'éjection"
+        "Armer complètement le chien et appuyer sur la détente pour le libérer",
+        "Forcer le barillet avec la main jusqu'à ce qu'il se mette à tourner",
+        "Retirer la tige d'éjection pour libérer le barillet de son axe"
       ],
       "explanation": "Si le barillet ne pivote pas, on engage le cran de sûreté et on place le chien en position semi-armée pendant le déchargement."
     },
@@ -2719,15 +2899,17 @@
       "q": "You open the loading gate of a single-action revolver, but the cylinder does not rotate. What should you do?",
       "choices": [
         "Engage the safety and place the hammer at half-cock",
-        "Fully cock the hammer and pull the trigger",
-        "Force the cylinder by hand",
-        "Remove the ejector rod"
+        "Fully cock the hammer and pull the trigger to free it",
+        "Force the cylinder by hand until it starts to turn",
+        "Remove the ejector rod to free the cylinder from its pin"
       ],
       "explanation": "If the cylinder does not rotate, engage the safety and place the hammer at half-cock while unloading."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.275",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-006-q1",
@@ -2738,26 +2920,28 @@
     "fr": {
       "q": "Comment retire-t-on une cartouche d'un révolver à action simple à barillet fixe?",
       "choices": [
-        "En secouant l'arme, bouche vers le bas",
-        "En alignant la chambre avec la fenêtre et en poussant la tige d'éjection de l'avant vers l'arrière",
-        "En tirant la glissière vers l'arrière",
-        "En faisant basculer le canon vers le bas"
+        "En secouant l'arme, bouche vers le bas, jusqu'à ce que la cartouche tombe",
+        "En alignant la chambre avec la fenêtre et en poussant la tige d'éjection",
+        "En tirant la glissière vers l'arrière pour extraire la cartouche de la chambre",
+        "En faisant basculer le canon vers le bas pour exposer toutes les chambres"
       ],
       "explanation": "La chambre doit être alignée avec la fenêtre de chargement; on pousse la tige d'éjection, située sous le canon, de l'avant vers l'arrière."
     },
     "en": {
       "q": "How do you remove a cartridge from a fixed-cylinder single-action revolver?",
       "choices": [
-        "By shaking the firearm muzzle down",
-        "By aligning the chamber with the gate and pushing the ejector rod from front to back",
-        "By pulling the slide back",
-        "By tipping the barrel downward"
+        "By shaking the firearm muzzle down until the cartridge drops out",
+        "By aligning the chamber with the gate and pushing the ejector rod",
+        "By pulling the slide back to extract the cartridge from the chamber",
+        "By tipping the barrel downward to expose all the chambers"
       ],
       "explanation": "Align the chamber with the loading gate, then push the ejector rod, located under the barrel, from front to back."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.275",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-007-q1",
@@ -2768,26 +2952,28 @@
     "fr": {
       "q": "Pendant le déchargement au stand de tir, des cartouches tombent sur le sol. Que devez-vous faire?",
       "choices": [
-        "Les ramasser immédiatement pour ne pas les perdre",
-        "Les laisser là jusqu'à ce que toutes les étapes de déchargement soient terminées",
-        "Les remettre aussitôt dans le barillet",
-        "Demander à un voisin de les ramasser pendant que vous continuez"
+        "Les ramasser immédiatement pour ne pas les perdre ni marcher dessus",
+        "Les laisser là jusqu'à la fin de toutes les étapes de déchargement",
+        "Les remettre aussitôt dans le barillet pour ne pas les égarer au sol",
+        "Demander à un voisin de les ramasser pendant que vous continuez à décharger"
       ],
       "explanation": "On laisse les cartouches ou douilles tomber sur le banc ou le sol et on ne les ramasse qu'après avoir franchi toutes les étapes."
     },
     "en": {
       "q": "While unloading at the range, cartridges fall to the floor. What should you do?",
       "choices": [
-        "Pick them up right away so they are not lost",
+        "Pick them up right away so they are not lost or stepped on",
         "Leave them until all unloading steps are complete",
-        "Put them straight back into the cylinder",
-        "Ask a neighbour to pick them up while you continue"
+        "Put them straight back into the cylinder so they are not mislaid",
+        "Ask a neighbour to pick them up while you keep unloading"
       ],
       "explanation": "Let cartridges or cases fall on the bench or floor and only pick them up once all the steps are completed."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.275",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-008-q1",
@@ -2798,26 +2984,28 @@
     "fr": {
       "q": "Que dit le manuel au sujet des sûretés sur les révolvers?",
       "choices": [
-        "Tous les révolvers ont un cran de sûreté",
-        "La plupart des révolvers n'ont pas de sûreté, mais certains en ont une",
-        "Les révolvers ont toujours une sûreté de poignée",
-        "La loi interdit les sûretés sur les révolvers"
+        "Tous les révolvers ont un cran de sûreté situé près du chien",
+        "La plupart n'en ont pas, mais certains en ont une",
+        "Les révolvers ont toujours une sûreté de poignée à l'arrière",
+        "La loi interdit d'installer une sûreté sur les révolvers"
       ],
       "explanation": "La plupart des révolvers n'ont pas de sûreté, mais certains en ont; vérifiez le manuel d'utilisation ou consultez un armurier qualifié."
     },
     "en": {
       "q": "What does the manual say about safeties on revolvers?",
       "choices": [
-        "All revolvers have a safety catch",
-        "Most revolvers have no safety, but some do",
-        "Revolvers always have a grip safety",
-        "The law prohibits safeties on revolvers"
+        "All revolvers have a safety catch located near the hammer",
+        "Most have none, but some do",
+        "Revolvers always have a grip safety at the back",
+        "The law prohibits fitting a safety on revolvers"
       ],
       "explanation": "Most revolvers have no safety, but some do; check the owner's manual or ask a qualified gunsmith."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.277",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-009-q1",
@@ -2847,7 +3035,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.277",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-010-q1",
@@ -2858,26 +3048,28 @@
     "fr": {
       "q": "Pour décharger un révolver à barillet basculant, comment faut-il orienter la bouche du canon en actionnant la tige d'éjection?",
       "choices": [
-        "Directement vers le sol à vos pieds",
-        "Vers le tireur voisin",
-        "Horizontalement vers l'arrière du stand",
-        "Légèrement vers le haut dans une direction sécuritaire"
+        "Directement vers le sol, juste devant vos pieds",
+        "Vers le tireur voisin pour qu'il puisse vérifier les chambres",
+        "Horizontalement vers l'arrière du stand, loin des cibles",
+        "Légèrement vers le haut, dans une direction sécuritaire"
       ],
       "explanation": "On pointe la bouche légèrement vers le haut, dans une direction sécuritaire, et on utilise la tige d'éjection pour faire sortir les cartouches."
     },
     "en": {
       "q": "When unloading a swing-out cylinder revolver, how should the muzzle be oriented while using the ejector rod?",
       "choices": [
-        "Straight down at your feet",
-        "Toward the shooter next to you",
-        "Horizontally toward the back of the range",
-        "Slightly upward in a safe direction"
+        "Straight down at the floor, just in front of your feet",
+        "Toward the shooter next to you so they can check the chambers",
+        "Horizontally toward the back of the range, away from targets",
+        "Slightly upward, in a safe direction"
       ],
       "explanation": "Point the muzzle slightly upward in a safe direction and use the ejector rod to push the cartridges out."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.279",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-010-q2",
@@ -2888,9 +3080,9 @@
     "fr": {
       "q": "Quelle est la première action pour exposer les chambres d'un révolver à barillet basculant?",
       "choices": [
-        "Tirer la glissière vers l'arrière",
-        "Ouvrir la portière de chargement",
-        "Placer le chien en position semi-armée",
+        "Tirer la glissière vers l'arrière jusqu'à ce qu'elle se verrouille",
+        "Ouvrir la portière de chargement située à droite du barillet",
+        "Placer le chien en position semi-armée pour libérer le barillet",
         "Actionner le dispositif de déverrouillage du barillet"
       ],
       "explanation": "On actionne le dispositif de déverrouillage du barillet et on fait basculer le barillet sur le côté ou vers le haut pour exposer les chambres."
@@ -2898,16 +3090,18 @@
     "en": {
       "q": "What is the first action to expose the chambers of a swing-out cylinder revolver?",
       "choices": [
-        "Pull the slide back",
-        "Open the loading gate",
-        "Place the hammer at half-cock",
+        "Pull the slide back until it locks open",
+        "Open the loading gate on the right side of the cylinder",
+        "Place the hammer at half-cock to free the cylinder",
         "Operate the cylinder release"
       ],
       "explanation": "Operate the cylinder release and swing the cylinder to the side or up to expose the chambers."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.279",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-011-q1",
@@ -2918,26 +3112,28 @@
     "fr": {
       "q": "Dans un révolver à action double, que se passe-t-il lorsqu'on appuie complètement sur la détente?",
       "choices": [
-        "Seul le chien est libéré",
-        "Le barillet bascule sur le côté",
+        "Seul le chien est libéré; le barillet doit être tourné à la main",
+        "Le barillet bascule sur le côté pour exposer toutes les chambres",
         "Le barillet tourne pour aligner une cartouche, puis le chien est armé et libéré",
-        "La douille vide est éjectée"
+        "La douille vide est éjectée et une nouvelle cartouche est chargée"
       ],
       "explanation": "La pression complète sur la détente fait tourner le barillet pour aligner une cartouche sous le chien, puis arme et libère le chien."
     },
     "en": {
       "q": "In a double-action revolver, what happens when the trigger is pulled all the way back?",
       "choices": [
-        "Only the hammer is released",
-        "The cylinder swings out to the side",
+        "Only the hammer is released; the cylinder must be turned by hand",
+        "The cylinder swings out to the side to expose all chambers",
         "The cylinder rotates to align a cartridge, then the hammer is cocked and released",
-        "The empty case is ejected"
+        "The empty case is ejected and a new cartridge is chambered"
       ],
       "explanation": "A full trigger pull rotates the cylinder to line up a cartridge under the hammer, then cocks and releases the hammer."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.281",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-012-q1",
@@ -2967,7 +3163,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.281",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-013-q1",
@@ -2978,26 +3176,28 @@
     "fr": {
       "q": "Qu'est-ce qui distingue un révolver à bascule ou à charnière des autres révolvers?",
       "choices": [
-        "Il n'a pas de barillet",
-        "Il utilise un chargeur amovible",
-        "Il ne peut tirer qu'en action double seulement",
-        "Le mécanisme bascule vers le haut ou le bas plutôt que de pivoter latéralement"
+        "Il n'a pas de barillet; les cartouches sont placées directement dans le canon",
+        "Il utilise un chargeur amovible inséré sous le mécanisme",
+        "Il ne peut tirer qu'en action double seulement, sans action simple",
+        "Le mécanisme bascule vers le haut ou le bas plutôt que de côté"
       ],
       "explanation": "Les révolvers à bascule fonctionnent comme les autres, mais le barillet ne pivote pas latéralement; le mécanisme bascule vers le haut ou le bas."
     },
     "en": {
       "q": "What sets a break-top (hinged) revolver apart from other revolvers?",
       "choices": [
-        "It has no cylinder",
-        "It uses a detachable magazine",
-        "It can only fire double-action-only",
+        "It has no cylinder; cartridges go directly into the barrel",
+        "It uses a detachable magazine inserted below the action",
+        "It can only fire double-action-only, never single-action",
         "The action tips up or down instead of swinging sideways"
       ],
       "explanation": "Break-top revolvers work like others, but the cylinder does not swing sideways; the action tips up or down."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.282",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-014-q1",
@@ -3008,9 +3208,9 @@
     "fr": {
       "q": "D'où vient l'énergie qui permet à un pistolet semi-automatique d'extraire la douille vide et de charger la cartouche suivante?",
       "choices": [
-        "D'un ressort que le tireur remonte avant chaque coup",
-        "De la rotation du barillet",
-        "Du mouvement du pouce sur le chien",
+        "D'un ressort que le tireur remonte à la main avant chaque coup",
+        "De la rotation du barillet entraînée par la pression sur la détente",
+        "Du mouvement du pouce du tireur qui arme le chien après chaque tir",
         "D'une partie de la force d'expansion des gaz de combustion"
       ],
       "explanation": "Le mécanisme semi-automatique utilise une partie de l'énergie des gaz de combustion pour extraire la douille et recharger une cartouche du chargeur."
@@ -3018,16 +3218,18 @@
     "en": {
       "q": "Where does the energy come from that lets a semi-automatic pistol extract the empty case and load the next cartridge?",
       "choices": [
-        "From a spring the shooter winds before each shot",
-        "From the rotation of the cylinder",
-        "From the thumb moving the hammer",
+        "From a spring the shooter winds by hand before each shot",
+        "From the cylinder rotation driven by the trigger pull",
+        "From the shooter's thumb cocking the hammer after each shot",
         "From part of the force of the expanding powder gases"
       ],
       "explanation": "A semi-automatic uses part of the energy of the expanding powder gases to extract the case and load a cartridge from the magazine."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.283",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-015-q1",
@@ -3057,7 +3259,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.283",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-015-q2",
@@ -3087,7 +3291,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.283",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-016-q1",
@@ -3098,9 +3304,9 @@
     "fr": {
       "q": "Quel est le bon ordre pour retirer les munitions d'un pistolet semi-automatique?",
       "choices": [
-        "Tirer la glissière, puis retirer le chargeur",
-        "Verrouiller la glissière, puis appuyer sur la détente",
-        "Retirer le chargeur, tirer la glissière vers l'arrière, puis la verrouiller à l'arrière",
+        "Tirer la glissière vers l'arrière, puis retirer le chargeur de la poignée",
+        "Verrouiller la glissière à l'arrière, puis appuyer sur la détente",
+        "Retirer le chargeur, tirer la glissière, puis la verrouiller à l'arrière",
         "Appuyer sur le bouton de désarmement, puis retirer le chargeur"
       ],
       "explanation": "On fait d'abord sortir le chargeur, on tire la glissière complètement vers l'arrière pour extraire la cartouche, puis on verrouille la glissière à l'arrière."
@@ -3108,16 +3314,18 @@
     "en": {
       "q": "What is the correct order to remove ammunition from a semi-automatic pistol?",
       "choices": [
-        "Pull the slide, then remove the magazine",
-        "Lock the slide, then pull the trigger",
-        "Remove the magazine, pull the slide back, then lock it to the rear",
+        "Pull the slide back, then remove the magazine from the grip",
+        "Lock the slide to the rear, then pull the trigger",
+        "Remove the magazine, pull the slide, then lock it to the rear",
         "Press the decocking button, then remove the magazine"
       ],
       "explanation": "First release the magazine, pull the slide fully back to extract the cartridge, then lock the slide to the rear."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.286",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-016-q2",
@@ -3147,7 +3355,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.286",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-017-q1",
@@ -3156,28 +3366,30 @@
     "objectiveId": "federal-restricted-m14b-017",
     "reviewYear": null,
     "fr": {
-      "q": "Où se trouve le bouton de déverrouillage du chargeur d'un pistolet semi-automatique?",
+      "q": "Que dit le manuel sur l'emplacement du bouton de déverrouillage du chargeur d'un pistolet semi-automatique?",
       "choices": [
-        "Toujours au bas de la poignée",
-        "À différents endroits selon la marque et le modèle",
-        "Toujours sur la glissière",
-        "Toujours sur le pontet"
+        "Il est placé au bas de la poignée sur les pistolets modernes",
+        "Son emplacement varie selon la marque et le modèle",
+        "Il se trouve sur la glissière, à côté du cran de sûreté",
+        "Il est situé sur le pontet, juste devant la détente"
       ],
       "explanation": "Le bouton peut se trouver derrière la détente, au bas de la poignée ou ailleurs selon la marque et le modèle; consultez le manuel."
     },
     "en": {
-      "q": "Where is the magazine release button on a semi-automatic pistol?",
+      "q": "What does the manual say about where the magazine release button is on a semi-automatic pistol?",
       "choices": [
-        "Always at the bottom of the grip",
-        "In different places depending on make and model",
-        "Always on the slide",
-        "Always on the trigger guard"
+        "It is at the bottom of the grip on modern pistols",
+        "Its location varies by make and model",
+        "It is on the slide, next to the safety catch",
+        "It is on the trigger guard, just in front of the trigger"
       ],
       "explanation": "It may be behind the trigger, at the bottom of the grip or elsewhere depending on make and model; check the manual."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.289",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-018-q1",
@@ -3188,10 +3400,10 @@
     "fr": {
       "q": "Comment le manuel définit-il le contrôle direct d'une arme à feu?",
       "choices": [
-        "L'arme est à la vue et/ou à une distance maximale d'un bras du tireur",
-        "L'arme est dans le même bâtiment que le tireur",
-        "L'arme est enregistrée au nom du tireur",
-        "L'arme est rangée dans un étui verrouillé"
+        "L'arme est à la vue et/ou à portée de bras du tireur",
+        "L'arme se trouve dans le même bâtiment que le tireur",
+        "L'arme est enregistrée au nom du tireur qui l'utilise",
+        "L'arme est rangée dans un étui verrouillé près du tireur"
       ],
       "explanation": "Le contrôle direct signifie avoir l'arme à la vue et/ou à une distance maximale d'un bras du tireur."
     },
@@ -3200,14 +3412,16 @@
       "choices": [
         "The firearm is in sight and/or within arm's reach of the shooter",
         "The firearm is in the same building as the shooter",
-        "The firearm is registered in the shooter's name",
-        "The firearm is stored in a locked case"
+        "The firearm is registered to the shooter who is using it",
+        "The firearm is stored in a locked case near the shooter"
       ],
       "explanation": "Direct control means having the firearm in sight and/or within arm's length of the shooter."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.289",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-019-q1",
@@ -3218,26 +3432,28 @@
     "fr": {
       "q": "Après avoir inséré le chargeur rempli dans votre pistolet, comment introduisez-vous une cartouche dans la chambre?",
       "choices": [
-        "En appuyant sur la détente",
-        "En tirant la glissière complètement vers l'arrière et en la relâchant",
-        "En poussant doucement la glissière vers l'avant à la main",
-        "En appuyant sur le bouton de désarmement"
+        "En appuyant sur la détente une fois le chargeur bien inséré",
+        "En tirant la glissière complètement vers l'arrière et en la lâchant",
+        "En poussant doucement la glissière vers l'avant avec la main",
+        "En appuyant sur le bouton de désarmement situé sur la glissière"
       ],
       "explanation": "On tire la glissière rapidement et complètement vers l'arrière, puis on la lâche; le ressort récupérateur la pousse vers l'avant et charge une cartouche."
     },
     "en": {
       "q": "After inserting the loaded magazine in your pistol, how do you chamber a cartridge?",
       "choices": [
-        "By pulling the trigger",
-        "By pulling the slide fully back and releasing it",
+        "By pulling the trigger once the magazine is fully seated",
+        "By pulling the slide fully back and letting it go",
         "By gently easing the slide forward by hand",
-        "By pressing the decocking button"
+        "By pressing the decocking button located on the slide"
       ],
       "explanation": "Pull the slide quickly and fully back, then let go; the recoil spring drives it forward and chambers a cartridge."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.290",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m14b-020-q1",
@@ -3267,7 +3483,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.290",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m15-001-q1",
@@ -3278,26 +3496,28 @@
     "fr": {
       "q": "Quel type de lunettes de sécurité le manuel recommande-t-il pour le tir?",
       "choices": [
-        "Des lunettes en verre résistant aux chocs ou en polycarbonate, avec écrans latéraux",
-        "Des lunettes de soleil teintées ordinaires, sans écrans latéraux",
-        "Des lunettes de lecture en verre standard, ajustées à votre vue",
-        "Des lunettes en plastique souple qui épousent bien le visage"
+        "Des verres résistant aux chocs ou en polycarbonate, avec écrans latéraux",
+        "Des lunettes de soleil teintées ordinaires, sans écrans latéraux sur les côtés",
+        "Des lunettes de lecture en verre standard, ajustées à votre vue par l'optométriste",
+        "Des lunettes en plastique souple et léger qui épousent bien la forme du visage"
       ],
       "explanation": "Les lunettes de tir doivent être faites de verre résistant aux chocs ou de polycarbonate et munies d'écrans latéraux pour protéger contre les douilles et débris."
     },
     "en": {
       "q": "What kind of safety glasses does the manual recommend for shooting?",
       "choices": [
-        "Glasses of impact-resistant glass or polycarbonate, with side shields",
-        "Ordinary tinted sunglasses, without side shields",
-        "Standard glass reading glasses fitted to your eyesight",
-        "Soft plastic glasses that fit closely to the face"
+        "Impact-resistant glass or polycarbonate lenses, with side shields",
+        "Ordinary tinted sunglasses, with no side shields on the sides",
+        "Standard glass reading glasses fitted to your eyesight by the optometrist",
+        "Soft, lightweight plastic glasses that closely fit the shape of the face"
       ],
       "explanation": "Shooting glasses should be made of impact-resistant glass or polycarbonate and have side shields to protect against ejected cases and debris."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.294",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m15-002-q1",
@@ -3309,9 +3529,9 @@
       "q": "Pourquoi un tireur qui tire sans protection oculaire risque-t-il des blessures aux yeux?",
       "choices": [
         "Des douilles éjectées, des fragments ou des débris peuvent l'atteindre",
-        "La lumière de la bouche du canon brûle la rétine",
-        "La fumée de la poudre sans fumée irrite gravement la cornée",
-        "Le recul de l'arme projette la hausse vers son visage"
+        "L'éclair lumineux à la bouche du canon peut brûler la rétine du tireur",
+        "La fumée de la poudre sans fumée irrite gravement la cornée de l'œil",
+        "Le recul de l'arme projette la hausse vers le visage et l'œil du tireur"
       ],
       "explanation": "Les douilles éjectées, les fragments de douille et d'autres débris projetés pendant le tir peuvent blesser les yeux."
     },
@@ -3319,15 +3539,17 @@
       "q": "Why does a shooter firing without eye protection risk eye injury?",
       "choices": [
         "Ejected cases, fragments or debris can strike the eyes",
-        "The muzzle flash burns the retina",
-        "Smoke from smokeless powder severely irritates the cornea",
-        "Recoil throws the rear sight toward the face"
+        "The muzzle flash can burn the shooter's retina",
+        "Smoke from smokeless powder severely irritates the cornea of the eye",
+        "Recoil throws the rear sight toward the shooter's face and eye"
       ],
       "explanation": "Ejected cases, case fragments and other debris thrown out during firing can injure the eyes."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.294",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m15-003-q1",
@@ -3357,7 +3579,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.295",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m15-004-q1",
@@ -3387,7 +3611,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.294",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m15-005-q1",
@@ -3398,26 +3624,28 @@
     "fr": {
       "q": "Vous trébuchez et tombez alors que vous tenez votre arme de poing. Quelle est votre priorité?",
       "choices": [
-        "Lâcher l'arme pour vous protéger avec les mains",
-        "Appuyer le cran de sûreté avant de toucher le sol",
+        "Lâcher l'arme pour pouvoir amortir la chute avec vos deux mains",
+        "Engager le cran de sûreté rapidement avant de toucher le sol",
         "Contrôler la direction dans laquelle pointe la bouche du canon",
-        "Serrer fermement la poignée et la détente"
+        "Serrer fermement la poignée et garder le doigt sur la détente"
       ],
       "explanation": "En cas de chute, il faut d'abord contrôler la direction de la bouche du canon : une décharge non intentionnelle serait plus grave que la chute elle-même."
     },
     "en": {
       "q": "You trip and fall while holding your handgun. What is your priority?",
       "choices": [
-        "Drop the firearm so you can break the fall with your hands",
-        "Engage the safety before hitting the ground",
+        "Drop the firearm so you can break the fall with both hands",
+        "Quickly engage the safety before you hit the ground",
         "Control the direction the muzzle is pointing",
-        "Grip the handle and the trigger firmly"
+        "Grip the handle firmly and keep your finger on the trigger"
       ],
       "explanation": "When falling, first control the muzzle direction: an unintentional discharge would be worse than the fall itself."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.295",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m15-006-q1",
@@ -3447,7 +3675,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.295",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m15-007-q1",
@@ -3477,7 +3707,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.295",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m15-008-q1",
@@ -3507,7 +3739,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.296",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m15-009-q1",
@@ -3537,7 +3771,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.296",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m15-010-q1",
@@ -3567,7 +3803,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.297",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m15-011-q1",
@@ -3597,7 +3835,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.299",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m15-012-q1",
@@ -3627,7 +3867,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.300",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-001-q1",
@@ -3657,7 +3899,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.305",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-002-q1",
@@ -3687,7 +3931,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.305",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-003-q1",
@@ -3698,26 +3944,28 @@
     "fr": {
       "q": "Quelle séquence le manuel propose-t-il pour allonger la pause naturelle de la respiration avant de tirer?",
       "choices": [
-        "Inspirer profondément, retenir son souffle, puis tirer immédiatement",
-        "Expirer complètement, retenir son souffle, puis inspirer pendant le tir",
-        "Respirer rapidement plusieurs fois, puis bloquer la respiration",
-        "Inspirer profondément, expirer avec force, inspirer profondément, laisser l'air sortir naturellement"
+        "Inspirer profondément, retenir son souffle le plus longtemps possible, puis tirer immédiatement",
+        "Expirer complètement, retenir son souffle quelques secondes, puis inspirer lentement pendant le tir",
+        "Respirer rapidement plusieurs fois pour oxygéner les muscles, puis bloquer la respiration",
+        "Inspirer à fond, expirer avec force, inspirer à fond, laisser l'air sortir naturellement"
       ],
       "explanation": "Cette séquence prolonge la pause naturelle jusqu'à environ 8,5 secondes, assez pour identifier la cible et tirer."
     },
     "en": {
       "q": "What sequence does the manual suggest to lengthen the natural breathing pause before firing?",
       "choices": [
-        "Breathe in deeply, hold your breath, then fire immediately",
-        "Exhale completely, hold your breath, then breathe in while firing",
-        "Breathe rapidly several times, then lock your breathing",
-        "Breathe in deeply, exhale forcefully, breathe in deeply, let the air out naturally"
+        "Breathe in deeply, hold your breath as long as possible, then fire immediately",
+        "Exhale completely, hold your breath a few seconds, then breathe in slowly while firing",
+        "Breathe rapidly several times to oxygenate the muscles, then lock your breathing",
+        "Breathe in fully, exhale forcefully, breathe in fully, let the air out naturally"
       ],
       "explanation": "This sequence extends the natural pause to about 8.5 seconds, enough to identify the target and fire."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.305",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-004-q1",
@@ -3747,7 +3995,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.306",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-005-q1",
@@ -3758,9 +4008,9 @@
     "fr": {
       "q": "Que signifie le maintien de la visée?",
       "choices": [
-        "Ajuster la hausse après chaque série de coups",
-        "Garder les deux yeux fermés pendant le recul",
-        "Garder l'image de visée et la position de tir après avoir fait feu",
+        "Ajuster la hausse après chaque série de coups selon les impacts",
+        "Garder les deux yeux fermés pendant le recul pour se protéger",
+        "Garder l'image de visée et la position de tir après le coup",
         "Viser plus haut que la cible pour compenser la chute de la balle"
       ],
       "explanation": "Le maintien de la visée consiste à conserver l'image de visée ou la position de tir après le coup, ce qui améliore la précision et la constance."
@@ -3768,8 +4018,8 @@
     "en": {
       "q": "What does follow-through mean?",
       "choices": [
-        "Adjusting the rear sight after each string of shots",
-        "Keeping both eyes closed during recoil",
+        "Adjusting the rear sight after each string based on the hits",
+        "Keeping both eyes closed during recoil to protect them",
         "Keeping the sight picture and firing position after the shot",
         "Aiming above the target to make up for bullet drop"
       ],
@@ -3777,7 +4027,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.306",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-006-q1",
@@ -3807,7 +4059,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.307",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-007-q1",
@@ -3837,7 +4091,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.307",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-008-q1",
@@ -3867,7 +4123,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.307",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-009-q1",
@@ -3897,7 +4155,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.307",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-010-q1",
@@ -3908,26 +4168,28 @@
     "fr": {
       "q": "L'ordre « Cessez-le-feu » est donné. Que devez-vous faire?",
       "choices": [
-        "Finir votre série, puis décharger l'arme",
-        "Arrêter de tirer et garder l'arme en main, pointée vers la cible",
-        "Arrêter de tirer et aller immédiatement vérifier votre cible",
-        "Arrêter de tirer, décharger, ouvrir le mécanisme, poser l'arme et reculer derrière la ligne de cessez-le-feu"
+        "Finir votre série en cours, décharger l'arme, puis la ranger dans son étui et attendre",
+        "Arrêter de tirer et garder l'arme chargée en main, pointée vers la cible, jusqu'à la reprise",
+        "Arrêter de tirer, poser l'arme et aller immédiatement vérifier votre cible devant la ligne",
+        "Cesser le tir, décharger, ouvrir le mécanisme, poser l'arme et reculer derrière la ligne"
       ],
       "explanation": "Au cessez-le-feu, tout tir cesse immédiatement; l'arme est déchargée, mécanisme ouvert, posée sur la table pointée vers la cible, et le tireur recule derrière la ligne de cessez-le-feu."
     },
     "en": {
       "q": "The command \"Cease fire\" is given. What must you do?",
       "choices": [
-        "Finish your string, then unload the firearm",
-        "Stop firing and keep the gun in hand, pointed at the target",
-        "Stop firing and go check your target immediately",
-        "Stop firing, unload, open the action, set the gun down and step back behind the cease-fire line"
+        "Finish your current string, unload the firearm, then holster it and wait",
+        "Stop firing and keep the loaded gun in hand, pointed at the target, until firing resumes",
+        "Stop firing, set the gun down and go check your target in front of the line right away",
+        "Stop firing, unload, open the action, set the gun down and step back behind the line"
       ],
       "explanation": "On cease fire, all firing stops at once; the gun is unloaded, action open, set on the table pointed downrange, and the shooter steps back behind the cease-fire line."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.308",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-011-q1",
@@ -3939,9 +4201,9 @@
       "q": "Pendant un cessez-le-feu, vous remarquez qu'une cartouche est tombée près de votre poste. Que faites-vous?",
       "choices": [
         "Vous attendez les ordres de l'officiel avant de manier quoi que ce soit",
-        "Vous retournez la ramasser rapidement à la ligne de feu",
-        "Vous la remettez dans le chargeur posé sur la table",
-        "Vous demandez au tireur voisin de la ramasser pour vous"
+        "Vous retournez rapidement la ramasser à la ligne de feu avant la reprise du tir",
+        "Vous la remettez tout de suite dans le chargeur posé sur la table de tir",
+        "Vous demandez au tireur voisin, plus proche de la cartouche, de la ramasser"
       ],
       "explanation": "Pendant le cessez-le-feu, personne ne peut manier d'arme ou de munitions ni retourner à la ligne de feu sans nouvel ordre de l'officiel."
     },
@@ -3949,15 +4211,17 @@
       "q": "During a cease fire, you notice a cartridge has fallen near your position. What do you do?",
       "choices": [
         "Wait for the officer's orders before handling anything",
-        "Quickly go back to the firing line to pick it up",
-        "Put it back in the magazine lying on the table",
-        "Ask the shooter next to you to pick it up for you"
+        "Quickly go back to the firing line to pick it up before firing resumes",
+        "Put it straight back in the magazine lying on the shooting table",
+        "Ask the shooter next to you, who is closer to it, to pick it up"
       ],
       "explanation": "During a cease fire, no one may handle firearms or ammunition or return to the firing line without further orders from the officer."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.308",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-012-q1",
@@ -3968,9 +4232,9 @@
     "fr": {
       "q": "Que doit faire l'officiel de sécurité avant de permettre à quiconque de franchir la ligne de feu pour aller aux cibles?",
       "choices": [
-        "Compter les tireurs présents sur le stand",
-        "Faire signer le registre par chaque tireur",
-        "Ramasser toutes les douilles vides au sol",
+        "Compter les tireurs présents sur le stand et noter leurs postes",
+        "Faire signer le registre du club par chaque tireur présent",
+        "Ramasser toutes les douilles vides tombées au sol de la ligne",
         "Inspecter chaque arme pour vérifier qu'elle est ouverte et vide"
       ],
       "explanation": "L'officiel inspecte chaque arme : mécanismes ouverts et aucune cartouche dans la chambre, les magasins ou les chargeurs."
@@ -3978,16 +4242,18 @@
     "en": {
       "q": "What must the safety officer do before letting anyone cross the firing line to go to the targets?",
       "choices": [
-        "Count the shooters on the range",
-        "Have each shooter sign the log",
-        "Pick up all the empty cases on the ground",
+        "Count the shooters on the range and note their positions",
+        "Have every shooter present sign the club log",
+        "Pick up all the empty cases that fell on the line",
         "Inspect every firearm to check it is open and empty"
       ],
       "explanation": "The officer inspects each firearm: actions open and no cartridges in the chamber, magazines or clips."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.308",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-013-q1",
@@ -4017,7 +4283,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.308",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-014-q1",
@@ -4028,26 +4296,28 @@
     "fr": {
       "q": "Selon le manuel, que signifie avoir le contrôle direct d'une arme à feu?",
       "choices": [
-        "L'arme est rangée dans votre véhicule verrouillé",
-        "L'arme est enregistrée à votre nom",
+        "L'arme est rangée dans votre véhicule verrouillé, stationné à proximité",
+        "L'arme est enregistrée à votre nom auprès du contrôleur des armes à feu",
         "L'arme est sous vos yeux et/ou à une distance maximale d'un bras",
-        "L'arme se trouve dans le même bâtiment que vous"
+        "L'arme se trouve dans le même bâtiment que vous, même dans une autre pièce"
       ],
       "explanation": "Le contrôle direct signifie avoir l'arme sous les yeux et/ou à une distance d'au plus un bras."
     },
     "en": {
       "q": "According to the manual, what does having direct control of a firearm mean?",
       "choices": [
-        "The firearm is stored in your locked vehicle",
-        "The firearm is registered in your name",
+        "The firearm is stored in your locked vehicle, parked nearby",
+        "The firearm is registered in your name with the Chief Firearms Officer",
         "The firearm is in your sight and/or within arm's length",
-        "The firearm is in the same building as you"
+        "The firearm is in the same building as you, even in another room"
       ],
       "explanation": "Direct control means the firearm is within your sight and/or no more than an arm's length away."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.309",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-015-q1",
@@ -4077,7 +4347,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.309",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-016-q1",
@@ -4088,10 +4360,10 @@
     "fr": {
       "q": "Vous tirez avec un pistolet semi-automatique sur un stand achalandé. Quelle règle de conduite s'applique au choix de votre poste?",
       "choices": [
-        "Vous placer là où les douilles éjectées ne risquent pas d'atteindre les autres",
-        "Vous placer le plus près possible des autres pour partager l'abri",
-        "Vous placer au centre de la ligne pour être vu de l'officiel",
-        "Vous placer face au vent pour dissiper la fumée"
+        "Vous placer là où les douilles éjectées n'atteindront pas les autres",
+        "Vous placer le plus près possible des autres tireurs pour partager l'abri",
+        "Vous placer au centre de la ligne de feu pour être bien vu de l'officiel",
+        "Vous placer face au vent pour dissiper plus vite la fumée des coups tirés"
       ],
       "explanation": "Les tireurs à arme semi-automatique devraient se placer de façon que les douilles éjectées n'atteignent pas les autres personnes."
     },
@@ -4099,15 +4371,17 @@
       "q": "You are shooting a semi-automatic pistol on a busy range. Which conduct rule applies to choosing your position?",
       "choices": [
         "Stand where ejected cases won't hit other people",
-        "Stand as close as possible to others to share the shelter",
-        "Stand in the middle of the line so the officer can see you",
-        "Stand facing the wind to clear the smoke"
+        "Stand as close as possible to other shooters to share the shelter",
+        "Stand in the middle of the firing line so the officer sees you clearly",
+        "Stand facing the wind so the smoke from your shots clears faster"
       ],
       "explanation": "Shooters with semi-automatic firearms should position themselves so ejected cases won't strike other people."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.310",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-017-q1",
@@ -4137,7 +4411,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.311",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-018-q1",
@@ -4148,26 +4424,28 @@
     "fr": {
       "q": "Laquelle de ces cibles est acceptable au stand de tir?",
       "choices": [
-        "Une bouteille de verre posée devant votre poste",
-        "La cible d'un autre tireur qui est absent",
+        "Une bouteille de verre posée sur le sol directement devant votre poste",
+        "La cible d'un autre tireur qui s'est absenté quelques minutes de son poste",
         "Une cible approuvée par l'officiel, directement devant votre poste",
-        "Une plaque de béton placée près des porte-cibles"
+        "Une plaque de béton solide placée près des porte-cibles, au fond du stand"
       ],
       "explanation": "Une cible acceptable est approuvée par l'officiel et située devant votre poste; le verre, les matériaux pouvant ricocher et la cible d'autrui sont inacceptables."
     },
     "en": {
       "q": "Which of these targets is acceptable at the range?",
       "choices": [
-        "A glass bottle set in front of your position",
-        "Another shooter's target while they are away",
+        "A glass bottle set on the ground directly in front of your position",
+        "Another shooter's target while they are away from their position for a few minutes",
         "An officer-approved target directly in front of your position",
-        "A concrete slab placed near the target holders"
+        "A solid concrete slab placed near the target holders at the back of the range"
       ],
       "explanation": "An acceptable target is approved by the officer and directly in front of your position; glass, ricochet-prone materials and other people's targets are unacceptable."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.311",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-019-q1",
@@ -4197,7 +4475,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.312",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-020-q1",
@@ -4227,7 +4507,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.312",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-021-q1",
@@ -4238,26 +4520,28 @@
     "fr": {
       "q": "Pourquoi la rouille ou l'accumulation de résidus dans le canon représentent-elles un danger?",
       "choices": [
-        "Elles rendent la détente trop sensible",
-        "Elles empêchent le cran de sûreté de s'engager",
+        "Elles rendent la détente trop sensible et provoquent des départs imprévus",
+        "Elles empêchent le cran de sûreté de s'engager complètement",
         "Elles peuvent causer une pression excessive et endommager le canon",
-        "Elles font dévier la balle vers le bas seulement"
+        "Elles font seulement dévier la balle vers le bas, sans autre conséquence"
       ],
       "explanation": "La rouille et l'accumulation de résidus peuvent causer une pression excessive et endommager le canon; d'où l'importance de nettoyer régulièrement."
     },
     "en": {
       "q": "Why are rust or residue build-up in the barrel a hazard?",
       "choices": [
-        "They make the trigger too sensitive",
-        "They keep the safety from engaging",
+        "They make the trigger too sensitive and cause unexpected discharges",
+        "They keep the safety from fully engaging",
         "They can cause excessive pressure and damage the barrel",
-        "They only make the bullet drop lower"
+        "They only make the bullet drop lower, with no other effect"
       ],
       "explanation": "Rust and residue build-up can cause excessive pressure and damage the barrel, which is why regular cleaning is recommended."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.313",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-022-q1",
@@ -4287,7 +4571,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.313",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-023-q1",
@@ -4317,7 +4603,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.314",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-024-q1",
@@ -4328,26 +4616,28 @@
     "fr": {
       "q": "Quelle est la bonne séquence pour nettoyer l'âme du canon selon la méthode du manuel?",
       "choices": [
-        "Chiffon huilé, écouvillon sec, chiffon au solvant, chiffon sec",
-        "Écouvillon au solvant, chiffon au solvant, chiffon sec jusqu'à propreté, chiffon légèrement huilé",
-        "Chiffon sec, chiffon huilé, écouvillon au solvant, chiffon au solvant",
-        "Chiffon au solvant, chiffon huilé, écouvillon sec, chiffon sec"
+        "Chiffon huilé, écouvillon sec, chiffon au solvant, puis chiffons secs jusqu'à ce qu'ils ressortent propres",
+        "Écouvillon au solvant, chiffon au solvant, chiffons secs jusqu'à propreté, chiffon un peu huilé",
+        "Chiffon sec, chiffon légèrement huilé, écouvillon trempé dans le solvant, puis chiffon au solvant",
+        "Chiffon au solvant, chiffon huilé, écouvillon sec, puis chiffons secs jusqu'à ce que l'âme brille"
       ],
       "explanation": "On passe d'abord l'écouvillon trempé dans le solvant, puis un chiffon au solvant, ensuite des chiffons secs jusqu'à ce qu'ils ressortent propres, et enfin un chiffon légèrement huilé."
     },
     "en": {
       "q": "What is the correct sequence for cleaning the bore according to the manual's method?",
       "choices": [
-        "Oiled patch, dry brush, solvent patch, dry patch",
+        "Oiled patch, dry brush, solvent patch, then dry patches until they come out clean",
         "Solvent brush, solvent patch, dry patches until clean, lightly oiled patch",
-        "Dry patch, oiled patch, solvent brush, solvent patch",
-        "Solvent patch, oiled patch, dry brush, dry patch"
+        "Dry patch, lightly oiled patch, brush soaked in solvent, then a solvent patch",
+        "Solvent patch, oiled patch, dry brush, then dry patches until the bore shines"
       ],
       "explanation": "First the solvent-dipped brush, then a solvent patch, then dry patches until they come out clean, and finally a lightly oiled patch."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.314",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-025-q1",
@@ -4359,25 +4649,27 @@
       "q": "Vous sortez votre arme de poing de l'entreposage, où elle était huilée. Que devez-vous faire avant de tirer?",
       "choices": [
         "Ajouter une couche d'huile dans le canon pour faciliter le passage de la balle",
-        "Tirer une première cartouche pour brûler l'huile restante",
-        "Nettoyer seulement l'extérieur avec un chiffon doux",
-        "Passer un chiffon sec dans l'âme du canon et les chambres pour enlever l'huile"
+        "Tirer une première cartouche pour brûler l'huile restante dans le canon",
+        "Nettoyer seulement l'extérieur avec un chiffon doux et laisser l'huile à l'intérieur",
+        "Passer un chiffon sec dans l'âme et les chambres pour enlever l'huile"
       ],
       "explanation": "L'huile ou la saleté dans le canon augmente la pression et peut le faire éclater; on passe donc un chiffon propre et sec dans l'âme avant de tirer."
     },
     "en": {
       "q": "You take your handgun out of storage, where it was oiled. What must you do before firing?",
       "choices": [
-        "Add more oil to the barrel to help the bullet pass",
-        "Fire one round to burn off the remaining oil",
-        "Wipe only the outside with a soft cloth",
+        "Add a coat of oil to the barrel to help the bullet pass",
+        "Fire one round to burn off the remaining oil in the barrel",
+        "Wipe only the outside with a soft cloth and leave the oil inside",
         "Run a dry patch through the bore and chambers to remove the oil"
       ],
       "explanation": "Oil or dirt in the barrel raises pressure and can burst it, so run a clean, dry patch through the bore before firing."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.318",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-026-q1",
@@ -4407,7 +4699,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.314",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-027-q1",
@@ -4419,9 +4713,9 @@
       "q": "Pourquoi faut-il éviter de toucher les parties métalliques d'une arme à feu après l'avoir nettoyée pour l'entreposage?",
       "choices": [
         "Les acides de la transpiration peuvent provoquer de la rouille",
-        "La chaleur de la main peut dilater le canon",
-        "Les empreintes nuisent à l'enregistrement de l'arme",
-        "L'huile de la peau rend le cran de sûreté glissant"
+        "La chaleur de la main peut dilater légèrement le canon et le fausser",
+        "Les empreintes digitales nuisent à l'enregistrement de l'arme",
+        "L'huile de la peau rend le cran de sûreté glissant et difficile à engager"
       ],
       "explanation": "Les acides contenus dans la transpiration peuvent faire rouiller les surfaces métalliques."
     },
@@ -4429,15 +4723,17 @@
       "q": "Why should you avoid touching the metal parts of a firearm after cleaning it for storage?",
       "choices": [
         "Acids in sweat can cause rust",
-        "Hand heat can expand the barrel",
+        "Hand heat can slightly expand and warp the barrel",
         "Fingerprints interfere with the firearm's registration",
-        "Skin oil makes the safety slippery"
+        "Skin oil makes the safety slippery and hard to engage"
       ],
       "explanation": "Acids in perspiration can cause rust on metal surfaces."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.316",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m16-028-q1",
@@ -4448,10 +4744,10 @@
     "fr": {
       "q": "Comment devriez-vous entretenir vos munitions?",
       "choices": [
-        "Les garder propres et sèches, à l'abri de la chaleur et des vibrations",
-        "Les essuyer avec un chiffon imbibé d'huile pénétrante",
-        "Les ranger dans un endroit chaud pour éviter l'humidité",
-        "Les transporter en vrac pour éviter qu'elles collent"
+        "Les garder propres et sèches, loin de la chaleur et des vibrations",
+        "Les essuyer régulièrement avec un chiffon imbibé d'huile pénétrante",
+        "Les ranger dans un endroit chaud, près du chauffage, pour éviter l'humidité",
+        "Les transporter en vrac dans un sac pour éviter qu'elles collent entre elles"
       ],
       "explanation": "Les munitions doivent être propres et sèches, loin de la chaleur et des vibrations; les amorces réagissent mal aux huiles pénétrantes."
     },
@@ -4459,15 +4755,17 @@
       "q": "How should you take care of your ammunition?",
       "choices": [
         "Keep it clean and dry, away from heat and vibration",
-        "Wipe it with a cloth soaked in penetrating oil",
-        "Store it somewhere warm to avoid moisture",
-        "Carry it loose so the rounds don't stick together"
+        "Wipe it regularly with a cloth soaked in penetrating oil",
+        "Store it somewhere warm, near the heater, to avoid moisture",
+        "Carry it loose in a bag so the rounds don't stick together"
       ],
       "explanation": "Ammunition must be clean and dry and kept away from heat and vibration; primers react badly to penetrating oils."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.318",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-001-q1",
@@ -4497,7 +4795,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.322",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-002-q1",
@@ -4508,26 +4808,28 @@
     "fr": {
       "q": "Dans quelle catégorie se classe une arme de poing qui n'est pas une arme à feu prohibée?",
       "choices": [
-        "Arme à feu sans restriction",
-        "Dispositif prohibé",
+        "Arme à feu sans restriction, comme une carabine",
+        "Dispositif prohibé, selon le Code criminel",
         "Arme à feu à autorisation restreinte",
-        "Arme à feu neutralisée"
+        "Arme à feu neutralisée, si elle est déchargée"
       ],
       "explanation": "Une arme de poing qui n'est pas prohibée est une arme à feu à autorisation restreinte."
     },
     "en": {
       "q": "In which class is a handgun that is not a prohibited firearm?",
       "choices": [
-        "Non-restricted firearm",
-        "Prohibited device",
+        "Non-restricted firearm, like a rifle",
+        "Prohibited device, under the Criminal Code",
         "Restricted firearm",
-        "Deactivated firearm"
+        "Deactivated firearm, if it is unloaded"
       ],
       "explanation": "A handgun that is not prohibited is a restricted firearm."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.322",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-003-q1",
@@ -4557,7 +4859,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.322",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-004-q1",
@@ -4568,9 +4872,9 @@
     "fr": {
       "q": "Une arme à feu non prohibée qui peut tirer une fois repliée ou emboîtée à une longueur totale inférieure à 660 mm (26 po) est classée comme :",
       "choices": [
-        "Arme à feu sans restriction",
-        "Dispositif prohibé",
-        "Arme à feu antique",
+        "Arme à feu sans restriction, comme les autres armes d'épaule",
+        "Dispositif prohibé selon le Code criminel",
+        "Arme à feu antique, si elle a plus de 100 ans",
         "Arme à feu à autorisation restreinte"
       ],
       "explanation": "Une arme conçue ou adaptée pour tirer après avoir été réduite à moins de 660 mm (26 po) est à autorisation restreinte."
@@ -4578,16 +4882,18 @@
     "en": {
       "q": "A non-prohibited firearm that can fire when folded or telescoped to an overall length under 660 mm (26 in) is classed as:",
       "choices": [
-        "A non-restricted firearm",
-        "A prohibited device",
-        "An antique firearm",
+        "A non-restricted firearm, like other long guns",
+        "A prohibited device under the Criminal Code",
+        "An antique firearm, if it is over 100 years old",
         "A restricted firearm"
       ],
       "explanation": "A firearm designed or adapted to fire when reduced to under 660 mm (26 in) overall is restricted."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.322",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-005-q1",
@@ -4617,7 +4923,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.323",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-006-q1",
@@ -4647,7 +4955,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.323",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-007-q1",
@@ -4677,7 +4987,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.323",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-008-q1",
@@ -4689,9 +5001,9 @@
       "q": "Lequel de ces éléments est un dispositif prohibé selon le Code criminel?",
       "choices": [
         "Un silencieux conçu pour réduire le bruit d'une arme à feu",
-        "Une lunette de visée à grossissement",
-        "Un verrou de pontet",
-        "Un viseur électronique à point rouge"
+        "Une lunette de visée à fort grossissement pour le tir à longue distance",
+        "Un verrou de pontet installé sur une arme de poing entreposée",
+        "Un viseur électronique à point rouge monté sur une arme de poing"
       ],
       "explanation": "Un dispositif conçu pour diminuer ou couper le bruit d'une arme à feu (silencieux) est un dispositif prohibé."
     },
@@ -4699,15 +5011,17 @@
       "q": "Which of these is a prohibited device under the Criminal Code?",
       "choices": [
         "A silencer designed to reduce a firearm's noise",
-        "A magnifying telescopic sight",
-        "A trigger lock",
-        "A red-dot electronic sight"
+        "A high-power telescopic sight for long-range shooting",
+        "A trigger lock fitted to a stored handgun",
+        "A red-dot electronic sight mounted on a handgun"
       ],
       "explanation": "A device designed to muffle or stop the sound of a firearm (a silencer) is a prohibited device."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.324",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-009-q1",
@@ -4718,10 +5032,10 @@
     "fr": {
       "q": "Laquelle de ces façons d'entreposer une arme à feu à autorisation restreinte est conforme à la loi?",
       "choices": [
-        "Non chargée, avec un verrou de pontet, dans un contenant verrouillé difficile à forcer",
-        "Non chargée, avec un verrou de pontet, dans un placard non verrouillé",
-        "Chargée, dans un coffre-fort conçu pour les armes restreintes",
-        "Non chargée, sans verrou, dans un tiroir de commode fermé"
+        "Non chargée, avec verrou de pontet, dans un contenant verrouillé difficile à forcer",
+        "Non chargée, avec un verrou de pontet, dans un placard de chambre non verrouillé",
+        "Chargée, prête à servir, dans un coffre-fort conçu pour les armes restreintes",
+        "Non chargée, sans verrou, dans un tiroir de commode fermé hors de portée des enfants"
       ],
       "explanation": "Elle doit être non chargée et rendue inopérante par un dispositif de verrouillage dans un contenant verrouillé difficile à forcer, ou être dans une chambre forte, un coffre-fort ou une pièce conçus à cette fin."
     },
@@ -4729,15 +5043,17 @@
       "q": "Which of these ways of storing a restricted firearm complies with the law?",
       "choices": [
         "Unloaded, with a trigger lock, in a locked container not easily broken into",
-        "Unloaded, with a trigger lock, in an unlocked closet",
-        "Loaded, in a safe built for restricted firearms",
-        "Unloaded, without a lock, in a closed dresser drawer"
+        "Unloaded, with a trigger lock, in an unlocked bedroom closet",
+        "Loaded and ready, in a safe built for restricted firearms",
+        "Unloaded, without a lock, in a closed dresser drawer out of children's reach"
       ],
       "explanation": "It must be unloaded and disabled by a secure locking device inside a locked container not easily broken into, or kept in a vault, safe or room built for that purpose."
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.325",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-010-q1",
@@ -4748,26 +5064,28 @@
     "fr": {
       "q": "Votre arme de poing non chargée est entreposée dans un coffre-fort verrouillé conçu spécifiquement pour les armes à autorisation restreinte. Selon le manuel, doit-elle aussi avoir un dispositif de verrouillage?",
       "choices": [
-        "Oui, un verrou de pontet est toujours obligatoire en plus",
-        "Oui, et le chargeur doit être retiré et soudé",
-        "Non, ce type de coffre-fort verrouillé est une option suffisante à lui seul",
-        "Non, mais le coffre-fort doit être visible de l'extérieur"
+        "Oui, un verrou de pontet est toujours obligatoire en plus du coffre-fort",
+        "Oui, et le chargeur doit aussi être retiré et rangé dans un autre contenant",
+        "Non, ce type de coffre-fort verrouillé suffit à lui seul",
+        "Non, mais le coffre-fort doit être boulonné au plancher et visible de l'extérieur"
       ],
       "explanation": "Le règlement prévoit deux options : un dispositif de verrouillage avec un contenant verrouillé, ou une chambre forte, un coffre-fort ou une pièce construits spécifiquement pour les armes restreintes et gardés verrouillés."
     },
     "en": {
       "q": "Your unloaded handgun is stored in a locked safe built specifically for restricted firearms. According to the manual, does it also need a locking device?",
       "choices": [
-        "Yes, a trigger lock is always required in addition",
-        "Yes, and the magazine must be removed and welded",
-        "No, this kind of locked safe is a sufficient option on its own",
-        "No, but the safe must be visible from outside"
+        "Yes, a trigger lock is always required in addition to the safe",
+        "Yes, and the magazine must also be removed and kept in another container",
+        "No, this kind of locked safe is enough on its own",
+        "No, but the safe must be bolted to the floor and visible from outside"
       ],
       "explanation": "The regulations give two options: a locking device with a locked container, or a vault, safe or room built specifically for restricted firearms and kept locked."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.325",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-011-q1",
@@ -4778,26 +5096,28 @@
     "fr": {
       "q": "Vous partez en voyage et un ami offre d'entreposer votre arme de poing chez lui, dans son coffre-fort. Est-ce permis?",
       "choices": [
-        "Oui, si son coffre-fort est conçu pour les armes restreintes",
-        "Oui, si votre ami possède lui aussi un permis",
-        "Oui, pour une période maximale de 30 jours",
-        "Non, elle ne peut être entreposée qu'à l'adresse inscrite sur l'enregistrement"
+        "Oui, si son coffre-fort est conçu spécifiquement pour les armes restreintes",
+        "Oui, si votre ami possède lui aussi un permis valide pour ce type d'arme",
+        "Oui, pour une période maximale de 30 jours, si vous l'avisez par écrit",
+        "Non, seulement à l'adresse inscrite sur l'enregistrement de l'arme"
       ],
       "explanation": "Une arme à autorisation restreinte ne peut être entreposée qu'à l'adresse figurant sur ses documents d'enregistrement."
     },
     "en": {
       "q": "You are going on a trip and a friend offers to keep your handgun in his safe at his home. Is this allowed?",
       "choices": [
-        "Yes, if his safe is built for restricted firearms",
-        "Yes, if your friend also holds a licence",
-        "Yes, for a maximum of 30 days",
-        "No, it may only be stored at the address on its registration"
+        "Yes, if his safe is built specifically for restricted firearms",
+        "Yes, if your friend also holds a valid licence for this kind of firearm",
+        "Yes, for up to 30 days, if you give him written notice",
+        "No, only at the address on the firearm's registration"
       ],
       "explanation": "A restricted firearm may only be stored at the address shown on its registration documents."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.326",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-012-q1",
@@ -4827,7 +5147,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.326",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-013-q1",
@@ -4857,7 +5179,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.329",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-014-q1",
@@ -4887,7 +5211,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.329",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-015-q1",
@@ -4898,26 +5224,28 @@
     "fr": {
       "q": "Vous voulez transporter votre arme de poing de votre domicile jusqu'au club de tir. Quel document devez-vous obtenir en plus de votre permis?",
       "choices": [
-        "Un permis de chasse provincial valide",
-        "Une lettre d'invitation signée par le club de tir",
+        "Un permis de chasse provincial valide pour l'année en cours",
+        "Une lettre d'invitation signée par le président du club de tir",
         "Une autorisation de transport du contrôleur des armes à feu",
-        "Un certificat de vérification de l'armurier"
+        "Un certificat d'inspection récent délivré par un armurier qualifié"
       ],
       "explanation": "Pour transporter une arme à feu à autorisation restreinte d'un endroit à un autre, il faut une autorisation de transport délivrée par le contrôleur des armes à feu."
     },
     "en": {
       "q": "You want to transport your handgun from your home to the shooting club. What document must you obtain in addition to your licence?",
       "choices": [
-        "A valid provincial hunting licence",
-        "A letter of invitation signed by the shooting club",
+        "A valid provincial hunting licence for the current year",
+        "A letter of invitation signed by the shooting club's president",
         "An authorization to transport from the Chief Firearms Officer",
-        "A gunsmith's inspection certificate"
+        "A recent inspection certificate issued by a qualified gunsmith"
       ],
       "explanation": "To transport a restricted firearm from one place to another, you need an authorization to transport issued by the Chief Firearms Officer."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.331",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-016-q1",
@@ -4947,7 +5275,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.331",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-017-q1",
@@ -4977,7 +5307,9 @@
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.331",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-018-q1",
@@ -4988,26 +5320,28 @@
     "fr": {
       "q": "Vous retirez le percuteur de votre arme de poing avant de la transporter. Quel est l'effet légal de ce geste?",
       "choices": [
-        "L'arme devient légalement désactivée",
-        "L'arme n'est pas pour autant légalement désactivée ni prête au transport",
-        "L'arme n'a plus besoin de contenant verrouillé",
-        "L'arme peut être transportée sans autorisation de transport"
+        "L'arme devient légalement désactivée et n'a plus besoin d'être enregistrée",
+        "Elle n'est pas pour autant légalement désactivée ni prête au transport",
+        "L'arme n'a plus besoin d'être placée dans un contenant verrouillé pour le trajet",
+        "L'arme peut être transportée sans autorisation de transport, avec le permis"
       ],
       "explanation": "Enlever le percuteur ou une autre pièce ne rend pas une arme de poing légalement désactivée ni sécuritaire pour le transport."
     },
     "en": {
       "q": "You remove the firing pin from your handgun before transporting it. What is the legal effect?",
       "choices": [
-        "The firearm becomes legally deactivated",
-        "The firearm is still not legally deactivated or ready for transport",
-        "The firearm no longer needs a locked container",
-        "The firearm can be transported without an authorization to transport"
+        "The firearm becomes legally deactivated and no longer needs registration",
+        "It is still not legally deactivated or ready for transport",
+        "The firearm no longer needs to be in a locked container for the trip",
+        "The firearm can be transported without an authorization to transport, with the licence"
       ],
       "explanation": "Removing the firing pin or another part does not make a handgun legally deactivated or safe for transport."
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.331",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-019-q1",
@@ -5018,26 +5352,28 @@
     "fr": {
       "q": "Pour blaguer, une personne pointe une arme à feu non chargée vers un ami. Que prévoit le Code criminel?",
       "choices": [
-        "Aucune infraction, puisque l'arme n'est pas chargée",
-        "Une simple contravention municipale",
-        "Une infraction passible, par mise en accusation, d'au plus cinq ans d'emprisonnement",
-        "Une infraction seulement si l'ami porte plainte"
+        "Aucune infraction, puisque l'arme n'est pas chargée et ne peut blesser personne",
+        "Une simple contravention municipale, comme pour un trouble de la paix",
+        "Une infraction passible, par mise en accusation, d'au plus cinq ans de prison",
+        "Une infraction seulement si l'ami visé décide de porter plainte à la police"
       ],
       "explanation": "Pointer une arme à feu, chargée ou non, sur une personne sans excuse légitime est une infraction; par mise en accusation, elle est passible d'un emprisonnement maximal de cinq ans."
     },
     "en": {
       "q": "As a joke, someone points an unloaded firearm at a friend. What does the Criminal Code provide?",
       "choices": [
-        "No offence, since the firearm is unloaded",
-        "A simple municipal ticket",
+        "No offence, since the firearm is unloaded and cannot hurt anyone",
+        "A simple municipal ticket, as for disturbing the peace",
         "An offence punishable on indictment by up to five years in prison",
-        "An offence only if the friend files a complaint"
+        "An offence only if the friend decides to file a police complaint"
       ],
       "explanation": "Pointing a firearm, loaded or not, at a person without lawful excuse is an offence; on indictment it carries up to five years in prison."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.334",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-020-q1",
@@ -5067,7 +5403,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.334",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-m17-021-q1",
@@ -5097,7 +5435,9 @@
     },
     "answerIndex": 1,
     "sourceRef": "cfsc_fr.pdf p.335",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-ann-cession-r-001-q1",
@@ -5108,26 +5448,28 @@
     "fr": {
       "q": "Vous vendez une arme à feu à autorisation restreinte à un particulier. Que devez-vous exiger de l'acheteur?",
       "choices": [
-        "Une preuve de résidence de plus de cinq ans",
-        "Une lettre de recommandation de son club de tir",
-        "Un permis l'autorisant à acquérir et à posséder cette catégorie d'arme à feu",
-        "Une attestation médicale récente"
+        "Une preuve qu'il réside au Canada depuis plus de cinq années consécutives",
+        "Une lettre de recommandation signée par le président de son club de tir",
+        "Un permis l'autorisant à acquérir et à posséder cette catégorie d'arme",
+        "Une attestation médicale récente signée par son médecin de famille"
       ],
       "explanation": "Le cédant doit exiger un permis autorisant l'acquéreur à acquérir et à posséder cette catégorie d'arme et être convaincu de sa validité."
     },
     "en": {
       "q": "You are selling a restricted firearm to an individual. What must you require from the buyer?",
       "choices": [
-        "Proof of residence for more than five years",
-        "A recommendation letter from their shooting club",
+        "Proof that they have lived in Canada for more than five consecutive years",
+        "A recommendation letter signed by the president of their shooting club",
         "A licence authorizing them to acquire and possess that class of firearm",
-        "A recent medical certificate"
+        "A recent medical certificate signed by their family doctor"
       ],
       "explanation": "The transferor must require a licence authorizing the recipient to acquire and possess that class of firearm, and be satisfied it does."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.350",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-ann-cession-r-002-q1",
@@ -5138,26 +5480,28 @@
     "fr": {
       "q": "Au moment de conclure la vente d'une arme à feu à autorisation restreinte, vous constatez que l'acheteur semble en état d'ébriété. Que prévoient les obligations du cédant?",
       "choices": [
-        "Vous pouvez conclure la vente si son permis est valide",
-        "Vous devez seulement noter l'observation sur le reçu",
-        "Vous devez être suffisamment certain que ses facultés ne sont pas affaiblies avant de céder l'arme",
-        "Vous devez lui remettre l'arme sans les munitions"
+        "Vous pouvez conclure la vente sans autre vérification si son permis est valide et à jour",
+        "Vous devez seulement noter votre observation sur le reçu de vente, puis conclure la cession normalement",
+        "Vous devez être raisonnablement certain que ses facultés ne sont pas affaiblies avant la cession",
+        "Vous devez lui remettre l'arme sans les munitions et le laisser repartir immédiatement"
       ],
       "explanation": "Le cédant doit être suffisamment certain que les facultés de l'acquéreur ne sont pas affaiblies par l'alcool ou les drogues."
     },
     "en": {
       "q": "While completing the sale of a restricted firearm, you notice the buyer seems intoxicated. What do the transferor's obligations say?",
       "choices": [
-        "You may complete the sale if their licence is valid",
-        "You need only note the observation on the receipt",
-        "You must be reasonably sure their faculties are not impaired before transferring the firearm",
-        "You must hand over the firearm without ammunition"
+        "You may complete the sale without further checks if their licence is valid and current",
+        "You need only note your observation on the sales receipt, then complete the transfer as usual",
+        "You must be reasonably sure their faculties are not impaired before the transfer",
+        "You must hand over the firearm without ammunition and let them leave right away"
       ],
       "explanation": "The transferor must be reasonably sure the recipient's faculties are not impaired by alcohol or drugs."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.350",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-ann-cession-r-003-q1",
@@ -5187,7 +5531,9 @@
     },
     "answerIndex": 0,
     "sourceRef": "cfsc_fr.pdf p.350",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-ann-cession-r-004-q1",
@@ -5198,26 +5544,28 @@
     "fr": {
       "q": "Quels renseignements le cédant doit-il fournir au contrôleur des armes à feu lors de la cession?",
       "choices": [
-        "Le prix de vente et le mode de paiement",
-        "Le nombre de cartouches tirées avec l'arme",
-        "Le nom du magasin où l'arme a été achetée à l'origine",
-        "Les noms, adresses et numéros de permis des deux parties, et la catégorie de l'arme"
+        "Le prix de vente convenu, le mode de paiement et la date de livraison de l'arme",
+        "Le nombre de cartouches tirées avec l'arme et la date de son dernier entretien",
+        "Le nom et l'adresse du magasin où l'arme a été achetée à l'origine",
+        "Les noms, adresses et numéros de permis des parties, et la catégorie de l'arme"
       ],
       "explanation": "Le cédant fournit son nom, son adresse et son numéro de permis ainsi que ceux de l'acquéreur, et précise la catégorie de l'arme cédée."
     },
     "en": {
       "q": "What information must the transferor give the chief firearms officer during the transfer?",
       "choices": [
-        "The sale price and method of payment",
-        "The number of rounds fired with the firearm",
-        "The name of the store where the firearm was originally bought",
+        "The agreed sale price, the method of payment and the firearm's delivery date",
+        "The number of rounds fired with the firearm and the date of its last servicing",
+        "The name and address of the store where the firearm was originally bought",
         "Both parties' names, addresses and licence numbers, and the class of firearm"
       ],
       "explanation": "The transferor provides their own and the recipient's name, address and licence number, and states the class of firearm transferred."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.350",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-ann-cession-r-005-q1",
@@ -5247,7 +5595,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.351",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-ann-cession-r-006-q1",
@@ -5258,9 +5608,9 @@
     "fr": {
       "q": "Vous acquérez une arme à feu à autorisation restreinte pour votre collection. Lequel de ces éléments devez-vous fournir au contrôleur des armes à feu?",
       "choices": [
-        "Une preuve d'adhésion à un club de chasse",
-        "Une évaluation de la valeur marchande de la collection",
-        "Une photo de chaque arme déjà possédée",
+        "Une preuve d'adhésion à un club de chasse ou de tir reconnu par la province",
+        "Une évaluation écrite de la valeur marchande de toute la collection, faite par un expert",
+        "Une photo récente de chaque arme déjà possédée, avec son numéro de série",
         "Un consentement écrit à des visites périodiques raisonnables des lieux d'entreposage"
       ],
       "explanation": "Le collectionneur doit fournir son consentement écrit aux visites périodiques, des renseignements sur sa connaissance des armes et sa compréhension de l'entreposage sécuritaire."
@@ -5268,16 +5618,18 @@
     "en": {
       "q": "You are acquiring a restricted firearm for your collection. Which of these must you provide to the chief firearms officer?",
       "choices": [
-        "Proof of membership in a hunting club",
-        "An appraisal of the collection's market value",
-        "A photo of each firearm already owned",
+        "Proof of membership in a hunting or shooting club recognized by the province",
+        "A written appraisal of the whole collection's market value, done by an expert",
+        "A recent photo of each firearm already owned, with its serial number",
         "Written consent to reasonable periodic inspections of the storage premises"
       ],
       "explanation": "The collector must give written consent to periodic inspections, information on their knowledge of the firearms, and their understanding of safe storage."
     },
     "answerIndex": 3,
     "sourceRef": "cfsc_fr.pdf p.351",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-ann-cession-r-007-q1",
@@ -5307,7 +5659,9 @@
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.351",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   },
   {
     "id": "federal-restricted-ann-cession-r-008-q1",
@@ -5318,25 +5672,27 @@
     "fr": {
       "q": "Une cession d'arme à feu à autorisation restreinte a été réglée par téléphone. À quoi sert le numéro de cession en attendant le nouveau certificat d'enregistrement?",
       "choices": [
-        "Il ne sert à rien tant que le certificat n'est pas reçu",
-        "Il sert seulement de numéro de dossier pour la facturation",
+        "Il ne sert à rien tant que le certificat officiel n'a pas été reçu par la poste à domicile",
+        "Il sert seulement de numéro de dossier pour la facturation des frais de cession",
         "Il sert de confirmation de cession et de certificat d'enregistrement temporaire",
-        "Il remplace de façon permanente le certificat d'enregistrement"
+        "Il remplace de façon permanente le certificat d'enregistrement de l'arme à feu"
       ],
       "explanation": "Le numéro de cession sert de confirmation et de certificat d'enregistrement temporaire jusqu'à la réception du nouveau certificat par la poste."
     },
     "en": {
       "q": "A restricted firearm transfer was completed by telephone. What is the transfer number used for until the new registration certificate arrives?",
       "choices": [
-        "Nothing until the certificate is received",
-        "It is only a file number for billing",
+        "It is useless until the official certificate has arrived in the mail at home",
+        "It is only a file number used to bill the transfer fees",
         "It serves as confirmation of the transfer and a temporary registration certificate",
-        "It permanently replaces the registration certificate"
+        "It permanently replaces the firearm's registration certificate"
       ],
       "explanation": "The transfer number serves as confirmation and as a temporary registration certificate until the new certificate arrives by mail."
     },
     "answerIndex": 2,
     "sourceRef": "cfsc_fr.pdf p.351",
-    "flags": []
+    "flags": [
+      "blind-ok"
+    ]
   }
 ]
