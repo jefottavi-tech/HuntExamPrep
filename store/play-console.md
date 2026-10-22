@@ -37,7 +37,7 @@ The app itself collects nothing; everything declared comes from the AdMob SDK
 1. AdMob: the account is created by the owner; then integrate the SDK, add app-ads.txt and a consent form (UMP).
 2. Upload keystore and a signed release AAB.
 3. Internal or closed testing track, then production.
-4. Android launcher icons from `icon.svg`.
+4. ~~Android launcher icons from `icon.svg`~~ done: `python3 tools/app_icons.py` regenerates the Android (incl. adaptive), iOS and web icons from `icon.svg`.
 
 ## Console tips
 - A floating Adobe PDF extension button covers the bottom-right buttons; Save/Next can be clicked another way.
