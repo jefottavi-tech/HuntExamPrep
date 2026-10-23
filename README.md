@@ -21,6 +21,7 @@ sources/            official PDFs (copyrighted, gitignored)
 tools/qgen/         question generation pipeline (Python + Claude API)
   samples/          placeholder questions (ids `sample-…`) used until reviewed ones exist
 app/                Flutter app (iOS, Android, web)
+design/             design mockup: link to the canvas, palette, backup of its screens
 ```
 
 ## Question scopes
